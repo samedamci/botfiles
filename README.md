@@ -16,3 +16,6 @@
 * mail client: neomutt
 * aur helper: yay
 * shell: zsh
+
+## Screenshots
+![screenshot1](https://i.imgur.com/9P8gYws.png)
