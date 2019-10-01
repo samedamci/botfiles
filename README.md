@@ -7,9 +7,11 @@
 ```
 
 ## My setup
+* distro: arch linux
 * browser: qutebrowser
 * terminal: termite
 * file manager: ragner
+* app menu: dmenu
 * text editor: neovim
 * window manager: i3
 * status bar: polybar
