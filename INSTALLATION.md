@@ -10,10 +10,15 @@ Install oh-my-zsh:
 sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
+Install zsh-syntax-highlighting plugin to oh-my-zsh:
+```bash
+cd ~/oh-my-zsh/plugins
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+```
+
 Copy configs:
 ```bash
 cp .zshrc ~
-cp -r .oh-my-zsh ~
 cp -r .config ~
 ```
 
