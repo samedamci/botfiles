@@ -23,3 +23,4 @@
 
 ## Screenshots
 ![screenshot1](https://i.imgur.com/9P8gYws.png)
+![screenshot2](https://i.imgur.com/0jnVIOQ.png)
