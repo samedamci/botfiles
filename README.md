@@ -10,7 +10,7 @@
 * distro: arch linux
 * browser: qutebrowser
 * terminal: termite
-* file manager: ragner
+* file manager: ranger
 * app menu: dmenu
 * text editor: neovim
 * window manager: i3
