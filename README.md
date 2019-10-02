@@ -18,6 +18,8 @@
 * mail client: neomutt
 * aur helper: yay
 * shell: zsh
+* music client: mopidy
+* music player: ncmpcpp
 
 ## Screenshots
 ![screenshot1](https://i.imgur.com/9P8gYws.png)

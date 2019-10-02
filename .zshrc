@@ -36,3 +36,4 @@ alias ohmyzsh="vi ~/.oh-my-zsh"
 alias uwu="sudo"
 alias owo="yay"
 alias ncm="ncmpcpp"
+alias mutt='neomutt'

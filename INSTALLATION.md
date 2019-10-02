@@ -1,4 +1,4 @@
-## Installation
+# Installation
 
 Install dependencies:
 ```bash
@@ -22,5 +22,5 @@ cp .zshrc ~
 cp -r .config ~
 ```
 
-# Edit i3 config
+## Edit i3 config
 To use i3 'u' should edit the config file to customize your keybinds, programs and other things. If 'u' want to use my config 'u' can do this. 
