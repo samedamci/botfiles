@@ -9,7 +9,7 @@
 ## My setup
 * distro: arch linux
 * browser: qutebrowser
-* terminal: termite
+* terminal: st
 * file manager: ranger
 * app menu: dmenu
 * text editor: neovim
