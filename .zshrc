@@ -7,8 +7,7 @@
 #~~~~~~~~~~~
 # Oh-My-ZSH
 #~~~~~~~~~~~
-export ZSH="/home/wiktor/.oh-my-zsh"
-#source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export ZSH="$HOME/.oh-my-zsh"
 
 #~~~~~~~
 # Theme

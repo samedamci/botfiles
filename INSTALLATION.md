@@ -1,8 +1,8 @@
-# Installation
+# Basic
 
 Install dependencies:
 ```bash
-yay -S polybar termite ttf-dejavu-ib wget
+yay -S polybar st ttf-dejavu-ib wget neovim qutebrowser
 ```
 
 Install oh-my-zsh:
@@ -22,5 +22,30 @@ cp .zshrc ~
 cp -r .config ~
 ```
 
-## Edit i3 config
-To use i3 'u' should edit the config file to customize your keybinds, programs and other things. If 'u' want to use my config 'u' can do this. 
+# NeoVim
+## Install VimPlug
+To install plugins to Vim/NeoVim 'u' must have VimPlug or other Vim plugins loader.
+```bash
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+If you don't have *curl* install it.
+
+## Copy config
+```bash
+cp -r nvim ~/.config
+```
+If folder not exist create it: `mkdir .config`.
+
+## Load plugins
+* Open NeoVim: `nvim`.
+* Click ":" on keyboard.
+* Use `PlugInstall` command.
+* Exit, click "esc" key, use `:q! command.
+
+## Install python package to use plign
+If you don't have python 3.x install it from your distro repo.
+```bash
+pip3 install --user neovim
+```
+

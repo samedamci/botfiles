@@ -5,6 +5,7 @@
 | |_) || || |_| || (_| || | _| (__| (_) || | | ||  _|
 |_.__/ |_| \__,_| \__,_||_|(_)\___|\___/ |_| |_||_|
 ```
+# [Installation](INSTALLATION.md)
 
 ## My setup
 * distro: arch linux
