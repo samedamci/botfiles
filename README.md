@@ -5,7 +5,8 @@
 | |_) || || |_| || (_| || | _| (__| (_) || | | ||  _|
 |_.__/ |_| \__,_| \__,_||_|(_)\___|\___/ |_| |_||_|
 ```
-# [Installation](INSTALLATION.md)
+# Installation
+To install setup go to repo on your disk and use `./installer.py` script.
 
 ## My setup
 * distro: arch linux
