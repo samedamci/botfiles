@@ -12,7 +12,14 @@ export ZSH="$HOME/.oh-my-zsh"
 #~~~~~~~
 # Theme
 #~~~~~~~
-ZSH_THEME="bira"
+PROMPT='%B%F{blue}%n%F{blue}@%F{blue}%m%f%b in %B%F{green}%~%f%b$(git_prompt_info)
+%(?:$ :%F{red}$ )%f'
+
+ZSH_THEME_GIT_PROMPT_PREFIX=' on %B%F{magenta}'
+ZSH_THEME_GIT_PROMPT_SUFFIX='%f%b'
+ZSH_THEME_GIT_PROMPT_DIRTY='%F{yellow}*'
+ZSH_THEME_GIT_PROMPT_UNTRACKED='%F{yellow}*'
+ZSH_THEME_GIT_PROMPT_CLEAN=''
 
 #~~~~~~~~~
 # Plugins
@@ -30,9 +37,10 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 #~~~~~~~~~
 alias vi="nvim"
-alias zshconfig="vi ~/.zshrc"
-alias ohmyzsh="vi ~/.oh-my-zsh"
-alias uwu="sudo"
-alias owo="yay"
+alias suvi='sudo -E nvim'
 alias ncm="ncmpcpp"
 alias mutt='neomutt'
+
+#yay
+alias owo="yay"
+alias up='yay -Syyu'
