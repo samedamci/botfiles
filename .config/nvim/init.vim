@@ -74,6 +74,27 @@ set background=light
 let g:python3_host_prog = '/usr/bin/python3'
 let g:python_host_prog = '/usr/bin/python2'
 
+" Colorscheme
+hi LineNr           ctermfg=3
+hi CursorLineNr     ctermfg=3
+hi Statement        ctermfg=3
+hi Visual                       ctermbg=8
+hi Search                       ctermbg=8
+hi SpellBad         ctermfg=0   ctermbg=1   cterm=underline
+hi SpellCap         ctermfg=0   ctermbg=2   cterm=underline
+hi SpellRare        ctermfg=0   ctermbg=3   cterm=underline
+hi SpellLocal       ctermfg=0   ctermbg=5   cterm=underline
+hi Pmenu            ctermbg=0   ctermfg=4
+hi PmenuSel         ctermbg=8   ctermfg=4
+hi PmenuSbar        ctermbg=0
+hi DiffAdd          ctermbg=2   ctermfg=0
+hi DiffChange       ctermbg=4   ctermfg=0
+hi DiffDelete       ctermbg=1   ctermfg=0
+hi Folded           ctermbg=8
+hi FoldColumn       ctermbg=8
+hi SignColumn       ctermbg=0   ctermfg=7
+hi ALEWarning       ctermbg=1   ctermfg=0
+hi ALEErrorSign     ctermbg=1   ctermfg=0
 
 "================
 " Plugin configs
@@ -82,7 +103,7 @@ let g:python_host_prog = '/usr/bin/python2'
 " Lightline - statusline
 set noshowmode
 let g:lightline = {
-	\ 'colorscheme': 'powerline',
+	\ 'colorscheme': 'powerlineish',
 	\ 'active': {
 	\ 'left': [  [ 'mode' ],
 	\            [ 'readonly', 'filename', 'gitbranch' ],
