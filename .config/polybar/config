@@ -10,12 +10,8 @@
 ;~~~~~~~~
 [colors]
 background = ${xrdb:background}
-;background-alt = #444
 foreground = ${xrdb:foreground}
-;foreground-alt = #555
-;primary = #ffb52a
-;secondary = #e60053
-;alert = #bd2c40
+border = ${xrdb:border}
 
 ;~~~~~
 ; bar
@@ -38,7 +34,7 @@ line-color = #f00
 border-size = 0
 border-top-size = 0
 border-bottom-size = 1
-border-color = #2F3D44
+border-color = ${colors.border}
 
 padding-left = 0
 padding-right = 2
@@ -47,8 +43,8 @@ module-margin-left = 1
 module-margin-right = 2
 
 modules-left = i3
-;modules-center =
-modules-right = wireless-network pulseaudio battery clock
+;modules-center = clock
+modules-right = wireless-network battery clock
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -69,8 +65,8 @@ label-mode-padding = 2
 
 label-focused = %index% %name%
 label-focused-padding = 1
-label-focused-background = #0e0f0e
-label-focused-overline = #cccccc
+label-focused-background = ${colors.border}
+label-focused-overline = ${colors.foreground}
 
 label-unfocused = %index% %name%
 label-unfocused-padding = 1
