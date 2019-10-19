@@ -4,6 +4,11 @@
 #    | | ___) |
 #    |_||____/
 
+#~~~~~~~~~~~~
+# Xresources
+#~~~~~~~~~~~~
+set_from_resource $border color15
+
 #~~~~~~~~~
 # mod key
 #~~~~~~~~~
@@ -20,7 +25,7 @@ bindsym $mod+u border none
 bindsym $mod+y border pixel 1
 font xft:URWGothic-Book 11
 # border active color
-client.focused #556064 #556064 #80FFF9 #FDF6E3
+client.focused $border $border $border $border
 
 #~~~~~~~
 # other
@@ -57,10 +62,10 @@ bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
@@ -73,8 +78,8 @@ bindsym $mod+Shift+b move container to workspace back_and_forth; workspace back_
 #~~~~~~~~~~~~~~~~~~~
 # split orientation
 #~~~~~~~~~~~~~~~~~~~
-bindsym $mod+Shift+h split h
-bindsym $mod+Shift+v split v
+bindsym $mod+Ctrl+h split h
+bindsym $mod+Ctrl+v split v
 bindsym $mod+q split toggle
 # toggle fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
@@ -175,4 +180,7 @@ exec --no-startup-id xfce4-power-manager
 # exec --no-startup-id blueman-applet
 exec --no-startup-id polybar polybarexe
 # exec_always --no-startup-id mopidy
-exec --no-startup-id feh --bg-fill ~/Pictures/wallpaper2
+exec_always --no-startup-id feh --bg-fill --randomize ~/Pictures/Wallpapers
+exec --no-startup-id lxsession
+
+# vim: filetype=i3

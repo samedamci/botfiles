@@ -32,7 +32,7 @@
 
 ! white
 *.color7:     #cccccc
-*.color15:    #cccccc
+*.color15:    #0e0f0e
 
 st.font: DejaVu Sans Mono:pixelsize=15:antialias=true:autohint=true:hintstyle=hintmedium
 
