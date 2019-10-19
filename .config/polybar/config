@@ -9,13 +9,13 @@
 ; colors
 ;~~~~~~~~
 [colors]
-background = #0a0200
-background-alt = #444
-foreground = #dfdfdf
-foreground-alt = #555
-primary = #ffb52a
-secondary = #e60053
-alert = #bd2c40
+background = ${xrdb:background}
+;background-alt = #444
+foreground = ${xrdb:foreground}
+;foreground-alt = #555
+;primary = #ffb52a
+;secondary = #e60053
+;alert = #bd2c40
 
 ;~~~~~
 ; bar
@@ -35,8 +35,8 @@ foreground = ${colors.foreground}
 line-size = 3
 line-color = #f00
 
-border-size = 1
-border-top-size = 1
+border-size = 0
+border-top-size = 0
 border-bottom-size = 1
 border-color = #2F3D44
 
