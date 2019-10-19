@@ -25,6 +25,7 @@ call plug#begin('~/.config/nvim/bundle')
 	Plug 'https://github.com/editorconfig/editorconfig-vim'
 	Plug 'https://github.com/junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
 		Plug 'https://github.com/junegunn/fzf.vim'
+		Plug 'https://github.com/scrooloose/nerdtree'
 	Plug 'https://github.com/junegunn/goyo.vim'
 	Plug '~/.config/nvim/bundle/i3-vim-syntax'
 	Plug 'https://github.com/itchyny/lightline.vim'
@@ -254,6 +255,8 @@ let g:UltiSnipsExpandTrigger='<c-a>'
 let g:UltiSnipsJumpForwardTrigger='<c-s>'
 let g:UltiSnipsJumpBackwardTrigger='<c-q>'
 
+" nerdtree
+map <C-n> :NERDTreeToggle<CR>
 
 "==Encoding==
 scriptencoding utf-8
