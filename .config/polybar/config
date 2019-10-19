@@ -11,7 +11,7 @@
 [colors]
 background = ${xrdb:background}
 foreground = ${xrdb:foreground}
-border = ${xrdb:border}
+border = ${xrdb:border_unfocused}
 
 ;~~~~~
 ; bar
