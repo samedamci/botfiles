@@ -5,6 +5,12 @@
 #     \__, | \__,_| \__|\___||_.__/ |_|   \___/  \_/\_/  |___/ \___||_|
 #        |_|
 
+#~~~~~~~~~~~
+# keepassxc 
+#~~~~~~~~~~~
+config.bind('<Alt-Shift-u>', 'spawn --userscript qute-keepassxc --key C4CBEF7165AF77F85F602943D7B78D6D41CF569E', mode='insert')
+config.bind('pw', 'spawn --userscript qute-keepassxc --key C4CBEF7165AF77F85F602943D7B78D6D41CF569E', mode='normal')
+
 #~~~~~~~~
 # config
 #~~~~~~~~
@@ -29,3 +35,8 @@ c.colors.tabs.selected.odd.bg = '#0e0f0e'
 c.url.start_pages = 'https://duckduckgo.com'
 c.url.default_page = 'https://duckduckgo.com'
 
+config.set("tabs.padding", {"top": 1, "bottom": 2, "left": 5, "right": 5})
+config.set("tabs.indicator.width", 0)
+config.set("tabs.favicons.scale", 1.2)
+
+c.fonts.monospace = '"DejaVu Sans Mono"'
