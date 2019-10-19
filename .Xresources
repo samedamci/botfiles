@@ -1,0 +1,38 @@
+! special
+*.foreground: #dfdfdf
+*.background: #0a0200
+
+! black
+*.color0: 	  #000000
+*.color8: 	  #000000
+
+! red
+*.color1:     #cf5252
+*.color9:     #cf5252
+
+! green
+*.color2:     #92ad4a
+*.color10:    #92ad4a
+
+! yellow
+*.color3:     #c9895b
+*.color11:    #c9895b
+
+! blue
+*.color4:     #6f97b8
+*.color12:    #6f97b8
+
+! magenta
+*.color5:     #ab6ba6
+*.color13:    #ab6ba6
+
+! cyan
+*.color6:     #6fa69f
+*.color14:    #6fa69f
+
+! white
+*.color7:     #cccccc
+*.color15:    #cccccc
+
+st.font: DejaVu Sans Mono:pixelsize=15:antialias=true:autohint=true:hintstyle=hintmedium
+

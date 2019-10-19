@@ -12,7 +12,7 @@ export ZSH="$HOME/.oh-my-zsh"
 #~~~~~~~
 # Theme
 #~~~~~~~
-PROMPT='%B%F{blue}%n%F{blue}@%F{blue}%m%f%b in %B%F{green}%~%f%b$(git_prompt_info)
+PROMPT='%B%F{blue}%n%F{blue}@%F{blue}%m%f%b in %B%F{green}%~%f%b$ (git_prompt_info)
 %(?:$ :%F{red}$ )%f'
 
 ZSH_THEME_GIT_PROMPT_PREFIX=' on %B%F{magenta}'
