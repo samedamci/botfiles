@@ -7,7 +7,8 @@
 #~~~~~~~~~~~~
 # Xresources
 #~~~~~~~~~~~~
-set_from_resource $border color15
+set_from_resource $border border_unfocused
+set_from_resource $border_f border_focused 
 
 #~~~~~~~~~
 # mod key
@@ -25,7 +26,8 @@ bindsym $mod+u border none
 bindsym $mod+y border pixel 1
 font xft:URWGothic-Book 11
 # border active color
-client.focused $border $border $border $border
+client.unfocused $border $border $border $border
+client.focused $border_f $border_f $border_f $border_f 
 
 #~~~~~~~
 # other
