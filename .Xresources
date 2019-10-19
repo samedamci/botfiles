@@ -1,6 +1,8 @@
 ! special
 *.foreground: #dfdfdf
 *.background: #0a0200
+*.border_unfocused:    #0e0f0e
+*.border_focused: #1d1e1e
 
 ! black
 *.color0: 	  #000000
@@ -32,7 +34,6 @@
 
 ! white
 *.color7:     #cccccc
-*.color15:    #0e0f0e
 
 st.font: DejaVu Sans Mono:pixelsize=15:antialias=true:autohint=true:hintstyle=hintmedium
 
