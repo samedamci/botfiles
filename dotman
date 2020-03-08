@@ -13,20 +13,22 @@ EOF
 greeter
 
 # install git
-sudo pacman -S git
+sudo pacman -S --noconfirm git
 
 # install yay
+mkdir -p ~/.cache/dotfiles/
+cd ~/.cache/dotfiles/
 git clone https://aur.archlinux.org/yay.git
 cd yay
-makepkg -si
+makepkg -si --noconfirm
 
 # install all dependencies and packages
-yay -S neovim qutebrowser telegram-desktop minecraft-launcher dunst bspwm sxhkd htop mpd ncmpcpp picom ranger rofi transmission vlc zsh youtube-dl grc curl wget dmenu xclip figlet w3m xorg-server xorg-xinit ttf-font-awesome ttf-dejavu vifm feh xorg-xsetroot lxappearance python-pip alsa-utils tmux networkmanager maim fzf exfat-utils fuse2 udiskie udisks2 imagemagick i3lock-color man checkupdates+aur pacman-contrib polybar ccls clang eslint python-pylsl flake8 shell shellcheck clang-format-linter-git prettier python-black 
+yay -S --noconfirm neovim qutebrowser telegram-desktop minecraft-launcher dunst bspwm sxhkd htop mpd ncmpcpp picom ranger rofi transmission-cli vlc zsh youtube-dl grc curl wget dmenu xclip figlet w3m xorg-server xorg-xinit ttf-font-awesome ttf-dejavu vifm feh xorg-xsetroot lxappearance python-pip alsa-utils tmux networkmanager maim fzf exfat-utils fuse2 udiskie udisks2 imagemagick i3lock-color man checkupdates+aur pacman-contrib polybar ccls clang eslint python-pylsl flake8 shellcheck clang-format-linter-git prettier python-black 
 
 pip3 install --user -U pynvim msgpack
 
 # build and install st
-cd ..
+cd ~/.cache/dotfiles/
 git clone https://gitlab.com/samedamci/st
 cd st 
 sudo make clean install
@@ -44,19 +46,20 @@ elif [ "$HOST" = "laptop" ]; then
 	mv ~/.config/polybar/config.laptop ~/.config/polybar/config
 fi
 
-cd..
+cd ~/Dotfiles/botfiles
 mkdir -p ~/.local/share/TelegramDesktop/tdata/
-cp .local/share/TelegramDesktop/tdata/shortcuts-custom.json ~/.local/share/TelegramDesktop/tdata
+cp shortcuts-custom.json ~/.local/share/TelegramDesktop/tdata
 
-cp .zshrc .aliases .zprofie .Xresourxes .xinitrc ~/
+cp .zshrc .aliases .zprofile .Xresources .xinitrc ~/
 cp -r .scripts ~/
 chmod +x ~/.scripts/*
 
 chsh -s /usr/bin/zsh
 
-mkdir -p ~/.config/zsh/plugins
-touch ~/.config/zsh/history
 cd ~/.config/zsh
+rm -rf plugins
+mkdir plugins
+cd plugins
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions
