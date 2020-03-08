@@ -13,7 +13,7 @@
 }
 
 .search-bar {
-    margin: 50px auto 0px auto;
+    margin: 100px auto 0px auto;
     width: 70%;
 }
 
@@ -25,8 +25,13 @@
 
 .bmark {
     background: rgba(10, 2, 0, 0.9);
-    width: 228px;
+    width: 24.7%;
     height: 100%;
     float: left;
-    margin-left: 3px;
+    margin: 0 0 3px 3px;
+}
+
+a:hover {
+  color: #aaaaaa;
+  transition: .3s;
 }
