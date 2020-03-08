@@ -32,8 +32,7 @@ cd st
 sudo make clean install
 
 # copy configs
-cd ..
-cd botfiles/.config
+cd ~/Dotfiles/botfiles/.config
 
 cp -r * ~/.config/
 
