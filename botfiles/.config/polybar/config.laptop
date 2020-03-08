@@ -325,7 +325,7 @@ type = custom/script
 exec        = ~/.scripts/update-check.sh
 label       =  %output%
 click-left  = ~/.scripts/updater.sh &
-click-right = yay -Quq | dmenu -l 30
+click-right = checkupdates | dmenu -l 30
 interval    = 60
 
 ;~~~~~~~~~~~
