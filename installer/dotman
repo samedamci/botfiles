@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/zsh
 
 greeter() {
 	cat <<EOF
@@ -36,6 +36,14 @@ cd ..
 cd botfiles/.config
 
 cp -r * ~/.config/
+
+if [ "$HOST" = "pc" ]; then 
+	echo "Use pc config"
+	mv ~/.config/polybar/config.pc ~/.config/polybar/config
+else if [ "$HOST" = "laptop" ]; then
+	echo "Use laptop config..."
+	mv ~/.config/polybar/config.laptop ~/.config/polybar/config
+fi
 
 cd..
 mkdir -p ~/.local/share/TelegramDesktop/tdata/
