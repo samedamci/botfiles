@@ -33,6 +33,11 @@ zmodload zsh/complist
 compinit
 _comp_options+=(globdots)
 
+#~~~~~~
+# PATH
+#~~~~~~
+export PATH=$PATH:~/Dotfiles
+
 #~~~~~~~~~~
 # BINDINGS
 #~~~~~~~~~~

@@ -1,0 +1,7 @@
+#!/usr/bin/sh
+
+cd ~
+cp -r .config .zshrc .Xresources .aliases .bashrc .scripts .zprofile .bash_profile .local/share/TelegramDesktop/tdata/shortcuts-custom.json ~/Dotfiles/botfiles/ &>/dev/null
+rm -rf ~/Dotfiles/botfiles/.config/nvim/bundle ~/Dotfiles/botfiles/.config/zsh/plugins ~/Dotfiles/botfiles/.config/transmission
+
+

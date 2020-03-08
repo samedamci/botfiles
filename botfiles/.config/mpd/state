@@ -1,8 +1,9 @@
 sw_volume: 100
 audio_device_state:1:Fifo visualisation
 audio_device_state:1:Alsa for audio sound card
-state: stop
-current: 2
+state: pause
+current: 16
+time: 114.993000
 random: 1
 repeat: 0
 single: 0
@@ -25,4 +26,7 @@ playlist_begin
 11:$$$.flac
 12:01 Key.flac
 13:026  Zorza.flac
+14:Heart Upon My Sleeve1.flac
+15:12 I've Been Waiting (Original Version) - Explicit.flac
+16:Moog City 2.flac
 playlist_end

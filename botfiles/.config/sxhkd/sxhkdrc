@@ -20,7 +20,7 @@ super + r
 super + d
 	rofi -show drun
 # Screenshot
-End
+Print
 	$HOME/.scripts/screenshot.sh
 
 #~~~~~~~~~~~~

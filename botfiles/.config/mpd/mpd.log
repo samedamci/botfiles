@@ -1618,3 +1618,902 @@ Feb 28 14:23 : exception: RTIOThread could not get realtime scheduling, continui
 Feb 28 14:23 : exception: inotify_add_watch() has failed: No such file or directory
 Feb 28 17:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Feb 28 17:20 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 28 19:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 19:06 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 28 19:14 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 19:14 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 28 19:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 19:26 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 28 19:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 19:27 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 28 19:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 19:27 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 28 19:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 19:27 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 28 19:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 19:27 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 28 19:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 19:28 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 28 19:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 19:31 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 28 19:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 19:31 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 28 19:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 19:32 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 28 19:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 19:32 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 28 19:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 19:35 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 28 19:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 19:49 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 28 19:51 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 19:51 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 28 19:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 19:52 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 28 19:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 19:52 : exception: inotify_add_watch() has failed: No such file or directory
+                                                                                                                                                                                                                                  Feb 28 20:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 20:10 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 29 09:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 29 09:32 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 29 20:18 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 29 20:18 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 29 20:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 29 20:19 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 29 20:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 29 20:19 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 29 20:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 29 20:20 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 29 20:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 29 20:21 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 29 20:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 29 20:21 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 29 20:22 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 29 20:22 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 01 15:25 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 01 15:25 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 02 20:07 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 02 20:07 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 03 18:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 03 18:36 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 03 18:56 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 03 18:56 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 04 17:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 04 17:47 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 04 18:41 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 04 18:41 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 04 19:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 04 19:23 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 04 19:55 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 04 19:55 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 05 17:50 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 05 17:50 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 05 17:51 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 05 17:51 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 05 17:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 05 17:52 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 05 17:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 05 17:52 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 07 15:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 07 15:09 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 07 15:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 07 15:10 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 08 11:04 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 08 11:04 : client: [0] opened from [::1]:39294
+Mar 08 11:04 : exception: Failed to open /home/samedamci/.config/mpd/playlists: No such file or directory
+Mar 08 11:04 : exception: Failed to access /home/samedamci/SD/Music: No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Heart Upon My Sleeve1.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Heart Upon My Sleeve1.flac': No such file or directory
+Mar 08 11:04 : player: played "Heart Upon My Sleeve1.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/$$$.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/$$$.flac': No such file or directory
+Mar 08 11:04 : player: played "$$$.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01  Jumpsuit.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01  Jumpsuit.flac': No such file or directory
+Mar 08 11:04 : player: played "01  Jumpsuit.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "005  Trofea.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/#FREEBIALAS.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/#FREEBIALAS.flac': No such file or directory
+Mar 08 11:04 : player: played "#FREEBIALAS.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/095  TLC.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/095  TLC.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/#FREEBIALAS.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/#FREEBIALAS.flac': No such file or directory
+Mar 08 11:04 : player: played "095  TLC.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/#FREEBIALAS.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/#FREEBIALAS.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "#FREEBIALAS.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Heart Upon My Sleeve1.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Heart Upon My Sleeve1.flac': No such file or directory
+Mar 08 11:04 : player: played "Heart Upon My Sleeve1.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01 Key.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01 Key.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "01 Key.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "005  Trofea.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/026  Zorza.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/026  Zorza.flac': No such file or directory
+Mar 08 11:04 : player: played "026  Zorza.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/001  Cantate Tutti.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/001  Cantate Tutti.flac': No such file or directory
+Mar 08 11:04 : player: played "001  Cantate Tutti.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01  Jumpsuit.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01  Jumpsuit.flac': No such file or directory
+Mar 08 11:04 : player: played "01  Jumpsuit.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/$$$.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/$$$.flac': No such file or directory
+Mar 08 11:04 : player: played "$$$.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/03 Subwoofer Lullaby.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/03 Subwoofer Lullaby.flac': No such file or directory
+Mar 08 11:04 : player: played "03 Subwoofer Lullaby.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/006  Nie Ma Fal.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/006  Nie Ma Fal.flac': No such file or directory
+Mar 08 11:04 : player: played "006  Nie Ma Fal.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/095  TLC.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/095  TLC.flac': No such file or directory
+Mar 08 11:04 : player: played "095  TLC.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Heart Upon My Sleeve1.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Heart Upon My Sleeve1.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Heart Upon My Sleeve1.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Heart Upon My Sleeve1.flac': No such file or directory
+Mar 08 11:04 : player: played "Heart Upon My Sleeve1.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/026  Zorza.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/026  Zorza.flac': No such file or directory
+Mar 08 11:04 : player: played "026  Zorza.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/#FREEBIALAS.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/#FREEBIALAS.flac': No such file or directory
+Mar 08 11:04 : player: played "#FREEBIALAS.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/006  Nie Ma Fal.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/006  Nie Ma Fal.flac': No such file or directory
+Mar 08 11:04 : player: played "006  Nie Ma Fal.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01 Key.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01 Key.flac': No such file or directory
+Mar 08 11:04 : player: played "01 Key.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "005  Trofea.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01  Jumpsuit.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01  Jumpsuit.flac': No such file or directory
+Mar 08 11:04 : player: played "01  Jumpsuit.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/001  Cantate Tutti.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/001  Cantate Tutti.flac': No such file or directory
+Mar 08 11:04 : player: played "001  Cantate Tutti.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/$$$.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/$$$.flac': No such file or directory
+Mar 08 11:04 : player: played "$$$.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/03 Subwoofer Lullaby.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/03 Subwoofer Lullaby.flac': No such file or directory
+Mar 08 11:04 : player: played "03 Subwoofer Lullaby.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/095  TLC.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/095  TLC.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/#FREEBIALAS.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/#FREEBIALAS.flac': No such file or directory
+Mar 08 11:04 : player: played "095  TLC.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/#FREEBIALAS.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/#FREEBIALAS.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "#FREEBIALAS.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/026  Zorza.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/026  Zorza.flac': No such file or directory
+Mar 08 11:04 : player: played "026  Zorza.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01 Key.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01 Key.flac': No such file or directory
+Mar 08 11:04 : player: played "01 Key.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/03 Subwoofer Lullaby.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/03 Subwoofer Lullaby.flac': No such file or directory
+Mar 08 11:04 : player: played "03 Subwoofer Lullaby.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/006  Nie Ma Fal.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/006  Nie Ma Fal.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/$$$.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/$$$.flac': No such file or directory
+Mar 08 11:04 : player: played "006  Nie Ma Fal.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/$$$.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/$$$.flac': No such file or directory
+Mar 08 11:04 : player: played "$$$.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01  Jumpsuit.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01  Jumpsuit.flac': No such file or directory
+Mar 08 11:04 : player: played "01  Jumpsuit.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "005  Trofea.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Heart Upon My Sleeve1.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Heart Upon My Sleeve1.flac': No such file or directory
+Mar 08 11:04 : player: played "Heart Upon My Sleeve1.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/001  Cantate Tutti.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/001  Cantate Tutti.flac': No such file or directory
+Mar 08 11:04 : player: played "001  Cantate Tutti.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/095  TLC.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/095  TLC.flac': No such file or directory
+Mar 08 11:04 : player: played "095  TLC.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/#FREEBIALAS.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/#FREEBIALAS.flac': No such file or directory
+Mar 08 11:04 : player: played "#FREEBIALAS.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/$$$.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/$$$.flac': No such file or directory
+Mar 08 11:04 : player: played "$$$.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/001  Cantate Tutti.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/001  Cantate Tutti.flac': No such file or directory
+Mar 08 11:04 : player: played "001  Cantate Tutti.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/026  Zorza.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/026  Zorza.flac': No such file or directory
+Mar 08 11:04 : player: played "026  Zorza.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/03 Subwoofer Lullaby.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/03 Subwoofer Lullaby.flac': No such file or directory
+Mar 08 11:04 : player: played "03 Subwoofer Lullaby.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Heart Upon My Sleeve1.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Heart Upon My Sleeve1.flac': No such file or directory
+Mar 08 11:04 : player: played "Heart Upon My Sleeve1.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01 Key.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01 Key.flac': No such file or directory
+Mar 08 11:04 : player: played "01 Key.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "005  Trofea.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01  Jumpsuit.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01  Jumpsuit.flac': No such file or directory
+Mar 08 11:04 : player: played "01  Jumpsuit.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/006  Nie Ma Fal.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/006  Nie Ma Fal.flac': No such file or directory
+Mar 08 11:04 : player: played "006  Nie Ma Fal.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/095  TLC.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/095  TLC.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/006  Nie Ma Fal.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/006  Nie Ma Fal.flac': No such file or directory
+Mar 08 11:04 : player: played "095  TLC.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/006  Nie Ma Fal.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/006  Nie Ma Fal.flac': No such file or directory
+Mar 08 11:04 : player: played "006  Nie Ma Fal.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01  Jumpsuit.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01  Jumpsuit.flac': No such file or directory
+Mar 08 11:04 : player: played "01  Jumpsuit.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "005  Trofea.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Heart Upon My Sleeve1.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Heart Upon My Sleeve1.flac': No such file or directory
+Mar 08 11:04 : player: played "Heart Upon My Sleeve1.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/095  TLC.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/095  TLC.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/#FREEBIALAS.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/#FREEBIALAS.flac': No such file or directory
+Mar 08 11:04 : player: played "095  TLC.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/#FREEBIALAS.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/#FREEBIALAS.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/001  Cantate Tutti.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/001  Cantate Tutti.flac': No such file or directory
+Mar 08 11:04 : player: played "#FREEBIALAS.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/001  Cantate Tutti.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/001  Cantate Tutti.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "001  Cantate Tutti.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "005  Trofea.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/026  Zorza.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/026  Zorza.flac': No such file or directory
+Mar 08 11:04 : player: played "026  Zorza.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01 Key.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01 Key.flac': No such file or directory
+Mar 08 11:04 : player: played "01 Key.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/006  Nie Ma Fal.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/006  Nie Ma Fal.flac': No such file or directory
+Mar 08 11:04 : player: played "006  Nie Ma Fal.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/$$$.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/$$$.flac': No such file or directory
+Mar 08 11:04 : player: played "$$$.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01  Jumpsuit.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01  Jumpsuit.flac': No such file or directory
+Mar 08 11:04 : player: played "01  Jumpsuit.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Heart Upon My Sleeve1.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Heart Upon My Sleeve1.flac': No such file or directory
+Mar 08 11:04 : player: played "Heart Upon My Sleeve1.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/03 Subwoofer Lullaby.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/03 Subwoofer Lullaby.flac': No such file or directory
+Mar 08 11:04 : player: played "03 Subwoofer Lullaby.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Heart Upon My Sleeve1.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Heart Upon My Sleeve1.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/03 Subwoofer Lullaby.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/03 Subwoofer Lullaby.flac': No such file or directory
+Mar 08 11:04 : player: played "Heart Upon My Sleeve1.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/03 Subwoofer Lullaby.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/03 Subwoofer Lullaby.flac': No such file or directory
+Mar 08 11:04 : player: played "03 Subwoofer Lullaby.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01  Jumpsuit.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01  Jumpsuit.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01 Key.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01 Key.flac': No such file or directory
+Mar 08 11:04 : player: played "01  Jumpsuit.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01 Key.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01 Key.flac': No such file or directory
+Mar 08 11:04 : player: played "01 Key.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/$$$.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/$$$.flac': No such file or directory
+Mar 08 11:04 : player: played "$$$.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/001  Cantate Tutti.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/001  Cantate Tutti.flac': No such file or directory
+Mar 08 11:04 : player: played "001  Cantate Tutti.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/006  Nie Ma Fal.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/006  Nie Ma Fal.flac': No such file or directory
+Mar 08 11:04 : player: played "006  Nie Ma Fal.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/026  Zorza.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/026  Zorza.flac': No such file or directory
+Mar 08 11:04 : player: played "026  Zorza.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "005  Trofea.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/#FREEBIALAS.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/#FREEBIALAS.flac': No such file or directory
+Mar 08 11:04 : player: played "#FREEBIALAS.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/095  TLC.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/095  TLC.flac': No such file or directory
+Mar 08 11:04 : player: played "095  TLC.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Heart Upon My Sleeve1.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Heart Upon My Sleeve1.flac': No such file or directory
+Mar 08 11:04 : player: played "Heart Upon My Sleeve1.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/03 Subwoofer Lullaby.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/03 Subwoofer Lullaby.flac': No such file or directory
+Mar 08 11:04 : player: played "03 Subwoofer Lullaby.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/$$$.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/$$$.flac': No such file or directory
+Mar 08 11:04 : player: played "$$$.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Heart Upon My Sleeve1.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Heart Upon My Sleeve1.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/026  Zorza.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/026  Zorza.flac': No such file or directory
+Mar 08 11:04 : player: played "Heart Upon My Sleeve1.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/026  Zorza.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/026  Zorza.flac': No such file or directory
+Mar 08 11:04 : player: played "026  Zorza.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/006  Nie Ma Fal.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/006  Nie Ma Fal.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/006  Nie Ma Fal.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/006  Nie Ma Fal.flac': No such file or directory
+Mar 08 11:04 : player: played "006  Nie Ma Fal.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/095  TLC.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/095  TLC.flac': No such file or directory
+Mar 08 11:04 : player: played "095  TLC.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/#FREEBIALAS.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/#FREEBIALAS.flac': No such file or directory
+Mar 08 11:04 : player: played "#FREEBIALAS.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/$$$.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/$$$.flac': No such file or directory
+Mar 08 11:04 : player: played "$$$.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/03 Subwoofer Lullaby.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/03 Subwoofer Lullaby.flac': No such file or directory
+Mar 08 11:04 : player: played "03 Subwoofer Lullaby.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01 Key.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01 Key.flac': No such file or directory
+Mar 08 11:04 : player: played "01 Key.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/001  Cantate Tutti.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/001  Cantate Tutti.flac': No such file or directory
+Mar 08 11:04 : player: played "001  Cantate Tutti.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "005  Trofea.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01  Jumpsuit.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01  Jumpsuit.flac': No such file or directory
+Mar 08 11:04 : player: played "01  Jumpsuit.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Heart Upon My Sleeve1.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Heart Upon My Sleeve1.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01  Jumpsuit.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01  Jumpsuit.flac': No such file or directory
+Mar 08 11:04 : player: played "Heart Upon My Sleeve1.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01  Jumpsuit.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01  Jumpsuit.flac': No such file or directory
+Mar 08 11:04 : player: played "01  Jumpsuit.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/006  Nie Ma Fal.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/006  Nie Ma Fal.flac': No such file or directory
+Mar 08 11:04 : player: played "006  Nie Ma Fal.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/095  TLC.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/095  TLC.flac': No such file or directory
+Mar 08 11:04 : player: played "095  TLC.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01 Key.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01 Key.flac': No such file or directory
+Mar 08 11:04 : player: played "01 Key.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/03 Subwoofer Lullaby.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/03 Subwoofer Lullaby.flac': No such file or directory
+Mar 08 11:04 : player: played "03 Subwoofer Lullaby.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "005  Trofea.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/#FREEBIALAS.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/#FREEBIALAS.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/#FREEBIALAS.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/#FREEBIALAS.flac': No such file or directory
+Mar 08 11:04 : player: played "#FREEBIALAS.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/001  Cantate Tutti.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/001  Cantate Tutti.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/026  Zorza.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/026  Zorza.flac': No such file or directory
+Mar 08 11:04 : player: played "001  Cantate Tutti.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/026  Zorza.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/026  Zorza.flac': No such file or directory
+Mar 08 11:04 : player: played "026  Zorza.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/$$$.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/$$$.flac': No such file or directory
+Mar 08 11:04 : player: played "$$$.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Heart Upon My Sleeve1.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Heart Upon My Sleeve1.flac': No such file or directory
+Mar 08 11:04 : player: played "Heart Upon My Sleeve1.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/$$$.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/$$$.flac': No such file or directory
+Mar 08 11:04 : player: played "$$$.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01 Key.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01 Key.flac': No such file or directory
+Mar 08 11:04 : player: played "01 Key.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/095  TLC.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/095  TLC.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/006  Nie Ma Fal.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/006  Nie Ma Fal.flac': No such file or directory
+Mar 08 11:04 : player: played "095  TLC.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/006  Nie Ma Fal.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/006  Nie Ma Fal.flac': No such file or directory
+Mar 08 11:04 : player: played "006  Nie Ma Fal.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/#FREEBIALAS.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/#FREEBIALAS.flac': No such file or directory
+Mar 08 11:04 : player: played "#FREEBIALAS.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/026  Zorza.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/026  Zorza.flac': No such file or directory
+Mar 08 11:04 : player: played "026  Zorza.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01  Jumpsuit.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01  Jumpsuit.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/001  Cantate Tutti.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/001  Cantate Tutti.flac': No such file or directory
+Mar 08 11:04 : player: played "01  Jumpsuit.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/001  Cantate Tutti.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/001  Cantate Tutti.flac': No such file or directory
+Mar 08 11:04 : player: played "001  Cantate Tutti.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/03 Subwoofer Lullaby.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/03 Subwoofer Lullaby.flac': No such file or directory
+Mar 08 11:04 : player: played "03 Subwoofer Lullaby.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "005  Trofea.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Heart Upon My Sleeve1.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Heart Upon My Sleeve1.flac': No such file or directory
+Mar 08 11:04 : player: played "Heart Upon My Sleeve1.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/#FREEBIALAS.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/#FREEBIALAS.flac': No such file or directory
+Mar 08 11:04 : player: played "#FREEBIALAS.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/026  Zorza.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/026  Zorza.flac': No such file or directory
+Mar 08 11:04 : player: played "026  Zorza.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/03 Subwoofer Lullaby.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/03 Subwoofer Lullaby.flac': No such file or directory
+Mar 08 11:04 : player: played "03 Subwoofer Lullaby.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/095  TLC.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/095  TLC.flac': No such file or directory
+Mar 08 11:04 : player: played "095  TLC.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01  Jumpsuit.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01  Jumpsuit.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01  Jumpsuit.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01  Jumpsuit.flac': No such file or directory
+Mar 08 11:04 : player: played "01  Jumpsuit.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/$$$.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/$$$.flac': No such file or directory
+Mar 08 11:04 : player: played "$$$.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/001  Cantate Tutti.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/001  Cantate Tutti.flac': No such file or directory
+Mar 08 11:04 : player: played "001  Cantate Tutti.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01 Key.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01 Key.flac': No such file or directory
+Mar 08 11:04 : player: played "01 Key.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/006  Nie Ma Fal.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/006  Nie Ma Fal.flac': No such file or directory
+Mar 08 11:04 : player: played "006  Nie Ma Fal.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "005  Trofea.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Heart Upon My Sleeve1.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Heart Upon My Sleeve1.flac': No such file or directory
+Mar 08 11:04 : player: played "Heart Upon My Sleeve1.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/#FREEBIALAS.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/#FREEBIALAS.flac': No such file or directory
+Mar 08 11:04 : player: played "#FREEBIALAS.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01 Key.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01 Key.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "01 Key.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "005  Trofea.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/026  Zorza.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/026  Zorza.flac': No such file or directory
+Mar 08 11:04 : player: played "026  Zorza.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/001  Cantate Tutti.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/001  Cantate Tutti.flac': No such file or directory
+Mar 08 11:04 : player: played "001  Cantate Tutti.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/$$$.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/$$$.flac': No such file or directory
+Mar 08 11:04 : player: played "$$$.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01  Jumpsuit.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01  Jumpsuit.flac': No such file or directory
+Mar 08 11:04 : player: played "01  Jumpsuit.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/006  Nie Ma Fal.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/006  Nie Ma Fal.flac': No such file or directory
+Mar 08 11:04 : player: played "006  Nie Ma Fal.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/03 Subwoofer Lullaby.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/03 Subwoofer Lullaby.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "03 Subwoofer Lullaby.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/095  TLC.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/095  TLC.flac': No such file or directory
+Mar 08 11:04 : player: played "095  TLC.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Heart Upon My Sleeve1.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Heart Upon My Sleeve1.flac': No such file or directory
+Mar 08 11:04 : player: played "Heart Upon My Sleeve1.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/001  Cantate Tutti.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/001  Cantate Tutti.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/#FREEBIALAS.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/#FREEBIALAS.flac': No such file or directory
+Mar 08 11:04 : player: played "001  Cantate Tutti.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/#FREEBIALAS.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/#FREEBIALAS.flac': No such file or directory
+Mar 08 11:04 : player: played "#FREEBIALAS.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01 Key.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01 Key.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01 Key.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01 Key.flac': No such file or directory
+Mar 08 11:04 : player: played "01 Key.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/095  TLC.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/095  TLC.flac': No such file or directory
+Mar 08 11:04 : player: played "095  TLC.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "005  Trofea.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/006  Nie Ma Fal.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/006  Nie Ma Fal.flac': No such file or directory
+Mar 08 11:04 : player: played "006  Nie Ma Fal.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/03 Subwoofer Lullaby.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/03 Subwoofer Lullaby.flac': No such file or directory
+Mar 08 11:04 : player: played "03 Subwoofer Lullaby.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/026  Zorza.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/026  Zorza.flac': No such file or directory
+Mar 08 11:04 : player: played "026  Zorza.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/$$$.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/$$$.flac': No such file or directory
+Mar 08 11:04 : player: played "$$$.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01  Jumpsuit.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01  Jumpsuit.flac': No such file or directory
+Mar 08 11:04 : player: played "01  Jumpsuit.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Heart Upon My Sleeve1.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Heart Upon My Sleeve1.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Heart Upon My Sleeve1.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "005  Trofea.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/026  Zorza.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/026  Zorza.flac': No such file or directory
+Mar 08 11:04 : player: played "026  Zorza.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/03 Subwoofer Lullaby.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/03 Subwoofer Lullaby.flac': No such file or directory
+Mar 08 11:04 : player: played "03 Subwoofer Lullaby.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01  Jumpsuit.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01  Jumpsuit.flac': No such file or directory
+Mar 08 11:04 : player: played "01  Jumpsuit.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/006  Nie Ma Fal.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/006  Nie Ma Fal.flac': No such file or directory
+Mar 08 11:04 : player: played "006  Nie Ma Fal.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/095  TLC.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/095  TLC.flac': No such file or directory
+Mar 08 11:04 : player: played "095  TLC.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Heart Upon My Sleeve1.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Heart Upon My Sleeve1.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/001  Cantate Tutti.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/001  Cantate Tutti.flac': No such file or directory
+Mar 08 11:04 : player: played "Heart Upon My Sleeve1.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/001  Cantate Tutti.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/001  Cantate Tutti.flac': No such file or directory
+Mar 08 11:04 : player: played "001  Cantate Tutti.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01 Key.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01 Key.flac': No such file or directory
+Mar 08 11:04 : player: played "01 Key.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/006  Nie Ma Fal.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/006  Nie Ma Fal.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/006  Nie Ma Fal.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/006  Nie Ma Fal.flac': No such file or directory
+Mar 08 11:04 : player: played "006  Nie Ma Fal.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/$$$.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/$$$.flac': No such file or directory
+Mar 08 11:04 : player: played "$$$.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/095  TLC.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/095  TLC.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/095  TLC.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/095  TLC.flac': No such file or directory
+Mar 08 11:04 : player: played "095  TLC.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/03 Subwoofer Lullaby.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/03 Subwoofer Lullaby.flac': No such file or directory
+Mar 08 11:04 : player: played "03 Subwoofer Lullaby.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/#FREEBIALAS.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/#FREEBIALAS.flac': No such file or directory
+Mar 08 11:04 : player: played "#FREEBIALAS.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01  Jumpsuit.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01  Jumpsuit.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/026  Zorza.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/026  Zorza.flac': No such file or directory
+Mar 08 11:04 : player: played "01  Jumpsuit.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/026  Zorza.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/026  Zorza.flac': No such file or directory
+Mar 08 11:04 : player: played "026  Zorza.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "005  Trofea.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Heart Upon My Sleeve1.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Heart Upon My Sleeve1.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "Heart Upon My Sleeve1.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "005  Trofea.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Heart Upon My Sleeve1.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Heart Upon My Sleeve1.flac': No such file or directory
+Mar 08 11:04 : player: played "Heart Upon My Sleeve1.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/03 Subwoofer Lullaby.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/03 Subwoofer Lullaby.flac': No such file or directory
+Mar 08 11:04 : player: played "03 Subwoofer Lullaby.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/003  Małomiasteczkowy.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/003  Małomiasteczkowy.flac': No such file or directory
+Mar 08 11:04 : player: played "003  Małomiasteczkowy.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/006  Nie Ma Fal.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/006  Nie Ma Fal.flac': No such file or directory
+Mar 08 11:04 : player: played "006  Nie Ma Fal.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/$$$.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/$$$.flac': No such file or directory
+Mar 08 11:04 : player: played "$$$.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/#FREEBIALAS.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/#FREEBIALAS.flac': No such file or directory
+Mar 08 11:04 : player: played "#FREEBIALAS.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/001  Cantate Tutti.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/001  Cantate Tutti.flac': No such file or directory
+Mar 08 11:04 : player: played "001  Cantate Tutti.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01  Jumpsuit.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01  Jumpsuit.flac': No such file or directory
+Mar 08 11:04 : player: played "01  Jumpsuit.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/026  Zorza.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/026  Zorza.flac': No such file or directory
+Mar 08 11:04 : player: played "026  Zorza.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/005  Trofea.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/005  Trofea.flac': No such file or directory
+Mar 08 11:04 : player: played "005  Trofea.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/095  TLC.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/095  TLC.flac': No such file or directory
+Mar 08 11:04 : player: played "095  TLC.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/Cashew-1616442.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/Cashew-1616442.flac': No such file or directory
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01 Key.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01 Key.flac': No such file or directory
+Mar 08 11:04 : player: played "Cashew-1616442.flac"
+Mar 08 11:04 : exception: Failed to decode /home/samedamci/SD/Music/01 Key.flac
+Mar 08 11:04 : exception: nested: Failed to open '/home/samedamci/SD/Music/01 Key.flac': No such file or directory
+Mar 08 11:04 : player: played "01 Key.flac"
+Mar 08 11:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 08 11:05 : client: [0] opened from [::1]:39314
+Mar 08 11:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 08 11:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 08 11:05 : exception: Failed to open /home/samedamci/.config/mpd/playlists: No such file or directory
+Mar 08 11:06 : player: played "Heart Upon My Sleeve1.flac"
+Mar 08 11:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 08 11:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 08 11:06 : client: [0] opened from [::1]:39334
+Mar 08 11:06 : client: [1] opened from [::1]:39336
+Mar 08 11:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 08 11:09 : client: [1] closed
+Mar 08 11:09 : client: [2] opened from [::1]:39494
+Mar 08 11:09 : exception: Failed to open /home/samedamci/.config/mpd/playlists: No such file or directory
+Mar 08 11:09 : player: played "Heart Upon My Sleeve1.flac"
+Mar 08 11:25 : client: [2] closed
+Mar 08 17:03 : player: played "Moog City 2.flac"
+Mar 08 17:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 08 17:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 08 17:03 : client: [0] opened from [::1]:45924

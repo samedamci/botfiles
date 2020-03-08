@@ -1,0 +1,16 @@
+# GIMP user context
+
+(tool "gimp-rect-select-tool")
+(paint-info "gimp-paintbrush")
+(foreground (color-rgb 0 0.44705885648727417 0.44705885648727417))
+(paint-mode luminance)
+(brush "2. Hardness 050")
+(dynamics "Dynamics Off")
+(mybrush "100% Opaque")
+(pattern "Wood #2")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+(font "Sans-serif")
+(tool-preset "Core Pointer")
+
+# end of user context

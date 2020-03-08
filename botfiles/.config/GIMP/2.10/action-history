@@ -1,0 +1,21 @@
+# GIMP action-history
+
+(history-item "edit-paste" 5)
+(history-item "edit-copy" 4)
+(history-item "edit-clear" 1)
+(history-item "layers-new" 3)
+(history-item "file-export" 2)
+(history-item "file-open" 3)
+(history-item "layers-merge-down-button" 1)
+(history-item "file-export-as" 1)
+(history-item "file-overwrite" 2)
+(history-item "layers-delete" 0)
+(history-item "file-quit" 1)
+(history-item "layers-anchor" 0)
+(history-item "image-new" 1)
+(history-item "tools-scale" 0)
+(history-item "windows-show-display-next" 0)
+(history-item "file-create-template" 0)
+(history-item "tools-rotate" 1)
+
+# end of action-history

@@ -47,7 +47,7 @@ fi
 
 cd..
 mkdir -p ~/.local/share/TelegramDesktop/tdata/
-cp shortcuts-custom.json ~/.local/share/TelegramDesktop/tdata
+cp .local/share/TelegramDesktop/tdata/shortcuts-custom.json ~/.local/share/TelegramDesktop/tdata
 
 cp .zshrc .aliases .zprofie .Xresourxes .xinitrc ~/
 cp -r .scripts ~/

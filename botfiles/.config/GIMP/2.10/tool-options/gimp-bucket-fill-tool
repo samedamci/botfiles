@@ -1,0 +1,15 @@
+# GIMP gimp-bucket-fill-tool options
+
+(foreground (color-rgb 0 0.44705885648727417 0.44705885648727417))
+(paint-mode luminance)
+(pattern "Wood #2")
+(brush-size 51)
+(brush-hardness 0.5)
+(fill-area selection)
+(sample-merged yes)
+(threshold 4.3000000000000007)
+(line-art-source active-layer)
+(line-art-max-grow 13)
+(line-art-max-gap-length 156)
+
+# end of gimp-bucket-fill-tool options

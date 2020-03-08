@@ -37,9 +37,13 @@ picom &
 #while pgrep -u $UID -x discord >/dev/null; do sleep 1; done
 #discord &
 # TELEGRAM
-killall -q telegram-desktop
+kkillall -q telegram-desktop
 while pgrep -u $UID -x telegram-desktop >/dev/null; do sleep 1; done
 telegram-desktop &
+# udiskie
+killall -q udiskie
+while pgrep -u $UID -x udiskie >/dev/null; do sleep 1; done
+udiskie &
 
 #~~~~~~~
 # OTHER
@@ -47,7 +51,7 @@ telegram-desktop &
 # Welcome notify
 dunstify "Hello ${USER}!"
 # Wallpaper
-feh --bg-fill /home/samedamci/Pictures/wall &
+feh --bg-fill --randomize /home/samedamci/.config/wallpapers/1920x1080/ &
 # Keyboard layout & key swaping
 setxkbmap -layout 'pl' -option caps:swapescape &
 # Cursor
