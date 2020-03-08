@@ -39,7 +39,7 @@ cp -r * ~/.config/
 if [ "$HOST" = "pc" ]; then 
 	echo "Use pc config"
 	mv ~/.config/polybar/config.pc ~/.config/polybar/config
-else if [ "$HOST" = "laptop" ]; then
+elif [ "$HOST" = "laptop" ]; then
 	echo "Use laptop config..."
 	mv ~/.config/polybar/config.laptop ~/.config/polybar/config
 fi
