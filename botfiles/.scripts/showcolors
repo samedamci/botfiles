@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+grep -Eoq '#[0-9,A-Z,a-z]**' ~/.Xresources | sort
+
+echo
+for i in {0..7}; do echo -en "\e[$((30 + i))m\u2588\u2588 ${colors[i]} \e[0m"; echo "${colors[i]}"; done
+echo
+for i in {8..15}; do echo -en "\e[1;$((22 + i))m\u2588\u2588 ${colors[i]} \e[0m"; done
+echo -e "\n"

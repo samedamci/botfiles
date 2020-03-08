@@ -1,0 +1,1620 @@
+Jan 24 10:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 10:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 10:44 : client: [0] opened from [::1]:60894
+Jan 24 10:45 : client: [0] closed
+Jan 24 10:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 10:46 : client: [0] opened from [::1]:60896
+Jan 24 10:46 : client: [0] closed
+Jan 24 10:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 10:47 : client: [1] opened from [::1]:60898
+Jan 24 10:47 : client: [1] closed
+Jan 24 10:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 10:53 : client: [0] opened from [::1]:60910
+Jan 24 10:55 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 10:55 : client: [0] opened from [::1]:32936
+Jan 24 10:55 : client: [1] opened from [::1]:32938
+Jan 24 10:55 : update: added /185 (feat. Baiyon).flac
+Jan 24 10:55 : update: added /481772.flac
+Jan 24 10:55 : update: added /841.flac
+Jan 24 10:55 : update: added /9 Żyć.flac
+Jan 24 10:55 : update: added /Addicted To You.flac
+Jan 24 10:55 : update: added /Ain't A Thing.flac
+Jan 24 10:55 : update: added /Alive.flac
+Jan 24 10:55 : update: added /Alma Gitana - Original mix.flac
+Jan 24 10:55 : update: added /Along the Busiest of Roads.flac
+Jan 24 10:55 : update: added /Alpha.flac
+Jan 24 10:55 : update: added /Ample Time.flac
+Jan 24 10:55 : update: added /Ams.flac
+Jan 24 10:55 : update: added /Aria Economy.flac
+Jan 24 10:55 : update: added /Aria Math.flac
+Jan 24 10:55 : update: added /Atx.flac
+Jan 24 10:55 : update: added /Aviva.flac
+Jan 24 10:55 : update: added /Bad Boy.flac
+Jan 24 10:55 : update: added /Bad Reputation.flac
+Jan 24 10:55 : update: added /Ballad of the Cats.flac
+Jan 24 10:55 : update: added /Bd08.flac
+Jan 24 10:55 : update: added /Beginning 2.flac
+Jan 24 10:55 : update: added /Beta.flac
+Jan 24 10:55 : update: added /Beton.flac
+Jan 24 10:55 : update: added /Biome Fest.flac
+Jan 24 10:55 : update: added /Biome Party.flac
+Jan 24 10:55 : update: added /Bitch Lasagna.flac
+Jan 24 10:55 : update: added /Blank Cubicle.flac
+Jan 24 10:55 : update: added /Blind Spots.flac
+Jan 24 10:55 : update: added /Blocks.flac
+Jan 24 10:55 : update: added /Born To Be Yours.flac
+Jan 24 10:55 : update: added /Broken Arrows.flac
+Jan 24 10:55 : update: added /Buildup Errors.flac
+Jan 24 10:55 : update: added /Can't Catch Me.flac
+Jan 24 10:55 : update: added /Certitudes.flac
+Jan 24 10:55 : update: added /Chemia Miłości.flac
+Jan 24 10:55 : update: added /Chico De La Playa - Original mix.flac
+Jan 24 10:55 : update: added /Chirp.flac
+Jan 24 10:55 : update: added /City Lights.flac
+Jan 24 10:55 : update: added /Cliffside Hinson.flac
+Jan 24 10:55 : update: added /Clumsiness and Innovation.flac
+Jan 24 10:55 : update: added /Cold Summer.flac
+Jan 24 10:55 : update: added /Concrete Halls.flac
+Jan 24 10:55 : update: added /Cubur - Original mix.flac
+Jan 24 10:55 : update: added /Danny Makes Chiptune.flac
+Jan 24 10:55 : update: added /Dead Voxel.flac
+Jan 24 10:55 : update: added /Dear Boy.flac
+Jan 24 10:55 : update: added /Diskdance.flac
+Jan 24 10:55 : update: added /Divide by Four Add Seven.flac
+Jan 24 10:55 : update: added /Dreiton.flac
+Jan 24 10:55 : update: added /Droopy Remembers.flac
+Jan 24 10:55 : update: added /Drunken Carboni.flac
+Jan 24 10:55 : update: added /Eleven.flac
+Jan 24 10:55 : update: added /Excursions.flac
+Jan 24 10:55 : update: added /Excuse Me Mr Sir.flac
+Jan 24 10:55 : update: added /Fades Away.flac
+Jan 24 10:55 : update: added /Fake Triplets.flac
+Jan 24 10:55 : update: added /Far.flac
+Jan 24 10:55 : update: added /Faux Video Production.flac
+Jan 24 10:55 : update: added /Fifflas (feat. Nifflas).flac
+Jan 24 10:55 : update: added /Figure 8.flac
+Jan 24 10:55 : update: added /Flake.flac
+Jan 24 10:55 : update: added /Floating Trees.flac
+Jan 24 10:55 : update: added /For A Better Day.flac
+Jan 24 10:55 : update: added /For the Sake of Making Games.flac
+Jan 24 10:55 : update: added /Freak.flac
+Jan 24 10:55 : update: added /Friend.flac
+Jan 24 10:55 : update: added /Friend Of Mine.flac
+Jan 24 10:55 : update: added /From the Window.flac
+Jan 24 10:55 : update: added /Funkfun - Original Mix.flac
+Jan 24 10:55 : update: added /Golem.flac
+Jan 24 10:55 : update: added /Gonna Love Ya.flac
+Jan 24 10:55 : update: added /Good Bye.flac
+Jan 24 10:55 : update: added /Gruvy - Original mix.flac
+Jan 24 10:55 : update: added /Habitual Crush.flac
+Jan 24 10:55 : update: added /Hajs.flac
+Jan 24 10:55 : update: added /Haunt Muskie.flac
+Jan 24 10:55 : update: added /Havana.flac
+Jan 24 10:55 : update: added /Heart Upon My Sleeve1.flac
+Jan 24 10:55 : update: added /Heart Upon My Sleeve2.flac
+Jan 24 10:55 : update: added /Heaven.flac
+Jan 24 10:55 : update: added /Hey Brother.flac
+Jan 24 10:55 : update: added /Hold The Line.flac
+Jan 24 10:55 : update: added /Home.flac
+Jan 24 10:55 : update: added /Hope.flac
+Jan 24 10:55 : update: added /Hope There's Someone.flac
+Jan 24 10:55 : update: added /Hot Babe Funky House - Original mix.flac
+Jan 24 10:55 : update: added /Iceberg - Original mix.flac
+Jan 24 10:55 : update: added /I Glove Thy Flob (feat. Disco).flac
+Jan 24 10:55 : update: added /I Jike My Lob.flac
+Jan 24 10:55 : update: added /Imaginary Interlude.flac
+Jan 24 10:55 : update: added /Impostor Syndrome.flac
+Jan 24 10:55 : update: added /Independent Accident.flac
+Jan 24 10:55 : update: added /I Need Your Lovin - Ibiza Extended Mix RE-EDIT.flac
+Jan 24 10:55 : update: added /Introdukcja.flac
+Jan 24 10:55 : update: added /Intro.flac
+Jan 24 10:55 : update: added /Jayson Glove.flac
+Jan 24 10:55 : update: added /Jimtention (feat. Big Giant Circles).flac
+Jan 24 10:55 : update: added /Just Than Heaven - Original mix.flac
+Jan 24 10:55 : update: added /Keighley.flac
+Jan 24 10:55 : update: added /Kiedy Byłem Mały.flac
+Jan 24 10:55 : update: added /Ki.flac
+Jan 24 10:55 : update: added /Kompass (feat. Disasterpeace).flac
+Jan 24 10:55 : update: added /Królowe.flac
+Jan 24 10:55 : update: added /Kyoto.flac
+Jan 24 10:55 : update: added /Lawyer Cage Fight.flac
+Jan 24 10:55 : update: added /Lay Me Down.flac
+Jan 24 10:55 : update: added /Leak.flac
+Jan 24 10:55 : update: added /Levels - Andy Pitch Remix.flac
+Jan 24 10:55 : update: added /Liar Liar.flac
+Jan 24 10:55 : update: added /Lifestyle.flac
+Jan 24 10:55 : update: added /Lonely Together.flac
+Jan 24 10:55 : update: added /Lost Cousins.flac
+Jan 24 10:55 : update: added /Mall.flac
+Jan 24 10:55 : update: added /Mały Świat.flac
+Jan 24 10:55 : update: added /Marketing Squander Versus the Little Man.flac
+Jan 24 10:55 : update: added /Marlboro.flac
+Jan 24 10:55 : update: added /Match Cut.flac
+Jan 24 10:55 : update: added /Mellohi.flac
+Jan 24 10:55 : update: added /Mental Journey - Original mix.flac
+Jan 24 10:55 : update: added /Miasto.flac
+Jan 24 10:55 : update: added /Moog City 2.flac
+Jan 24 10:55 : update: added /Mr.Cookies - Original mix.flac
+Jan 24 10:55 : update: added /Music Is The Answer - Original mix.flac
+Jan 24 10:55 : update: added /Mutation.flac
+Jan 24 10:55 : update: added /Nest.flac
+Jan 24 10:55 : update: added /Never Be the Same.flac
+Jan 24 10:55 : update: added /Never Leave Me.flac
+Jan 24 10:55 : update: added /Nie Zatrzymuj Mnie.flac
+Jan 24 10:55 : update: added /Nobody - Original mix.flac
+Jan 24 10:55 : update: added /No Pressure.flac
+Jan 24 10:55 : update: added /One.flac
+Jan 24 10:55 : update: added /One Last Game.flac
+Jan 24 10:55 : update: added /One Night - Original mix.flac
+Jan 24 10:55 : update: added /Peace Of Mind.flac
+Jan 24 10:55 : update: added /Post Success Depression.flac
+Jan 24 10:55 : update: added /Pozdro.flac
+Jan 24 10:55 : update: added /Pracownik Roku.flac
+Jan 24 10:55 : update: added /Pr Department.flac
+Jan 24 10:55 : update: added /Preliminary Art Form.flac
+Jan 24 10:55 : update: added /Pulse Dance - Original mix.flac
+Jan 24 10:55 : update: added /Pure Grinding.flac
+Jan 24 10:55 : update: added /Rockabye (feat. Sean Paul & Anne-Marie).flac
+Jan 24 10:55 : update: added /Roots.flac
+Jan 24 10:55 : update: added /Round up to the Inevitable End.flac
+Jan 24 10:55 : update: added /Salut.flac
+Jan 24 10:55 : update: added /Seismic Stratigraphy.flac
+Jan 24 10:55 : update: added /Semantic Satiation.flac
+Jan 24 10:55 : update: added /Septic Shock.flac
+Jan 24 10:55 : update: added /Shame On Me.flac
+Jan 24 10:55 : update: added /Smooth Fall.flac
+Jan 24 10:55 : update: added /Social Lego.flac
+Jan 24 10:55 : update: added /Solo (feat. Demi Lovato).flac
+Jan 24 10:55 : update: added /Somewhere In Stockholm.flac
+Jan 24 10:55 : update: added /So Much Better - Avicii Remix.flac
+Jan 24 10:55 : update: added /SOS.flac
+Jan 24 10:55 : update: added /Spotlight.flac
+Jan 24 10:55 : update: added /Stal.flac
+Jan 24 10:55 : update: added /Stilbruch.flac
+Jan 24 10:55 : update: added /Strad.flac
+Jan 24 10:55 : update: added /Sunset Girl - Original mix.flac
+Jan 24 10:55 : update: added /Sunset Jesus.flac
+Jan 24 10:55 : update: added /Superman.flac
+Jan 24 10:55 : update: added /Surface Pension.flac
+Jan 24 10:55 : update: added /Swarms.flac
+Jan 24 10:55 : update: added /Sweep Tech - Original mix.flac
+Jan 24 10:55 : update: added /Talk - Original mix.flac
+Jan 24 10:55 : update: added /Talk To Myself.flac
+Jan 24 10:55 : update: added /Taswell.flac
+Jan 24 10:55 : update: added /Ten More Days.flac
+Jan 24 10:55 : update: added /Texture Prayers.flac
+Jan 24 10:55 : update: added /The End.flac
+Jan 24 10:55 : update: added /The First Million.flac
+Jan 24 10:55 : update: added /The President Is Dead.flac
+Jan 24 10:55 : update: added /The Weirdest Year of Your Life.flac
+Jan 24 10:55 : update: added /This Doesn't Work.flac
+Jan 24 10:55 : update: added /Thunderbird.flac
+Jan 24 10:55 : update: added /Timelapse Kingdom.flac
+Jan 24 10:55 : update: added /Tingle.flac
+Jan 24 10:55 : update: added /Titanium (feat. Sia).flac
+Jan 24 10:55 : update: added /Total Drag.flac
+Jan 24 10:55 : update: added /Touch Me.flac
+Jan 24 10:55 : update: added /Tough Love.flac
+Jan 24 10:55 : update: added /Trouble.flac
+Jan 24 10:55 : update: added /True Believer.flac
+Jan 24 10:55 : update: added /Tsuki No Koibumi 2 (feat. Laura Shigihara).flac
+Jan 24 10:55 : update: added /Tsuki No Koibumi (feat. Laura Shigihara).flac
+Jan 24 10:55 : update: added /Txl.flac
+Jan 24 10:55 : update: added /United Colors of Scrapyard.flac
+Jan 24 10:55 : update: added /Unity.flac
+Jan 24 10:55 : update: added /Vierton.flac
+Jan 24 10:55 : update: added /Wait.flac
+Jan 24 10:55 : update: added /Waiting For Love.flac
+Jan 24 10:55 : update: added /Wake Me Up.flac
+Jan 24 10:55 : update: added /Ward.flac
+Jan 24 10:55 : update: added /Warmth.flac
+Jan 24 10:55 : update: added /We Are Back (Level 15 Mix) - Original mix.flac
+Jan 24 10:55 : update: added /Welcome Back to the Machine.flac
+Jan 24 10:55 : update: added /What Would I Change It To.flac
+Jan 24 10:55 : update: added /Without You.flac
+Jan 24 10:55 : update: added /Wolves.flac
+Jan 24 10:55 : update: added /Wooden Love.flac
+Jan 24 10:55 : update: added /Work Life Imbalance.flac
+Jan 24 10:55 : update: added /You Be Love.flac
+Jan 24 10:55 : update: added /You Have to Cut the Dope.flac
+Jan 24 10:55 : update: added /You Make Me.flac
+Jan 24 10:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 11:02 : player: played "Alpha.flac"
+Jan 24 11:02 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 11:02 : client: [0] opened from [::1]:32950
+Jan 24 11:02 : client: [1] opened from [::1]:32952
+Jan 24 11:02 : client: [2] opened from [::1]:32954
+Jan 24 11:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 11:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 11:02 : client: [2] closed
+Jan 24 11:02 : client: [3] opened from [::1]:32956
+Jan 24 11:04 : client: [4] opened from [::1]:32960
+Jan 24 11:04 : client: [4] closed
+Jan 24 11:09 : client: [1] closed
+Jan 24 11:09 : client: [5] opened from [::1]:32964
+Jan 24 11:10 : player: played "012  Runaway.flac"
+Jan 24 11:11 : client: [5] closed
+Jan 24 11:11 : client: [6] opened from [::1]:32966
+Jan 24 11:14 : player: played "Wolves.flac"
+Jan 24 12:15 : player: played "12 I've Been Waiting (Original Version) - Explicit.flac"
+Jan 24 12:18 : client: [3] closed
+Jan 24 12:19 : client: [7] opened from [::1]:33038
+Jan 24 12:19 : client: [7] closed
+Jan 24 12:20 : client: [6] closed
+Jan 24 12:20 : client: [0] closed
+Jan 24 12:20 : player: played "141  ANTYSMOGOWA MASKA W MOIM CARRY-ON BAGGAGE.flac"
+Jan 24 12:22 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 12:22 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 24 12:22 : client: [0] opened from [::1]:33758
+Jan 24 12:22 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Jan 24 12:55 : client: [1] opened from [::1]:33830
+Jan 24 13:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 13:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 13:05 : player: played "017  Life is Beautiful.flac"
+Jan 24 13:09 : player: played "026  Awful Things.flac"
+Jan 24 13:15 : player: played "026  Zorza.flac"
+Jan 24 13:17 : client: [2] opened from [::1]:33956
+Jan 24 13:17 : client: [2] closed
+Jan 24 13:51 : client: [3] opened from [::1]:33974
+Jan 24 13:51 : client: [3] closed
+Jan 24 13:52 : player: played "028  Better Off (Dying).flac"
+Jan 24 13:58 : player: played "03  Środa Czwartek.flac"
+Jan 24 14:01 : player: played "03 Subwoofer Lullaby.flac"
+Jan 24 16:13 : player: played "03 Subwoofer Lullaby.flac"
+Jan 24 16:14 : client: [4] opened from [::1]:34274
+Jan 24 16:14 : player: played "Dead Voxel.flac"
+Jan 24 16:14 : client: [4] closed
+Jan 24 16:14 : client: [5] opened from [::1]:34276
+Jan 24 16:14 : exception: Not playing
+Jan 24 16:14 : client: [5] closed
+Jan 24 16:14 : client: [6] opened from [::1]:34278
+Jan 24 16:14 : client: [6] closed
+Jan 24 16:19 : player: played "Dead Voxel.flac"
+Jan 24 16:25 : player: played "Blind Spots.flac"
+Jan 24 16:27 : player: played "Flake.flac"
+Jan 24 16:30 : player: played "Moog City 2.flac"
+Jan 24 16:35 : player: played "Concrete Halls.flac"
+Jan 24 16:41 : player: played "Biome Fest.flac"
+Jan 24 16:44 : player: played "Mutation.flac"
+Jan 24 16:50 : player: played "Haunt Muskie.flac"
+Jan 24 16:54 : player: played "Warmth.flac"
+Jan 24 16:58 : player: played "Floating Trees.flac"
+Jan 24 17:03 : player: played "Aria Math.flac"
+Jan 24 17:08 : player: played "Kyoto.flac"
+Jan 24 17:12 : player: played "Ballad of the Cats.flac"
+Jan 24 17:21 : player: played "Taswell.flac"
+Jan 24 17:24 : player: played "Beginning 2.flac"
+Jan 24 17:29 : client: [0] closed
+Jan 24 17:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 17:29 : client: [7] opened from [::1]:34432
+Jan 24 17:32 : player: played "Dreiton.flac"
+Jan 24 17:32 : client: [7] closed
+Jan 24 17:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 17:32 : client: [8] opened from [::1]:34440
+Jan 24 17:33 : client: [8] closed
+Jan 24 17:33 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 17:33 : client: [9] opened from [::1]:34444
+Jan 24 17:35 : player: played "The End.flac"
+Jan 24 17:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 17:35 : client: [0] opened from [::1]:34450
+Jan 24 17:35 : client: [1] opened from [::1]:34452
+Jan 24 17:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 17:47 : client: [0] opened from [::1]:34470
+Jan 24 17:47 : client: [1] opened from [::1]:34472
+Jan 24 17:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 17:48 : client: [0] opened from [::1]:34480
+Jan 24 17:48 : client: [1] opened from [::1]:34482
+Jan 24 17:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 17:57 : client: [0] opened from [::1]:36696
+Jan 24 17:57 : client: [1] opened from [::1]:36698
+Jan 24 17:57 : client: [0] closed
+Jan 24 17:57 : client: [2] opened from [::1]:36702
+Jan 24 17:57 : client: [2] closed
+Jan 24 20:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 20:01 : client: [0] opened from [::1]:36942
+Jan 24 20:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 20:05 : client: [0] opened from [::1]:36948
+Jan 24 20:07 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 20:07 : client: [0] opened from [::1]:36958
+Jan 24 20:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 20:08 : client: [0] opened from [::1]:36968
+Jan 24 20:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 20:09 : client: [0] opened from [::1]:36976
+Jan 24 20:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 20:24 : client: [0] opened from [::1]:36998
+Jan 24 20:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 20:24 : client: [0] opened from [::1]:37004
+Jan 24 20:25 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 20:25 : client: [0] opened from [::1]:37012
+Jan 24 20:25 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 20:25 : client: [0] opened from [::1]:37014
+Jan 24 20:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 20:57 : client: [0] opened from [::1]:37332
+Jan 24 21:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 21:13 : client: [0] opened from [::1]:37396
+Jan 24 21:15 : client: [0] closed
+Jan 24 21:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 21:15 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 24 21:15 : client: [0] opened from [::1]:33156
+Jan 24 21:15 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Jan 24 21:15 : client: [1] opened from [::1]:33158
+Jan 24 21:15 : client: [1] closed
+Jan 24 21:22 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 21:22 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 24 21:22 : client: [0] opened from [::1]:33192
+Jan 24 21:22 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Jan 24 21:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 21:24 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 24 21:24 : client: [0] opened from [::1]:33214
+Jan 24 21:25 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 24 21:25 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 24 21:25 : client: [0] opened from [::1]:33216
+Jan 25 11:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 25 11:28 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 25 11:28 : client: [0] opened from [::1]:41846
+Jan 25 11:28 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Jan 25 11:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 25 11:29 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 25 11:29 : client: [0] opened from [::1]:41852
+Jan 25 11:29 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Jan 25 11:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 25 11:49 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 25 11:49 : client: [0] opened from [::1]:41914
+Jan 25 11:54 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 25 11:54 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 25 11:54 : client: [0] opened from [::1]:41922
+Jan 25 12:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 25 12:03 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 25 12:03 : client: [0] opened from [::1]:42398
+Jan 25 17:29 : client: [0] closed
+Jan 25 19:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 25 19:46 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 25 19:46 : client: [0] opened from [::1]:41618
+Jan 25 19:46 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Jan 26 11:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 26 11:26 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 26 11:26 : client: [0] opened from [::1]:43560
+Jan 26 11:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 26 11:26 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 26 11:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 26 11:26 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 26 11:26 : client: [0] opened from [::1]:43562
+Jan 26 11:31 : client: [1] opened from [::1]:43566
+Jan 26 11:34 : exception: Failed to decode /home/samedamci/SD/Music/118  Radioactive.flac
+Jan 26 11:34 : exception: nested: Failed to open '/home/samedamci/SD/Music/118  Radioactive.flac': No such file or directory
+Jan 26 11:34 : player: played "118  Radioactive.flac"
+Jan 26 11:35 : client: [2] opened from [::1]:43574
+Jan 26 11:35 : client: [2] closed
+Jan 26 11:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 26 11:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 26 11:38 : player: played "118  Radioactive.flac"
+Jan 26 11:43 : player: played "119  Tiptoe.flac"
+Jan 26 11:47 : player: played "120  It's Time.flac"
+Jan 26 11:47 : client: [3] opened from [::1]:43582
+Jan 26 11:47 : client: [3] closed
+Jan 26 11:55 : client: [4] opened from [::1]:43588
+Jan 26 11:55 : client: [4] closed
+Jan 26 11:57 : client: [5] opened from [::1]:43592
+Jan 26 11:57 : client: [5] closed
+Jan 26 12:02 : client: [6] opened from [::1]:43596
+Jan 26 12:02 : client: [6] closed
+Jan 26 12:03 : client: [7] opened from [::1]:43598
+Jan 26 12:03 : client: [7] closed
+Jan 26 12:09 : player: played "147  TIJUANA.flac"
+Jan 26 12:12 : player: played "Miasto.flac"
+Jan 26 12:18 : player: played "139  XO Tour Llif3.flac"
+Jan 26 12:19 : client: [8] opened from [::1]:43614
+Jan 26 12:19 : client: [8] closed
+Jan 26 12:20 : client: [9] opened from [::1]:43618
+Jan 26 12:20 : client: [9] closed
+Jan 26 15:46 : client: [0] closed
+Jan 26 15:46 : player: played "118  Radioactive.flac"
+Jan 26 15:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 26 15:49 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 26 15:49 : client: [0] opened from [::1]:41696
+Jan 26 15:49 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Jan 26 15:56 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 26 15:56 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 26 15:56 : client: [0] opened from [::1]:33434
+Jan 26 15:56 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Jan 26 15:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 26 15:57 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 26 15:57 : client: [0] opened from [::1]:40320
+Jan 26 15:57 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Jan 26 17:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 26 17:47 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 26 17:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 26 17:47 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 26 17:47 : client: [0] opened from [::1]:42514
+Jan 26 17:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 26 17:52 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 26 17:52 : client: [0] opened from [::1]:51270
+Jan 26 17:52 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Jan 26 19:36 : client: [1] opened from [::1]:51994
+Jan 26 19:36 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 26 19:36 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 26 19:46 : player: played "Alpha.flac"
+Jan 26 20:43 : player: played "Alpha.flac"
+Jan 26 20:50 : player: played "Dead Voxel.flac"
+Jan 27 19:02 : player: played "Blind Spots.flac"
+Jan 27 19:22 : player: played "Flake.flac"
+Jan 27 19:50 : player: played "Moog City 2.flac"
+Jan 28 20:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 28 20:15 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 28 20:15 : client: [0] opened from [::1]:56752
+Jan 28 20:15 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Jan 28 20:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 28 20:20 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 28 20:20 : client: [0] opened from [::1]:56828
+Jan 28 20:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 28 20:26 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 28 20:26 : client: [0] opened from [::1]:44192
+Jan 28 20:26 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Jan 29 14:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 29 14:11 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 29 14:11 : client: [0] opened from [::1]:59730
+Jan 29 14:11 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Jan 29 14:15 : client: [0] closed
+Jan 30 15:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 30 15:43 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 30 15:43 : client: [0] opened from [::1]:48952
+Jan 30 15:43 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Jan 30 16:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 30 16:53 : client: [1] opened from [::1]:50168
+Jan 30 16:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 30 16:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 30 17:11 : client: [1] closed
+Jan 30 17:12 : player: played "001  Cantate Tutti.flac"
+Jan 30 17:12 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 30 17:12 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 30 17:12 : client: [0] opened from [::1]:50210
+Jan 30 17:31 : client: [0] closed
+Jan 30 17:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 30 17:32 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 30 17:32 : client: [0] opened from [::1]:37628
+Jan 30 17:32 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Jan 31 15:44 : client: [1] opened from [::1]:38866
+Jan 31 15:44 : client: [1] closed
+Jan 31 15:44 : client: [2] opened from [::1]:38872
+Jan 31 16:00 : client: [2] closed
+Jan 31 16:00 : client: [3] opened from [::1]:39494
+Jan 31 16:00 : client: [3] closed
+Jan 31 16:00 : client: [4] opened from [::1]:39498
+Jan 31 16:00 : client: [4] closed
+Jan 31 16:03 : client: [5] opened from [::1]:39506
+Jan 31 16:03 : update: added /2 Kilo.flac
+Jan 31 16:03 : update: added /akt zgonu in blanco.flac
+Jan 31 16:03 : update: added /aperitif.flac
+Jan 31 16:03 : update: added /bigos.flac
+Jan 31 16:03 : update: added /blow off.flac
+Jan 31 16:03 : update: added /blur.flac
+Jan 31 16:03 : update: added /Bring U Down.flac
+Jan 31 16:03 : update: added /C7osure (You Like).flac
+Jan 31 16:03 : update: added /cameltoe.flac
+Jan 31 16:03 : update: added /candy.doll.flac
+Jan 31 16:03 : update: added /Chwile Ulotne.flac
+Jan 31 16:03 : update: added /cirque du soleil.flac
+Jan 31 16:03 : update: added /Co Mam Powiedziec.flac
+Jan 31 16:03 : update: added /double D’s.flac
+Jan 31 16:03 : update: added /F9mily (You & Me).flac
+Jan 31 16:03 : update: added /Gdyby....flac
+Jan 31 16:03 : update: added /geekin in the booth.flac
+Jan 31 16:03 : update: added /good will hunting.flac
+Jan 31 16:03 : update: added /Hej wy.flac
+Jan 31 16:03 : update: added /hot coffee.flac
+Jan 31 16:03 : update: added /Ja To Ja.flac
+Jan 31 16:03 : update: added /Jestem Bogiem.flac
+Jan 31 16:03 : update: added /Kick It.flac
+Jan 31 16:03 : update: added /Kurier.flac
+Jan 31 16:03 : update: added /kwaśny diesel.flac
+Jan 31 16:03 : update: added /Lepiej Być Nie Może.flac
+Jan 31 16:03 : update: added /martin shkreli freestyle.flac
+Jan 31 16:03 : update: added /marvin.flac
+Jan 31 16:03 : update: added /miami 1999.flac
+Jan 31 16:03 : update: added /Na Mocy Paktu.flac
+Jan 31 16:03 : update: added /Nie Ma Mnie Dla Nikogo.flac
+Jan 31 16:03 : update: added /Nowadays (feat. Landon Cube).flac
+Jan 31 16:03 : update: added /Nowiny.flac
+Jan 31 16:03 : update: added /Old Town Road.flac
+Jan 31 16:03 : update: added /Old Town Road (Remix).flac
+Jan 31 16:03 : update: added /pager.flac
+Jan 31 16:03 : update: added /Panini.flac
+Jan 31 16:03 : update: added /pejzaż.flac
+Jan 31 16:03 : update: added /Początek.flac
+Jan 31 16:03 : update: added /Popatrz (Uliczny Reportaż Z Dworca).flac
+Jan 31 16:03 : update: added /Powierzchnie Tnące.flac
+Jan 31 16:03 : update: added /Priorytety.flac
+Jan 31 16:03 : update: added /pub.flac
+Jan 31 16:03 : update: added /Red Roses (feat. Landon Cube).flac
+Jan 31 16:03 : update: added /ridin' round the town w czyims bel air.flac
+Jan 31 16:03 : update: added /Rób Co Chcesz....flac
+Jan 31 16:03 : update: added /Rodeo (feat. Nas).flac
+Jan 31 16:03 : update: added /Rodeo.flac
+Jan 31 16:03 : update: added /short & bittersweet.flac
+Jan 31 16:03 : update: added /spumante.flac
+Jan 31 16:03 : update: added /stjärnflocka.flac
+Jan 31 16:03 : update: added /tom & jerry.flac
+Jan 31 16:03 : update: added /ToNieMy.flac
+Jan 31 16:03 : update: added /WC.flac
+Jan 31 16:03 : update: added /włosy.flac
+Jan 31 16:03 : update: added /W Moich Kręgach.flac
+Jan 31 16:06 : client: [5] closed
+Jan 31 16:06 : client: [6] opened from [::1]:39512
+Jan 31 16:10 : client: [6] closed
+Jan 31 16:10 : client: [7] opened from [::1]:39556
+Jan 31 16:10 : client: [7] closed
+Jan 31 16:16 : client: [8] opened from [::1]:39562
+Jan 31 16:17 : update: removing Heart Upon My Sleeve2.flac
+Jan 31 16:17 : client: [8] closed
+Jan 31 16:23 : client: [9] opened from [::1]:39584
+Jan 31 16:26 : client: [9] closed
+Jan 31 16:26 : client: [10] opened from [::1]:39596
+Jan 31 16:26 : client: [10] closed
+Jan 31 16:26 : client: [11] opened from [::1]:39598
+Jan 31 16:26 : exception: Failed to access /home/samedamci/SD/Music: No such file or directory
+Jan 31 16:27 : client: [11] closed
+Jan 31 19:11 : client: [12] opened from [::1]:39732
+Jan 31 19:12 : client: [12] closed
+Feb 01 09:58 : client: [13] opened from [::1]:40650
+Feb 01 09:58 : update: updating /237  Love2.flac
+Feb 01 09:58 : update: updating /001  Jestem Bogiem.flac
+Feb 01 09:58 : update: updating /favorite dress.opus
+Feb 01 09:58 : update: updating /9 Żyć.flac
+Feb 01 09:58 : update: updating /Bad Boy.flac
+Feb 01 09:58 : update: updating /Chemia Miłości.flac
+Feb 01 09:58 : update: updating /Golem.flac
+Feb 01 09:58 : update: updating /Good Bye.flac
+Feb 01 09:58 : update: updating /Hajs.flac
+Feb 01 09:58 : update: updating /Heart Upon My Sleeve1.flac
+Feb 01 09:58 : update: updating /Introdukcja.flac
+Feb 01 09:58 : update: updating /Kiedy Byłem Mały.flac
+Feb 01 09:58 : update: updating /Królowe.flac
+Feb 01 09:58 : update: updating /Lifestyle.flac
+Feb 01 09:58 : update: updating /Mały Świat.flac
+Feb 01 09:58 : update: updating /Marlboro.flac
+Feb 01 09:58 : update: updating /Miasto.flac
+Feb 01 09:58 : update: updating /Nie Zatrzymuj Mnie.flac
+Feb 01 09:58 : update: updating /Pozdro.flac
+Feb 01 09:58 : update: updating /Pracownik Roku.flac
+Feb 01 09:58 : update: updating /Salut.flac
+Feb 01 09:58 : update: updating /Superman.flac
+Feb 01 09:58 : update: updating /2 Kilo.flac
+Feb 01 09:58 : update: updating /Chwile Ulotne.flac
+Feb 01 09:58 : update: updating /Gdyby....flac
+Feb 01 09:58 : update: updating /Ja To Ja.flac
+Feb 01 09:58 : update: updating /Jestem Bogiem.flac
+Feb 01 09:58 : update: updating /Lepiej Być Nie Może.flac
+Feb 01 09:58 : update: updating /Na Mocy Paktu.flac
+Feb 01 09:58 : update: updating /Nie Ma Mnie Dla Nikogo.flac
+Feb 01 09:58 : update: updating /Nowiny.flac
+Feb 01 09:58 : update: updating /Popatrz (Uliczny Reportaż Z Dworca).flac
+Feb 01 09:58 : update: updating /Powierzchnie Tnące.flac
+Feb 01 09:58 : update: updating /Priorytety.flac
+Feb 01 09:58 : update: updating /Rób Co Chcesz....flac
+Feb 01 09:58 : update: updating /ToNieMy.flac
+Feb 01 09:58 : update: updating /WC.flac
+Feb 01 09:58 : update: updating /W Moich Kręgach.flac
+Feb 01 09:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 09:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 09:58 : client: [14] opened from [::1]:40656
+Feb 01 09:58 : client: [14] closed
+Feb 01 09:58 : client: [15] opened from [::1]:40658
+Feb 01 09:58 : client: [15] closed
+Feb 01 10:01 : client: [16] opened from [::1]:40688
+Feb 01 10:01 : client: [16] closed
+Feb 01 10:05 : client: [13] closed
+Feb 01 10:05 : player: played "001  Jestem Bogiem.flac"
+Feb 01 10:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 10:05 : client: [0] opened from [::1]:40708
+Feb 01 17:41 : client: [1] opened from [::1]:41506
+Feb 01 17:42 : update: updating /Hope.flac
+Feb 01 17:42 : update: added /Chwile ulotne.flac
+Feb 01 17:42 : update: added /Ja to ja.flac
+Feb 01 17:42 : update: added /Jestem bogiem.flac
+Feb 01 17:42 : update: added /Lepiej być nie może.flac
+Feb 01 17:42 : update: updating /Na Mocy Paktu.flac
+Feb 01 17:42 : update: updating /Nowiny.flac
+Feb 01 17:42 : update: added /A Robi Się To Tak.flac
+Feb 01 17:42 : update: added /Aż Strach Pomysleć.flac
+Feb 01 17:42 : update: added /Back Off Bitch - Album Version (Explicit).flac
+Feb 01 17:42 : update: added /Bad Apples - Album Version (Explicit).flac
+Feb 01 17:42 : update: added /Bad Obsession - Album Version (Explicit).flac
+Feb 01 17:42 : update: added /C.D. Kinematografii.flac
+Feb 01 17:42 : update: added /Coma - Album Version (Explicit).flac
+Feb 01 17:42 : update: added /Dead Horse - Album Version.flac
+Feb 01 17:42 : update: added /Dejot Rusza Czarne Puyty.flac
+Feb 01 17:42 : update: added /Dla Pewnego Swego.flac
+Feb 01 17:42 : update: added /Don't Cry (Original).flac
+Feb 01 17:42 : update: added /Don't Damn Me - Album Version.flac
+Feb 01 17:42 : update: added /Double Talkin' Jive - Album Version (Explicit).flac
+Feb 01 17:42 : update: added /Dust N' Bones - Album Version (Explicit).flac
+Feb 01 17:42 : update: added /Garden Of Eden - Album Version (Explicit).flac
+Feb 01 17:42 : update: added /Ja To Ja 2 (Dokuadnie Tak!).flac
+Feb 01 17:42 : update: added /'Le Się Zmahauem.flac
+Feb 01 17:42 : update: added /Live And Let Die.flac
+Feb 01 17:42 : update: added /Mechaniczna Pomarańcza.flac
+Feb 01 17:42 : update: added /Motyw (Śmierć Magika).flac
+Feb 01 17:42 : update: added /November Rain.flac
+Feb 01 17:42 : update: added /Perfect Crime - Album Version (Explicit).flac
+Feb 01 17:42 : update: added /Play + Rec.flac
+Feb 01 17:42 : update: added /Plus i minus.flac
+Feb 01 17:42 : update: added /$$$.flac
+Feb 01 17:42 : update: added /Priorytety(1).flac
+Feb 01 17:42 : update: added /Right Next Door To Hell - Album Version (Explicit).flac
+Feb 01 17:42 : update: added /Tak Jak Telewizor - Kipper Rmx.flac
+Feb 01 17:42 : update: added /The Garden - Album Version.flac
+Feb 01 17:42 : update: added /Utwór instrumentalny - Czilalt.flac
+Feb 01 17:42 : update: added /Wielka Gra.flac
+Feb 01 17:42 : update: added /Wielkie Dzięki.flac
+Feb 01 17:42 : update: added /W Peunej Gotowości.flac
+Feb 01 17:42 : update: added /You Ain't The First - Album Version.flac
+Feb 01 17:42 : update: added /Znikam.flac
+Feb 01 17:42 : update: added /All Day Everyday (Łee).flac
+Feb 01 17:42 : update: added /ALONE, PART 3.flac
+Feb 01 17:42 : update: added /before I close my eyes.flac
+Feb 01 17:42 : update: added /Ból dupy.flac
+Feb 01 17:42 : update: added /Byku.flac
+Feb 01 17:42 : update: added /Caddilaki.flac
+Feb 01 17:42 : update: added /changes.flac
+Feb 01 17:42 : update: added /Crazy Frog.flac
+Feb 01 17:42 : update: added /Desperados.flac
+Feb 01 17:42 : update: added /Drift.flac
+Feb 01 17:42 : update: added /Dzień dobry.flac
+Feb 01 17:42 : update: added /Floor 555.flac
+Feb 01 17:42 : update: added /going down!.flac
+Feb 01 17:42 : update: added /Grill u Gawrona.flac
+Feb 01 17:42 : update: added /Hustlas Cabin.flac
+Feb 01 17:42 : update: added /I don’t even speak spanish lol.flac
+Feb 01 17:42 : update: added /infinity (888).flac
+Feb 01 17:42 : update: added /Introduction (instructions).flac
+Feb 01 17:42 : update: added /Intro (Lata 90–te).flac
+Feb 01 17:42 : update: added /Kanikuły.flac
+Feb 01 17:42 : update: added /Karate Kid.flac
+Feb 01 17:42 : update: added /Love Air.flac
+Feb 01 17:42 : update: added /love yourself (interlude).flac
+Feb 01 17:42 : update: added /Melex.flac
+Feb 01 17:42 : update: added /Modlitwa.flac
+Feb 01 17:42 : update: added /Moonlight.flac
+Feb 01 17:42 : update: added /Narcyz.flac
+Feb 01 17:42 : update: added /Narkopop.flac
+Feb 01 17:42 : update: added /Nie chcę być jak tata.flac
+Feb 01 17:42 : update: added /Nie ma boga.flac
+Feb 01 17:42 : update: added /Non stop.flac
+Feb 01 17:42 : update: added /NUMB.flac
+Feb 01 17:42 : update: added /Pain = BESTFRIEND.flac
+Feb 01 17:42 : update: added /Pasy.flac
+Feb 01 17:42 : update: added /Plata o Plomo II.flac
+Feb 01 17:42 : update: added /Prosciutto crudo.flac
+Feb 01 17:42 : update: added /Prosciutto crudo - Remix.flac
+Feb 01 17:42 : update: added /SAD!.flac
+Feb 01 17:42 : update: added /schizophrenia.flac
+Feb 01 17:42 : update: added /Ściana budynków.flac
+Feb 01 17:42 : update: added /Skit 1.flac
+Feb 01 17:42 : update: added /Skit 2.flac
+Feb 01 17:42 : update: added /Skit 3.flac
+Feb 01 17:42 : update: added /Skit 4.flac
+Feb 01 17:42 : update: added /SMASH!.flac
+Feb 01 17:42 : update: added /Smutne miasteczko.flac
+Feb 01 17:42 : update: added /Spodenki do ćpania.flac
+Feb 01 17:42 : update: added /Stara bida.flac
+Feb 01 17:42 : update: added /Stolik.flac
+Feb 01 17:42 : update: added /Sweet Home.flac
+Feb 01 17:42 : update: added /Talizman.flac
+Feb 01 17:42 : update: added /the remedy for a broken heart (why am I so in love).flac
+Feb 01 17:42 : update: added /Trendsetter.flac
+Feb 01 17:42 : update: added /Viva la banda.flac
+Feb 01 17:42 : update: added /W całości.flac
+Feb 01 17:42 : update: added /YoMenik.flac
+Feb 01 17:42 : update: added /YSL Balmain.flac
+Feb 01 17:42 : update: added /Za 15 trzecia.flac
+Feb 01 17:42 : update: added /Za dużo rockenrolla.flac
+Feb 01 17:42 : update: added /Zło jest wszędzie.flac
+Feb 01 17:42 : client: [1] closed
+Feb 01 17:45 : client: [2] opened from [::1]:41642
+Feb 01 17:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 17:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 17:48 : client: [3] opened from [::1]:41650
+Feb 01 17:48 : client: [3] closed
+Feb 01 17:48 : client: [4] opened from [::1]:41652
+Feb 01 17:48 : client: [4] closed
+Feb 01 17:49 : player: played "'Le Się Zmahauem.flac"
+Feb 01 17:58 : client: [5] opened from [::1]:41672
+Feb 01 17:58 : client: [5] closed
+Feb 01 17:58 : client: [6] opened from [::1]:41676
+Feb 01 17:58 : client: [6] closed
+Feb 01 17:59 : client: [7] opened from [::1]:41678
+Feb 01 17:59 : client: [7] closed
+Feb 01 18:00 : client: [8] opened from [::1]:41680
+Feb 01 18:00 : client: [8] closed
+Feb 01 18:05 : client: [9] opened from [::1]:41686
+Feb 01 18:05 : player: played "Levels - Andy Pitch Remix.flac"
+Feb 01 18:05 : client: [9] closed
+Feb 01 18:10 : player: played "SAD!.flac"
+Feb 01 18:18 : client: [10] opened from [::1]:41702
+Feb 01 18:18 : client: [10] closed
+Feb 01 18:21 : player: played "126  Bleeding Out.flac"
+Feb 01 18:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 18:21 : client: [0] opened from [::1]:41712
+Feb 01 18:21 : client: [1] opened from [::1]:41714
+Feb 01 18:25 : client: [2] opened from 192.168.1.107:47636
+Feb 01 18:25 : client: [2] closed
+Feb 01 18:25 : client: [3] opened from 192.168.1.107:47638
+Feb 01 18:25 : client: [3] closed
+Feb 01 18:25 : client: [4] opened from 192.168.1.107:47640
+Feb 01 18:25 : client: [4] closed
+Feb 01 18:25 : client: [5] opened from 192.168.1.107:47642
+Feb 01 18:25 : client: [5] closed
+Feb 01 18:25 : client: [6] opened from 192.168.1.107:47644
+Feb 01 18:25 : client: [6] closed
+Feb 01 18:25 : client: [7] opened from 192.168.1.107:47646
+Feb 01 18:25 : client: [7] closed
+Feb 01 18:25 : client: [8] opened from 192.168.1.107:47648
+Feb 01 18:25 : client: [8] closed
+Feb 01 18:25 : client: [9] opened from 192.168.1.107:47650
+Feb 01 18:25 : client: [9] closed
+Feb 01 18:25 : client: [10] opened from 192.168.1.107:47652
+Feb 01 18:25 : client: [10] closed
+Feb 01 18:27 : client: [11] opened from 192.168.1.103:59534
+Feb 01 18:27 : client: [11] malformed command "GET / HTTP/1.1"
+Feb 01 18:27 : client: [11] closed
+Feb 01 18:27 : client: [12] opened from 192.168.1.107:47718
+Feb 01 18:27 : client: [12] closed
+Feb 01 18:27 : client: [13] opened from 192.168.1.107:47722
+Feb 01 18:27 : client: [13] closed
+Feb 01 18:28 : client: [14] opened from 192.168.1.107:47746
+Feb 01 18:28 : client: [14] closed
+Feb 01 18:28 : client: [15] opened from 192.168.1.107:47764
+Feb 01 18:28 : client: [15] closed
+Feb 01 18:28 : client: [16] opened from 192.168.1.107:47766
+Feb 01 18:29 : client: [16] closed
+Feb 01 18:29 : client: [17] opened from 192.168.1.107:47768
+Feb 01 18:29 : client: [17] closed
+Feb 01 18:29 : client: [18] opened from 192.168.1.107:47770
+Feb 01 18:29 : client: [18] closed
+Feb 01 18:29 : client: [19] opened from 192.168.1.107:47772
+Feb 01 18:29 : client: [19] closed
+Feb 01 18:29 : client: [20] opened from 192.168.1.107:47774
+Feb 01 18:29 : client: [20] closed
+Feb 01 18:29 : client: [21] opened from 192.168.1.107:47776
+Feb 01 18:29 : client: [21] closed
+Feb 01 18:29 : client: [22] opened from 192.168.1.107:47778
+Feb 01 18:29 : client: [22] closed
+Feb 01 18:29 : client: [23] opened from 192.168.1.107:47780
+Feb 01 18:29 : client: [23] closed
+Feb 01 18:29 : client: [24] opened from 192.168.1.107:47782
+Feb 01 18:29 : client: [24] closed
+Feb 01 18:29 : client: [25] opened from 192.168.1.107:47784
+Feb 01 18:29 : client: [25] closed
+Feb 01 18:30 : client: [26] opened from 192.168.1.107:47836
+Feb 01 18:31 : client: [26] closed
+Feb 01 18:31 : client: [27] opened from 192.168.1.107:47872
+Feb 01 18:32 : exception: Bad song index
+Feb 01 18:32 : exception: Bad song index
+Feb 01 18:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 18:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 18:33 : client: [27] closed
+Feb 01 18:33 : client: [28] opened from 192.168.1.107:47946
+Feb 01 18:33 : client: [28] closed
+Feb 01 18:33 : client: [29] opened from 192.168.1.107:47956
+Feb 01 18:33 : client: [29] closed
+Feb 01 18:33 : client: [30] opened from 192.168.1.107:47960
+Feb 01 18:34 : client: [31] opened from 192.168.1.107:47962
+Feb 01 18:34 : client: [30] closed
+Feb 01 18:34 : client: [31] closed
+Feb 01 18:34 : client: [32] opened from 192.168.1.107:47972
+Feb 01 18:34 : client: [32] closed
+Feb 01 18:34 : client: [33] opened from 192.168.1.107:47974
+Feb 01 18:35 : client: [1] closed
+Feb 01 18:35 : player: played "100  Ekodiesel - Remix.flac"
+Feb 01 18:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 18:35 : client: [0] opened from [::1]:41732
+Feb 01 18:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 18:36 : client: [1] opened from 192.168.1.107:48064
+Feb 01 18:36 : client: [1] closed
+Feb 01 18:36 : client: [2] opened from 192.168.1.107:48098
+Feb 01 18:36 : client: [0] closed
+Feb 01 18:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 18:36 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 01 18:36 : client: [0] opened from [::1]:60674
+Feb 01 18:36 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 01 18:36 : client: [1] opened from 192.168.1.107:48108
+Feb 01 18:37 : client: [1] closed
+Feb 01 18:37 : client: [2] opened from 192.168.1.107:48128
+Feb 01 18:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 18:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 18:38 : client: [2] closed
+Feb 01 18:38 : client: [3] opened from 192.168.1.107:48186
+Feb 01 18:38 : client: [4] opened from [::1]:60698
+Feb 01 18:41 : client: [5] opened from 192.168.1.107:48234
+Feb 01 18:41 : client: [3] closed
+Feb 01 18:41 : client: [5] closed
+Feb 01 18:41 : client: [6] opened from 192.168.1.107:48242
+Feb 01 18:42 : client: [6] closed
+Feb 01 18:42 : client: [7] opened from 192.168.1.107:48252
+Feb 01 18:43 : client: [7] closed
+Feb 01 18:43 : client: [8] opened from 192.168.1.107:48264
+Feb 01 18:43 : client: [9] opened from 192.168.1.107:48266
+Feb 01 18:43 : client: [8] closed
+Feb 01 18:43 : client: [9] closed
+Feb 01 18:43 : client: [10] opened from 192.168.1.107:48282
+Feb 01 18:46 : player: played "16  Stressed Out.flac"
+Feb 01 18:47 : client: [11] opened from 192.168.1.107:48380
+Feb 01 18:47 : client: [10] closed
+Feb 01 18:47 : client: [11] closed
+Feb 01 18:47 : client: [12] opened from 192.168.1.107:48388
+Feb 01 18:48 : client: [13] opened from [::1]:60710
+Feb 01 18:48 : client: [13] closed
+Feb 01 18:50 : player: played "56  Heathens.flac"
+Feb 01 18:50 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 18:50 : exception: Failed to open '/home/samedamci/.config/mpd/state': No such file or directory
+Feb 01 18:50 : client: [0] opened from [::1]:60738
+Feb 01 18:50 : client: [1] opened from [::1]:60740
+Feb 01 18:50 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 18:50 : client: [0] opened from 127.0.0.1:52166
+Feb 01 18:50 : client: [1] opened from 127.0.0.1:52170
+Feb 01 18:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 18:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 18:51 : player: played "$$$.flac"
+Feb 01 18:51 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 18:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 18:51 : client: [0] opened from 192.168.1.107:48482
+Feb 01 18:51 : player: played "$$$.flac"
+Feb 01 18:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 18:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 18:52 : client: [0] opened from [::1]:60868
+Feb 01 18:52 : client: [1] opened from 192.168.1.107:48488
+Feb 01 18:52 : client: [2] opened from [::1]:60870
+Feb 01 18:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 18:57 : client: [1] closed
+Feb 01 18:57 : client: [3] opened from 192.168.1.107:48524
+Feb 01 19:02 : client: [4] opened from [::1]:60880
+Feb 01 19:06 : client: [5] opened from 192.168.1.107:48664
+Feb 01 19:06 : client: [6] opened from 192.168.1.107:48666
+Feb 01 19:06 : client: [7] opened from 192.168.1.107:48678
+Feb 01 19:06 : client: [8] opened from 192.168.1.107:48680
+Feb 01 19:07 : client: [9] opened from 192.168.1.107:48682
+Feb 01 19:07 : client: [5] closed
+Feb 01 19:07 : client: [10] opened from 192.168.1.107:48686
+Feb 01 19:07 : client: [7] closed
+Feb 01 19:07 : client: [8] closed
+Feb 01 19:07 : client: [10] closed
+Feb 01 19:07 : client: [6] closed
+Feb 01 19:07 : client: [9] closed
+Feb 01 19:07 : client: [11] opened from 192.168.1.107:48688
+Feb 01 19:07 : client: [12] opened from 192.168.1.107:48690
+Feb 01 19:07 : client: [13] opened from 192.168.1.107:48716
+Feb 01 19:08 : client: [11] closed
+Feb 01 19:08 : client: [13] closed
+Feb 01 19:08 : client: [14] opened from 192.168.1.107:49084
+Feb 01 19:08 : player: played "220  Wiem.flac"
+Feb 01 19:08 : client: [14] closed
+Feb 01 19:09 : client: [15] opened from 192.168.1.107:49496
+Feb 01 19:09 : client: [15] closed
+Feb 01 19:10 : client: [16] opened from 192.168.1.107:49758
+Feb 01 19:10 : client: [17] opened from 192.168.1.107:49760
+Feb 01 19:10 : client: [17] closed
+Feb 01 19:10 : client: [16] closed
+Feb 01 19:10 : client: [12] closed
+Feb 01 19:10 : client: [3] closed
+Feb 01 19:11 : client: [4] closed
+Feb 01 19:11 : client: [2] closed
+Feb 01 19:13 : client: [18] opened from 192.168.1.107:49860
+Feb 01 19:13 : client: [19] opened from 192.168.1.107:49862
+Feb 01 19:13 : client: [20] opened from 192.168.1.107:49864
+Feb 01 19:13 : client: [21] opened from 192.168.1.107:49866
+Feb 01 19:13 : client: [22] opened from 192.168.1.107:49868
+Feb 01 19:13 : player: played "Lonely Together.flac"
+Feb 01 19:14 : client: [19] closed
+Feb 01 19:15 : client: [23] opened from 192.168.1.107:49922
+Feb 01 19:15 : client: [21] closed
+Feb 01 19:15 : client: [20] closed
+Feb 01 19:15 : client: [22] closed
+Feb 01 19:15 : client: [18] closed
+Feb 01 19:15 : client: [23] closed
+Feb 01 19:17 : client: [24] opened from 192.168.1.107:49962
+Feb 01 19:17 : client: [25] opened from 192.168.1.107:49964
+Feb 01 19:17 : client: [25] closed
+Feb 01 19:17 : client: [26] opened from 192.168.1.107:49966
+Feb 01 19:17 : client: [26] closed
+Feb 01 19:17 : client: [24] closed
+Feb 01 19:17 : client: [27] opened from 192.168.1.107:49968
+Feb 01 19:17 : client: [27] closed
+Feb 01 19:17 : client: [28] opened from 192.168.1.107:49970
+Feb 01 19:17 : client: [28] closed
+Feb 01 19:17 : client: [29] opened from 192.168.1.107:49972
+Feb 01 19:17 : client: [29] closed
+Feb 01 19:17 : client: [30] opened from 192.168.1.107:49998
+Feb 01 19:17 : client: [31] opened from 192.168.1.107:37000
+Feb 01 19:17 : client: [31] closed
+Feb 01 19:17 : client: [30] closed
+Feb 01 19:17 : client: [32] opened from 192.168.1.107:37002
+Feb 01 19:17 : client: [32] closed
+Feb 01 19:18 : client: [33] opened from 192.168.1.107:37016
+Feb 01 19:18 : client: [33] closed
+Feb 01 19:18 : client: [34] opened from 192.168.1.107:37020
+Feb 01 19:18 : client: [34] closed
+Feb 01 19:19 : client: [35] opened from 192.168.1.107:37028
+Feb 01 19:19 : client: [35] closed
+Feb 01 19:19 : client: [36] opened from 192.168.1.107:37030
+Feb 01 19:19 : client: [37] opened from 192.168.1.107:37032
+Feb 01 19:19 : client: [37] closed
+Feb 01 19:19 : client: [36] closed
+Feb 01 19:20 : client: [38] opened from 192.168.1.107:37034
+Feb 01 19:20 : client: [39] opened from 192.168.1.107:37036
+Feb 01 19:20 : client: [39] closed
+Feb 01 19:20 : client: [38] closed
+Feb 01 19:20 : client: [40] opened from 192.168.1.107:37038
+Feb 01 19:20 : client: [40] closed
+Feb 01 19:22 : client: [41] opened from 192.168.1.107:37098
+Feb 01 19:22 : client: [41] closed
+Feb 01 19:22 : client: [42] opened from 192.168.1.107:37100
+Feb 01 19:22 : client: [42] closed
+Feb 01 19:22 : client: [43] opened from 192.168.1.107:37112
+Feb 01 19:22 : client: [43] closed
+Feb 01 19:23 : client: [44] opened from 192.168.1.107:37146
+Feb 01 19:24 : client: [44] closed
+Feb 01 19:25 : client: [45] opened from [::1]:60906
+Feb 01 19:26 : client: [45] closed
+Feb 01 19:26 : client: [46] opened from [::1]:60908
+Feb 01 19:27 : client: [47] opened from 192.168.1.107:37224
+Feb 01 19:29 : client: [47] closed
+Feb 01 19:29 : client: [48] opened from 192.168.1.107:37324
+Feb 01 19:30 : client: [49] opened from 192.168.1.107:37332
+Feb 01 19:30 : client: [48] closed
+Feb 01 19:30 : client: [49] closed
+Feb 01 19:30 : client: [50] opened from 192.168.1.107:37334
+Feb 01 19:30 : client: [50] closed
+Feb 01 19:31 : client: [51] opened from 192.168.1.107:37356
+Feb 01 19:31 : client: [51] closed
+Feb 01 19:31 : client: [52] opened from 192.168.1.107:37360
+Feb 01 19:31 : client: [53] opened from 192.168.1.107:37362
+Feb 01 19:31 : client: [52] closed
+Feb 01 19:31 : client: [53] closed
+Feb 01 19:31 : client: [54] opened from 192.168.1.107:37364
+Feb 01 19:43 : client: [55] opened from 192.168.1.107:37652
+Feb 01 19:43 : client: [55] malformed command "GET /home/samedamci/SD HTTP/1.1"
+Feb 01 19:43 : client: [55] closed
+Feb 01 19:43 : client: [56] opened from 192.168.1.107:37654
+Feb 01 19:43 : client: [56] malformed command "GET /home/samedamci/SD HTTP/1.1"
+Feb 01 19:43 : client: [56] closed
+Feb 01 19:43 : client: [54] closed
+Feb 01 20:33 : client: [57] opened from 192.168.1.103:48528
+Feb 01 20:33 : client: [57] malformed command "GET / HTTP/1.1"
+Feb 01 20:33 : client: [57] closed
+Feb 01 20:35 : client: [58] opened from [::1]:33122
+Feb 01 20:35 : client: [58] closed
+Feb 01 20:50 : player: played "006  Nie Ma Fal.flac"
+Feb 02 11:21 : update: updating /Intro.flac
+Feb 02 11:21 : update: added /Białas - Outro.opus
+Feb 02 11:21 : update: added /Bedoes - 00_45 (Rest Dix37 odpowiedź).opus
+Feb 02 11:21 : update: added /20 Min.flac
+Feb 02 11:21 : update: added /444+222.flac
+Feb 02 11:21 : update: added /Ale ja nie.flac
+Feb 02 11:21 : update: added /All Girls Are The Same.flac
+Feb 02 11:21 : update: added /Armed And Dangerous.flac
+Feb 02 11:21 : update: added /Betrayal - Skit.flac
+Feb 02 11:21 : update: added /Bida.flac
+Feb 02 11:21 : update: added /Black & White.flac
+Feb 02 11:21 : update: added /Blakablakablaka.flac
+Feb 02 11:21 : update: added /Blizny na rękach.flac
+Feb 02 11:21 : update: added /Candles.flac
+Feb 02 11:21 : update: added /Chamer.flac
+Feb 02 11:21 : update: added /Cyka blyat.flac
+Feb 02 11:21 : update: added /Czekam na Ciebie.flac
+Feb 02 11:21 : update: added /Dark Queen.flac
+Feb 02 11:21 : update: added /Diamonds All on My Wrist.flac
+Feb 02 11:21 : update: added /Do What I Want.flac
+Feb 02 11:21 : update: added /Early 20 Rager.flac
+Feb 02 11:21 : update: added /End Of The Road.flac
+Feb 02 11:21 : update: added /Erase Your Social.flac
+Feb 02 11:21 : update: added /Fake Polo.flac
+Feb 02 11:21 : update: added /Feelings Mutual.flac
+Feb 02 11:21 : update: added /For Real.flac
+Feb 02 11:21 : update: added /Fraktale.flac
+Feb 02 11:21 : update: added /#FREEBIALAS.flac
+Feb 02 11:21 : update: added /Ganges.flac
+Feb 02 11:21 : update: added /Hej Hej!.flac
+Feb 02 11:21 : update: added /How.flac
+Feb 02 11:21 : update: added /How to Talk.flac
+Feb 02 11:21 : update: added /Hurt Me.flac
+Feb 02 11:21 : update: added /I Can Drive.flac
+Feb 02 11:21 : update: added /I'll Be Fine.flac
+Feb 02 11:21 : update: added /I'm Still.flac
+Feb 02 11:21 : update: added /Intercontinental bajers.flac
+Feb 02 11:21 : update: added /I poszedł.flac
+Feb 02 11:21 : update: added /It’s My Live.flac
+Feb 02 11:21 : update: added /Jak Skepta.flac
+Feb 02 11:21 : update: added /Jeden żyć.flac
+Feb 02 11:21 : update: added /Jedna wiara, jeden skład.flac
+Feb 02 11:21 : update: added /Karim Benzema.flac
+Feb 02 11:21 : update: added /Karmamachanam.flac
+Feb 02 11:21 : update: added /Karma - Skit.flac
+Feb 02 11:21 : update: added /Klęska urodzaju.flac
+Feb 02 11:21 : update: added /Kochaj nas i żegnaj.flac
+Feb 02 11:21 : update: added /Koło.flac
+Feb 02 11:21 : update: added /Lean Wit Me.flac
+Feb 02 11:21 : update: added /Loaded.flac
+Feb 02 11:21 : update: added /Long Gone.flac
+Feb 02 11:21 : update: added /Lucid Dreams.flac
+Feb 02 11:21 : update: added /Lustra.flac
+Feb 02 11:21 : update: added /Malfunction.flac
+Feb 02 11:21 : update: added /Mali ludzie, wielkie nieba.flac
+Feb 02 11:21 : update: added /Mam dość (Love yourz) - Remix.flac
+Feb 02 11:21 : update: added /Mamo, sięgam gwiazd.flac
+Feb 02 11:21 : update: added /Medusa.flac
+Feb 02 11:21 : update: added /Milion długu.flac
+Feb 02 11:21 : update: added /Money Mitch.flac
+Feb 02 11:21 : update: added /Na serio.flac
+Feb 02 11:21 : update: added /Neon Guts (feat. Pharrell Williams).flac
+Feb 02 11:21 : update: added /Nie śpię bo trzymam gardę.flac
+Feb 02 11:21 : update: added /Noah.flac
+Feb 02 11:21 : update: added /No Sleep Leak.flac
+Feb 02 11:21 : update: added /O2.flac
+Feb 02 11:21 : update: added /Of Course We Ghetto Flowers (feat. Playboi Carti & Offset).flac
+Feb 02 11:21 : update: added /Original Uzi (4 of Us).flac
+Feb 02 11:21 : update: added /Osiedle Botox.flac
+Feb 02 11:21 : update: added /Patrzcie idzie frajer.flac
+Feb 02 11:21 : update: added /Polack.flac
+Feb 02 11:21 : update: added /POLON.flac
+Feb 02 11:21 : update: added /Pozory.flac
+Feb 02 11:21 : update: added /Praise The Lord (Da Shine).flac
+Feb 02 11:21 : update: added /Prawdziwy trap.flac
+Feb 02 11:21 : update: added /prePOLON.flac
+Feb 02 11:21 : update: added /Pretty Mami.flac
+Feb 02 11:21 : update: added /Problemy.flac
+Feb 02 11:21 : update: added /Przestań się bać.flac
+Feb 02 11:21 : update: added /Puk puk.flac
+Feb 02 11:21 : update: added /Ronda (Winners).flac
+Feb 02 11:21 : update: added /S01E01.flac
+Feb 02 11:21 : update: added /Sanguine Paradise.flac
+Feb 02 11:21 : update: added /Sauce It Up.flac
+Feb 02 11:21 : update: added /Scared Of Love.flac
+Feb 02 11:21 : update: added /Seven Million (feat. Future).flac
+Feb 02 11:21 : update: added /SideLine Watching (Hold Up).flac
+Feb 02 11:21 : update: added /Simia.flac
+Feb 02 11:21 : update: added /Skir Skirr.flac
+Feb 02 11:21 : update: added /That's a Rack.flac
+Feb 02 11:21 : update: added /The Way Life Goes (feat. Oh Wonder).flac
+Feb 02 11:21 : update: added /Tracimy kontrolę.flac
+Feb 02 11:21 : update: added /Traproom.flac
+Feb 02 11:21 : update: added /Two®.flac
+Feb 02 11:21 : update: added /Ukryty w Mieście Krzyk.flac
+Feb 02 11:21 : update: added /UnFazed (feat. The Weeknd).flac
+Feb 02 11:21 : update: added /Unplugged.flac
+Feb 02 11:21 : update: added /Upadły demon.flac
+Feb 02 11:21 : update: added /Used To.flac
+Feb 02 11:21 : update: added /Wasted.flac
+Feb 02 11:21 : update: added /Weed Carrier.flac
+Feb 02 11:21 : update: added /Witam Cię 2k16.flac
+Feb 02 11:21 : update: added /Wrum wrum.flac
+Feb 02 11:21 : update: added /X.flac
+Feb 02 11:21 : update: added /Xorcyzmy.flac
+Feb 02 11:21 : update: added /XO Tour Llif3.flac
+Feb 02 11:21 : update: added /You're Lost.flac
+Feb 02 11:21 : update: added /Znam Cię.flac
+Feb 02 11:34 : client: [46] closed
+Feb 02 11:34 : client: [59] opened from [::1]:34664
+Feb 02 11:34 : client: [60] opened from [::1]:34666
+Feb 02 11:34 : client: [60] closed
+Feb 02 11:34 : client: [61] opened from [::1]:34668
+Feb 02 11:34 : client: [61] closed
+Feb 02 11:34 : client: [62] opened from [::1]:34670
+Feb 02 11:34 : client: [62] closed
+Feb 02 11:34 : client: [63] opened from [::1]:34672
+Feb 02 11:34 : client: [63] closed
+Feb 02 11:34 : client: [64] opened from [::1]:34674
+Feb 02 11:34 : player: played "001  Cantate Tutti.flac"
+Feb 02 11:34 : client: [64] closed
+Feb 02 11:34 : client: [65] opened from [::1]:34676
+Feb 02 11:34 : exception: Not playing
+Feb 02 11:34 : client: [65] closed
+Feb 02 11:36 : client: [59] closed
+Feb 02 11:36 : client: [66] opened from [::1]:34678
+Feb 02 11:37 : client: [66] closed
+Feb 02 11:37 : client: [67] opened from [::1]:34684
+Feb 02 11:37 : player: played "03 Subwoofer Lullaby.flac"
+Feb 02 11:37 : client: [67] closed
+Feb 02 16:37 : client: [68] opened from [::1]:34966
+Feb 02 16:37 : client: [68] closed
+Feb 02 16:42 : client: [69] opened from [::1]:34972
+Feb 02 16:42 : client: [69] closed
+Feb 02 16:42 : client: [70] opened from [::1]:34974
+Feb 02 16:42 : client: [70] closed
+Feb 02 16:42 : client: [71] opened from [::1]:34976
+Feb 02 16:42 : client: [71] closed
+Feb 02 16:43 : client: [72] opened from [::1]:34978
+Feb 02 16:43 : client: [72] closed
+Feb 02 16:43 : client: [73] opened from [::1]:34980
+Feb 02 16:43 : client: [73] closed
+Feb 02 16:43 : client: [74] opened from [::1]:34984
+Feb 02 16:43 : client: [74] closed
+Feb 02 16:43 : client: [75] opened from [::1]:34986
+Feb 02 16:43 : client: [75] closed
+Feb 02 16:46 : player: played "01  Jumpsuit.flac"
+Feb 02 16:50 : player: played "03 Subwoofer Lullaby.flac"
+Feb 02 16:50 : client: [76] opened from [::1]:34994
+Feb 02 16:50 : client: [76] closed
+Feb 02 17:02 : client: [77] opened from [::1]:35006
+Feb 02 17:02 : player: played "005  Trofea.flac"
+Feb 02 17:02 : client: [77] closed
+Feb 02 17:06 : client: [0] closed
+Feb 02 17:34 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 02 17:34 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 02 17:34 : client: [0] opened from [::1]:49266
+Feb 02 17:34 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 02 18:20 : client: [1] opened from [::1]:50230
+Feb 02 18:21 : client: [1] closed
+Feb 02 18:21 : client: [2] opened from [::1]:50232
+Feb 02 18:21 : update: updating /57  Pastempomat.flac
+Feb 02 18:21 : update: added /And I.flac
+Feb 02 18:21 : update: added /Barricade Me.flac
+Feb 02 18:21 : update: added /Bela1.flac
+Feb 02 18:21 : update: added /Bela2.flac
+Feb 02 18:21 : update: added /Bela RMX Czarny HiFi.flac
+Feb 02 18:21 : update: added /Block1.flac
+Feb 02 18:21 : update: added /Block2.flac
+Feb 02 18:21 : update: added /Block RMX KAMP.flac
+Feb 02 18:21 : update: added /Block RMX Webber.flac
+Feb 02 18:21 : update: added /Bridge.flac
+Feb 02 18:21 : update: added /Byrd1.flac
+Feb 02 18:21 : update: added /Byrd2.flac
+Feb 02 18:21 : update: added /Cashew-1616441.flac
+Feb 02 18:21 : update: added /Cashew-1616442.flac
+Feb 02 18:21 : update: added /Cohle Hart.flac
+Feb 02 18:21 : update: added /DBIB.flac
+Feb 02 18:21 : update: added /Eight1.flac
+Feb 02 18:21 : update: added /Eight2.flac
+Feb 02 18:21 : update: added /Eight RMX Kuba Karas.flac
+Feb 02 18:21 : update: added /Eight RMX Sambor.flac
+Feb 02 18:21 : update: added /Elephant.flac
+Feb 02 18:21 : update: added /Focus1.flac
+Feb 02 18:21 : update: added /Focus2.flac
+Feb 02 18:21 : update: added /Forest1.flac
+Feb 02 18:21 : update: added /Forest2.flac
+Feb 02 18:21 : update: added /Four Sticks1.flac
+Feb 02 18:21 : update: added /Four Sticks2.flac
+Feb 02 18:21 : update: added /Goodnight.flac
+Feb 02 18:21 : update: added /!H.a.p.p.y!.flac
+Feb 02 18:21 : update: added /I'm Searching.flac
+Feb 02 18:21 : update: added /Little Stranger.flac
+Feb 02 18:21 : update: added /Lugosi.flac
+Feb 02 18:21 : update: added /Ms. Mary McAdams.flac
+Feb 02 18:21 : update: added /Nieznajomy 2.0.flac
+Feb 02 18:21 : update: added /Nieznajomy.flac
+Feb 02 18:21 : update: added /No.flac
+Feb 02 18:21 : update: added /No Part II.flac
+Feb 02 18:21 : update: added /Pastempomat1.flac
+Feb 02 18:21 : update: added /Pastempomat RMX Steve Nash.flac
+Feb 02 18:21 : update: added /Project 19.flac
+Feb 02 18:21 : update: added /Son of Analog1.flac
+Feb 02 18:21 : update: added /Son of Analog2.flac
+Feb 02 18:21 : update: added /S&T.flac
+Feb 02 18:21 : update: added /Sunlight (Intro)1.flac
+Feb 02 18:21 : update: added /Sunlight (Intro)2.flac
+Feb 02 18:21 : update: added /Tapety.flac
+Feb 02 18:21 : update: added /Trojkaty i Kwadraty.flac
+Feb 02 18:21 : update: added /Vile.flac
+Feb 02 18:21 : update: added /Vitane.flac
+Feb 02 18:21 : update: added /W Dobra Strone2.flac
+Feb 02 18:21 : update: added /Where Did Your Love Go-1.flac
+Feb 02 18:21 : update: added /Where Did Your Love Go-2.flac
+Feb 02 18:21 : client: [2] closed
+Feb 02 18:21 : client: [3] opened from [::1]:50234
+Feb 02 18:22 : client: [3] closed
+Feb 02 18:23 : client: [4] opened from [::1]:50242
+Feb 02 18:24 : client: [4] closed
+Feb 02 18:24 : client: [5] opened from [::1]:50250
+Feb 02 18:24 : client: [5] closed
+Feb 02 18:41 : client: [6] opened from [::1]:50322
+Feb 02 18:43 : update: removing 60  Lucid Dreams.flac
+Feb 02 18:43 : update: removing 139  XO Tour Llif3.flac
+Feb 02 18:43 : update: updating /Bela1.flac
+Feb 02 18:43 : update: updating /Bela2.flac
+Feb 02 18:43 : update: updating /Block1.flac
+Feb 02 18:43 : update: updating /Byrd1.flac
+Feb 02 18:43 : update: updating /Cashew-1616441.flac
+Feb 02 18:43 : update: updating /Cashew-1616442.flac
+Feb 02 18:43 : update: updating /Eight1.flac
+Feb 02 18:43 : update: updating /Eight2.flac
+Feb 02 18:43 : update: updating /Focus1.flac
+Feb 02 18:43 : update: updating /Focus2.flac
+Feb 02 18:43 : update: updating /Forest1.flac
+Feb 02 18:43 : update: updating /Four Sticks1.flac
+Feb 02 18:43 : update: updating /Four Sticks2.flac
+Feb 02 18:43 : update: updating /Goodnight.flac
+Feb 02 18:43 : update: updating /Pastempomat1.flac
+Feb 02 18:43 : update: updating /Son of Analog1.flac
+Feb 02 18:43 : update: updating /Son of Analog2.flac
+Feb 02 18:43 : update: updating /Sunlight (Intro)1.flac
+Feb 02 18:43 : update: updating /W Dobra Strone2.flac
+Feb 02 18:43 : update: updating /Where Did Your Love Go-1.flac
+Feb 02 18:43 : update: updating /Where Did Your Love Go-2.flac
+Feb 02 18:45 : client: [6] closed
+Feb 02 20:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 02 20:49 : client: [0] opened from [::1]:35986
+Feb 02 20:49 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 03 21:45 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 21:45 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 03 21:45 : client: [0] opened from [::1]:60818
+Feb 03 21:45 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 03 21:52 : client: [1] opened from [::1]:60946
+Feb 03 21:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 21:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 21:52 : client: [1] closed
+Feb 03 21:53 : client: [2] opened from [::1]:60952
+Feb 03 21:53 : client: [2] closed
+Feb 03 21:53 : client: [3] opened from [::1]:60954
+Feb 03 21:53 : client: [3] closed
+Feb 03 21:53 : client: [4] opened from [::1]:60956
+Feb 03 21:53 : player: played "003  Małomiasteczkowy.flac"
+Feb 03 21:53 : client: [4] closed
+Feb 06 17:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 17:19 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 06 17:19 : client: [0] opened from [::1]:57272
+Feb 06 17:19 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 07 16:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 16:43 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 07 16:43 : client: [0] opened from [::1]:55058
+Feb 07 16:43 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 07 17:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 17:31 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 07 17:31 : client: [0] opened from [::1]:55190
+Feb 07 17:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 17:32 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 07 17:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 17:32 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 07 17:32 : client: [0] opened from [::1]:55214
+Feb 07 17:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 17:32 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 07 17:32 : client: [0] opened from [::1]:55224
+Feb 07 17:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 17:32 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 07 17:32 : client: [0] opened from [::1]:55230
+Feb 07 17:33 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 17:33 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 07 17:33 : client: [0] opened from [::1]:55240
+Feb 09 11:04 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 11:04 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 09 11:04 : client: [0] opened from [::1]:50968
+Feb 09 11:04 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 10 10:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 10:11 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 10 10:11 : client: [0] opened from [::1]:51622
+Feb 10 10:11 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 10 10:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 10:52 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 10 10:52 : client: [0] opened from [::1]:59202
+Feb 10 10:52 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 10 11:15 : client: [0] closed
+Feb 10 19:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 19:08 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 10 19:08 : client: [0] opened from [::1]:60904
+Feb 10 19:08 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 15 18:54 : client: [0] closed
+Feb 15 18:54 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 18:54 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 18:54 : client: [0] opened from [::1]:56460
+Feb 15 18:54 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 15 18:55 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 18:55 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 18:55 : client: [0] opened from [::1]:56480
+Feb 15 18:55 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 15 19:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 19:24 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 19:24 : client: [0] opened from [::1]:56674
+Feb 15 19:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 19:24 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 19:24 : client: [0] opened from [::1]:56690
+Feb 15 19:24 : client: [1] opened from [::1]:56698
+Feb 15 19:24 : client: [1] closed
+Feb 15 19:25 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 19:25 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 19:25 : client: [0] opened from [::1]:56710
+Feb 15 19:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 19:26 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 19:26 : client: [0] opened from [::1]:56726
+Feb 15 19:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 19:26 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 19:26 : client: [0] opened from [::1]:56752
+Feb 15 19:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 19:27 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 19:27 : client: [0] opened from [::1]:56780
+Feb 15 19:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 19:27 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 19:27 : client: [0] opened from [::1]:56800
+Feb 15 19:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 19:52 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 19:52 : client: [0] opened from [::1]:57516
+Feb 15 19:52 : client: [1] opened from [::1]:57526
+Feb 15 19:52 : client: [1] closed
+Feb 15 19:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 19:53 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 19:53 : client: [0] opened from [::1]:57560
+Feb 15 20:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 20:03 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 20:03 : client: [0] opened from [::1]:59402
+Feb 15 20:03 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 15 20:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 20:05 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 20:05 : client: [0] opened from [::1]:58368
+Feb 15 20:05 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 15 20:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 20:05 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 20:05 : client: [0] opened from [::1]:58378
+Feb 15 20:05 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 15 20:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 20:06 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 20:06 : client: [0] opened from [::1]:58404
+Feb 15 20:06 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 15 20:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 20:06 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 20:06 : client: [0] opened from [::1]:58418
+Feb 15 20:06 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 15 20:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 20:06 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 20:06 : client: [0] opened from [::1]:58446
+Feb 15 20:06 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 15 20:08 : client: [0] closed
+Feb 15 20:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 20:08 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 20:08 : client: [0] opened from [::1]:52022
+Feb 15 20:08 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 15 20:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 20:08 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 20:08 : client: [0] opened from [::1]:52042
+Feb 15 20:08 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 15 20:12 : client: [0] closed
+Feb 15 20:12 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 20:12 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 20:12 : client: [0] opened from [::1]:55452
+Feb 15 20:12 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 15 20:12 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 20:12 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 20:12 : client: [0] opened from [::1]:55470
+Feb 15 20:12 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 15 20:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 20:13 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 20:13 : client: [0] opened from [::1]:55504
+Feb 15 20:13 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 15 20:14 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 20:14 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 15 20:14 : client: [0] opened from [::1]:53960
+Feb 15 20:14 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 16 10:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 16 10:58 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 16 10:58 : client: [0] opened from [::1]:35192
+Feb 16 10:58 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 16 10:58 : client: [0] closed
+Feb 16 10:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 16 10:59 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 16 10:59 : client: [0] opened from [::1]:53874
+Feb 16 10:59 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 16 11:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 16 11:00 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 16 11:00 : client: [0] opened from [::1]:53922
+Feb 16 11:00 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 16 11:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 16 11:01 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 16 11:01 : client: [0] opened from [::1]:53936
+Feb 16 11:01 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 16 11:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 16 11:01 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 16 11:01 : client: [0] opened from [::1]:53970
+Feb 16 11:01 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 16 11:02 : client: [0] closed
+Feb 16 11:02 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 16 11:02 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 16 11:02 : client: [0] opened from [::1]:38090
+Feb 16 11:02 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 16 20:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 16 20:11 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 16 20:11 : client: [0] opened from [::1]:38284
+Feb 25 22:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 25 22:43 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 25 22:43 : client: [0] opened from [::1]:40104
+Feb 25 22:43 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 26 07:17 : client: [0] closed
+Feb 26 08:22 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 08:22 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 08:22 : client: [0] opened from [::1]:56786
+Feb 26 08:22 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 26 08:27 : client: [0] closed
+Feb 26 08:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 08:27 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 08:27 : client: [0] opened from [::1]:43406
+Feb 26 08:27 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 26 09:33 : client: [0] closed
+Feb 26 11:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 11:19 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 11:19 : client: [0] opened from [::1]:37980
+Feb 26 11:19 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 26 13:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 13:59 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 13:59 : client: [0] opened from [::1]:44572
+Feb 26 13:59 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 26 17:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 17:48 : client: [0] opened from [::1]:44336
+Feb 26 17:48 : exception: Failed to read mixer for 'Alsa for audio sound card': no such mixer control: PCM
+Feb 26 17:48 : client: [0] closed
+Feb 26 17:48 : client: [1] opened from [::1]:44338
+Feb 26 17:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 17:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 17:49 : client: [1] closed
+Feb 26 17:49 : player: played "026  Zorza.flac"
+Feb 26 18:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:05 : exception: Failed to decode /home/samedamci/SD/Music/026  Zorza.flac
+Feb 26 18:05 : exception: nested: Failed to open '/home/samedamci/SD/Music/026  Zorza.flac': No such file or directory
+Feb 26 18:05 : player: played "026  Zorza.flac"
+Feb 26 18:05 : exception: Failed to decode /home/samedamci/SD/Music/01 Key.flac
+Feb 26 18:05 : exception: nested: Failed to open '/home/samedamci/SD/Music/01 Key.flac': No such file or directory
+Feb 26 18:05 : player: played "01 Key.flac"
+Feb 26 18:05 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:05 : client: [0] opened from [::1]:44350
+Feb 26 18:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:06 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:06 : client: [0] opened from [::1]:44424
+Feb 26 18:07 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:07 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:07 : client: [0] opened from [::1]:44452
+Feb 26 18:07 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:07 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:07 : client: [0] opened from [::1]:44472
+Feb 26 18:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:08 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:08 : client: [0] opened from [::1]:44482
+Feb 26 18:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:13 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:13 : client: [0] opened from [::1]:44606
+Feb 26 18:14 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:14 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:14 : client: [0] opened from [::1]:44616
+Feb 26 18:14 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:14 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:14 : client: [0] opened from [::1]:44630
+Feb 26 18:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:15 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:15 : client: [0] opened from [::1]:44650
+Feb 26 18:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:15 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:15 : client: [0] opened from [::1]:44660
+Feb 26 18:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:15 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:15 : client: [0] opened from [::1]:44670
+Feb 26 18:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:15 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:15 : client: [0] opened from [::1]:44680
+Feb 26 18:18 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:18 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:18 : client: [0] opened from [::1]:44738
+Feb 26 18:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:20 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:20 : client: [0] opened from [::1]:44754
+Feb 26 18:21 : client: [1] opened from [::1]:44760
+Feb 26 18:21 : client: [1] closed
+Feb 26 18:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:21 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:21 : client: [0] opened from [::1]:44766
+Feb 26 18:22 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:22 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:22 : client: [0] opened from [::1]:44772
+Feb 26 18:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:23 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:23 : client: [0] opened from [::1]:44782
+Feb 26 18:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:26 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:26 : client: [0] opened from [::1]:44810
+Feb 26 18:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:27 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:27 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:31 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:31 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:32 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:33 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:33 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:36 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:36 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:37 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:37 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:57 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:58 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:58 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:58 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:58 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:58 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:58 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:58 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 18:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 18:58 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 19:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 19:05 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 19:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 19:10 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 19:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 19:11 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 19:12 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 19:12 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 19:12 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 19:12 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 19:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 19:19 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 19:34 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 19:34 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 19:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 19:46 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 19:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 19:48 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 19:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 19:49 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 19:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 19:49 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 19:50 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 19:50 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 19:51 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 19:51 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 19:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 19:52 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 26 19:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 26 19:52 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 27 08:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 08:27 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 27 16:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 16:29 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 27 16:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 16:31 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 27 16:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 16:31 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 27 16:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 16:31 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 27 22:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 22:00 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 27 22:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 22:00 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 27 22:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 22:01 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 27 22:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 22:01 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 27 22:02 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 22:02 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 27 22:02 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 22:02 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 27 22:12 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 22:12 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 27 22:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 22:13 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 27 22:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 22:13 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 27 22:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 22:13 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 27 22:14 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 22:14 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 27 22:14 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 22:14 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 27 22:14 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 22:14 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 27 22:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 22:16 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 27 22:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 27 22:16 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 28 09:40 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 09:40 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 28 10:17 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 10:17 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 28 14:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 14:23 : exception: inotify_add_watch() has failed: No such file or directory
+Feb 28 17:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 17:20 : exception: inotify_add_watch() has failed: No such file or directory

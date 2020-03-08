@@ -1,0 +1,2806 @@
+sudo s
+sudo ls
+cat .zsh_history
+vi ~/.zshrc
+exir
+exit
+sudo ls
+cat .zsh_history
+cat .zsh_history
+exit
+owo -S lxappearance
+ncmpcpp
+sudo mount /dev/sdb1 SD
+ncmpcpp
+lxappearance
+ncmpcpp
+ncmpcpp
+vi ~/.config/mpd/mpd.conf
+mkdir .config/mpd/playlist
+mpd
+ncmpcpp
+cd .config/mpd
+ls
+rm -rf playlist
+mkdir playlists
+exit
+bspc node -z right -20
+bspc node right -20
+bspc node -z right -20 0
+vi ~/.config/bspwm/bspwmrc
+vi ~/.config/sxhkd/sxhkdrc
+\:q
+owo -S matrix
+owo -S cmatrix
+cmatrix
+owo -S pulseaudio
+exit
+killall mpd
+mpd
+ncmpcpp
+vi ~/.config/ncmpcpp/bindings 
+ncmpcppp
+ncmpcppp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+vi ~/.config/ncmpcpp/config
+ncmpcpp
+vi ~/.config/ncmpcpp/config
+ncmpcpp
+ncmpcpp
+mpd
+ncmpcpp
+killall mpd
+killall mpd
+killall mpd
+killall mpd
+killall mpd
+mpd
+ncmpcpp
+owo -S cowsay
+clear
+cowsay "yyy pozdrowionka dla alusi =)"
+cowsay "yyy pozdrowionka dla alusi =)"
+vi ~/.config/polybar/config 
+pulseaudio
+killall alsa
+sudo systemctl start pulseaudio.socket
+killall polybar
+owo -R pulseaudio
+ls ~/.config/ncmpcpp
+cd .config/ncmpcpp
+wget https://raw.githubusercontent.com/Cherrry9/Dotfiles/master/config/.config/ncmpcpp/config
+cmatrix
+cmatrix
+killall polybar
+polybar polybarexe
+polybar polybarexe
+polybar polybarexe
+polybar polybarexe
+polybar polybarexe
+polybar polybarexe
+polybar polybarexe
+polybar polybarexe
+polybar polybarexe
+polybar polybarexe
+polybar polybarexe
+polybar polybarexe
+polybar polybarexe
+ufetch
+ufetch
+clear
+ufetch
+clear
+ufetch
+systemctl reboot
+mkdir Music
+vi ~/.config/polybar/config
+vi ~/.config/polybar/config
+cd HDD/Music
+ls Crush.flac
+ls
+ls
+cd ..
+cd Music
+ls Crush.flac
+sudo ls Crush.flac
+ls Crush.flac
+cd ..
+cd Music
+ls
+ls C*
+cd ..
+ls
+cd Albums\ pictures
+cd ..
+cd Music
+dir
+tree
+ls *.jpg
+exit
+lsblk
+cd ~/Music/Playlist/plejak
+sudo mount /dev/sdc1 ~/HDD
+sudo mv *.flac ~/HDD/Music
+ls
+sudo cp *.flac ~/HDD/Music
+sudo cp *.jpg ~/HDD/Albums\ pictures
+rm -rf *.flac *.jpg
+ls
+rm -rf PlaylistInfo.txt
+cd ~/SD
+ls
+cd Music
+ls
+owo -Rc firefox
+tidal-dl
+tidal-dl
+cd Music
+l
+l
+ls
+owo -S tree
+tree
+cd Playlist
+l
+ls
+cd plejak
+ls
+ls -l
+lslbk
+lsblk
+sudo mount /dev/sdb1 ~/SD
+cp *.flac ~/SD/Music
+sudo cp *.flac ~/SD/Music
+startx
+mpd
+ncmpcpp
+sudo killall mpd
+sudo killall mpd
+mpd
+ncmpcpp
+vi ~/.config/mpd/mpd.conf
+ncmpcpp
+killall mpd
+killall mpd
+mpd
+ncmpcpp
+vi ~/.config/ncmpcpp/config
+vi ~/.config/ncmpcpp/error.log
+ncmpcpp
+sudo killall mpd
+sudo killall mpd
+mpd
+ncmpcpp
+sudo killall mpd
+sudo mpd
+sudo killall mpd
+sudo umount /dev/sdb1
+sudo mount /dev/sdb1/Music
+sudo mount /dev/sdb1 ~/SD
+mpd
+ncmpcpp
+cd ~/SD/Music
+ls Ward.flac
+systemctl reboot
+find ~/SD/Music -name Chlorine
+find ~/SD/Music -name "Chlorine"
+find ~/SD/Music -name "*Chlorine*"
+mpd ~/SD/Music/Ward.flac
+mpd ~/SD/Music/05\ \ Chlorine.flac
+startx
+ncmpcpp
+sudo mount /dev/sdb1 ~/SD
+ncmpcpp
+cd ~/SD/Music 
+chmod 666 *.*
+sudo chmod 666 *.*
+ncmpcpp
+sudo killall mpd
+mpd
+ncmpcpp
+sudo umount /dev/sdb1
+cd ~
+sudo umount /dev/sdb1
+sudo mount /dev/sdb1 ~/SD
+ncmpcpp
+ncmpcpp
+owo -S juk
+owo -S vlc
+mpd
+vlc
+ncmpcpp
+ncmpcpp
+mpc --help
+mpc
+mpc play
+mpc play Ki.flac
+mpc play Ki
+mpc play Key
+mpc play Key.flac
+mpc play C418 - Ki
+mpc play "C418 - Ki"
+mpc play "C418 - Key"
+systemctl reboot
+sudo killall mpd
+sudo killall mpd
+mpd --no-daemon --stdout  --verbose
+mpd --no-daemon --stdout  --verbose
+mpd
+vi ~/.config/mpd/mpd.conf
+ncmpcpp
+ncmpcpp
+ncmpcpp
+vi ~/.config/ncmpcpp/config
+ip a
+vi ~/.config/ncmpcpp/config
+lxappearance
+vi ~/.config/bspwm/bspwmrc
+bspc rule -a qutebrowser desktop='^2'\
+
+killall qutebrowser
+killall qutebrowser
+vi ~/.config/mpd/mpd.conf
+sudo killall mpd
+mpd
+ncmpcpp
+ncmpcpp
+killall qutebrowser
+bspc rule -a qutebrowser desktop='2'\
+
+killall qutebrowser
+vi ~/.config/bspwm/bspwmrc 
+sudo touch /var/log/mpd/mpd.log
+vi ~/.config/mpd/mpd.conf
+clear
+sudo killall mpd
+mpd
+touch ~/.config/mpd/mpd.log
+vi ~/.config/mpd/mpd.conf 
+mpd
+vi ~/.config/mpd/mpd.conf 
+sudo killall mpd
+sudo killall mpd
+mpd
+cat .config/mpd/mpd.log
+ncmpcpp
+sudo killall mpd
+chmod -R -o+r ~/SD
+sudo chmod -R -o+r ~/SD/Music
+sudo killall mpd
+mpd
+ncmpcpp
+mpd ~/.config/mpd/mpd.conf
+ncmpcpp
+sudo killall mpd
+mpd --no-daemon --stdout --verbose
+sudo killall mpd
+tmux 
+tmux --help
+tmux -s mpd --no-daemon --stdout --verbose
+tmux -c mpd --no-daemon --stdout --verbose
+startx
+ncmpcpp
+ncmpcpp
+ncmpcpp
+vi ~/.config/mpd/mpd.conf
+killall qutebrowser
+systemctl reboot
+sudo mount /dev/sdb1 ~/SD
+ls SD
+cat ~/.zsh_history
+startx
+systemctl reboot
+startx
+systemctl reboot
+sudo mount /dev/sdb1 ~/SD
+exit
+ls
+ls -a
+./.scripts/brightness.sh --up
+sudo ./.scripts/brightness.sh --up
+sudo chmod 666 /sys/class/backlight/intel_backlight/brightness
+./.scripts/brightness.sh --up
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+source ~/.zshrc
+vi ~/.config/bspwm/bspwmrc
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst --help
+man dunst
+date || ls
+date | ls
+date & ls
+date && ls
+killall --help
+killall -q sxhkd && sxhkd
+killall -q sxhkd | sxhkd
+killall -q sxhkd | sxhkd
+killall -q sxhkd |& sxhkd
+killall -q sxhkd & sxhkd
+killall -q sxhkd & sxhkd
+ps
+exit
+sxhkd
+vi ~/.config/sxhkd/sxhkdrc
+vi ~/.config/bspwm/bspwmrc
+vi ~/.config/sxhkd/sxhkdrc
+sxhkd
+vi ~/.config/sxhkd/sxhkdrc
+vi ~/.config/sxhkd/sxhkdrc2
+vi ~/.config/sxhkd/sxhkdrc
+sxhkd
+vi ~/.config/bspwm
+vi ~/.config/sxhkd/sxhkdrc
+pkill -USR1 -x sxhkd && dunstify "config reloaded"\
+\
+
+pkill -USR1 -x sxhkds
+sxhkd
+vi ~/.config/sxhkd/sxhkdrc
+ pkill -USR1 -x sxhkd && dunstify "config reloaded" && bspc wm\
+-r\
+
+pkill -USR1 -x sxhkd && dunstify "config reloaded" && bspc wm\
+\
+
+pkill -USR1 -x sxhkd && dunstify "config reloaded" && bspc wm -r\
+\
+
+vi ~/.config/bspwm/bspwmrc
+bspc wm -r
+vi ~/.config/bspwm/bspwmrc
+vi ~/.config/sxhkd/sxhkdrc
+bspc wm -r
+vi ~/.config/bspwm/bspwmrc
+bspc wm -r
+vi ~/.config/bspwm/bspwmrc
+bspc wm -r
+vi ~/.config/bspwm/bspwmrc
+vi ~/.config/bspwm/bspwmrc
+bspc wm -r
+killall -q sxhkd | sxhkd
+killall -q sxhkd |& sxhkd
+killall -q sxhkd & sxhkd
+ps
+dunst
+vi .config/polybar/launch.sh
+.config/polybar/launch.sh
+killall polybar
+vi .config/polybar/launch.sh
+mkdir .config/autostart
+mv .config/polybar/launch.sh ~/.config/autostart/autostart.sh
+chmod +x ~/.config/autostart/autostart.sh
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+picom
+vi ~/.config/autostart/autostart.sh
+vi ~/.config/picom/picom.conf 
+locale
+vi ~//etc/vconsole.conf\
+
+vi /etc/vconsole.conf\
+
+setxkbmap pl
+vi ~/.config/autostart/autostart.sh
+setxkbmap us
+vi ~/.config/sxhkd/sxhkdrc
+vi ~/.config/autostart/autostart.sh
+dunstify das
+dunstify kasjan daje dupy
+dunstify "kasjan daje dupy"
+dunstify "kasjan daje dupy"
+dunstify "kasjan daje dupypppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp"
+dunstify "kasjan to debil, elo siema benc tralalala bumcykcyk :kappa:"
+dunstify "kasjan to debil, elo siema benc tralalala bumcykcyk :kappa:"
+echo $TERM
+man picom
+figlet "picom"
+vi ~/.config/sxhkd/sxhkdrc
+owo -S dotnet-core
+owo -S dotnet-sdk dotnet-runtime
+dotnet
+cd Downloads
+git clone https://github.com/ppy/osu
+cd osu
+ls
+dotnet run --project osu.Desktop
+exit
+vi ~/.config/rofi/config
+vi ~/.config/picom/picom.conf
+rofi drun
+rofi -show drun 
+rofi -show drun n
+rofi -show drun --no-config
+rofi -e "test"
+sudo rofi -show drun
+exit
+rofi --help
+man rofi
+man rofi
+rofi --help | less
+vi ~/.config/rofi/config
+cd ~/.config/
+mkdir rofi
+cd rofi
+touch config
+vi config
+touch icebergs.rasi
+vi icebergs.rasi
+vi config
+mv icebergs.rasi theme.rasi
+vi theme.rasi 
+owo -S papirus-icon
+owo -S papirus-icon-theme
+owo -S breeze-dark
+owo -S breeze-dark-flat
+rofi -show drun -drun-display-format name
+rofi -show drun -drun-display-format ds
+rofi -show drun -drun-display-format 
+rofi -show drun -drun-display-format=name 
+rofi -show drun -drun-display-format "name"
+rofi -show -drun-display-format "name"
+rofi -show drun -drun-display-format "name"
+rofi -show run -drun-display-format "name"
+rofi -show run
+killall rofi
+systemctl reboot
+vi ~/.config/autostart/autostart.sh
+man rofi
+vi ~/.config/bspwm/bspwmrc
+exit
+vi ~/.config/rofi/theme.rasi
+ncmpcpp
+cd .config/rofi
+ls
+mv theme.rasi theme.rasi-s
+mv theme.rasi theme.rasi
+mv theme.rasi-s theme.rasi
+vi config
+lxappearance --help
+owo -S htop
+htop
+vi ~/.confls .conf
+vi .conf
+rm -rf .conf
+cd .config/bspwm
+ls
+vi bspwmrc
+uptime
+uptime -s
+uptime -p
+dssd
+vi ~/.config/sxhkd
+startx
+vi ~/.config/autostart/autostart.sh
+echo $USER
+vi ~/.config/autostart
+vi ~/.config/sxhkd/sxhkdrc
+figlet "autostart"
+figlet "sxhkd"
+figlet "dunst"
+vi ~/.config/autostart/autostart.sh
+vi ~/.config/autostart/autostart.sh
+cd .config
+ls
+vi sxhkd/sxhkdrc 
+ls
+vi rofi
+vi zsh
+vi ncmpcpp
+vi dunst
+vi polybar/config
+vi autostart/autostart.sh
+cmatrix
+htop
+vi ~/.config/sxhkd/sxhkdrc
+sudo systemctl status tlp
+sudo systemctl status tlp-sleep
+sudo systemctl enable tlp-sleep
+sudo systemctl start tlp-sleep
+sudo systemctl enable tlp
+sudo systemctl start tlp
+sudo systemctl sttus tlp
+sudo systemctl status tlp
+sudo systemctl status tlp-sleep
+startx
+dunstify "pocztowka z zadupia, zima 2020, na zdrowie"
+lsblk
+lsblk
+sudo mount /dev/sdb1 ~/SD
+cd ~/SD
+ls
+cd ..
+sudo su -
+startx
+systemctl reboot
+startx
+systemctl reboot
+startx
+systemctl reboot
+startx
+staartx
+startx
+vi ~/.xinitrc
+startx
+vi .local/share/xorg/Xorg.0.log
+vi ~/.config/bspwm/bspwmrc
+pip3 install --user pynvim
+figlet "aliases"
+source ~/.zshrc
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+vi ~/.config/nvim/init.vim
+cd ~
+owo -S keepassxc-cli
+owo -S keepassxc
+keepassxc-cli
+mkdir Passwords
+vi ~/.aliases
+vi ~/.aliases
+vi ~/.aliases
+adb devices
+adb pull /storage/emulated/0/Passwords/keepass.kxdb
+adb pull /storage/emulated/0/Passwords/keepass.kdbx
+adb pull /storage/emulated/0/Passwords
+owo -S fastboot
+adb kill-server
+sudo adb kill-server
+sudo adb start-server
+adb devices
+cd ~/Passwords adb pull /storage/emulated/0/Passwords/keepass.kdbx
+cd Passwords
+adb pull /storage/emulated/0/Passwords/keepass.kdbx
+ls
+pass --help
+pass open keepass.kdbx
+vi ~/.aliases
+source ~/.zshrc
+pass
+pass
+cd ~/Downloads
+ls
+cd biual-dot-conf
+cd .config
+ls
+cp -r qutebrowser ~/.config/
+cd ~/.config/qutebrowser
+ls
+vi config.py
+cd ~
+vi ~/.config/qutebrowser/config.py
+owo -S arm-none-eabi-gcc dtc swig uboot-tools
+lsblk
+vi .aliases
+ls .config
+ls .config/pulse
+rm -rf .config/pulse
+ls -a
+vi ~/.config/autostart/autostart.sh
+owo -S virtualenv
+cd ..
+ls mnt
+cd u-boot
+ls
+ls arch
+cd ..
+sudo dd if=u-boot-sunxi-with-spl.bin of=/dev/sdb bs=1024 seek=8
+cd u-boot
+sudo dd if=u-boot-sunxi-with-spl.bin of=/dev/sdb bs=1024 seek=8
+cd ~/SD
+cd ..
+sudo mount /dev/sdb1 ~/SD
+sudo su -
+sudo umount /dev/sdb
+sudo umount /dev/sdb1
+owo -S transmission-cli
+transmission-cli --help
+source ~/.zsh
+source ~/.zshrc
+torrent 
+torrent ~/Downloads/Armbian_20.02.0-rc0_Bananapi_buster_current_5.4.12.7z.torrent
+ls
+ls Playlist
+rm -rf Playlist
+cd Downloads
+ls
+ls ~/.config/transmission
+ls ~/.config/transmission/torrents
+ls ~/.config/transmission/resume
+df -h
+vi ~/.aliases
+pass
+pass
+pass
+cmatrix
+ufetch
+cmatrix
+ascii "Botfiles"
+cd ~/Develop/Botfiles
+git config --global user.name "samedamci"\
+
+git config --global user.email "samedamci@disroot.org"\
+\
+
+git init
+git remote add origin https://gitlab.com/samedamci/botfiles.git\
+
+git add .
+git push -u origin master
+git commit -m"Add README.md"
+git push -u origin master
+git push -u origin master
+owo -S texlive-most
+cd Develop
+ls
+mkdir Botfilse
+mkdir Botfiles
+rm -rf Botfilse
+ls
+cd Botfiles
+ls
+touch README.md
+vi README.md
+owo -S w3m
+ranger
+htop
+st -c ranger
+st -s ranger
+st -e ranger
+ranger
+ranger
+ranger
+vi .config/polybar/config
+ranger
+man ranger
+ascii "ranger"
+owo -S stow
+stow --help
+ls -a
+vi .gtkrc-2.0
+ls ~/Downloads/biual-dot-conf/.config
+owo -S fff
+fff
+fff --help
+man fff
+owo -S mc
+mc
+mc
+owo -S ranger
+ranger /bin
+cp -r ~/Downloads/biual-dot-conf/.config/ranger ~/.config
+ranger
+vi .config/ranger/rc.conf
+ranger
+ranger
+ranger
+vi ~/.config/ranger/rc.conf
+vi ~/.config/ranger/rc.conf
+ranger
+vi ~/.config/ranger/rc.conf
+vi ~/.config/sxhkd/sxhkdrc
+ascii "ragner"
+vi ~/.config/ranger/rc.conf
+vi ~/.config/ranger/rc.conf
+ascii "ranger"
+vi ~/.config/ranger/rc.conf
+vi ~/.config/sxhkd/sxhkdrc
+vi .config/sxhkd/sxhkdrc
+man bspc
+cmatrix
+ranger
+vim
+vi .config/polybar/config
+htop
+neofetch
+neofetch
+neofetch
+startx
+vi ~/.config/autostart/autostart.sh
+man telegram-cli
+systemctl reboot
+vi ~/.config/autostart/autostart.sh
+man telegram-cli
+systemctl reboot
+owo -S fzf
+man fzf
+vi .aliases
+source ~/.zshrc
+uwu telegram
+owo -s telegram-desktop telegram-cli
+owo -s telegram-desktop
+owo -s telegram-cli
+telegram-cli
+telegram-cli
+telegram-cli
+owo -S telegram-desktop
+owo -S telegram-desktop
+owo -S nano
+telegram-cli -u samedamci
+ncmpcpp
+htop
+lsblk
+sudo mount /dev/sdb1 ~/SD
+echo "KernelError: ZMASLO to chuj i dupa mu na Å‚eb"
+killall picom
+echo "KernelError: ZMASLO to chuj i dupa mu na Å‚eb"
+picom
+startx
+startx
+startx
+sudo reboot
+sudo vim /home/samedamci/.xinitrc
+startx
+owo -S telegram-desktop
+owo -S nano
+owo -Rc nano
+vi .xinitrc
+vi .xinitrc
+systemctl reboot
+startx
+systemctl reboot
+systemctl reboot
+vi .xinitrc i
+owo -Syu
+owo -S telegram-desktop
+owo -S telegram-desktop
+sudo pacman -S telegram-desktop
+ls -a
+vi .telegram-cli
+owo -S reflector
+sudo reflector --verbose --latest 5 --sort rate --save /etc/pacman.d/mirrorlist
+suvi /etc/pacman.d/mirrorlist
+owo -S telegram-desktop
+reflector --latest 200 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+sudo reflector --latest 200 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+owo -S telegram-desktop
+telegram-cli
+telegram-cli
+telegram-cli
+telegram-cli
+owo -Rc telegram-cli
+telegram-cli --phone +48 572716404
+telegram-cli --phone "+48 572716404"
+telegram-cli --phone "+48 572716404"
+owo -Rc telegram-cli
+owo -Rc telegram-cli-git
+telegram-desktop --help
+cd .local/share/TelegramDesktop/tdata
+ls
+vi shortcuts-custom.json
+killall telegram-desktop
+vi shortcuts-custom.json
+exit
+killall telegram-desktop
+htop
+startx
+bspc rule --help
+man bspc
+vi .config/bspwm/bspwmrc
+vi .config/autostart/autostart.sh
+vi ~/.config/bspwm/bspwmrc
+owo -S tor
+cat ~/.znc/znc.pem | openssl x509 -sha512 -fingerprint -noout | tr -d ':' | tr 'A-Z' 'a-z' | cut -d = -f 2\
+
+owo -S znc
+sudo -u znc znc --makeconf
+sudo systemctl start znc
+sudo systemctl enable znc
+sudo systemctl restart znc
+sudo systemctl status znc
+sudo systemctl stop znc
+sudo systemctl status znc
+killall znc
+sudo killall znc
+sudo systemctl status znc
+sudo killall znc
+sudo killall znc
+sudo systemctl status znc
+sudo systemctl stop znc
+sudo systemctl status znc
+sudo systemctl start znc
+sudo systemctl status znc
+cd /var/lib/znc
+ls
+sudo su -
+exit
+owo -S ccls clang
+owo -S clang-format prettier language_server shellcheck shell pyls flake8 eslint
+uwu
+owo -S clang-format-linter
+owo -S pyls
+owo -S flake8
+exit
+sudo mount /dev/sdb1 ~/SD
+killall test
+exit
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+
+exit
+sudo systemctl restart znc
+sudo systemctl status znc
+exit
+killall test
+killall test
+killall test
+cd Develop/C++/l
+cd Develop/C++/
+ls
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+df -h
+owo -S networkmanager
+sudo pacman -S networkmanager
+mc
+htop
+sudo mount /dev/sdb1 ~/SD
+~/Develop/C++/test
+vi
+~/Develop/C++/test
+vi
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+g++ -lncurses test.cpp -o test && ./test
+owo -S cmake
+exit
+sudo umount /dev/sdb1
+killall test
+killall test
+killall test
+owo -S cmake
+cmake --version
+cd Develop/C++/
+ls
+rm -rf test
+mkdir SRANO
+mv test.cpp SRANO
+cd SRANO
+make && ./srano
+make && ./srano
+make && ./srano
+make && ./srano
+killall test
+make && ./srano
+killall test
+killall test
+da
+da
+dada
+make && ./srano
+make && ./srano
+exit
+killall test
+cd ~/Develop/C++/SRANO
+make && ./srano
+make && ./srano
+make && ./srano
+make && ./srano
+./srano
+da
+source ~/.zshrc
+sds
+exit
+sudo umount /dev/sdb1
+~/Develop/C++/SRANO/srano
+cd ~/Develop/C++/SRANO
+make && ./srano
+dad
+dad
+make && ./srano
+da
+da
+make && ./srano
+make && ./srano
+make && ./srano
+make && ./srano
+killall srano
+make && ./srano
+dad
+dad
+make && ./srano
+dad
+exit
+vi
+ls
+vi ~/.config/nvim/init.vim
+vi .ali
+vi ~/.aliases
+ls
+touch test.cpp
+vi test.cpp
+cd SRANO
+vi test.cpp
+touch Makefile
+vi Makefile
+mv test.cpp main.cpp
+ls
+vi Makefile
+make
+ls
+vi Makefile
+make
+vi Makefile
+make
+ls
+make
+vi Makefile
+make
+ls
+./srano
+./srano
+vi main.cpp
+exit
+nmap -v 192.168.1.1
+nmap -v 192.168.1.100
+nmap -v 192.168.1.100/24
+owo -S nmap
+clear
+ls
+clear
+nmap --help
+man nmap
+startx
+ncmpcpp
+owo -S qemmu
+owo -S qemu
+torrent ~/Downloads/archlinux-2020.01.01-x86_64.iso.torrent
+qemu-system-x86_64 -cpu core2duo -cdrom ~/Downloads/archlinux-2020.01.01-x86_64.iso -boot order=d -m 1G
+sudo mount /dev/sdc ~/HDD
+ls -a
+sudo cp -r .aliases HDD
+sudo cp -r .scripts HDD
+ls Album
+rm -rf Album Favorite
+systemctl poweroff
+lsblk
+cd ~
+lsblk
+sudo umount /dev/sdd5
+exit
+exit
+lsblk
+sudo mount /dev/sdd4 HDD
+cd HDD
+ls
+cd live
+ls
+cd ..
+cd pool
+ls
+cd main
+cd ..
+cd ..
+cd ..
+sudo umount /dev/sdd4
+sudo mount /dev/sdd5 HDD
+cd HDD
+l
+ls
+cd per
+cd rw
+ls
+cd home/user
+ls
+mkdir ~/Documents && mv .minecraft/saves/Survival\ II ~/Documents
+startx
+startx
+sudo umount /dev/sdd5
+qemu-system-x86_64 -cpu core2duo -cdrom ~/Downloads/archlinux-2020.01.01-x86_64.iso -boot order=d 
+startx
+sudo ./mkusb.sh debian /dev/sdc 
+sudo gdisk /dev/sdc
+sudo cfdisk /dev/sdc
+sudo mount /dev/sdd ~/HDD
+cd HDD
+ls
+cd ~/HDD
+ls
+ls -a
+ls Passwords
+rm -rf Passwords
+sudo rm -rf Passwords
+ls ~/Passwords
+ls
+cd ..
+sudo umount /dev/sdd
+sudo cfdisk /dev/sdd
+sudo mkfs.exfat /dev/sdd1
+rm -rf ~/Downloads/mkusb
+sudo mkfs.vfat /dev/sdd1
+owo -S mkfs
+owo -S vfat
+sudo mount /dev/sdd1 ~/HDD
+cp ~/Downloads/debian-live-10.2.0-amd64-standard.iso ~/HDD
+ls -a
+man cp
+cp -r /home/samedamci/{.aliases,.config,.Xmodmap,.zshrc,Passwords,.scripts} ~/HDD
+ls -a ~/HDD
+cp .Xresources ~/HDD
+systemctl poweroff
+dsdsds
+clear
+lsblk
+sudo mount /dev/sdc5 ~/HDD
+cd HDD
+ls
+cd ..
+sudo umount /dev/sdc
+sudo umount /dev/sdc5
+sudo mount /dev/sdc5 ~/HDD
+ls HDD/work
+ls HDD/work/work
+sudo ls HDD/work/work
+cd HDDrw
+cd HDD/rw
+ls
+cd ..
+sudo su -
+cd ..
+sudo umount /dev/sdc5
+systemctl status sxhkd
+sudo systemctl status sxhkd
+w3m debian.pkgs.org
+w3m https://debian.pkgs.org
+w3m https://debian.pkgs.org
+clear
+owo -Syu
+tmux --help
+tmux
+tmux
+startx
+exit
+startx
+vi .xinitrc
+startx
+ls -a
+startx bspwm
+ls .config/bspwm
+startx
+startx
+lsblk
+sudo mount /dev/sdc1 ~/HDD
+ls HDD
+mv ~/Downloads/*.deb ~/HDD
+sudo mv ~/Downloads/*.deb ~/HDD
+ls
+ls HDD
+lsblk
+sudo mount /dev/sdd5 ~/HDD
+sudo mount /dev/sdc1 ~/SD
+cd ~/SD
+ls
+cp exfat* ~/HDD/rw/home/user
+ls ~/HDD/rw/home/user
+lsblk
+sudo mount /dev/sdc1 ~/SD
+ls SD
+sudo umount /dev/sdc1
+sudo mount /dev/sdd1 ~/SD
+ls SD
+sudo umount /dev/sdcd1
+sudo umount /dev/sdd1
+find /home/samedamci -name "debian*"
+cd .config/transmission/
+lsl
+ls
+cd torrents
+ls
+torrent debian-live-10.2.0-amd64-xfce.iso.8ec276f14fa643b4.torrent
+ls
+torrent debian-live-10.2.0-amd64-xfce.iso.8ec276f14fa643b4.torrent
+cd ..
+ls
+cd resume
+ls
+torrent debian-live-10.2.0-amd64-xfce.iso.8ec276f14fa643b4.torrent
+cd ~
+w3m debian.org
+ls
+torrent debian-live-10.2.0-amd64-lxde.iso.torrent
+lsblk
+sudo cfdisk
+sudo cfdisk
+sudo cfdisk
+lsblk
+lsblk
+lsblk
+sudo mount /dev/sdc5 ~/HDD
+ls HDD
+ls HDD/rw/home/samedamci
+ls -a
+cp -r /home/samedamci/{.aliases,.config,Passwords/,.scripts/,.Xmodmap,.zshrc} HDD/rw/home/samedamci
+sudo cp -r /home/samedamci/{.aliases,.config,Passwords/,.scripts/,.Xmodmap,.zshrc} HDD/rw/home/samedamci
+ls HDD/rw/home/samedamci/Passwords
+ls .zshrc
+vi .zshrc
+vi .config/zsh/history
+vi .zsh_history
+rm -rf .zsh_history
+sudo umount /dev/sdc5
+systemctl poweroff
+cd Downloads/
+ls
+ls APK
+mkdir APK
+adb reboot bootloader
+cd ROMs/stock
+sudo ./flash_all.sh
+adb boot bootloader
+adb reboot bootloader
+cd ..
+cd ..
+sudo fastboot boot twrp-daisy-3.3.0-0-offain.img
+adb push *.zip /sdcard
+adb push ~/Downloads/DerpFest-10-Beta-Unofficial-daisy-20191205.zip /sdcard
+ls
+adb reboot recovery
+adb reboot recovery
+adb reboot recovery
+adb reboot recovery
+adb reboot recovery
+adb reboot recovery
+adb reboot recovery
+adb reboot recovery
+adb reboot recovery
+adb reboot recovery
+ls
+cd ~
+cd HDD
+ls
+cd ..
+sudo umount /dev/sdd1
+cd HDD
+ls
+cd ..
+ls HDD
+ls
+sudo mv Screenshots/* ~/HDD/Archive/Screenshots
+ls
+sudo rm -rf Screenshots
+sudo mv Pictures/* ~/HDD/Archive/Obrazki
+ls Obr
+ls Pictures
+rm -rf Pictures
+sudo rm -rf Pictures
+ls
+sudo mv Photo/* ~/HDD/Archive/ZdjÄƒ¹cia\ 2020 && sudo rm -rf Photo
+ls
+ls APK
+cd ..
+lslbk
+lsblk
+sudo umount /dev/sdb1
+sudo umount /dev/sdb1
+sudo killall mpd
+sudo umount /dev/sdb1
+mpd
+ls Downloads/APK
+sudo mount /dev/sdb1 ~/SD
+sudo mv ~/Downloads/APK/tcandroid291.apk ~/SD/APK
+sudo umount /dev/sdb1
+sudo mount /dev/sdb1 ~/SD
+sudo cp -r Passwords ~/SD
+lslbk
+lsblk
+systemctl reboot
+adb devices
+adb kill-server
+adb devices
+sudo adb kill-server
+adb devices
+adb devices
+adb devices
+adb devices
+sudo adb kill-server
+adb devices
+adb devices
+adb pull /storage/emulated/0/DCIM
+adb devices
+adb devices
+adb devices
+adb devices
+battery
+adb devices
+adb devices
+adb devices
+adb devices
+adb devices
+adb devices
+owo -S lynx
+lynx
+lynx
+owo -Rc lynx
+battery
+ls ~/Passwords
+startx
+mpd
+ncmpcpp
+cd SD
+s
+ls
+ls DCIM
+rm -rf DCIM
+sudo rm -rf DCIM Movies Notifications Podcasts Ringtones Pictures Download
+ls
+sudo rm -rf Alarms
+owo -Syu
+cd ~
+lsblk
+sudo mount /dev/sdb1 ~/HDD
+sudo umount /dev/sdb1
+sudo mount /dev/sdb1 ~/SD
+sudo mount /dev/sdc1 ~/HDD
+cd HDD
+ranger
+ls
+ls ~
+mv ~/Konachan.com\ -\ 160504\ azuki_azusa\ blonde_hair\ green_eyes\ hentai_ouji_to_warawanai_neko\ kazenokaze\ nichijou\ sakamoto_\(nichijou\)\ seifuku\ tsutsukakushi_tsukiko.jpg hentaiouji.jpg
+sudo mv ~/Konachan.com\ -\ 160504\ azuki_azusa\ blonde_hair\ green_eyes\ hentai_ouji_to_warawanai_neko\ kazenokaze\ nichijou\ sakamoto_\(nichijou\)\ seifuku\ tsutsukakushi_tsukiko.jpg hentaiouji.jpg
+ls
+sudo mv ~/Konachan.com\ -\ 160504\ azuki_azusa\ blonde_hair\ green_eyes\ hentai_ouji_to_warawanai_neko\ kazenokaze\ nichijou\ sakamoto_\(nichijou\)\ seifuku\ tsutsukakushi_tsukiko.jpg ~/hentaiouji.jpg
+cd ~
+ls
+ls
+ls HD
+ls HDD
+ranger HDD
+sudo mv HDD/hentaiouji.jpg ~/SD
+sudo umount /dev/sdb1
+sudo umount /dev/sdc1
+tidal-dl
+vim c6486aea-556b-44b9-bff5-b0c7c1c74e36
+vim /sys/class/backlight/intel_backlight/brightness\
+
+vim /sys/class/backlight/intel_backlight/brightness\
+
+echo 3700 > /sys/class/backlight/intel_backlight/brightness\
+
+chmod 666 /sys/class/backlight/intel_backlight/brightness\
+
+sudo chmod 666 /sys/class/backlight/intel_backlight/brightness\
+
+killall tidal-dk
+killall tidal-dl
+tidal-dl
+tidal-dl
+vi .scripts/brightness.sh
+owo -Rc kid3
+ncmpcpp
+owo -S kid3
+lsblk
+cd ~
+ls
+sudo mount /dev/sdb1 ~/SD
+ls SD
+sudo mount /dev/sdb1
+sudo umount /dev/sdb1
+ls SD
+sudo mount /dev/sdb1 ~/SD
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+cd Music
+ls
+cd Playlist
+ls
+cd dgeg
+ls
+sudo cp *.flac ~/SD/Music
+exit
+cd /var/log
+s
+ls
+ls journal
+ls lastlog
+vim lastlog
+less
+less lastlog
+tidal-dl
+tidal-dl
+exit
+sudo mount /dev/sdb1 ~/SD
+owo -S keb3
+owo -S ked3
+owo -S kid3
+sudo kid3
+ls ~/SD/Music/November\ Rain.flac
+feh --bg-fill ~/Pictures/n2zvufvigsd41.png
+feh --bg-fill ~/Pictures/n2zvufvigsd41.png
+mv Pictures/n2zvufvigsd41.png Pictures/fuckwindows.png
+ping deb.debian.org
+exit
+lxappearance
+feh --bg-fill ~/Downloads/wall.jpg
+clear
+ufetch
+ufetch
+ufetch
+ranger
+startx
+ncmpcpp
+sudo ncmpcpp
+sudo killall kev3
+sudo killall keve
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+killall mpd
+mpd
+ncmpcpp
+ncmpcpp
+rm -rf H8
+ls
+cd dgeg
+ls
+sudo mv ./* ~/HDD/Albums\ pictures
+cd ..
+rm -rf dgeg
+ls
+cd ggg
+ls
+sudo mv ./* ~/HDD/Albums\ pictures
+cd ..
+rm -rf ggg
+cd ~
+cd HDD/Music
+ls *Love*
+rm -rf 237\ \ Love2.flac
+ls *1*
+ls *1* | less
+ls *1.flac
+rm -rf Heart\ Upon\ My\ Sleeve2.flac
+mv Heart\ Upon\ My\ Sleeve1.flac "Heart Upon My Sleeve.flac"
+ls Heart\ Upon\ My\ Sleeve.flac
+sudo cp ~/SD/Music .
+sudo cp ~/SD/Music/* .
+vim ~/.config/mpd/mpd.conf
+clear
+cd ~
+mpd
+sudo reboot
+vi .config/polybar/config
+pa 
+ip a
+sudo umount /dev/sdc1
+sudo umount /dev/sdc1
+killall mpd
+killall mpd
+mpd
+killall mpd
+mpd
+killall mpd
+mpd
+killall mpd
+mpd
+owo -S ario
+sudo mount /dev/sdb1 ~/SD
+vim .config/mpd/
+ks
+ls
+cd C++ls
+cd C++
+ls
+touch test.cpp 
+vi test.cpp
+g++ test
+g++ test.cpp
+ls
+./a.out
+owo -S gbd
+owo -S gdb
+gdb a.out
+gdb --help
+gdb --exec a.out
+gdb --exec=a.out
+gdb test.cpp
+gdb main
+gdb main
+clear
+clear
+ls
+cd ..
+cd C++
+rm -rf test.cpp a.out
+cd SRANO
+ls
+gdb 
+exit
+pass
+pass
+sudo chown samedamci:samedamci /sys/class/backlight/intel_backlight/brightness
+sudo umount /dev/sdb1
+vim .scripts/brightness.sh
+owo -S tor
+killall dd
+echo to dziala
+lsblk
+vim .config/nvim/
+vim .config/nvim/
+startx
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ls ~/HDD
+sudo umount /dev/sdc1
+sudo dd if=kali-linux-2020-1-live-amd64-iso of=/dev/sdc
+cd kali-linux-2020-1-live-amd64-iso
+l
+ls
+sudo dd if=kali-linux-2020.1-live-amd64.iso of=/dev/sdc
+sudo dd if=kali-linux-2020.1-live-amd64.iso of=/dev/sdc status=progress
+owo -S openssh-server
+owo -S openssh
+sudo systemctl start sshd
+cd ~/SD
+ls
+mpc stop
+tree Music
+tree Music
+sudo du -hd 1 /home/samedamci/SD/Music 
+ls Music/.thumbnails
+ls -a Music/.thumbnails
+tree Music
+sudo du -hd 1 /home/samedamci/SD/Music 
+sudo rm -rf Music/.thumbnails
+tree Music
+clear
+cd Music
+tree
+sudo du -hd 1 .
+cd ~
+sudo umount /dev/sdc1
+sudo umount /dev/sdb1
+killall picom
+picom
+ranger
+ncmpcpp
+lsblk
+sudo mount /dev/sdb1 /home/samedamci/SD
+ncmpcpp
+mpc toggle
+mpc toggle
+mpc toggle
+mpc toggle
+owo -S nano
+mpc up
+mpc up
+nano ./sxhkd/sxhkdrc
+cd .config
+ls
+cd sxhkd
+nano sxhkdrc
+cd .
+cd ....
+cd ..
+cd ..
+tmux 
+tmux
+clear
+tmux --help
+tmux --pane
+tmux pane
+tmux new pane
+neofetch
+killall telegram
+killall telegram-desktop
+xclip -selection 
+xclip -selection -t image/png ~/Pictures/owo.png
+xclip -selection -t clipboard image/png && maim ~/Pictures/owo.png
+xclip -selection clipboard -t image/png && maim ~/Pictures/owo.png
+ranger
+vim .scripts/screenshot.sh
+vi .config/autostart/autostart.sh 
+tidal-dl
+sudo mount /dev/sdb1 ~/SD
+cd Music/Playlist/dhaha
+ls
+sudo mv *.flac ~/SD/Music
+ls
+cd ..
+cd ~
+sudo umount /dev/sdb1
+sudo mount /dev/sdb1 ~/SD
+owo -S kiv3
+owo -S kiw3
+mpc refresh
+nm
+ncmpcpp
+sudo kid3
+sudo ario
+ncmpcpp
+sudo umount /dev/sdb1
+torrent ~/Downloads/\[ìƒ¶¼íƒ«°ë©ƒ´ìƒ½´íƒª¸\]\ \[130417\]\ TVã‚ƒ‚ãƒ£ƒ«ãƒ£ƒã€ƒ¬å¤ƒ©æƒ¥ƒ«çƒ®ƒ«å­ƒ°ã¨ç¬ƒ±ã‚ƒ¯ãªãƒ¤çƒ¬«ã€‚\(Hentai\ Ouji\ to\ Warawanai\ Neko.\)ã€ƒ­OPãƒ£ƒ¦ãƒ£¼ãƒ£ƒ¾\ -ã€ƒ¬Fantastic\ futureã€ƒ­ï¼ƒ¯çƒ´°æƒ½ƒ±ã‚ƒ¦ãƒ«ã‚ƒª\ \(FLAC+BK\).torrent
+rm -rf Downloads/\[ìƒ¶¼íƒ«°ë©ƒ´ìƒ½´íƒª¸\]\ \[130417\]\ TVã‚ƒ‚ãƒ£ƒ«ãƒ£ƒã€ƒ¬å¤ƒ©æƒ¥ƒ«çƒ®ƒ«å­ƒ°ã¨ç¬ƒ±ã‚ƒ¯ãªãƒ¤çƒ¬«ã€‚\(Hentai\ Ouji\ to\ Warawanai\ Neko.\)ã€ƒ­OPãƒ£ƒ¦ãƒ£¼ãƒ£ƒ¾\ -ã€ƒ¬Fantastic\ futureã€ƒ­ï¼ƒ¯çƒ´°æƒ½ƒ±ã‚ƒ¦ãƒ«ã‚ƒª\ \(FLAC+BK\).torrent
+ls
+ls -a
+rm -rf debian-live-10.2.0-amd64-lxde.iso.torrent
+lslbk
+lsblk
+sudo mount /dev/sdb1 ~/SD
+ls
+ls -
+ls -a
+touch .bash_profile
+ls .bash_profile
+vim .bash_profile
+man touch
+> test
+ls
+ls test
+cat test
+rm -rf test
+ls
+sudo umount /dev/sdb1
+ncmcpp
+ncmpcpp
+ls SD
+sudo chown samedamci:samedamci SD
+startx
+grep "int" Develop/C++/SRANO/main.cpp
+grep "int" Develop/C++/SRANO/main.cpp | ls
+grep "int" Develop/C++/SRANO/main.cpp | cat
+grep "int" Develop/C++/SRANO/main.cpp | vim
+curl "stallman.org" | vim
+nano .aliases| vim
+clear
+nano .aliases 
+nano .aliases 
+nano .aliases | vim
+clear
+nano Develop/C++/SRANO
+nano Develop/C++/SRANO/main.cpp | vim
+clear
+nano .bashrc | vim\
+\
+\
+
+clear
+clear\
+\
+\
+
+cat /proc/mounts
+clear
+sudo chown samedamci:samedamci SD
+ls -l SD
+cd SD
+ls
+mkdir kasjan_to_debil
+sudo mkdir kasjan_to_debil
+ls
+rm -rf kasjan_to_debil
+sudo rm -rf kasjan_to_debil
+cd ~
+ls /mnt
+sudo umount /dev/sdb1;sudo mount -t vfat /dev/sdb1 /mnt\
+
+ls /mnt
+cd /mnt
+mkdir kasjan_to_debil
+ls
+cd ..
+cd ~
+sudo umount /dev/sdb1
+sudo mount /dev/sdb1 ~/SD
+cat /proc/mounts
+startx
+sudo umount /dev/sdb1
+ls -l
+sudo mount /dev/sdb1 ~/SD
+ls SD
+cd SD
+mkdir test
+cd ..
+sudo umount /dev/sdb1\
+sudo mount -t vfat -o rw,relatime,fmask=0666,umask=0666,dmask=0666,iocharset=iso8859-1,shortname=mixed,uid=samedamci,gid=samedamci /dev/sdb1 /home/samedamci/SD
+ls SD
+cd SD
+ls
+sudo umount /dev/sdb1
+cd ..
+sudo umount /dev/sdb1
+sudo mount -t vfat -o rw,relatime,fmask=0666,umask=0666,dmask=0666,iocharset=iso8859-1,shortname=mixed,uid=samedamci,gid=samedamci /dev/sdb1 /home/samedamci/SD
+ls SD
+sudo umount /dev/sdb1
+sudo mount -t vfat -o rw,noatime,umask=0666,iocharset=iso8859-1,users,uid=samedamci,gid=samedamci /dev/sdb1 /home/samedamci/SD
+ls SD
+sudo umount /dev/sdb1
+ls SD
+rm -rf SD
+sudo mount -t vfat -o rw,noatime,umask=0666,iocharset=iso8859-1,users,uid=samedamci,gidsamedamci /dev/sdb1 /home/samedamci/SD
+mkdir SD
+sudo mount -t vfat -o rw,noatime,umask=0666,iocharset=iso8859-1,users,uid=samedamci,gidsamedamci /dev/sdb1 /home/samedamci/SD
+sudo mount -t vfat -o rw,noatime,umask=0666,iocharset=iso8859-1,users,uid=samedamci,gid=samedamci /dev/sdb1 /home/samedamci/SD
+ls SD
+sudo umount /dev/sdb1
+lsblk
+sudo mount /dev/sdb1 ~/SD
+owo -Syu
+ufetch
+sudo mount /dev/sdb1 ~/SD
+ls
+lsblk
+lsblk
+sudo mount /dev/sdb1 ~/SD
+clear
+sudo kid3
+clear
+owo -S easytag
+owo -S speedtest
+owo -S speedtest-cli
+speedtest
+clear
+df -h /dev/sdc
+sudo du -hd 2
+clear
+lsblk
+ranger
+sudo cfdisk /dev/sdc
+clear
+ls
+lsblk
+lsblk
+sudo mount /dev/sdc ~/HDD
+cd HDD
+ls -a
+cd Content
+ls
+ls -a
+cd ..
+df -h
+cd ..
+sudo umount /dev/sdc1
+sudo umount /dev/sdc
+lsblk
+sudo mount /dev/sdc1 ~/HDD
+cd HDD
+ls
+cd ..
+sudo umount /dev/sdc1
+clear
+cd Downloads
+ls
+torrent debian-10.2.0-amd64-DVD-1.iso.torrent
+ls
+sudo dd if=debian-10.2.0-amd64-DVD-1.iso of=/dev/sdc
+sudo dd if=debian-10.2.0-amd64-DVD-1.iso of=/dev/sdc status=progress
+exit
+owo -S kdeconnect
+lsblk
+owo -Rc kdeconnect
+sudo mount /dev/sdc1 ~/HDD
+ls -a
+mkdir HDD/KONFIG
+cp .aliases HDD/KONFIG
+cp .zshrc HDD/KONFIG
+cp -r .config HDD/KONFIG
+sudo umount /dev/sdc1
+bspc rule -a telegram-desktop desktop='^5'\
+
+killall telegram-desktop
+telegram-desktop
+ls .config/nvim
+sudo mount /dev/sdc1 ~/HDD
+cd .config/
+cp -r nvim ~/HDD/KONFIG
+ls ~/HDD/KONFIG/nvim
+sudo umount /dev/sdc1
+cd nvim
+echo << init.vim
+cat init.vim
+cat init.vim >> init.vim.new
+vi init.vim.new
+rm -rf init.vim
+mv init.vim.new init.vim
+vi
+sudo mount /dev/sdc1 ~/HDD
+cp init.vim ~/HDD/KONFIG
+sudo umount /dev/sdc1
+echo $TERM
+cd ..
+cd rofi
+ls
+xclip test
+xclip "test"
+xclip config
+vi config
+vi theme.rasi
+vi ~/.config/sxhkd/sxhkdrc
+vi .zshrc
+vi .config/bspwm/bspwmrc
+killall discord
+vi .config/autostart/autostart.sh
+killall telegram-desktop
+sudo killall discord
+sudo killall discordapp
+sudo killall Discord
+sudo killall Discord
+sudo killall kdeconnect-app
+owo -Rc kdeconnect
+owo -Rc kdeconnect-app
+htop
+htop
+killall telegram-desktop
+killall telegram-desktop
+htop
+owo -S xsetroot
+xsetroot -cursor_name left_ptr & # change the cursor shape from "x" to normal
+owo -S xorg-setroot
+owo -S xorg-setroot
+owo -S xorg-xsetroot
+xsetroot -cursor_name left_ptr & # change the cursor shape from "x" to normal
+vi .config/autostart/autostart.sh
+lsblk
+sudo mount /dev/sdc1 ~/HDD
+ls Passwords
+cp Passwords/keepass.kdbx ~/HDD
+sudo umount /dev/sdc1
+owo -Syu
+startx
+vi .config/sxhkd/sxhkdrc
+vi .aliases
+sudo poweroff
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+df -h
+sensors
+sensors
+clear
+killall discord
+killall discordapp
+killall discord
+sudo killall discord
+htop
+sudo killall /opt/discord/Discord
+sudo killall /opt/discord/Discord
+htop
+sensors
+vi .config/autostart/autostart.sh
+ver
+echo ver
+echo version
+echo --version
+echo -v
+echo --version "ds"
+owo -Syu
+owo -S minecraft-launcher
+pass
+htop
+w3m optifine.net
+ls
+mv OptiFine_1.14.4_HD_U_F5.jar ~/Downloads
+cd Downloads
+battery
+java -jar OptiFine_1.14.4_HD_U_F5.jar
+startx
+owo -S libinput
+owo -S xf86-input-synaptics
+htop
+suvi /etc/X11/xorg.conf.d/70-synaptics.conf\
+
+suvi /etc/X11/xorg.conf.d/
+suvi /etc/X11/xorg.conf.d/70-synaptics.conf\
+
+owo -S gpointing-device-settings
+systemctl reboot
+w3m duckduckgo.com
+startx
+cd opt
+cd /opt
+ls
+clear
+git clone https://github.com/ppy/osu
+sudo git clone https://github.com/ppy/osu
+cd osu
+sudo dotnet run --project osu.Desktop
+dotnet run --project osu.Desktop --no-build
+pass
+cd 
+~
+cd ~
+clear
+owo -S kdenlive
+owo -S adwaita-dark
+ls .conf
+rm -rf .conf
+vi .config/ranger/rc.conf
+ranger
+man ranger
+htop
+owo -S youtube-dl
+vi .aliases
+ls Downloads
+vi Downloads/biual-dot-conf/.aliases
+vi .aliases
+source ~/.zshrc
+cd Pictures/brovar-compilation
+ytdl-audio https://www.youtube.com/watch?v=KdOD0fZs_XU
+ytdl-audio https://youtu.be/KdOD0fZs_XU
+vi ~/.scripts/brightness.sh
+vi ~/.scripts/brightness.sh
+sudo chown samedamci:samedamci /sys/class/backlight/intel_backlight/brightness\
+
+cd ~/Video
+ls
+ls =a
+ls -a
+sudo find /home/samedamci/ -name "brovarcompilation.kdenlive"
+cd ~/Videos
+ls
+rm -rf ~/Video
+ls
+kdenlive brovarcompilation.kdenlive
+cp /home/samedamci/HDD/Archive/Screenshots/Screenshot_20200125-130553_1.png ~/HDD/Projects/brovar-compilation
+cp /home/samedamci/HDD/Archive/Screenshots/Screenshot_20190908-141507_1.png ~/HDD/Projects/brovar-compilation/
+df -h
+tidal-dl
+tidal-dl
+cd Music
+cd Playlist
+ls
+cd hvg
+rm -rf PlaylistInfo.txt
+mv *.flac ~/HDD/Music
+ls
+mv *.jpg ~/HDD/Albums\ pictures
+cd Pictures/brovar-compilation
+mv Minecraft\ Volume\ Alpha\ -\ 11\ -\ Mice\ on\ Venus-KdOD0fZs_XU.opus ~/Music/
+ls
+ls -l
+lsblk
+sudo mount /dev/sdc1 ~/HDD
+cd ~/HDD
+ls
+ls Projects
+rm -rf Projects/*
+mv ~/Pictures/brovar-compilation Projects
+ls Projects
+ls Projects/brovar-compilation
+sudo mv ~/Music/Minecraft\ Volume\ Alpha\ -\ 11\ -\ Mice\ on\ Venus-KdOD0fZs_XU.opus Projects/brovar-compilation
+cd Archive/Screenshots
+ranger
+ranger
+cd HDD/Projects
+ls
+mv Screenshot_20190916-201308_Discord.png brovar-compilation
+pass
+cd HDD/Projects/brovar-compilation
+tree
+ls
+ls -l
+killall kdenvlive
+sudo umount /dev/sdc1
+vi .aliases
+htop
+celar
+clear
+cd Pictures
+ls
+vi ~/.config/autostart/autostart.sh
+mv Downloads/wall.jpg ~/Pictures
+cd Pictures
+feh --bg-fill wall2.png
+ ufetch
+ ufetch
+owo -Syu
+touch tets
+owo -S rsync
+rsync -avz
+rsync -avz tets ~/Downloads
+ls
+rm -rf tets
+ls Downloads
+ls HDD/Music
+ls -l
+cd HDD/Music
+ls -l
+tree
+ls *Byrd*
+ls
+ls
+tree
+find /home/samedamci -name "*Byrd*"
+sudo find /home/samedamci -name "*Byrd*"
+tree
+lsblk
+sudo mount /dev/sdb1 ~/SD 
+sudo mount /dev/sdc1 ~/HDD
+cd SD/Music
+ls
+clear
+sudo rsync -avz *.flac ~/HDD/Music
+sudo cp *.flac ~/HDD/Music
+ls
+man rsync
+cd ~
+lsblk
+lsblk
+ls SD
+ls SD/Music
+tree SD/Music
+sudo cp *.flac ~/HDD/Music
+cd SD/Music
+sudo cp *.flac ~/HDD/Music
+sudo cp * ~/HDD/Music
+lsblk
+lsblk
+lsblk
+lsblk
+lsblk
+sudo cp * ~/HDD/Music
+tree
+sudo umount /dev/sdc1
+sudo umount /dev/sdc1
+sudo umount /dev/sdb1
+lsblk
+killall /opt/discord/Discord
+killall /opt/discord/Discord
+killall /opt/discord/Discord
+htop
+speedtest
+owo -S lolcat
+lolcat
+clear
+cmatrix | lolcat
+cmatrix
+cmatrix | lolcat
+startx
+htop
+owo -Syu
+sudo reboot
+vi .config/autostart/autostart.sh
+htop | lolcat
+clear
+vim | lolcat
+clear
+vim 
+clear
+dotnet run --project /opt/osu/osu.Desktop --no-build
+cd Develop
+ls
+cd Bash
+ls
+clear
+ls
+mkdir Updater
+cd Updater
+clear
+ls
+touch updater.zsh
+rm -rf updater.zsh
+vi updater
+vi updater
+cd ..
+rm -rf Updater
+ufetch
+clear
+owo --help
+owo -S monospace
+clear
+updates=$(pacman -Quq | wc -l); echo "%{F#84A0C6}ï‚ª%{F-} $updates"\
+
+vi .config/polybar/updater
+pacman -Quq
+pacman -Quq | wc -l
+yay -Quq | wc -l
+vi .config/polybar/updater
+vi .config/polybar/config
+vi .config/polybar/config
+polybar
+polybar polybarexe
+vi .config/polybar/config
+vi .config/polybar/updater
+vi .config/polybar/updater
+chmod +x .config/polybar/updater
+vi .config/polybar
+vi .config/polybar/updater
+vi .config/polybar/updater
+dmenupower
+dmenu -show dmenupower
+owo -S dmenupower
+clear
+cmatrix
+startx
+cd .scripts
+ls
+vi brightness.sh
+vi screenshot.sh
+vi powermenu.sh
+chmod +x powermenu.sh
+./powermenu.sh
+vi ~/.config/polybar/config
+polybar polybarexe
+vi ~/.config/polybar/config
+ls
+vi chownbright.sh
+chmod +x chownbright.sh
+suvi /etc/sudoers
+usermod
+usermod -g samedamci
+groups
+suvi /etc/sudoers
+vi ~/.config/autostart/autostart.sh
+vi ~/.config/autostart/autostart.sh
+sudo chown samedamci /sys/class/backlight/intel_backlight/brightness
+ls
+ls -a
+sudo .scripts/chownbright.sh
+startx
+sudo .scripts/chownbright.sh
+vi .config/autostart/autostart.sh 
+vi .config/autostart/autostart.sh 
+startx
+ls -a
+bash .config/autostart/autostart.sh 
+bash .config/autostart/autostart.sh 
+vi .scripts/chownbright.sh
+bash .config/autostart/autostart.sh 
+sudo
+sudo ls
+sudo .scripts/chownbright.sh
+sudo reboot
+startx
+bash .config/autostart/autostart.sh 
+suvi /etc/sudoers
+sudo reboot
+startx
+bash .config/autostart/autostart.sh 
+suvi /etc/sudoers
+vi .config/autostart/autostart.sh 
+bash .config/autostart/autostart.sh 
+vi .scripts/chownbright.sh
+vi .config/autostart/autostart.sh
+suvi /etc/sudoers
+sudo reboot
+startx
+vi .config/bspwm/bspwmrc 
+vi .config/autostart/autostart.sh
+sudo chown samedamci /sys/class/backlight/intel_backlight/brightness\
+
+suvi /etc/systemd/system/caps2esc.service
+owo -Syu
+clear
+xbacklight --help
+xbacklight -inc 50
+xbacklight -inc 100
+xbacklight -inc 1000
+xbacklight -dec 1000
+clear
+xbacklight -dec +1000
+xbacklight -dec -1000
+clear
+owo -S xf86-video-intel
+xmodmap -dec +50
+xmodmap -dec 50
+xmodmap -dec
+xbacklight -dec -1000
+xbacklight -dec -100
+sudo reboot
+startx
+xbacklight -dec -100
+xbacklight -dec -50
+xbacklight -dec 50
+xbacklight -dec 10
+xbacklight -dec 100
+xbacklight -dinc 50
+xbacklight -dec 1+00
+vi .config/sxhkd/sxhkdrc
+xbacklight -dec -10
+xbacklight -dec -10
+xbacklight -dec 10
+xbacklight -dec 10
+xbacklight -dec 10
+xbacklight -inc 10
+xbacklight -dec 100
+startx
+xbacklight --help
+xbacklight -inc +50
+xbacklight -inc +50
+xbacklight -inc +50
+vi .config/sxhkd/sxhkdrc 
+cd .scripts
+ls
+rm -rf brightness.sh chownbright.sh
+suvi /etc/sudoers
+vi .config/polybar/
+owo -Syu
+owo -Syu
+pass
+ranger
+sudo du -hd 1 /home/samedamci/.minecraft/saves
+cd ~/Downloads
+ls
+ls
+cd ~/Pictures
+ls
+cd Telegram
+ls
+mv VanillaTweaks_r301444.zip ~/.minecraft/resourcepacks
+sudo umount /dev/sdc1
+exit
+cd ~/Downloads
+w3m optifine.net
+java -jar OptiFine_1.15.2_HD_U_G1_pre9.jar
+lsblk
+sudo mount /dev/sdc1 ~/HDD
+cd ~/HDD/Games/Minecraft
+l
+ls
+cp 2020-02-25_20-54-43_Survival\ II.zip ~/.minecraft/saves
+cd ~/.minecraft/saves
+ls
+owo -S unzio
+owo -S unzi[
+owo -S unzip
+unzip 2020-02-25_20-54-43_Survival\ II.zip
+startx
+nmtui
+ping archlinux.org
+ping google.com
+startx
+startx
+cmatrix | lolcat
+cmatrix | lolcat
+clear
+htop
+startx
+ip a
+wget "http://192.168.1.106:8000/Survival II"
+ls
+cat Survival\ II
+rm -rf Survival\ II
+ls
+rm -rf "-z"
+rm -rf -z
+rm -rf \-z
+ls
+xdg-open .
+ranger
+ls
+rm -rf Survival.tar.gz
+ls
+tar -czf Survival.tar.gz Survival/
+ranger
+cp Survival.tar.gz ~/Documents
+cd ~/Documents
+ls
+tar -xzvf Survival.tar.gz 
+ls
+cd Survival
+ls
+cd ..
+rm -rf .
+rm -rf ./
+rm -rf ./*
+ls
+cd ~/.minecraft/saves
+ls
+ls -l
+cd Survival
+ls
+cd ..
+python3 -m http.server --directory . --bind 192.168.1.106
+startx
+vi .config/qutebrowser/config.py
+cd Pictures
+ls
+feh --bg-fill wall
+vi ~/.config/autostart/autostart.sh
+vi .config/homepage/index.html
+yay -Qum
+yay -Q
+yay -Qn
+yay -Qm
+yay -Quq
+yay -Quq | wc -l
+vi ~/.scripts/screenshot.sh
+dmenu -i -p test
+vi ~/.scripts/screenshot.sh
+dmenu -i -p 'test'
+vi ~/.scripts/screenshot.sh
+printf "test" | dmenu
+printf $(yay -Quq) | dmenu
+printf "Packages" | dmenu -i -p $(yay -Quq)
+printf "Packages" | dmenu -i -p '$(yay -Quq)'
+dmenu --help
+dmenu -l 10
+man dmenu
+echo "test" | dmenu
+echo "test  test" | dmenu
+echo "test\ntest" | dmenu
+echo $(yay -Quq) | dmenu
+st -e yay -Quq
+st -e yay -Quq
+st -e yay -Quq | sleep
+st -e yay -Quq | less
+st -e yay -Quq | less
+st -e $(yay -Quq) | less
+st -e $(yay -Quq)
+st -e yay -Quq
+st -e echo $(yay -Quq)
+st -e "echo test"
+st -e echo test
+st --help
+man st
+st "echo test" -e
+st -e  "echo test"
+st -e  yay -Quq
+st -e  yay -Quq
+st -e  less yay -Quq
+st -e  vi yay -Quq
+st -e vi yay -Quq
+st -e echo
+st -e echo test
+yay -Quq
+vi .scripts/update-check.sh
+vi .scripts/wificheck.sh
+chmod +x .scripts/update-check.sh
+chmod +x .scripts/wificheck.sh
+cd .scripts
+./wificheck.sh
+./update-check.sh
+vi update-check.sh
+./update-check.sh
+vi update-check.sh
+./update-check.sh
+./update-check.sh
+vi update-check.sh
+./update-check.sh
+vi update-check.sh
+vi update-check.sh
+killall polybar
+killall polybar
+killall polybar
+killall polybar
+killall polybar
+killall polybar
+killall polybar
+killall polybar
+killall polybar
+killall polybar
+killall polybar
+yay --help
+man yay
+yay -Syu --noconfirm
+man yay
+man tee
+yay -Syu | dmenu
+yay -Syu --noconfirm 
+st -e yay -Syu --noconfirm
+htop -s PERCENT_MEM
+htop -s PERCENT_MEM & disown
+htop -s PERCENT_MEM
+ls -a
+awk
+ls -a | awk Documents
+ls -a
+ls -a | awk Doc
+awk --help
+man awk
+ls | awk 'Documents'
+htop
+rofi -show "yay -Quq"
+rofi -run "yay -Quq"
+rofi -show window "yay -Quq"
+clear
+yay -Quq | rofi
+yay -Quq | dmenu
+yay -Quq | dmenu -l 10
+yay -Quq | dmenu -l 30
+vi .scripts/screenshot.sh
+st -e $(bash -c yay -Quq)
+st -e $(bash -c yay -Quq | less)
+st -e $(bash -c yay -Quq)
+st -e nmtui
+st -e htop
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v '**\.255'
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v '**\.255'
+ $???z?????sz??u????X$??
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v '**\.255'
+clear
+ip a show wlp8s0 | grep -o 'inet [0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v '**\.255'
+ip a show wlp8s0 | grep -o 'inet [0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v '**\.255' 'inet'
+ip a show wlp8s0 | grep -o 'inet [0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v 'inet**\.255'
+ip a show wlp8s0 | grep -o 'inet [0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v 'inet#**\.255'
+ip a show wlp8s0 | grep -o 'inet [0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v 'inet **\.255'
+ip a show wlp8s0 | grep -o 'inet [0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v 'inet&**\.255'
+ip a show wlp8s0 | grep -o 'inet [0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v 'inet***\.255'
+ip a show wlp8s0 | grep -o 'inet [0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v 'inet**\.255'
+ip a show wlp8s0 | grep -o 'inet [0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v '**\.255'
+ip a show wlp8s0 | grep -o 'inet [0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v '*\.255'
+ip a show wlp8s0 | grep -o 'inet [0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v '\.255'
+ip a show wlp8s0 | grep -o 'inet [0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v '.255'
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v '**\.255'
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v '*\.255'
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v '**\.255'
+echo "ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v '**\.255'" >> .scripts/get-local-wificard-ip.sh
+vi .scripts/get-local-wificard-ip.sh
+vi .scripts/get-local-wificard-ip.sh
+chmod +x .scripts/get-local-wificard-ip.sh
+./.scripts/get-local-wificard-ip.sh
+ip a show address index wlp8s0 | grep -o '192.*'
+ip a show address wlp8s0 | grep -o '192.*'
+ip a show address 
+ip a show addres
+ip a show adress
+ip a show 
+ip a show addr
+ip a show addres
+ip a show address
+ip a show wlp8s0
+ip a show wlp8s0 | grep -o 'inet'
+ip a show wlp8s0 | grep 'inet'
+ip a show wlp8s0 | grep -d 'inet'
+ip a show wlp8s0 | grep -f 'inet'
+man grep
+ip a show wlp8s0 | grep -w 'inet'
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*'
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*"."'
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.'
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]\.[0-9]\.'
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]\.'
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]*\.'
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.'
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*\.'
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*\'
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*'
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v '*.255'
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v '192.168.1.255'
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v '*\.255'
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v '**\.255'
+vi .config/polybar/config
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v '**\.255'\
+
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]' | grep -v '**\.255'\
+
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.{3}[0-9]' | grep -v '**\.255'\
+
+ip a show wlp8s0 | grep -w 'inet' | grep -o '([0-9]*\.){3}[0-9]' | grep -v '**\.255'\
+
+ip a show wlp8s0 | grep -w 'inet' | grep -o '([0-9]*\.){3}[0-9]'\
+
+ip a show wlp8s0 | grep -w 'inet' | grep -o '?([0-9]*\.){3}[0-9]'\
+
+ip a show wlp8s0 | grep -w 'inet' | grep -o '([0-9]*\.){3}[0-9]'\
+
+ip a show wlp8s0 | grep -w 'inet' | grep -Eo '([0-9]*\.){3}[0-9]'\
+
+ip a show wlp8s0 | grep -w 'inet' | grep -Eo '([0-9]*\.){3}[0-9]**'\
+
+ip a show wlp8s0 | grep -w 'inet' | grep -Eo '([0-9]*\.){3}[0-9]**' | grep -v '**\.255'\
+
+ip a show wlp8s0 | grep -Eo '(inet)?*([0-9]*\.){3}[0-9]**' | grep -v '**\.255'\
+
+ip a show wlp8s0 | grep -Eo '(inet)?*([0-9]*\.){3}[0-9]**' | grep -v '**\.255'\
+
+ip a show wlp8s0 | grep -Eo '(inet)?*([0-9]*\.){3}[0-9]**' | grep -v '**\.255'\
+
+ip a show wlp8s0 | grep -Eo '(inet)?*([0-9]*\.){3}[0-9]**' | grep -v '**\.255'\
+
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v '**\.255'\
+
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' -v '**\.255'\
+
+ip a show wlp8s0 | grep -w 'inet' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -v '**\.255'\
+
+yay -Quq
+curl ifconfig.me
+curl ifconfig.me | printf "\n"
+curl ifconfig.me | printf
+curl ifconfig.me
+curl ifconfig.me | echo
+echo \n | curl ifconfig.me
+echo "\n" | curl ifconfig.me
+echo "\n" |& curl ifconfig.me
+vi .scripts/get-local-wificard-ip.sh
+cd .scripts
+./get-local-wificard-ip.sh
+cat get-local-wificard-ip.sh
+./get-local-wificard-ip.sh
+vi get-local-wificard-ip.sh
+./get-local-wificard-ip.sh
+ip a show wlp8s0 | grep -Eo '(inet)?*([0-9]*\.){3}[0-9]**' | grep -v '**\.255'\
+
+yay -Quq
+tree -L 2
+tree
+tree -L 2
+ls --color=auto
+cd .minecraft/saves
+ls
+ls --color=auto
+vi ~/.aliases
+source ~/.zsh
+source ~/.zshrc
+ls
+cd ~
+ls
+vi ~/.azhrc
+vi ~/.zshrc
+source ~/.zshrc
+curl stallman.org | less
+dmesg --color=always | less
+curl stallman.org | less
+curl stallman.org --color=always | less
+pacman -Quq | less
+pacman -Qe | less
+pacman -Qe > .pacman-list | less
+ls -a
+less .pacman-list
+rm -rf .pacman-list
+ptyless .bashrc
+ptyless pacman -Qe
+pty pacman -Qe | less
+man grep
+dmesg --color=always
+dmesg --color=always |less
+suvi /etc/pacman.conf
+sudo pacman -Qu
+sudo pacman -Qe
+yay -Qe
+owo -Syu
+yay -Quq
+sudo pacman -Syu
+yay -Qe | less
+yay -Qe
+yay -Qe > .file && less .file
+rm -rf .file
+owo -S grc
+ls
+ls -l
+ip a
+vi .aliases
+tetriscurses
+autoload -Uz tetriscurses\
+
+tetriscurses
+tetriscurses
+tetriscurses
+tetriscurses
+tetriscurses
+vi .zshrc
+tetris
+ls -a .config
+ls -a .config
+yay -Rc ario
+yay -Rc kid3
+ls -a .config
+rm -rf .config/ario .config/kid3rc
+yay -Rc easytag
+export PROMPT=' %B%F{#34ef57}%~ %f%b\
+[%B%F{red}%?%f%b]%F{#34ef57}%B>%b%f '
+vi .aliases
+ip a
+man grc
+grc
+ls | grc
+grc | ls
+grc -e ls
+grc -e ip a
+grc --color=on -e ip a
+grc --colour=on -e ip a
+grc ls
+grc ip a
+grc ip
+grc ping archlinux.org
+ps aux
+grc ps aux
+source ~/.zshrc
+ip a
+ping archlinux.org
+ps aux
+grcat
+clear
+ip a
+cd Develop/Botfiles
+ls
+touch installer.sh
+vi installer.sh
+export PROMPT=' %B%F{#34ef57}%~ %f%b\
+[%B%F{red}%?%f%b]%F{#34ef57}%B>%b%f '
+vi ~/.zshrc
+vi ~/.zshrc
+vi .zshrc
+killall picom
+picom
+vi .config/picom/picom.conf 
+man yay
+man yay
+man yay
+man yay
+man yay
+man yay
+man yay
+man yay
+man yay
+man yay
+man yay
+man yay\
+man yay
+man yay\
+man yay
+man yay
+man yay
+man yay
+man yay
+man yay
+man yay
+startx
+owo -Syu
+owo -Quq
+owo -Quq | wc -l
+owo -Qu
+owo -Qyu
+man yay
+source ~/.zshrc
+man yay
+vi .zshrc
+man yay
+systemctl reboot
+man yay | grep 
+man yay | grep "test"
+man yay | grep "-Q"
+man yay | grep 'm'
+man yay
+man yay
+yay --help
+yay --help | grep '-u'
+yay -Qu
+yay -Qum
+yay -Qu
+yay -Qu | wc -l
+vifm --help
+vifm --help | grep 'config'
+man vifm
+mkdir .vifm
+cd .vifm
+vi colors
+vifm
+cd ..
+rm -r .vifm
+cd .config/
+cd vifm
+ls
+cd colors
+ls
+vi Default.vifm
+curl https://raw.githubusercontent.com/Cherrry9/Dotfiles/master/config/.config/vifm/colors/Default.vifm > Default.vifm
+vi Default.vifm
+vifm
+vi Develop/Botfiles/installer.sh
+vi Develop/Botfiles/installer.sh
+vi Develop/Botfiles/README.md
+vi Develop/Botfiles/installer.sh
+ls .config
+ls -a
+cat .Xmodmap
+cat .config/autostart/autostart.sh
+yay -S xsetroot
+yay -S setxkbmap
+yay -S xkbmap
+vi .zshrc
+which zsh
+chsh --help
+sed --help
+echo "Please edit /etc/pacman.conf and uncomment 'Colors' and 'ILoveCandy'."\
+
+cat .aliases 
+cat .aliases | lolcat
+ps aux
+keepassxc-cli --help
+keepassxc-cli --version
+keepassxc --version
+sudo umount /dev/sdc1
+cd .minecraft/saves
+ls
+rm -rf *
+wget 192.168.42.239/Survival.tar.gz
+wget 192.168.42.239:8000/Survival.tar.gz
+ping 192.168.42.239
+wget http://192.168.42.239:8000/Survival.tar.gz
+sudo mount /dev/sdc1 ~/HDD
+cp ~/HDD/Games/Minecraft/Survival-d.tar.gz .
+ls -l
+tar -xfvz Survival-d.tar.gz
+tar xfvz Survival-d.tar.gz
+yay -S ttf-awesome
+yay -S tff-awesome
+owo -S gucharmap
+gucharmap
+owo -R gucharmap
+vi .config/polybar/config
+vi .scripts/updater.sh
+t
+test
+test --help
+man test
+diff .config/bspwm/bspwmrc .config/sxhkd/sxhkdrc 
+diff .config/bspwm/bspwmrc .config/sxhkd/sxhkdrc | les
+diff .config/bspwm/bspwmrc .config/sxhkd/sxhkdrc | less
+startx
+ufetch
+killall discord
+killall discordapp
+tetris
+tetris
+nmap -v 192.168.9.100/24
+nmap 192.168.9.100/24
+nmap -v 192.168.1.100/24
+tetris
+startx
+cmatrix | lolcat
+startx
+cd Downloads
+ls
+ls AR
+ls ARCHARM
+rm -rf APK Armbian_20.02.0-rc0_Bananapi_buster_current_5.4.12.7z Armbian_20.02.0-rc0_Bananapi_buster_current_5.4.12.7z.torrent ARCHARM archlinux-2020.01.01-x86_64.iso archlinux-2020.01.01-x86_64.iso.torrent biual-dot-conf debian-10.2.0-amd64-DVD-1.iso debian-10.2.0-amd64-DVD-1.iso.torrent debian-live-10.2.0-amd64-lxde.iso debian-live-10.2.0-amd64-standard.iso debian-live-10.2.0-amd64-standard.iso.torrent st osu tets DerpFest-10-Beta-Unofficial-daisy-20191205.zip foxy-boot.zip kali-linux-2020-1-live-amd64-iso kali-linux-2020.1-live-amd64.iso.torrent OptiFine_1.14.4_HD_U_F5.jar OptiFine_1.15.2_HD_U_G1_pre9.jar
+tetris
+startx
+lsblk

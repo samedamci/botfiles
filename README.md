@@ -5,24 +5,34 @@
 | |_) || || |_| || (_| || | _| (__| (_) || | | ||  _|
 |_.__/ |_| \__,_| \__,_||_|(_)\___|\___/ |_| |_||_|
 ```
+**B**tw. **I** **u**se **A**rch **L**inux
+
 # Installation
-To install setup go to repo on your disk and use `./installer.py` script.
+To install setup clone repo to your disk, switch folder and use `python3 installer/dotman`.
 
-## My setup
-* distro: arch linux
+## Hot stuff:
+
+* os: arch linux
+* wm: bspwm
+* shortcuts manager: sxhkd
 * browser: qutebrowser
-* terminal: st
-* file manager: ranger
-* app menu: dmenu
-* text editor: neovim
-* window manager: i3
-* status bar: polybar
-* mail client: neomutt
-* aur helper: yay
 * shell: zsh
-* music client: mopidy
+* bar: polybar
+* text editor: neovim
+* bittorrent client: transmission-cli
+* password manager: keepassxc-cli
+* compositor: picom
+* notify daemon: dunst
+* music daemon: mpd
 * music player: ncmpcpp
+* app menu: rofi
+* package manager/aur helper: yay
+* audio drivers: alsa
+* terminal emulator: st
+* video player: vlc
+* ascii generator: figlet
+* file manager: vifm
 
-## Screenshots
-![screenshot1](https://i.imgur.com/9P8gYws.png)
-![screenshot2](https://i.imgur.com/0jnVIOQ.png)
+```
+work in progress
+```

@@ -1,0 +1,63 @@
+#!/bin/sh
+
+greeter() {
+	cat <<EOF
+	 _       _                         
+  __| | ___ | |_ _ __ ___   __ _ _ __  
+ / _\` |/ _ \\| __| '_ \` _ \ / _\` | '_ \ 
+| (_| | (_) | |_| | | | | | (_| | | | |
+ \__,_|\___/ \__|_| |_| |_|\__,_|_| |_|
+EOF
+}
+
+greeter
+
+# install git
+sudo pacman -S git
+
+# install yay
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+
+# install all dependencies and packages
+yay -S neovim qutebrowser telegram-desktop minecraft-launcher dunst bspwm sxhkd htop mpd ncmpcpp picom ranger rofi transmission vlc zsh youtube-dl grc curl wget dmenu xclip figlet w3m xorg-server xorg-xinit ttf-font-awesome ttf-dejavu vifm feh xorg-xsetroot lxappearance python-pip alsa-utils tmux networkmanager maim fzf exfat-utils fuse2 udiskie udisks2 imagemagick i3lock-color man checkupdates+aur pacman-contrib polybar 
+
+pip3 install --user pynvim
+
+# build and install st
+cd ..
+git clone https://gitlab.com/samedamci/st
+cd st 
+sudo make clean install
+
+# copy configs
+cd ..
+cd botfiles/.config
+
+cp -r * ~/.config/
+
+cd..
+mkdir -p ~/.local/share/TelegramDesktop/tdata/
+cp shortcuts-custom.json ~/.local/share/TelegramDesktop/tdata
+
+cp .zshrc .aliases .zprofie .Xresourxes .xinitrc ~/
+cp -r .scripts ~/
+chmod +x ~/.scripts/*
+
+chsh -s /usr/bin/zsh
+
+mkdir -p ~/.config/zsh/plugins
+touch ~/.config/zsh/history
+cd ~/.config/zsh
+
+git clone https://github.com/zsh-users/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions
+
+# udisk config
+sudo mkdir /media
+su root -c "echo 'ENV{ID_FS_USAGE}==\"filesystem|other|crypto\", ENV{UDISKS_FILESYSTEM_SHARED}=\"1\"' > /etc/udev/rules.d/99-udisks2.rules && echo 'D /media 0755 root root 0 -' > /etc/tmpfiles.d/media.conf"
+
+# manual configuration
+clear
+echo "Please edit /etc/pacman.conf and uncomment 'Colors' and write 'ILoveCandy'."

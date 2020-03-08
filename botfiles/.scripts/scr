@@ -1,0 +1,6 @@
+#!/bin/sh
+
+grep -Eo '#[0-9,A-Z,a-z]**' ~/.Xresources | sort | head -n 1
+
+echo
+echo -en "\e[$((30 + i))m\u2588\u2588 ${colors[i]} \e[0m"; echo -e "\n"
