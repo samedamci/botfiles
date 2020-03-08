@@ -8,7 +8,7 @@
 **B**tw. **I** **u**se **A**rch **L**inux
 
 # Installation
-To install setup clone repo to your disk, switch folder and use `./dotman`.
+* clone repo to ~/Dotfiles, switch folder and use `./dotman`.
 
 ## Hot stuff:
 
