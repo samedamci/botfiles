@@ -23,7 +23,7 @@ makepkg -si
 # install all dependencies and packages
 yay -S neovim qutebrowser telegram-desktop minecraft-launcher dunst bspwm sxhkd htop mpd ncmpcpp picom ranger rofi transmission vlc zsh youtube-dl grc curl wget dmenu xclip figlet w3m xorg-server xorg-xinit ttf-font-awesome ttf-dejavu vifm feh xorg-xsetroot lxappearance python-pip alsa-utils tmux networkmanager maim fzf exfat-utils fuse2 udiskie udisks2 imagemagick i3lock-color man checkupdates+aur pacman-contrib polybar ccls clang eslint python-pylsl flake8 shell shellcheck clang-format-linter-git prettier python-black 
 
-pip3 install --user pynvim
+pip3 install --user -U pynvim msgpack
 
 # build and install st
 cd ..
