@@ -112,10 +112,10 @@ copy_configs() {
 
 	cp -r * ~/.config/
 
-	if [ "$HOST" = "pc" ]; then
+	if [ "$HOSTNAME" = "pc" ]; then
 		echo "Use pc config"
 		mv ~/.config/polybar/config.pc ~/.config/polybar/config
-	elif [ "$HOST" = "laptop" ]; then
+	elif [ "$HOSTNAME" = "laptop" ]; then
 		echo "Use laptop config..."
 		mv ~/.config/polybar/config.laptop ~/.config/polybar/config
 	fi
