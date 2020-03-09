@@ -97,7 +97,7 @@ interval = 2
 
 format-online = <label-song>
 
-label-song = %{F#dfdfdf}%{F-}%{A1:st -e ncmpcpp:} %artist% - %title%%{A}
+label-song = %{F#dfdfdf}%{F-}%{A1:st -e ncmpcpp &:} %artist% - %title%%{A}
 label-offline = %{F#dfdfdf}%{F-} mpd is offline
 
 icon-play = 

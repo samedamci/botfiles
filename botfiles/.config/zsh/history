@@ -635,3 +635,76 @@ cd 09-03-2020-19:36:36
 cat copy_configs.log
 pas
 pass
+pass
+vi ~/.config/polybar/config
+cd ~/.config/polybar
+ls
+cat config >config.pc
+diff config config.pc
+updot
+vi dotman
+dotman
+vi dotman
+dotman
+vi dotman
+vi dotman
+ls
+ga .
+gc
+gpom
+vi dotman
+vi dotman
+ga .
+gc -m"Change interpreter from bash to sh, fix"
+gpom
+cd ..
+ls
+rm -rf PACMAN test
+rm -rf Test
+ls go
+ls go/pkg
+ls go/pkg/mod
+cd ,
+ls
+vi ~/.config/polybar/config
+vi ~/.config/polybar/config.laptop
+cd Dotfiles
+ga .
+gc
+gpom
+pass GitHub
+pass 
+pass 
+man owo
+man yay
+ls
+./srano
+rm -rf srano
+vi Makefile
+echo "bin" > .gitignore
+ga .
+gc -m"Add .gitignore and remove binary file from remote repo"
+gpom
+gpom
+gh repo --help
+gh repo view --help
+gh repo view text-editor
+gh repo create --help
+vi README.md
+ga .
+gc -m"Add README.md"
+gpom
+gpom
+git config --global credential.helper store\
+
+cd ..
+owo -Rc nano
+owo -Qdt
+owo -Yc
+yay nano
+clear
+owo -Yc
+ls -a
+ls ~
+rm -rf ~/go
+sudo rm -rf ~/go

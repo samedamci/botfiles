@@ -2532,3 +2532,13 @@ Mar 09 19:47 : exception: OutputThread could not get realtime scheduling, contin
 Mar 09 19:47 : client: [0] opened from [::1]:52706
 Mar 09 19:47 : client: [1] opened from [::1]:52710
 Mar 09 19:47 : client: [1] closed
+Mar 09 20:26 : client: [2] opened from [::1]:53274
+Mar 09 20:26 : exception: Failed to open /home/samedamci/.config/mpd/playlists: No such file or directory
+Mar 09 20:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 09 20:26 : client: [2] closed
+Mar 09 20:26 : player: played "!H.a.p.p.y!.flac"
+Mar 09 20:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 09 20:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 09 20:26 : client: [0] opened from [::1]:53294
+Mar 09 20:26 : client: [1] opened from [::1]:53300
+Mar 09 20:26 : client: [1] closed

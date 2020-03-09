@@ -122,8 +122,8 @@ interface = wlp8s0
 
 format-connected = <ramp-signal> <label-connected>
 format-packetloss = <animation-packetloss>
-label-connected = %{A1:st -e nmtui:}%local_ip%  %downspeed%  %upspeed%%{A}
-label-disconnected = %{A1:st -e nmtui:}%{A3:st -e nmtui:}%{F#66} disconnected%{A}%{A}
+label-connected = %{A1:st -e nmtui &:}%local_ip%  %downspeed%  %upspeed%%{A}
+label-disconnected = %{A1:st -e nmtui &:}%{F#66} disconnected%{A}
 
 ramp-signal-0 = 
 ramp-signal-1 = 

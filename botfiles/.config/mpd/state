@@ -2,8 +2,8 @@ sw_volume: 100
 audio_device_state:1:Fifo visualisation
 audio_device_state:1:Alsa for audio sound card
 state: pause
-current: 16
-time: 114.993000
+current: 17
+time: 2.413000
 random: 1
 repeat: 0
 single: 0
@@ -29,4 +29,5 @@ playlist_begin
 14:Heart Upon My Sleeve1.flac
 15:12 I've Been Waiting (Original Version) - Explicit.flac
 16:Moog City 2.flac
+17:!H.a.p.p.y!.flac
 playlist_end
