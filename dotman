@@ -1,4 +1,4 @@
-#!/usr/bin/zsh
+#!/usr/bin/bash
 
 greeter() {
 	cat <<EOF
@@ -10,66 +10,161 @@ greeter() {
 EOF
 }
 
-greeter
+# Logs
+LOG_DIR="$HOME/.log/dotfiles/$(date +"%d-%m-%Y-%H:%M:%S")/"
+mkdir -p $LOG_DIR
 
-# install git
-sudo pacman -S --noconfirm git
+install_yay() {
+	sudo pacman -S --noconfirm --needed git
+	mkdir -p ~/.cache/dotfiles/
+	cd ~/.cache/dotfiles/
+	git clone https://aur.archlinux.org/yay.git
+	cd yay
+	makepkg -si --noconfirm
+}
 
-# install yay
-mkdir -p ~/.cache/dotfiles/
-cd ~/.cache/dotfiles/
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si --noconfirm
+install_packages() {
+	yay -S --noconfirm --needed neovim qutebrowser telegram-desktop minecraft-launcher dunst bspwm sxhkd htop mpd ncmpcpp picom ranger rofi transmission-cli vlc zsh youtube-dl grc curl wget dmenu xclip figlet w3m xorg-server xorg-xinit ttf-font-awesome ttf-dejavu vifm feh xorg-xsetroot lxappearance python-pip alsa-utils tmux networkmanager maim fzf exfat-utils fuse2 udiskie udisks2 imagemagick i3lock-color man checkupdates+aur pacman-contrib polybar ccls clang eslint flake8 shellcheck clang-format-linter-git prettier python-black github-cli &> $LOG_DIR/packages_installation.log
 
-mkdir ~/.log
+	pip3 install --user -U pynvim msgpack
+}
 
-# install all dependencies and packages
-yay -S --noconfirm --needed neovim qutebrowser telegram-desktop minecraft-launcher dunst bspwm sxhkd htop mpd ncmpcpp picom ranger rofi transmission-cli vlc zsh youtube-dl grc curl wget dmenu xclip figlet w3m xorg-server xorg-xinit ttf-font-awesome ttf-dejavu vifm feh xorg-xsetroot lxappearance python-pip alsa-utils tmux networkmanager maim fzf exfat-utils fuse2 udiskie udisks2 imagemagick i3lock-color man checkupdates+aur pacman-contrib polybar ccls clang eslint flake8 shellcheck clang-format-linter-git prettier python-black github-cli &> ~/.log/yay.log 
+install_st() {
+	cd ~/.cache/dotfiles/
+	git clone https://gitlab.com/samedamci/st
+	cd st
+	sudo make clean install
+}
 
-pip3 install --user -U pynvim msgpack
+config_pacman() {
+		su root -c "cat >/etc/pacman.conf <<EOF
 
-# build and install st
-cd ~/.cache/dotfiles/
-git clone https://gitlab.com/samedamci/st
-cd st 
-sudo make clean install
+	#
+	# /etc/pacman.conf
+	#
+	# See the pacman.conf(5) manpage for option and repository directives
 
-# copy configs
-cd ~/Dotfiles/botfiles/.config
+	#
+	# GENERAL OPTIONS
+	#
+	[options]
+	# The following paths are commented out with their default values listed.
+	# If you wish to use different paths, uncomment and update the paths.
+	#RootDir     = /
+	#DBPath      = /var/lib/pacman/
+	#CacheDir    = /var/cache/pacman/pkg/
+	#LogFile     = /var/log/pacman.log
+	#GPGDir      = /etc/pacman.d/gnupg/
+	#HookDir     = /etc/pacman.d/hooks/
+	HoldPkg     = pacman glibc
+	#XferCommand = /usr/bin/curl -L -C - -f -o %o %u
+	#XferCommand = /usr/bin/wget --passive-ftp -c -O %o %u
+	#CleanMethod = KeepInstalled
+	Architecture = auto
 
-cp -r * ~/.config/
+	# Pacman won't upgrade packages listed in IgnorePkg and members of IgnoreGroup
+	#IgnorePkg   =
+	#IgnoreGroup =
 
-if [ "$HOST" = "pc" ]; then 
-	echo "Use pc config"
-	mv ~/.config/polybar/config.pc ~/.config/polybar/config
-elif [ "$HOST" = "laptop" ]; then
-	echo "Use laptop config..."
-	mv ~/.config/polybar/config.laptop ~/.config/polybar/config
-fi
+	#NoUpgrade   =
+	#NoExtract   =
 
-cd ~/Dotfiles/botfiles
-mkdir -p ~/.local/share/TelegramDesktop/tdata/
-cp shortcuts-custom.json ~/.local/share/TelegramDesktop/tdata
+	# Misc options
+	#UseSyslog
+	Color
+	ILoveCandy
+	TotalDownload
+	CheckSpace
+	VerbosePkgLists
 
-cp .zshrc .aliases .zprofile .Xresources .xinitrc ~/
-cp -r .scripts ~/
-chmod +x ~/.scripts/*
+	# By default, pacman accepts packages signed by keys that its local keyring
+	# trusts (see pacman-key and its man page), as well as unsigned packages.
+	SigLevel    = Required DatabaseOptional
+	LocalFileSigLevel = Optional
+	#RemoteFileSigLevel = Required
 
-chsh -s /usr/bin/zsh
+	#[testing]
+	#Include = /etc/pacman.d/mirrorlist
 
-cd ~/.config/zsh
-rm -rf plugins
-mkdir plugins
-cd plugins
+	[core]
+	Include = /etc/pacman.d/mirrorlist
 
-git clone https://github.com/zsh-users/zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-autosuggestions
+	[extra]
+	Include = /etc/pacman.d/mirrorlist
 
-# udisk config
-sudo mkdir /media
-su root -c "echo 'ENV{ID_FS_USAGE}==\"filesystem|other|crypto\", ENV{UDISKS_FILESYSTEM_SHARED}=\"1\"' > /etc/udev/rules.d/99-udisks2.rules && echo 'D /media 0755 root root 0 -' > /etc/tmpfiles.d/media.conf"
+	#[community-testing]
+	#Include = /etc/pacman.d/mirrorlist
 
-# manual configuration
+	[community]
+	Include = /etc/pacman.d/mirrorlist
+
+	#[multilib-testing]
+	#Include = /etc/pacman.d/mirrorlist
+
+	#[multilib]
+	#Include = /etc/pacman.d/mirrorlist
+	
+EOF"
+}
+
+copy_configs() {
+	cd ~/Dotfiles/botfiles/.config
+
+	cp -r * ~/.config/
+
+	if [ "$HOST" = "pc" ]; then
+		echo "Use pc config"
+		mv ~/.config/polybar/config.pc ~/.config/polybar/config
+	elif [ "$HOST" = "laptop" ]; then
+		echo "Use laptop config..."
+		mv ~/.config/polybar/config.laptop ~/.config/polybar/config
+	fi
+
+	cd ~/Dotfiles/botfiles
+	mkdir -p ~/.local/share/TelegramDesktop/tdata/
+	cp shortcuts-custom.json ~/.local/share/TelegramDesktop/tdata
+
+	cp .zshrc .aliases .zprofile .Xresources .xinitrc ~/
+	cp -r .scripts ~/
+	chmod +x ~/.scripts/*
+
+
+	cd ~/.config/zsh
+	rm -rf plugins
+	mkdir plugins
+	cd plugins
+
+	git clone https://github.com/zsh-users/zsh-syntax-highlighting
+	git clone https://github.com/zsh-users/zsh-autosuggestions
+
+	sudo mkdir /media
+}
+
+sudo -v
 clear
-echo "Please edit /etc/pacman.conf and uncomment 'Colors' and write 'ILoveCandy'."
+greeter
+printf "\nDo you want to install yay? (Y/n): "; read CHOICE
+if [ "$CHOICE" = "Y" ]; then echo "Installing yay..." && install_yay &>$LOG_DIR/install_yay.log; fi
+clear
+greeter
+printf "\nDo you want to install packages? (Y/n): "; read CHOICE
+if [ "$CHOICE" = "Y" ]; then echo "Installing packages..." && install_packages &>$LOG_DIR/install_packages.log; fi
+clear
+greeter
+printf "\nDo you want to compile nad install st? (Y/n): "; read CHOICE
+if [ "$CHOICE" = "Y" ]; then echo "Compiling and nstalling st..." && install_st &>$LOG_DIR/install_st.log; fi
+clear
+greeter
+printf "\nDo you want to copy configs? (Y/n): "; read CHOICE
+if [ "$CHOICE" = "Y" ]; then 
+	printf "Moving configs...\n" 
+	copy_configs &>$LOG_DIR/copy_configs.log
+	printf "\n"
+	chsh -s /usr/bin/zsh
+	printf "\nConfiguring udiskie.\n"
+	su root -c "echo 'ENV{ID_FS_USAGE}==\"filesystem|other|crypto\", ENV{UDISKS_FILESYSTEM_SHARED}=\"1\"' > /etc/udev/rules.d/99-udisks2.rules && echo 'D /media 0755 root root 0 -' > /etc/tmpfiles.d/media.conf"
+	printf "\nConfiguring pacman.\n"
+	config_pacman
+fi
+clear
+greeter
