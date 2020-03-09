@@ -2517,3 +2517,18 @@ Mar 08 17:03 : player: played "Moog City 2.flac"
 Mar 08 17:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Mar 08 17:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Mar 08 17:03 : client: [0] opened from [::1]:45924
+Mar 09 19:46 : player: played "Moog City 2.flac"
+Mar 09 19:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 09 19:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 09 19:46 : client: [0] opened from [::1]:52690
+Mar 09 19:46 : player: played "Moog City 2.flac"
+Mar 09 19:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 09 19:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 09 19:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 09 19:46 : client: [0] opened from [::1]:52698
+Mar 09 19:47 : player: played "Moog City 2.flac"
+Mar 09 19:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 09 19:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 09 19:47 : client: [0] opened from [::1]:52706
+Mar 09 19:47 : client: [1] opened from [::1]:52710
+Mar 09 19:47 : client: [1] closed
