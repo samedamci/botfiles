@@ -11,7 +11,7 @@ alias vim='nvim'
 alias suvi='sudo -E nvim'
 alias owo='yay'
 alias uwu="yay -Slq | fzf -m --preview 'yay -Si {1}' | yay -S -"
-alias pass='keepassxc-cli open ~/Passwords/keepass.kdbx'
+alias pass='keepassxc-cli clip ~/Passwords/keepass.kdbx'
 alias torrent='transmission-cli'
 alias ascii='figlet'
 alias sudo='SUDO_ASKPASS=/usr/bin/systemd-ask-password sudo -A'
