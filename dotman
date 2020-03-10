@@ -113,11 +113,13 @@ copy_configs() {
 	cp -r * ~/.config/
 
 	if [ "$HOSTNAME" = "pc" ]; then
-		echo "Use pc config"
+		echo "Use pc config..."
 		mv ~/.config/polybar/config.pc ~/.config/polybar/config
+		mv ~/.config/sxhkd/sxhkdrc.pc ~/.config/sxhkd/sxhkdrc
 	elif [ "$HOSTNAME" = "laptop" ]; then
 		echo "Use laptop config..."
 		mv ~/.config/polybar/config.laptop ~/.config/polybar/config
+		mv ~/.config/sxhkd/sxhkdrc.laptop ~/.config/sxhkd/sxhkdrc
 	fi
 
 	cd ~/Dotfiles/botfiles
