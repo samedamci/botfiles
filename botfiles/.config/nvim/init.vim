@@ -58,6 +58,8 @@ call plug#begin('~/.config/nvim/bundle')
 	
 	Plug 'tpope/vim-fugitive'
 	Plug 'junegunn/gv.vim'
+	
+	Plug 'matze/vim-move'
 call plug#end()
 
 "=============
