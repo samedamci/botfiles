@@ -362,7 +362,7 @@ map <Leader>aG :ALEGoToDefinition<CR>
 
 " Tab Managment
 map <C-o> :tabnew<CR>
-map <C-c> :tabclose<CR>
+map <C-d> :tabclose<CR>
 nnoremap <Leader>k gT
 nnoremap <Leader>j gt
 
