@@ -1,8 +1,10 @@
 #!/usr/bin/sh
 
+echo "Adding configs to dotfiles repo..."
 cd ~
-cp -r .config .zshrc .Xresources .aliases .bashrc .scripts .zprofile .bash_profile .local/share/TelegramDesktop/tdata/shortcuts-custom.json ~/Dotfiles/botfiles/ &>/dev/null
+cp -r .zshrc .Xresources .aliases .bashrc .scripts .zprofile .bash_profile .local/share/TelegramDesktop/tdata/shortcuts-custom.json ~/Dotfiles/botfiles/ &>/dev/null
+cd .config
+cp -r autostart bspwm dconf dunst GIMP gtk-3.0 gtk-2.0 homepage mpd ncmpcpp neofetch nvim picom polybar qutebrowser ranger rofi sxhkd vifm vis vlc wallpapers yay zsh ~/Dotfiles/botfiles/.config/ &>/dev/null
 cd ~/Dotfiles/botfiles/.config/
-rm -rf nvim/bundle zsh/plugins transmission mpd/database zsh/history mpd/mpd.log mpd/pid mpd/state mpd/sticker.sql vis/vis.log ncmpcpp/lyrics
-
-
+rm -rf nvim/bundle zsh/plugins mpd/database zsh/history mpd/mpd.log mpd/pid mpd/state mpd/sticker.sql vis/vis.log ncmpcpp/lyrics
+echo "Done."

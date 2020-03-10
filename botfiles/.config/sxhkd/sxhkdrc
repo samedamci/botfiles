@@ -4,26 +4,32 @@
 #    \__ \>  <| | | |   < (_| |
 #    |___/_/\_\_| |_|_|\_\__,_|
 #
-#    config for laptop
+# 	 config for pc
 
 #~~~~~~
 # APPS
 #~~~~~~
-# Qutebrowser
+# qutebrowser
 super + b 
 	qutebrowser
-# St
+# st
 super + Return
 	st
-# Ranger
+# vifm
 super + r
 	st -e vifm
-# Rofi
+# rofi
 super + d
 	rofi -show drun
-# Screenshot
-End
+# screenshot
+Print
 	$HOME/.scripts/screenshot.sh
+# neomutt
+XF86Mail
+	st -e neomutt
+# bc
+XF86Calculator
+	st -e bc
 # passworder
 super + p
 	$HOME/.scripts/passworder.sh
@@ -94,13 +100,8 @@ XF86Audio{Next,Prev}
 # Pause/play
 XF86AudioPlay
 	mpc toggle
+# Open ncmpcpp
+XF86Tools
+	st -e ncmpcpp
 
-#~~~~~~~~~~~~
-# BRIGHTNESS
-#~~~~~~~~~~~~
-# Down
-XF86MonBrightnessDown
-	xbacklight -dec 10
-# Up
-XF86MonBrightnessUp
-	xbacklight -inc 10
+

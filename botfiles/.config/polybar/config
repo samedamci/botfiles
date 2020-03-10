@@ -43,8 +43,8 @@ module-margin-left = 0
 module-margin-right = 0
 
 modules-left = bspwm
-modules-center = 
-modules-right = wireless-network sym2 alsa sym2 fsroot sym5 fshome sym2 coreuse temperature memory sym2 battery sym2 clock sym2 updater sym2 powermenu
+modules-center = mpd 
+modules-right = alsa sym2 fsroot sym5 fshome sym2 coreuse temperature memory sym2 clock sym2 updater sym2 powermenu
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -97,7 +97,7 @@ interval = 2
 
 format-online = <label-song>
 
-label-song = %{F#dfdfdf}%{F-} %artist% - %title%
+label-song = %{F#dfdfdf}%{F-}%{A1:st -e ncmpcpp &:} %artist% - %title%%{A}
 label-offline = %{F#dfdfdf}%{F-} mpd is offline
 
 icon-play = 
@@ -122,8 +122,8 @@ interface = wlp8s0
 
 format-connected = <ramp-signal> <label-connected>
 format-packetloss = <animation-packetloss>
-label-connected = %{A1:st -e nmtui &:}%local_ip%  %downspeed%  %upspeed%%{A}
-label-disconnected = %{A1:st -e nmtui &:}%{F#66} disconnected%{A}
+label-connected = %{A1:st -e nmtui:}%local_ip%  %downspeed%  %upspeed%%{A}
+label-disconnected = %{A1:st -e nmtui:}%{A3:st -e nmtui:}%{F#66} disconnected%{A}%{A}
 
 ramp-signal-0 = 
 ramp-signal-1 = 
@@ -233,7 +233,7 @@ type = internal/cpu
 
 interval        = 3
 format-padding  = 0
-format          = <label>
+format          = <label> <ramp-coreload>
 label           = %{A1:st -e htop -s PERCENT_CPU & disown:}%percentage:2%%%{A}
 ramp-coreload-0 = ▂
 ramp-coreload-1 = ▃
@@ -324,7 +324,7 @@ type = custom/script
 
 exec        = ~/.scripts/update-check.sh
 label       =  %output%
-click-left  = ~/.scripts/updater.sh &
+click-left  = ~/.scripts/updater.sh
 click-right = checkupdates | dmenu -l 30
 interval    = 60
 

@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="palm_detection" mtime="1581328119" type="bool" value="false"/>
-	<entry name="off" mtime="1581328089" type="int" value="0"/>
-	<entry name="device_type" mtime="1581328080" type="string">
-		<stringvalue>touchpad</stringvalue>
-	</entry>
-</gconf>
