@@ -51,7 +51,8 @@ udiskie &
 # Welcome notify
 dunstify "Hello ${USER}!"
 # Wallpaper
-feh --bg-fill --randomize /home/samedamci/.config/wallpapers/1920x1080/ &
+if [ "$HOSTNAME" = "pc" ]; then RESOL="1920x1080"; elif [ "$HOSTNAME" = "laptop" ]; then RESOL="1366x768"; fi
+feh --bg-fill --randomize /home/samedamci/.config/wallpapers/$RESOL/ &
 # Keyboard layout & key swaping
 setxkbmap -layout 'pl' -option caps:swapescape &
 # Cursor
