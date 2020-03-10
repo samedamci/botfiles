@@ -32,6 +32,7 @@
 * video player: vlc
 * ascii generator: figlet
 * file manager: vifm
+* mail client: neomutt
 
 ```
 work in progress
