@@ -361,10 +361,10 @@ map <Leader>ag :ALEGoToDefinitionInSplit<CR>
 map <Leader>aG :ALEGoToDefinition<CR>
 
 " Tab Managment
-map <C-o> :tabnew<CR>
-map <C-d> :tabclose<CR>
-nnoremap <Leader>k gT
-nnoremap <Leader>j gt
+map <S-o> :tabnew<CR>
+map <S-d> :tabclose<CR>
+nnoremap <S-k> gT
+nnoremap <S-j> gt
 
 " Split Managment
 nnoremap <C-j> <C-w><C-j>
