@@ -31,8 +31,23 @@ r2
 
 # Left window history (oldest to newest):
 d/home/samedamci
+	..
+0
+d/home
+	..
+0
+d/
+	media
+9
+d/media
+	6CEC-36BB
+1
+d/media/6CEC-36BB
 	Music
-4
+7
+d/media/6CEC-36BB/Music
+	Quebonafide - JESIEŃ.opus
+49
 d
 
 # Right window history (oldest to newest):
@@ -45,6 +60,7 @@ D
 :q
 
 # Search history (oldest to newest):
+/jesie
 
 # Prompt history (oldest to newest):
 
