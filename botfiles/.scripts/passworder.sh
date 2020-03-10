@@ -1,7 +1,17 @@
 #!/usr/bin/env zsh
 
-rofi -dmenu -i -p "Enter your database password" -l 0 -password | read DBpass
+CACHE=$HOME/.cache/passworder/
+mkdir -p $CACHE
+DB="$HOME/Passwords/keepass.kdbx"
 
-echo $DBpass | keepassxc-cli ls ~/Passwords/keepass.kdbx | grep -v 'Enter' | rofi -dmenu -i -p "Entry list" -l 30 | read entry
+rofi -dmenu -i -p "Enter your database password" -l 0 -password | read DBPASS
 
-echo $DBpass | keepassxc-cli clip ~/Passwords/keepass.kdbx $entry
+ERROR_MSG='Error while reading the database'
+CHECK=$(echo $DBPASS | keepassxc-cli open $DB &> $CACHE/tmp && grep -oh $ERROR_MSG $CACHE/tmp)
+
+if [ "$CHECK" = "$ERROR_MSG" ]; then
+	rofi -e "$ERROR_MSG"
+else
+	echo $DBPASS | keepassxc-cli ls $DB | grep -v 'Enter' | grep -v '?*/' | sort | rofi -dmenu -i -p "Entry list" -l 30 | read ENTRY
+	echo $DBPASS | keepassxc-cli clip $DB $ENTRY
+fi
