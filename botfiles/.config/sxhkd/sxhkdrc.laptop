@@ -24,6 +24,9 @@ super + d
 # Screenshot
 End
 	$HOME/.scripts/screenshot.sh
+# passworder
+super + p
+	$HOME/.scripts/passworder.sh
 
 #~~~~~~~~~~~~
 # WM CONTROL
