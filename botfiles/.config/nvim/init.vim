@@ -55,7 +55,9 @@ call plug#begin('~/.config/nvim/bundle')
 
 	Plug 'christoomey/vim-tmux-navigator'
 	Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
-
+	
+	Plug 'tpope/vim-fugitive'
+	Plug 'junegunn/gv.vim'
 call plug#end()
 
 "=============

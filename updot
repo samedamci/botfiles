@@ -3,6 +3,6 @@
 cd ~
 cp -r .config .zshrc .Xresources .aliases .bashrc .scripts .zprofile .bash_profile .local/share/TelegramDesktop/tdata/shortcuts-custom.json ~/Dotfiles/botfiles/ &>/dev/null
 cd ~/Dotfiles/botfiles/.config/
-rm -rf nvim/bundle zsh/plugins transmission mpd/database zsh/history mpd/mpd.log mpd/pid mpd/state mpd/sticker.sql vis/vis.log
+rm -rf nvim/bundle zsh/plugins transmission mpd/database zsh/history mpd/mpd.log mpd/pid mpd/state mpd/sticker.sql vis/vis.log ncmpcpp/lyrics
 
 
