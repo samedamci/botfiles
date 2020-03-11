@@ -131,6 +131,7 @@ copy_configs() {
 	
 	cp -r .scripts ~/
 	cd ~/.scripts/
+	rm -rf rofi-keepassxc
 	git clone https://github.com/samedamci/rofi-keepassxc
 	chmod +x ~/.scripts/*
 	
