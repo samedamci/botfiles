@@ -30,7 +30,9 @@ XF86Mail
 # bc
 XF86Calculator
 	st -e bc
-
+# passworder
+super + p
+	$HOME/.scripts/rofi-keepassxc/rofi-keepassxc
 #~~~~~~~~~~~~
 # WM CONTROL
 #~~~~~~~~~~~~

@@ -32,7 +32,7 @@ XF86Calculator
 	st -e bc
 # passworder
 super + p
-	$HOME/.scripts/passworder.sh
+	$HOME/.scripts/rofi-keepassxc/rofi-keepassxc
 
 #~~~~~~~~~~~~
 # WM CONTROL

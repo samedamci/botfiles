@@ -1,0 +1,3 @@
+[submodule "botfiles/.scripts/rofi-keepassxc"]
+	path = botfiles/.scripts/rofi-keepassxc
+	url = https://github.com/samedamci/rofi-keepassxc
