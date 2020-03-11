@@ -128,10 +128,12 @@ copy_configs() {
 	cp shortcuts-custom.json ~/.local/share/TelegramDesktop/tdata
 
 	cp .zshrc .aliases .zprofile .Xresources .xinitrc ~/
+	
 	cp -r .scripts ~/
+	cd ~/.scripts/
+	git clone https://github.com/samedamci/rofi-keepassxc
 	chmod +x ~/.scripts/*
-
-
+	
 	cd ~/.config/zsh
 	rm -rf plugins
 	mkdir plugins

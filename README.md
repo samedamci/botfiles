@@ -8,7 +8,14 @@
 **B**tw. **I** **u**se **A**rch **L**inux
 
 # Installation
-* clone repo to ~/Dotfiles, switch folder and use `./dotman`.
+#### Clone repository
+```
+git clone https://github.com/samedamci/biual-dot-conf ~/Dotfiles
+```
+Clone repo in `~/Dotfiles` if you want to use `dotman` and `updot` scripts.
+#### Use dotman
+To install configs, packages and other stuff you should use `./dotman` script. The first time you must use path to this script, but after you can use `dotman` command from any place in your terminal, because it will be added to PATH.
+
 
 ## Hot stuff:
 
