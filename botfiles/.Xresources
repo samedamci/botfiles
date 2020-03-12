@@ -6,7 +6,9 @@
 
 ! black
 *.color0: 	  #000000
-*.color8: 	  #000000
+
+! gray
+*.color8: 	  #343834
 
 ! red
 *.color1:     #cf5252
@@ -35,5 +37,5 @@
 ! white
 *.color7:     #cccccc
 
-st.font: DejaVu Sans Mono:pixelsize=15:antialias=true:autohint=true:hintstyle=hintmedium
+st.font: Inconsolata:pixelsize=15:antialias=true:autohint=true:hintstyle=hintmedium
 

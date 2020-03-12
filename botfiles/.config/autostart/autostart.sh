@@ -32,10 +32,6 @@ lxsession &
 killall -q picom
 while pgrep -u $UID -x picom >/dev/null; do sleep 1; done
 picom &
-# DISCORD
-#killall -q discord
-#while pgrep -u $UID -x discord >/dev/null; do sleep 1; done
-#discord &
 # TELEGRAM
 kkillall -q telegram-desktop
 while pgrep -u $UID -x telegram-desktop >/dev/null; do sleep 1; done
@@ -56,4 +52,5 @@ feh --bg-fill --randomize /home/samedamci/.config/wallpapers/1920x1080/ &
 setxkbmap -layout 'pl' -option caps:swapescape &
 # Cursor
 xsetroot -cursor_name left_ptr & # change the cursor shape from "x" to normal
-# Chown brightness file
+# Refresh .Xresources
+xrdb ~/.Xresources
