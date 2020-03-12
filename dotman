@@ -32,7 +32,7 @@ install_packages() {
 
 install_st() {
 	cd ~/.cache/dotfiles/
-	git clone https://gitlab.com/samedamci/st
+	git clone https://github.com/samedamci/st
 	cd st
 	sudo make clean install
 }
