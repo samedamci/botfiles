@@ -42,7 +42,8 @@ message {
 }
 
 textbox {
-   text-color:@cyan;
+   text-color:@urgentcolor;
+   padding: 10px 10px;
    background-color:@bg;
 }
 
@@ -63,7 +64,7 @@ element {
 element normal.normal {
    padding: 0px 15px;
    background-color: @bg;
-   text-color: @fg;
+   text-color: @urgentcolor;
 }
 
 element normal.urgent {
@@ -133,13 +134,13 @@ inputbar {
 prompt {
    padding: 6px 9px;
    background-color: @maincolor;
-   text-color:@bg;
+   text-color:#dfdfdf;
 }
 
 entry {
    padding:6px 10px;
    background-color:@bg;
-   text-color:@fg;
+   text-color:@urgentcolor;
 }
 
 case-indicator {
