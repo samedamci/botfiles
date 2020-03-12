@@ -18,29 +18,27 @@ To install configs, packages and other stuff you should use `./dotman` script. T
 
 
 ## Hot stuff:
+Category | Item
+:--- | :---
+os | arch linux
+wm | bspwm
+shortcuts manager | sxhkd
+browser | qutebrowser
+shell | zsh
+bar | polybar
+text editor | neovim
+bittorrent client | transmission-cli
+password manager | keepassxc-cli
+compositor | picom
+notify daemon | dunst
+music daemon | mpd
+music player | ncmpcpp
+app menu | rofi
+package manager/aur helper | yay
+audio drivers | alsa
+terminal emulator | st
+video player | vlc
+ascii generator | figlet
+file manager | vifm
+mail client | neomutt
 
-* os: arch linux
-* wm: bspwm
-* shortcuts manager: sxhkd
-* browser: qutebrowser
-* shell: zsh
-* bar: polybar
-* text editor: neovim
-* bittorrent client: transmission-cli
-* password manager: keepassxc-cli
-* compositor: picom
-* notify daemon: dunst
-* music daemon: mpd
-* music player: ncmpcpp
-* app menu: rofi
-* package manager/aur helper: yay
-* audio drivers: alsa
-* terminal emulator: st
-* video player: vlc
-* ascii generator: figlet
-* file manager: vifm
-* mail client: neomutt
-
-```
-work in progress
-```
