@@ -1,13 +1,12 @@
  
 * {
-   maincolor:        #dfdfdf;
+   maincolor:        #144949;
    highlight:        bold #e2a478;
-   urgentcolor:      #666;
+   urgentcolor:      #dfdfdf;
 
    fg:               #dfdfdf;
-   bg:               #0a0200;
+   bg:               #071616;
    blackselect:      #22262e;
-   cyan:             #aaaaaa;
    /* hack */
    /* maincolor:        #007700; */
    /* highlight:        bold #00bb00; */
