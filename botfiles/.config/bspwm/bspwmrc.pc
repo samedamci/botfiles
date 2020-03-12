@@ -9,13 +9,13 @@
 #~~~~~~~~~~~~~~~~
 # WINDOW MANAGER
 #~~~~~~~~~~~~~~~~
-bspc monitor -d one two three four five six seven eight nine ten
+bspc monitor -d 1 2 3 4 5 6 7 8 9 10
 bspc desktop -f 1
 
 bspc config border_width         1
 bspc config window_gap          3
 bspc config normal_border_color "#353234"
-bspc config focused_border_color "#144949"
+bspc config focused_border_color "#4b8282"
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true

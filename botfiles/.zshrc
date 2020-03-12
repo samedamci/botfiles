@@ -20,8 +20,8 @@ source "${HOME}/.zprofile"
 
 # Prompt
 #export PROMPT="%B%F{blue}%~ %b%f$ "
-export PROMPT=' %B%F{#34ef57}%~ %f%b
-[%B%F{red}%?%f%b]%F{#34ef57}%B>%b%f '
+export PROMPT=' %F{#299b9b}%~ %f
+[%B%F{red}%?%f%b]%F{#299b9b}%B>%b%f '
 
 # Completetion
 autoload -U compinit
@@ -104,3 +104,28 @@ export LESS_TERMCAP_ue=$'\E[0m'        # reset underline
 #TETRIS
 autoload -Uz tetriscurses
 alias tetris='tetriscurses'
+
+
+ZSH_HIGHLIGHT_STYLES[default]='none'
+ZSH_HIGHLIGHT_STYLES[unknown-token]='bg=red'
+ZSH_HIGHLIGHT_STYLES[reserved-word]='fg=yellow'
+ZSH_HIGHLIGHT_STYLES[alias]='fg=cyan'
+ZSH_HIGHLIGHT_STYLES[builtin]='fg=cyan'
+ZSH_HIGHLIGHT_STYLES[function]='fg=cyan'
+ZSH_HIGHLIGHT_STYLES[command]='fg=cyan'
+ZSH_HIGHLIGHT_STYLES[precommand]='none'
+ZSH_HIGHLIGHT_STYLES[commandseparator]='none'
+ZSH_HIGHLIGHT_STYLES[hashed-command]='fg=blue'
+ZSH_HIGHLIGHT_STYLES[path]='none'
+ZSH_HIGHLIGHT_STYLES[path_prefix]='none'
+ZSH_HIGHLIGHT_STYLES[path_approx]='fg=yellow'
+ZSH_HIGHLIGHT_STYLES[globbing]='fg=green'
+ZSH_HIGHLIGHT_STYLES[history-expansion]='fg=green'
+ZSH_HIGHLIGHT_STYLES[single-hyphen-option]='fg=magenta'
+ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='fg=red'
+ZSH_HIGHLIGHT_STYLES[back-quoted-argument]='none'
+ZSH_HIGHLIGHT_STYLES[single-quoted-argument]='fg=red'
+ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=red'
+ZSH_HIGHLIGHT_STYLES[dollar-double-quoted-argument]='fg=cyan'
+ZSH_HIGHLIGHT_STYLES[back-double-quoted-argument]='fg=cyan'
+ZSH_HIGHLIGHT_STYLES[assign]='none'

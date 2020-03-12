@@ -99,8 +99,8 @@ augroup END
 "=============
 " Colorscheme
 "=============
-hi LineNr           ctermbg=0   ctermfg=6  cterm=NONE
-hi CursorLineNr     ctermbg=0   ctermfg=5   cterm=bold
+hi LineNr              ctermfg=6  cterm=NONE
+hi CursorLineNr        ctermfg=5   cterm=bold
 hi ColorColumn      ctermbg=0   ctermfg=1   cterm=undercurl
 hi SignColumn                   ctermfg=7
 hi VertSplit        ctermbg=8   ctermfg=0

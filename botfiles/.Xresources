@@ -1,8 +1,8 @@
 ! special
 *.foreground: #dfdfdf
-*.background: #0a0200
-*.border_unfocused:    #0e0f0e
-*.border_focused: #1d1e1e
+*.background: #071616
+*.border_unfocused: #353234
+*.border_focused: #144949
 
 ! black
 *.color0: 	  #000000
