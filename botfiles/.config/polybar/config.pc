@@ -324,9 +324,9 @@ label-unmounted-foreground = #55
 [module/updater]
 type = custom/script
 
-exec        = ~/.scripts/update-check.sh
+exec        = ~/.scripts/update-check
 label       =  %output%
-click-left  = ~/.scripts/updater.sh
+click-left  = ~/.scripts/updater &
 click-right = checkupdates | dmenu -l 30
 interval    = 60
 
@@ -337,7 +337,7 @@ interval    = 60
 type = custom/script
 format-foreground = ${colors.fg}
 exec = echo ""
-click-left = ~/.scripts/powermenu.sh
+click-left = ~/.scripts/powermenu
 
 ;~~~~~
 ; "|"
