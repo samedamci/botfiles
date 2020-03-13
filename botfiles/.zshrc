@@ -19,9 +19,19 @@ source "${HOME}/.aliases"
 source "${HOME}/.zprofile"
 
 # Prompt
+source ~/.config/zsh/plugins/zsh-git-prompt/zshrc.sh
 #export PROMPT="%B%F{blue}%~ %b%f$ "
 export PROMPT=' %F{#299b9b}%~ %f
 [%B%F{red}%?%f%b]%F{#299b9b}%B>%b%f '
+export RPROMPT='$(git_status)'
+
+function git_status() {
+	ref=$(git symbolic-ref --quiet --short HEAD 2> /dev/null || git rev-parse --short HEAD 2> /dev/null)
+	if [ $? -eq 0 ]; then
+		echo -n "on %B%F{magenta}$ref"
+		[[ $(git status --short | wc -l) -ne 0 ]] && echo -n "%F{yellow}*"
+	fi
+}
 
 # Completetion
 autoload -U compinit
