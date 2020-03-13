@@ -1,12 +1,23 @@
-#!/usr/bin/sh
+#!/usr/bin/env sh
 
 echo "Adding configs to dotfiles repo..."
+
 cd ~
 cp .zshrc .Xresources .aliases .bashrc .zprofile .bash_profile .local/share/TelegramDesktop/tdata/shortcuts-custom.json ~/Dotfiles/botfiles/ &>/dev/null
 cd ~/.scripts/
 cp lockscreen powermenu screenshot update-check updater websearch ~/Dotfiles/botfiles/.scripts/ &>/dev/null
 cd ~/.config
+
+if [ "$HOSTNAME" = "pc" ]; then
+	cat sxhkd/sxhkdrc > sxhkd/sxhkdrc.pc	
+	cat polybar/config > polybar/config.pc	
+elif [ "$HOSTNAME" = "laptop" ]; then
+	cat sxhkd/sxhkdrc > sxhkd/sxhkdrc.laptop	
+	cat polybar/config > polybar/config.laptop	
+fi
+
 cp -r autostart bspwm dconf dunst GIMP gtk-3.0 gtk-2.0 homepage mpd ncmpcpp neofetch nvim picom polybar qutebrowser ranger rofi sxhkd vifm vis vlc wallpapers yay zsh ~/Dotfiles/botfiles/.config/ &>/dev/null
 cd ~/Dotfiles/botfiles/.config/
 rm -rf nvim/bundle zsh/plugins mpd/database zsh/history mpd/mpd.log mpd/pid mpd/state mpd/sticker.sql vis/vis.log ncmpcpp/lyrics sxhkd/sxhkdrc polybar/config
+
 echo "Done."

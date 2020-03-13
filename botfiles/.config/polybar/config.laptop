@@ -12,6 +12,7 @@
 bg= ${xrdb:background}
 fg = ${xrdb:foreground}
 border = ${xrdb:border_unfocused}
+border_f = ${xrdb:border_focused}
 
 ;~~~~~
 ; bar
@@ -28,7 +29,7 @@ font-2 = "Font Awesome 5 Free:style=Solid:pixelsize=12:antialias=true;3"
 background = ${colors.bg}
 foreground = ${colors.fg}
 
-line-size = 3
+line-size = 0
 line-color = ${colors.fg}
 
 border-size = 0
@@ -61,28 +62,20 @@ enable-scroll = false
 reverse-scroll = false
 fuzzy-match = true
 
-ws-icon-0 = "1;"
-ws-icon-1 = "2;"
-ws-icon-2 = "3;"
-ws-icon-3 = "4;"
-ws-icon-4 = "5;"
-ws-icon-5 = "6;"
-ws-icon-6 = "7;"
-ws-icon-7 = "8;"
-
 format = <label-state><label-mode>
 label-monitor = %name%
-label-focused = %index% %icon%
-label-focused-background = ${colors.border}
-label-focused-overline = ${colors.fg}
-label-occupied = %index% %icon%
+label-focused = %index%
+label-focused-background = ${colors.border_f}
+label-occupied-background = ${colors.border}
+label-occupied = %index%
 label-occupied-padding = 1
 label-focused-padding = 1
-label-unfocused-padding = 0
-label-visible-padding = 0
-label-urgent = %index% %icon%
+label-unfocused-padding = 1
+label-visible-padding = 1
+label-urgent = %index%
 label-urgent-padding = 1
-label-empty = 
+label-empty = %index% 
+label-empty-padding = 1
 
 ;~~~~~
 ; MPD

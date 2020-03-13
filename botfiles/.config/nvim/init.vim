@@ -185,6 +185,8 @@ let g:lightline = {
 "================
 " Plugin configs
 "================
+let g:move_key_modifier = 'S'
+
 " ALE - Asynchronous Lint Engine
 hi ALEWarning                               cterm=undercurl
 hi ALEError                                 cterm=undercurl
