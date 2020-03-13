@@ -60,6 +60,13 @@ call plug#begin('~/.config/nvim/bundle')
 	Plug 'junegunn/gv.vim'
 	
 	Plug 'matze/vim-move'
+	Plug 'reedes/vim-pencil'
+
+	" Syntax
+	Plug 'bfrg/vim-cpp-modern'
+	Plug 'jelera/vim-javascript-syntax'
+
+
 call plug#end()
 
 "=============
