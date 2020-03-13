@@ -12,6 +12,9 @@
 # qutebrowser
 super + b 
 	qutebrowser
+# direct search
+super + o
+	$HOME/.scripts/websearch
 # st
 super + Return
 	st
@@ -57,11 +60,6 @@ super + bracket{left,right}
 # Focus the last node/desktop
 super + {grave,Tab}
 	bspc {node,desktop} -f last
-# Focus the older or newer node in the focus history
-super + {o,i}
-	bspc wm -h off; \
-	bspc node {older,newer} -f; \
-	bspc wm -h on
 # Focus or send to the given desktop
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'

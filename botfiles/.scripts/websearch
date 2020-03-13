@@ -1,0 +1,8 @@
+#!/usr/bin/env zsh
+
+PHRASE=$(printf | dmenu -p "Web search:")
+
+if [ -n "$PHRASE" ]; then 
+	qutebrowser $PHRASE &
+	bspc desktop -f '^3'
+fi
