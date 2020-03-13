@@ -30,6 +30,9 @@ End
 # passworder
 super + p
 	$HOME/.scripts/rofi-keepassxc/rofi-keepassxc
+# clipmenu
+super + c
+	clipmenu
 
 #~~~~~~~~~~~~
 # WM CONTROL
@@ -46,9 +49,6 @@ super + {t,shift + t,s,f}
 # Focus the node in the given direction
 super + {_,shift + }{h,j,k,l}
 	bspc node -{f,s} {west,south,north,east}
-# Focus the next/previous node in the current desktop
-super + {_,shift + }c
-	bspc node -f {next,prev}.local
 # Focus the next/previous desktop in the current monitor
 super + bracket{left,right}
 	bspc desktop -f {prev,next}.local

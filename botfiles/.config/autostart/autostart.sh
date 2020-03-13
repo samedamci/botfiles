@@ -36,10 +36,6 @@ picom &
 kkillall -q telegram-desktop
 while pgrep -u $UID -x telegram-desktop >/dev/null; do sleep 1; done
 telegram-desktop &
-# udiskie
-killall -q udiskie
-while pgrep -u $UID -x udiskie >/dev/null; do sleep 1; done
-udiskie &
 
 #~~~~~~~
 # OTHER
@@ -54,3 +50,10 @@ setxkbmap -layout 'pl' -option caps:swapescape &
 xsetroot -cursor_name left_ptr & # change the cursor shape from "x" to normal
 # Refresh .Xresources
 xrdb ~/.Xresources
+# udiskie
+killall -q udiskie
+while pgrep -u $UID -x udiskie >/dev/null; do sleep 1; done
+udiskie &
+# clipmenud
+clipmenud &
+
