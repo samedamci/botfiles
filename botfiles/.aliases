@@ -14,7 +14,7 @@ alias uwu="yay -Slq | fzf -m --preview 'yay -Si {1}' | yay -S -"
 alias pass='keepassxc-cli clip ~/Passwords/keepass.kdbx'
 alias torrent='transmission-cli'
 alias ascii='figlet'
-alias sudo='SUDO_ASKPASS=/usr/bin/systemd-ask-password sudo -A'
+alias sudo='sudo -p "$(printf "\033[0;31m")[ sudo ]$(printf "\033[0m"): "'
 alias ytdl-audio='youtube-dl -i --extract-audio --audio-format opus'
 alias mirrors='sudo reflector --latest 200 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
 alias copy='xclip -selection clipboard'
