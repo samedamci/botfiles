@@ -30,9 +30,9 @@ Print
 # neomutt
 XF86Mail
 	st -e neomutt
-# bc
+# rofi-calc
 XF86Calculator
-	st -e bc
+	rofi -show calc -modi calc -no-show-match -no-sort
 # passworder
 super + p
 	$HOME/.scripts/rofi-keepassxc/rofi-keepassxc

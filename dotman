@@ -28,7 +28,7 @@ install_packages() {
 
 	sudo reflector --latest 200 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 
-	yay -S --noconfirm --needed neovim qutebrowser telegram-desktop minecraft-launcher dunst bspwm sxhkd htop mpd ncmpcpp picom ranger rofi transmission-cli vlc zsh youtube-dl grc curl wget xclip figlet w3m xorg-server xorg-xinit ttf-font-awesome ttf-dejavu vifm feh xorg-xsetroot lxappearance python-pip alsa-utils tmux networkmanager maim fzf exfat-utils fuse2 udiskie udisks2 imagemagick i3lock-color man checkupdates+aur pacman-contrib polybar ccls clang eslint flake8 shellcheck clang-format-linter-git prettier python-black github-cli ncdu mpc neomutt bc cli-visualizer clipmenu gradle ktlint
+	yay -S --noconfirm --needed neovim qutebrowser telegram-desktop minecraft-launcher dunst bspwm sxhkd htop mpd ncmpcpp picom ranger rofi transmission-cli vlc zsh youtube-dl grc curl wget xclip figlet w3m xorg-server xorg-xinit ttf-font-awesome ttf-dejavu vifm feh xorg-xsetroot lxappearance python-pip alsa-utils tmux networkmanager maim fzf exfat-utils fuse2 udiskie udisks2 imagemagick i3lock-color man checkupdates+aur pacman-contrib polybar ccls clang eslint flake8 shellcheck clang-format-linter-git prettier python-black github-cli ncdu mpc neomutt bc cli-visualizer clipmenu gradle ktlint rofi-calc
 
 	pip3 install --user -U pynvim msgpack
 	sudo pip install -U grip
