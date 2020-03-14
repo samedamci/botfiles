@@ -28,16 +28,20 @@ install_packages() {
 
 	sudo reflector --latest 200 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 
-	yay -S --noconfirm --needed neovim qutebrowser telegram-desktop minecraft-launcher dunst bspwm sxhkd htop mpd ncmpcpp picom ranger rofi transmission-cli vlc zsh youtube-dl grc curl wget dmenu xclip figlet w3m xorg-server xorg-xinit ttf-font-awesome ttf-dejavu vifm feh xorg-xsetroot lxappearance python-pip alsa-utils tmux networkmanager maim fzf exfat-utils fuse2 udiskie udisks2 imagemagick i3lock-color man checkupdates+aur pacman-contrib polybar ccls clang eslint flake8 shellcheck clang-format-linter-git prettier python-black github-cli ncdu mpc neomutt bc cli-visualizer clipmenu gradle ktlint
+	yay -S --noconfirm --needed neovim qutebrowser telegram-desktop minecraft-launcher dunst bspwm sxhkd htop mpd ncmpcpp picom ranger rofi transmission-cli vlc zsh youtube-dl grc curl wget xclip figlet w3m xorg-server xorg-xinit ttf-font-awesome ttf-dejavu vifm feh xorg-xsetroot lxappearance python-pip alsa-utils tmux networkmanager maim fzf exfat-utils fuse2 udiskie udisks2 imagemagick i3lock-color man checkupdates+aur pacman-contrib polybar ccls clang eslint flake8 shellcheck clang-format-linter-git prettier python-black github-cli ncdu mpc neomutt bc cli-visualizer clipmenu gradle ktlint
 
 	pip3 install --user -U pynvim msgpack
 	sudo pip install -U grip
 }
 
-install_st() {
+install_st_and_dmenu() {
 	cd ~/.cache/dotfiles/
 	git clone https://github.com/samedamci/st
 	cd st
+	sudo make clean install
+	cd ~/.cache/dotfiles/
+	git clone https://github.com/samedamci/dmenu
+	cd dmenu
 	sudo make clean install
 }
 
@@ -161,8 +165,8 @@ printf "\nDo you want to install packages? (Y/n): "; read CHOICE
 if [ "$CHOICE" = "Y" ]; then echo "Installing packages..." && install_packages &>$LOG_DIR/install_packages.log; fi
 clear
 greeter
-printf "\nDo you want to compile nad install st? (Y/n): "; read CHOICE
-if [ "$CHOICE" = "Y" ]; then echo "Compiling and nstalling st..." && install_st &>$LOG_DIR/install_st.log; fi
+printf "\nDo you want to compile nad install st and dmenu? (Y/n): "; read CHOICE
+if [ "$CHOICE" = "Y" ]; then echo "Compiling and installing st and dmenu..." && install_st_and_dmenu &>$LOG_DIR/install_st_and_dmenu.log; fi
 clear
 greeter
 printf "\nDo you want to copy configs? (Y/n): "; read CHOICE
