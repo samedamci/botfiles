@@ -4,6 +4,14 @@
 *.border_unfocused: #353234
 *.border_focused: #144949
 
+! dmenu
+dmenu.selbackground: #144949
+dmenu.selforeground: #dfdfdf
+dmenu.font: Inconsolata:pixelsize=14:antialias=true:autohint=true:hintstyle=hintmedium
+
+! st
+st.font: Inconsolata:pixelsize=15:antialias=true:autohint=true:hintstyle=hintmedium
+
 ! black
 *.color0: 	  #000000
 
@@ -36,6 +44,3 @@
 
 ! white
 *.color7:     #cccccc
-
-st.font: Inconsolata:pixelsize=15:antialias=true:autohint=true:hintstyle=hintmedium
-
