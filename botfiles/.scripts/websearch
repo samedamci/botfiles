@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-PHRASE=$(printf | dmenu -p "Web search:")
+PHRASE=$(printf | dmenu -h 24 -p "Web search:")
 
 if [ -n "$PHRASE" ]; then 
 	qutebrowser $PHRASE &
