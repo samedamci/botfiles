@@ -65,7 +65,7 @@ call plug#begin('~/.config/nvim/bundle')
 	" Syntax
 	Plug 'bfrg/vim-cpp-modern'
 	Plug 'jelera/vim-javascript-syntax'
-
+	Plug 'udalov/kotlin-vim'
 
 call plug#end()
 
@@ -209,6 +209,7 @@ let g:ale_linters = {
 \   'sh': ['language_server', 'shellcheck', 'shell'],
 \   'zsh': ['language_server', 'shellcheck', 'shell'],
 \   'go': ['gofmt'],
+\   'kotlin': ['ktlint'],
 \}
 let g:ale_fixers = {
 \   '*': ['trim_whitespace', 'remove_trailing_lines'],
