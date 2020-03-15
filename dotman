@@ -34,14 +34,24 @@ install_packages() {
 	sudo pip install -U grip
 }
 
-install_st_and_dmenu() {
+install_st() {
 	cd ~/.cache/dotfiles/
 	git clone https://github.com/samedamci/st
 	cd st
 	sudo make clean install
+}
+
+install_dmenu() {
 	cd ~/.cache/dotfiles/
 	git clone https://github.com/samedamci/dmenu
 	cd dmenu
+	sudo make clean install
+}
+
+install_tabbed() {
+	cd ~/.cache/dotfiles
+	git clone https://github.com/samedamci/tabbed
+	cd tabbed
 	sudo make clean install
 }
 
@@ -165,8 +175,12 @@ printf "\nDo you want to install packages? (Y/n): "; read CHOICE
 if [ "$CHOICE" = "Y" ]; then echo "Installing packages..." && install_packages &>$LOG_DIR/install_packages.log; fi
 clear
 greeter
-printf "\nDo you want to compile nad install st and dmenu? (Y/n): "; read CHOICE
-if [ "$CHOICE" = "Y" ]; then echo "Compiling and installing st and dmenu..." && install_st_and_dmenu &>$LOG_DIR/install_st_and_dmenu.log; fi
+printf "\nDo you want to compile nad install st? (Y/n): "; read CHOICE
+if [ "$CHOICE" = "Y" ]; then echo "Compiling and installing st..." && install_st &>$LOG_DIR/install_st.log; fi
+printf "\nDo you want to compile nad install dmenu? (Y/n): "; read CHOICE
+if [ "$CHOICE" = "Y" ]; then echo "Compiling and installing dmenu..." && install_dmenu &>$LOG_DIR/install_dmenu.log; fi
+printf "\nDo you want to compile nad install tabbed? (Y/n): "; read CHOICE
+if [ "$CHOICE" = "Y" ]; then echo "Compiling and installing tabbed..." && install_tabbed &>$LOG_DIR/install_tabbed.log; fi
 clear
 greeter
 printf "\nDo you want to copy configs? (Y/n): "; read CHOICE
