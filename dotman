@@ -151,6 +151,8 @@ copy_configs() {
 	cd ~/.scripts/
 	rm -rf rofi-keepassxc
 	git clone https://github.com/samedamci/rofi-keepassxc
+	rm -rf mpdmenu
+	git clone https://github.com/samedamci/mpdmenu
 	chmod +x ~/.scripts/*
 	
 	cd ~/.config/zsh

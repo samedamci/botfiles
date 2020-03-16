@@ -99,6 +99,6 @@ XF86AudioPlay
 	mpc toggle
 # Open ncmpcpp
 XF86Tools
-	st -e ncmpcpp
+	$HOME/.scripts/mpdmenu/mpdmenu
 
 

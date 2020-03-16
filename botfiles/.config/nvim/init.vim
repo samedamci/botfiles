@@ -66,7 +66,6 @@ call plug#begin('~/.config/nvim/bundle')
 	Plug 'bfrg/vim-cpp-modern'
 	Plug 'jelera/vim-javascript-syntax'
 	Plug 'udalov/kotlin-vim'
-
 call plug#end()
 
 "=============
