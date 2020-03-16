@@ -29,7 +29,7 @@ End
 	$HOME/.scripts/screenshot
 # passworder
 super + p
-	$HOME/.scripts/rofi-keepassxc/rofi-keepassxc
+	$HOME/.scripts/rofi-keepassxc/rofi-keepassxc -d ~/Passwords/keepass.kdbx
 # clipmenu
 super + c
 	clipmenu

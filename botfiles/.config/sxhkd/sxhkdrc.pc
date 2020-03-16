@@ -35,7 +35,7 @@ XF86Calculator
 	rofi -show calc -modi calc -no-show-match -no-sort
 # passworder
 super + p
-	$HOME/.scripts/rofi-keepassxc/rofi-keepassxc
+	$HOME/.scripts/rofi-keepassxc/rofi-keepassxc -d ~/Passwords/keepass.kdbx
 super + c
 	clipmenu
 
