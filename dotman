@@ -141,6 +141,9 @@ copy_configs() {
 		mv ~/.config/sxhkd/sxhkdrc.laptop ~/.config/sxhkd/sxhkdrc
 	fi
 
+	rm -rf ~/.config/sxhkd/sxhkdrc.*
+	rm -rf ~/.config/polybar/config.*
+
 	cd ~/Dotfiles/botfiles
 	mkdir -p ~/.local/share/TelegramDesktop/tdata/
 	cp shortcuts-custom.json ~/.local/share/TelegramDesktop/tdata
