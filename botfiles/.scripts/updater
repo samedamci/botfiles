@@ -1,6 +1,6 @@
 #!/bin/sh
 
-CHECK="$(printf "Yes\nNo\n" | dmenu -i -p 'Do you want to make packages update?')"
+CHECK="$(printf "Yes\nNo\n" | dmenu -i -p 'Do you want to make packages update?' -h 24)"
 if [ -z "$CHECK" ]; then exit; fi
 
 case "$CHECK" in

@@ -1,38 +1,69 @@
-#              _     _       _
-#     _____  _| |__ | | ____| |
-#    / __\ \/ / '_ \| |/ / _` |
-#    \__ \>  <| | | |   < (_| |
-#    |___/_/\_\_| |_|_|\_\__,_|
 #
-#    config for laptop
+#                     ██      ██          ██
+#                    ░██     ░██         ░██
+#      ██████ ██   ██░██     ░██  ██     ░██
+#     ██░░░░ ░░██ ██ ░██████ ░██ ██   ██████
+#    ░░█████  ░░███  ░██░░░██░████   ██░░░██
+#     ░░░░░██  ██░██ ░██  ░██░██░██ ░██  ░██
+#     ██████  ██ ░░██░██  ░██░██░░██░░██████
+#    ░░░░░░  ░░   ░░ ░░   ░░ ░░  ░░  ░░░░░░ 
+#
+#           --- config for laptop ---
+
 
 #~~~~~~
 # APPS
 #~~~~~~
-# Qutebrowser
+# qutebrowser
 super + b 
 	qutebrowser
-# Direct search
-super + o 
-	$HOME/.scripts/websearch
-# St
+# st
 super + Return
 	tabbed -r 2 st -w ''
-# Ranger
+# vifm
 super + r
 	st -e vifm
-# Rofi
+# rofi
 super + d
 	rofi -show drun
-# Screenshot
+
+
+#~~~~~~~~~
+# SCRIPTS
+#~~~~~~~~~
+# direct search
+super + o 
+	$SCRD/websearch
+# screenshot
 End
-	$HOME/.scripts/screenshot
-# passworder
+	$SCRD/screenshot
+# rofi-keepassxc
 super + p
-	$HOME/.scripts/rofi-keepassxc/rofi-keepassxc -d ~/Passwords/keepass.kdbx
+	$SCRD/rofi-keepassxc/rofi-keepassxc -d ~/Passwords/keepass.kdbx
 # clipmenu
 super + c
 	clipmenu
+# mpdmenu
+super + m
+	$SCRD/mpdmenu/mpdmenu
+# lock
+super + x
+	$SCRD/lockscreen
+# powermenu
+super + z
+	$SCRD/powermenu
+Print 
+	$SCRD/powermenu
+# update
+super + u
+	$SCRD/updater
+# rofi-todo
+super + n
+	$SCRD/rofi-todo/rofi-todo.py -f $HOME/Notes/notes.json
+# neomutt
+super + g
+	st -e neomutt
+
 
 #~~~~~~~~~~~~
 # WM CONTROL
@@ -49,24 +80,9 @@ super + {t,shift + t,s,f}
 # Focus the node in the given direction
 super + {_,shift + }{h,j,k,l}
 	bspc node -{f,s} {west,south,north,east}
-# Focus the next/previous desktop in the current monitor
-super + bracket{left,right}
-	bspc desktop -f {prev,next}.local
-# Focus the last node/desktop
-super + {grave,Tab}
-	bspc {node,desktop} -f last
 # Focus or send to the given desktop
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
-# Preselect the ratio
-super + ctrl + {1-9}
-	bspc node -o 0.{1-9}
-# Cancel the preselection for the focused node
-super + ctrl + space
-	bspc node -p cancel
-# Cancel the preselection for the focused desktop
-super + ctrl + shift + space
-	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
 # Expand a window by moving one of its side outward
 super + alt + {h,j,k,l}
 	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
@@ -76,6 +92,7 @@ super + ctrl + {h,j,k,l}
 # Move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
 
 #~~~~~~~
 # AUDIO
@@ -92,6 +109,7 @@ XF86Audio{Next,Prev}
 # Pause/play
 XF86AudioPlay
 	mpc toggle
+
 
 #~~~~~~~~~~~~
 # BRIGHTNESS
