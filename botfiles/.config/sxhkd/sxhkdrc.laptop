@@ -17,7 +17,7 @@ super + o
 	$HOME/.scripts/websearch
 # St
 super + Return
-	st
+	tabbed -r 2 st -w ''
 # Ranger
 super + r
 	st -e vifm
