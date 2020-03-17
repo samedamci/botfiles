@@ -45,7 +45,7 @@ super + c
 	clipmenu
 # mpdmenu
 super + m
-	$SCRD/mpdmenu/mpdmenu
+	$SCRD/mpdmenu/mpdmenu -a
 # lock
 super + x
 	$SCRD/lockscreen
