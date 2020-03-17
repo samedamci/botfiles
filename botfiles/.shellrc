@@ -48,7 +48,7 @@ alias ls='ls --color=auto'
 alias ip='grc ip'
 alias ping='grc ping'
 alias ps='grc ps'
-export SUDO_PROMPT='sudo -p "$(printf "\033[0;31m")[ sudo ]$(printf "\033[0m"): "'
+export SUDO_PROMPT="$(printf "\033[0;31m")[ sudo ]$(printf "\033[0m"): "
 
 # man
 man() {
