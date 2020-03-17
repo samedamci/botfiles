@@ -1,19 +1,15 @@
-" vim: filetype=vifm :
-" Sample configuration file for vifm (last updated: 2 June, 2019)
-" You can edit this file by hand.
-" The " character at the beginning of a line comments out the line.
-" Blank lines are ignored.
-" The basic format for each item is shown with an example.
+"    
+"              ██   ████            
+"             ░░   ░██░             
+"     ██    ██ ██ ██████ ██████████ 
+"    ░██   ░██░██░░░██░ ░░██░░██░░██
+"    ░░██ ░██ ░██  ░██   ░██ ░██ ░██
+"     ░░████  ░██  ░██   ░██ ░██ ░██
+"      ░░██   ░██  ░██   ███ ░██ ░██
+"       ░░    ░░   ░░   ░░░  ░░  ░░ 
 
-" ------------------------------------------------------------------------------
-
-" Command used to edit files in various contexts.  The default is vim.
-" If you would like to use another vi clone such as Elvis or Vile
-" you will need to change this setting.
-
-set vicmd=vim
-" set vicmd=elvis\ -G\ termcap
-" set vicmd=vile
+" Editor
+set vicmd=nvim
 
 " This makes vifm perform file operations on its own instead of relying on
 " standard utilities like `cp`.  While using `cp` and alike is a more universal
@@ -64,7 +60,7 @@ set norunexec
 
 " Selected color scheme
 
-colorscheme Default
+colorscheme biual
 
 " Format for displaying time in file list. For example:
 " TIME_STAMP_FORMAT=%m/%d-%H:%M
@@ -215,7 +211,7 @@ fileviewer *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.mpg,*.mpeg,*.vob,
 " Web
 filextype *.html,*.htm
         \ {Open with dwb}
-        \ dwb %f %i &,
+        \ qutebrowser %f %i &,
         \ {Open with firefox}
         \ firefox %f &,
         \ {Open with uzbl}
@@ -231,14 +227,10 @@ fileviewer *.[1-8] man ./%c | col -b
 
 " Images
 filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
-        \ {View in sxiv}
-        \ sxiv %f,
-        \ {View in gpicview}
-        \ gpicview %c,
-        \ {View in shotwell}
-        \ shotwell,
+        \ {View in feh}
+        \ feh -F %d --start-at %d/%c 2>/dev/null
 fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
-         \ identify %f
+         \ gimp %f
 
 " OpenRaster
 filextype *.ora
@@ -376,8 +368,8 @@ filextype */
 
 " What should be saved automatically between vifm sessions.  Drop "savedirs"
 " value if you don't want vifm to remember last visited directories for you.
-set vifminfo=dhistory,savedirs,chistory,state,tui,shistory,
-    \phistory,fhistory,dirstack,registers,bookmarks,bmarks
+set vifminfo=chistory,shistory,
+    \phistory,dirstack,registers,bookmarks,bmarks
 
 " ------------------------------------------------------------------------------
 
@@ -481,3 +473,6 @@ nnoremap <f8> :delete<cr>
 "     vifm --server-name "$VIFM_SERVER_NAME" --remote +"cd '$PWD'"
 "
 " let $VIFM_SERVER_NAME = v:servername
+
+
+" vim: filetype=vifm
