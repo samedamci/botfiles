@@ -1,8 +1,22 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env sh
 
-PHRASE=$(printf | dmenu -h 24 -p "Web search:")
+bookmarks="redd.it\narch wiki\ninvidio.us\ngithub\ngitlab\ndotfiles\npython doc\nvulcan"
+PHRASE=$(printf "${bookmarks}" | dmenu -h 24 -p "Web search:")
 
-if [ -n "$PHRASE" ]; then 
-	qutebrowser $PHRASE &
+case "$PHRASE" in
+	"redd.it") PG="https://old.reddit.com" ;;
+	"arch wiki") PG="https://wiki.archlinux.org" ;;
+	"invidio.us") PG="https://invidio.us" ;;
+	"github") PG="https://github.com" ;;
+	"gitlab") PG="https://gitlab.com" ;;
+	"dotfiles") PG="https:github.com/samedamci/biual-dot-conf" ;;
+	"python doc") PG="https://docs.python.org/3/" ;;
+	"vulcan") PG="https://uonetplus.vulcan.net.pl/powiatrycki" ;;
+	*) PG="$PHRASE"
+esac
+
+if [ -n "$PG" ]; then
+	qutebrowser "$PG" &
 	bspc desktop -f '^3'
 fi
+
