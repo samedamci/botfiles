@@ -1,24 +1,28 @@
-#             _
-#     _______| |__
-#    |_  / __| '_ \
-#     / /\__ \ | | |
-#    /___|___/_| |_|
+#    
+#                    ██     
+#                   ░██     
+#     ██████  ██████░██     
+#    ░░░░██  ██░░░░ ░██████ 
+#       ██  ░░█████ ░██░░░██
+#      ██    ░░░░░██░██  ░██
+#     ██████ ██████ ░██  ░██
+#    ░░░░░░ ░░░░░░  ░░   ░░ 
 
 #~~~~~~~~~
-# GENERAL
+# General
 #~~~~~~~~~
-# ZSH directory
+# zsh directory
 ZDIR="${HOME}/.config/zsh"
 
-# History
+# history
 SAVEHIST=9999999
 HISTFILE="${ZDIR}/history"
 
-# Imports
-source "${HOME}/.aliases"
-source "${HOME}/.zprofile"
+# imports
+source $HOME/.profile
+source $HOME/.shellrc
 
-# Prompt
+# prompt
 setopt prompt_subst
 setopt autocd
 PROMPT='%F{green}%m%f in %B%F{#299b9b}%~%f%b $(git_status)
@@ -32,29 +36,24 @@ function git_status() {
 	fi
 }
 
-# Completetion
+# completetion
 autoload -U compinit
 zstyle ':completion:*' menu select
 setopt complete_aliases
 
-# Setopt correct
+# setopt correct
 zmodload zsh/complist
 compinit
 _comp_options+=(globdots)
 
-#~~~~~~
-# PATH
-#~~~~~~
-export PATH=$PATH:~/Dotfiles
-
 #~~~~~~~~~~
-# BINDINGS
+# Bindings
 #~~~~~~~~~~
-# Vi mode
+# vi mode
 bindkey -v
 export KEYTIMEOUT=1
 
-# Cursor change
+# cursor change
 function zle-keymap-select {
     if [[ ${KEYMAP} == vicmd ]] ||
        [[ $1 = 'block' ]]; then
@@ -76,44 +75,19 @@ zle-line-init() {
 echo -ne '\e[6 q'
 preexec() { echo -ne '\e[6 q' ;}
 
-# Other
+# other
 bindkey '^x' clear-screen
 
 #~~~~~~~~~
-# PLUGINS
+# Plugins
 #~~~~~~~~~
 PDIR="${ZDIR}/plugins"
-source "${PDIR}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+
+# zsh-autosuggestions
 source "${PDIR}/zsh-autosuggestions/zsh-autosuggestions.zsh"
 
-#~~~~~~~~
-# Colors
-#~~~~~~~~
-#MAN
-man() {
-    LESS_TERMCAP_md=$'\e[01;31m' \
-    LESS_TERMCAP_me=$'\e[0m' \
-    LESS_TERMCAP_se=$'\e[0m' \
-#    LESS_TERMCAP_so=$'\e[01;44;33m' \
-    LESS_TERMCAP_ue=$'\e[0m' \
-    LESS_TERMCAP_us=$'\e[01;32m' \
-    command man "$@"
-}
-
-#LESS
-export LESS=-R
-export LESS_TERMCAP_mb=$'\E[1;31m'     # begin blink
-export LESS_TERMCAP_md=$'\E[1;36m'     # begin bold
-export LESS_TERMCAP_me=$'\E[0m'        # reset bold/blink
-#export LESS_TERMCAP_so=$'\E[01;44;33m' # begin reverse video
-export LESS_TERMCAP_se=$'\E[0m'        # reset reverse video
-export LESS_TERMCAP_us=$'\E[1;32m'     # begin underline
-export LESS_TERMCAP_ue=$'\E[0m'        # reset underline
-
-#TETRIS
-autoload -Uz tetriscurses
-alias tetris='tetriscurses'
-
+# zsh-syntax-highlighting
+source "${PDIR}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
 ZSH_HIGHLIGHT_STYLES[default]='none'
 ZSH_HIGHLIGHT_STYLES[unknown-token]='bg=red'
@@ -138,3 +112,7 @@ ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=red'
 ZSH_HIGHLIGHT_STYLES[dollar-double-quoted-argument]='fg=cyan'
 ZSH_HIGHLIGHT_STYLES[back-double-quoted-argument]='fg=cyan'
 ZSH_HIGHLIGHT_STYLES[assign]='none'
+
+# tetris easter-egg
+autoload -Uz tetriscurses
+alias tetris='tetriscurses'

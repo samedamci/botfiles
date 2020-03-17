@@ -3,7 +3,7 @@
 echo "Adding configs to dotfiles repo..."
 
 cd ~
-cp .zshrc .Xresources .aliases .bashrc .zprofile .bash_profile .local/share/TelegramDesktop/tdata/shortcuts-custom.json ~/Dotfiles/botfiles/ &>/dev/null
+cp .zshrc .Xresources .profile .shellrc .bashrc .zprofile .bash_profile .local/share/TelegramDesktop/tdata/shortcuts-custom.json ~/Dotfiles/botfiles/ &>/dev/null
 cd ~/.scripts/
 cp lockscreen powermenu screenshot update-check updater websearch ~/Dotfiles/botfiles/.scripts/ &>/dev/null
 cd ~/.config
