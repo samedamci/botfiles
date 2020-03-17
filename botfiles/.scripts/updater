@@ -4,6 +4,9 @@ CHECK="$(printf "Yes\nNo\n" | dmenu -i -p 'Do you want to make packages update?'
 if [ -z "$CHECK" ]; then exit; fi
 
 case "$CHECK" in
-	Yes) st -e bash -c "yay -Syu --noconfirm";;
+	Yes) 
+		export PASS=$(printf | dmenu -P -p "Enter password: " -h 24)
+		if [ -z "$PASS" ]; then exit; fi
+		st -e sh -c 'bspc node -d '^10'; echo $PASS | sudo -S -v && clear; yay -Syu --noconfirm';;
 	*) exit
 esac
