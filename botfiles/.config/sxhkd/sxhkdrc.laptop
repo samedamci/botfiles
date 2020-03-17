@@ -109,6 +109,9 @@ XF86Audio{Next,Prev}
 # Pause/play
 XF86AudioPlay
 	mpc toggle
+# Stop
+XF86AudioStop
+	mpc stop
 
 
 #~~~~~~~~~~~~
