@@ -36,6 +36,7 @@ install_packages() {
 
 install_st() {
 	cd ~/.cache/dotfiles/
+	rm -rf st
 	git clone https://github.com/samedamci/st
 	cd st
 	sudo make clean install
@@ -43,6 +44,7 @@ install_st() {
 
 install_dmenu() {
 	cd ~/.cache/dotfiles/
+	rm -rf dmenu
 	git clone https://github.com/samedamci/dmenu
 	cd dmenu
 	sudo make clean install
@@ -50,6 +52,7 @@ install_dmenu() {
 
 install_tabbed() {
 	cd ~/.cache/dotfiles
+	rm -rf tabbed
 	git clone https://github.com/samedamci/tabbed
 	cd tabbed
 	sudo make clean install
