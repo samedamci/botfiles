@@ -151,7 +151,7 @@ copy_configs() {
 	mkdir -p ~/.local/share/TelegramDesktop/tdata/
 	cp shortcuts-custom.json ~/.local/share/TelegramDesktop/tdata
 
-	cp .zshrc .aliases .zprofile .Xresources .xinitrc ~/
+	cp .zshrc .bash_profile .bashrc .profile .shellrc .zprofile .Xresources .xinitrc ~/
 	
 	cp -r .scripts ~/
 	cd ~/.scripts/
