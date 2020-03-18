@@ -1,3 +1,14 @@
+"    
+"                       ██                        
+"                      ░██                        
+"      █████   ██████  ░██  ██████  ██████  ██████
+"     ██░░░██ ██░░░░██ ░██ ██░░░░██░░██░░█ ██░░░░ 
+"    ░██  ░░ ░██   ░██ ░██░██   ░██ ░██ ░ ░░█████ 
+"    ░██   ██░██   ░██ ░██░██   ░██ ░██    ░░░░░██
+"    ░░█████ ░░██████  ███░░██████ ░███    ██████ 
+"     ░░░░░   ░░░░░░  ░░░  ░░░░░░  ░░░    ░░░░░░  
+
+
 highlight clear
 
 highlight Win			ctermfg=white	ctermbg=none	cterm=none
@@ -26,5 +37,5 @@ highlight TabLine 		ctermfg=9	 	ctermbg=0	 	cterm=none
 highlight TabLineSel 	ctermfg=default ctermbg=default cterm=none,reverse
 
 highlight /^.*\.(mp3|ogg|oga|flac|m4a)$/ ctermfg=magenta
-highlight /^.*\.(jpg|jpeg|png|gif|tiff|webp|bmp|svg|svgz)$/ ctermfg=yellow
+highlight /^.*\.(jpg|jpeg|png|gif|tiff|webp|bmp|svg|svgz)$/ ctermfg=green
 highlight /^.*\.(zip|gz|bz2|xz|tar|tgz|tbz2|7z|rar|iso|rpm|deb)$/ ctermfg=red
