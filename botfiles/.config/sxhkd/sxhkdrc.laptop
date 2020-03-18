@@ -25,7 +25,7 @@ super + r
 	st -e vifm
 # fzf
 super + f
-	st -e zsh -c 'vifm "$(find ./* -type d | fzf)";'
+	st -e zsh -c 'vifm "$(find . -type d | fzf)";'
 # rofi
 super + d
 	rofi -show drun

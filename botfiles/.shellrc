@@ -50,7 +50,10 @@ alias gh-rv='gh repo view'
 # fzf
 ff()   { find ./* -type f | fzf | xargs -r $EDITOR ;}
 fd() { vifm "$(find ./* -type d | fzf)" ; clear }
+fhd() { find . -type d | fzf | xargs -r $EDITOR ; }
+fhf() { find . -type f | fzf | xargs -r $EDITOR ; }
 alias f='ff'
+alias fa='fhf'
 
 # other
 alias pass='keepassxc-cli clip ~/Passwords/keepass.kdbx'
