@@ -48,8 +48,8 @@ alias gh-rcp='gh repo create --public'
 alias gh-rv='gh repo view'
 
 # fzf
-fe()   { find ./* -type f | fzf | xargs -r $EDITOR ;}
-ff() { vifm "$(find ./* -type d | fzf)" ; clear }
+ff()   { find ./* -type f | fzf | xargs -r $EDITOR ;}
+fd() { vifm "$(find ./* -type d | fzf)" ; clear }
 alias f='ff'
 
 # other
