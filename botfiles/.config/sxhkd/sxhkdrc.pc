@@ -23,9 +23,17 @@ super + Return
 # vifm
 super + r
 	st -e vifm
+# fzf
+super + f
+	st -e zsh -c 'vifm "$(find ./* -type d | fzf)";'
 # rofi
 super + d
 	rofi -show drun
+# neomutt
+	XF86Mail
+	st -e neomutt
+	super + g
+	st -e neomutt
 
 
 #~~~~~~~~~
@@ -62,11 +70,6 @@ super + u
 # rofi-todo
 super + n
 	$SCRD/rofi-todo/rofi-todo.py -f $HOME/Notes/notes.json
-# neomutt
-XF86Mail
-	st -e neomutt
-super + g
-	st -e neomutt
 
 
 #~~~~~~~~~~~~
@@ -79,8 +82,8 @@ super + Escape
 super + {_,shift + }q
 	bspc node -{c,k}
 # Set the window state
-super + {t,shift + t,s,f}
-	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+super + {t,shift + t,s}
+	bspc node -t {tiled,pseudo_tiled,floating}
 # Focus the node in the given direction
 super + {_,shift + }{h,j,k,l}
 	bspc node -{f,s} {west,south,north,east}
