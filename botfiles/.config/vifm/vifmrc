@@ -45,6 +45,7 @@ nnoremap S :sort<cr>
 nnoremap w :view<cr>
 vnoremap w :view<cr>gv
 nnoremap cc cw<c-u>
+nnoremap I za<c-u>
 
 " ------------------------------------------------------------------------------
 

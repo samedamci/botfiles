@@ -21,6 +21,8 @@ call plug#begin('~/.config/nvim/bundle')
 	Plug '~/.fzf'
 	Plug 'junegunn/fzf.vim'
 	Plug 'scrooloose/nerdtree'
+	Plug 'jistr/vim-nerdtree-tabs'
+	Plug 'vifm/vifm.vim'
 
 	Plug 'dense-analysis/ale'
 
@@ -77,7 +79,7 @@ set scrolloff=5
 set pumheight=10
 set autoindent
 set smarttab
-set number number
+set number relativenumber
 set clipboard=unnamedplus
 set inccommand=nosplit
 set tabstop=4
@@ -191,7 +193,7 @@ let g:lightline = {
 "================
 " Plugin configs
 "================
-let g:move_key_modifier = 'S'
+let g:move_key_modifier = 'C'
 
 " ALE - Asynchronous Lint Engine
 hi ALEWarning                               cterm=undercurl
@@ -242,7 +244,7 @@ let g:fzf_colors =
   \ 'header':  ['fg', 'Comment'] }
 
 " Default fzf layout
-let g:fzf_layout = { 'down': '~50%' }
+let g:fzf_layout = { 'down': '~70%' }
 
 " Python paths, needed for virtualenvs
 let g:python3_host_prog = '/usr/bin/python3'
@@ -340,17 +342,20 @@ map j gj
 map k gk
 
 " fzf, fuzzy finder
-nnoremap <C-p> :Files<CR>
+nnoremap <C-f> :Files<CR>
 nnoremap <C-g> :GFiles<CR>
 let g:fzf_action = {
   \ 'ctrl-t': 'tab split',
   \ 'ctrl-x': 'split',
   \ 'ctrl-v': 'vsplit' }
 
-imap <c-x><c-k> <plug>(fzf-complete-word)
-imap <c-x><c-f> <plug>(fzf-complete-path)
-imap <c-x><c-j> <plug>(fzf-complete-file-ag)
-imap <c-x><c-l> <plug>(fzf-complete-line)
+" vifm
+nnoremap <C-r> :Vifm<CR>
+
+" imap <c-x><c-k> <plug>(fzf-complete-word)
+" imap <c-x><c-f> <plug>(fzf-complete-path)
+" imap <c-x><c-j> <plug>(fzf-complete-file-ag)
+" imap <c-x><c-l> <plug>(fzf-complete-line)
 
 map <C-n> :NERDTreeToggle<CR>
 
@@ -374,14 +379,14 @@ map <Leader>aG :ALEGoToDefinition<CR>
 " Tab Managment
 map <S-o> :tabnew<CR>
 map <S-d> :tabclose<CR>
-nnoremap <S-k> gT
 nnoremap <S-j> gt
+nnoremap <S-k> gT
 
 " Split Managment
-nnoremap <C-j> <C-w><C-j>
-nnoremap <C-k> <C-w><C-k>
-nnoremap <C-l> <C-w><C-l>
-nnoremap <C-h> <C-w><C-h>
+nnoremap <C-A-j> <C-w><C-j>
+nnoremap <C-A-k> <C-w><C-k>
+nnoremap <C-A-l> <C-w><C-l>
+nnoremap <C-A-h> <C-w><C-h>
 
 " Spell-check (English US and Polish)
 map <F6> :setlocal spell! spelllang=en_us<CR>
@@ -391,7 +396,7 @@ map <F7> :setlocal spell! spelllang=pl<CR>
 cnoremap sudow w !sudo tee % >/dev/null
 
 " Open terminal
-map <C-A-t> :vsplit term://zsh<CR>
+" map <C-A-t> :vsplit term://zsh<CR>
 
 " Exit from terminal mode
 tnoremap <C-e> <C-\><C-n>
