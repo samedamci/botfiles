@@ -47,6 +47,12 @@ vnoremap w :view<cr>gv
 nnoremap cc cw<c-u>
 nnoremap I za<c-u>
 
+nnoremap <C-A-j> <C-w><C-j>
+nnoremap <C-A-k> <C-w><C-k>
+nnoremap <C-A-l> <C-w><C-l>
+nnoremap <C-A-h> <C-w><C-h>
+
+
 " ------------------------------------------------------------------------------
 
 " :com[mand][!] command_name action

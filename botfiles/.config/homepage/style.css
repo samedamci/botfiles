@@ -37,7 +37,7 @@ body {
   margin: 50px auto;
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: auto auto auto auto; 
+  grid-template-columns: auto auto auto auto;
 }
 
 .bmark {
@@ -47,12 +47,14 @@ body {
   margin: 0 0 3px 3px;
 }
 
-.bmark, .search-bar {
+.bmark,
+.search-bar {
   border: 1px solid var(--bru);
 }
 
-.bmark:hover, .search-bar:hover {
+.bmark:hover,
+.search-bar:hover {
   border-color: var(--brf);
   color: var(--brf);
-  transition: .3s;
+  transition: 0.3s;
 }

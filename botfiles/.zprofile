@@ -19,6 +19,7 @@ export TERMINAL="st"
 #~~~~~~
 # PATH
 #~~~~~~
-export PATH="$PATH:$HOME/Dotfiles:$HOME/.local/bin"
+export NPM_PACKAGES="$HOME/.yarn/bin/"
+export PATH="$PATH:$HOME/Dotfiles:$HOME/.local/bin:$NPM_PACKAGES"
 
 export SCRD=$HOME/.scripts/

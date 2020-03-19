@@ -1,41 +1,41 @@
-"    
-"                       ██                        
-"                      ░██                        
+"
+"                       ██
+"                      ░██
 "      █████   ██████  ░██  ██████  ██████  ██████
-"     ██░░░██ ██░░░░██ ░██ ██░░░░██░░██░░█ ██░░░░ 
-"    ░██  ░░ ░██   ░██ ░██░██   ░██ ░██ ░ ░░█████ 
+"     ██░░░██ ██░░░░██ ░██ ██░░░░██░░██░░█ ██░░░░
+"    ░██  ░░ ░██   ░██ ░██░██   ░██ ░██ ░ ░░█████
 "    ░██   ██░██   ░██ ░██░██   ░██ ░██    ░░░░░██
-"    ░░█████ ░░██████  ███░░██████ ░███    ██████ 
-"     ░░░░░   ░░░░░░  ░░░  ░░░░░░  ░░░    ░░░░░░  
+"    ░░█████ ░░██████  ███░░██████ ░███    ██████
+"     ░░░░░   ░░░░░░  ░░░  ░░░░░░  ░░░    ░░░░░░
 
 
-highlight clear
+hi clear
 
-highlight Win			ctermfg=white	ctermbg=none	cterm=none
-highlight Directory		ctermfg=blue	ctermbg=default	cterm=bold
-highlight Link			ctermfg=cyan	ctermbg=default	cterm=none
-highlight BrokenLink	ctermfg=red		ctermbg=default	cterm=bold
-highlight Socket		ctermfg=magenta	ctermbg=default	cterm=bold
-highlight Device		ctermfg=red		ctermbg=default	cterm=bold
-highlight Fifo			ctermfg=red	ctermbg=default	cterm=bold
-highlight Executable	ctermfg=green	ctermbg=default	cterm=bold
-highlight Selected		ctermfg=black ctermbg=8	cterm=bold
-highlight CurrLine		ctermfg=8	ctermbg=white	cterm=bold,reverse
-highlight TopLine		ctermfg=none		ctermbg=none		cterm=none
-highlight OtherLine		ctermfg=7 		ctermbg=none
-highlight TopLineSel 	ctermfg=white		ctermbg=none cterm=bold
-highlight StatusLine	ctermfg=7	ctermbg=234		cterm=none
-highlight WildMenu		ctermfg=4		ctermbg=black 	cterm=reverse
-highlight CmdLine		ctermfg=7 	ctermbg=233 	cterm=none
-highlight ErrorMsg 		ctermfg=red 	ctermbg=233 	cterm=none
-highlight Border 		ctermfg=black 	ctermbg=none 	    cterm=none
-highlight JobLine 		ctermfg=black 	ctermbg=white 	cterm=none,reverse
-highlight SuggestBox 	ctermfg=8 ctermbg=233 cterm=none
-highlight CmpMismatch 	ctermfg=white 	ctermbg=red 	cterm=bold
-highlight AuxWin 		ctermfg=default ctermbg=default cterm=none,underline,reverse,standout,italic
-highlight TabLine 		ctermfg=9	 	ctermbg=0	 	cterm=none
-highlight TabLineSel 	ctermfg=default ctermbg=default cterm=none,reverse
+hi Win			ctermfg=white	    ctermbg=none	    cterm=none
+hi Directory		ctermfg=blue	    ctermbg=default	    cterm=bold
+hi Link			ctermfg=cyan	    ctermbg=default	    cterm=none
+hi BrokenLink	ctermfg=red		    ctermbg=default	    cterm=bold
+hi Socket		ctermfg=magenta	    ctermbg=default	    cterm=bold
+hi Device		ctermfg=red		    ctermbg=default	    cterm=bold
+hi Fifo			ctermfg=red		    ctermbg=default	    cterm=bold
+hi Executable	ctermfg=green	    ctermbg=default	    cterm=bold
+hi Selected		ctermfg=black 	    ctermbg=8		    cterm=bold
+hi CurrLine		ctermfg=8		    ctermbg=white	    cterm=bold,reverse
+hi TopLine		ctermfg=none	    ctermbg=none	    cterm=none
+hi OtherLine		ctermfg=7 		    ctermbg=none
+hi TopLineSel 	ctermfg=white	    ctermbg=none 	    cterm=bold
+hi StatusLine	ctermfg=4		    ctermbg=none		    cterm=none
+hi WildMenu		ctermfg=4		    ctermbg=black 	    cterm=reverse
+hi CmdLine		ctermfg=7 		    ctermbg=none 	    cterm=none
+hi ErrorMsg 		ctermfg=red 	    ctermbg=233 	    cterm=none
+hi Border 		ctermfg=black 	    ctermbg=none 	    cterm=none
+hi JobLine 		ctermfg=black 	    ctermbg=white 	    cterm=none,reverse
+hi SuggestBox 	ctermfg=8 		    ctermbg=233 	    cterm=none
+hi CmpMismatch 	ctermfg=white 	    ctermbg=red 	    cterm=bold
+hi AuxWin 		ctermfg=default     ctermbg=default     cterm=none,underline,reverse,standout,italic
+hi TabLine 		ctermfg=9	 	    ctermbg=0	 	    cterm=none
+hi TabLineSel 	ctermfg=default     ctermbg=default     cterm=none,reverse
 
-highlight /^.*\.(mp3|ogg|oga|flac|m4a)$/ ctermfg=magenta
-highlight /^.*\.(jpg|jpeg|png|gif|tiff|webp|bmp|svg|svgz)$/ ctermfg=green
-highlight /^.*\.(zip|gz|bz2|xz|tar|tgz|tbz2|7z|rar|iso|rpm|deb)$/ ctermfg=red
+hi /^.*\.(mp3|ogg|oga|flac|m4a)$/ ctermfg=magenta
+hi /^.*\.(jpg|jpeg|png|gif|tiff|webp|bmp|svg|svgz)$/ ctermfg=green
+hi /^.*\.(zip|gz|bz2|xz|tar|tgz|tbz2|7z|rar|iso|rpm|deb)$/ ctermfg=red

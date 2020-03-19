@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/samedamci'
+let g:netrw_dirhist_5='/home/samedamci/.scripts/rofi-keepassxc'
 let g:netrw_dirhist_4='/home/samedamci/.config/dunst'
 let g:netrw_dirhist_3='/home/samedamci/.config/ncmpcpp'
 let g:netrw_dirhist_2='/home/samedamci/.config/zsh'
@@ -8,5 +10,3 @@ let g:netrw_dirhist_0='/home/samedamci/.config/autostart'
 let g:netrw_dirhist_9='/home/samedamci/.config/sxhkd'
 let g:netrw_dirhist_8='/home/samedamci/.conf'
 let g:netrw_dirhist_7='/home/samedamci/.config/bspwm'
-let g:netrw_dirhist_6='/home/samedamci/.config/sxhkd'
-let g:netrw_dirhist_5='/home/samedamci/.config/mpd'
