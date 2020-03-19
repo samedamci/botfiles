@@ -42,3 +42,5 @@ ascii generator | figlet
 file manager | vifm
 mail client | neomutt
 
+# Screenshots
+![scr1](./screenshot1.png)
