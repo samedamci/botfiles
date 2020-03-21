@@ -155,7 +155,7 @@ copy_configs() {
 
 	cp .zshrc .bash_profile .bashrc .profile .shellrc .zprofile .Xresources .xinitrc ~/
 	
-	cp -r .scripts ~/
+	cp -r .scripts ~/scripts
 	cd ~/.scripts/
 	rm -rf rofi-keepassxc
 	git clone https://github.com/samedamci/rofi-keepassxc

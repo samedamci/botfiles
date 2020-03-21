@@ -26,9 +26,6 @@ call plug#begin('~/.config/nvim/bundle')
 		" Plug 'deoplete-plugins/deoplete-jedi'
 		Plug 'deoplete-plugins/deoplete-zsh'
 		Plug 'deoplete-plugins/deoplete-go', { 'do': 'make'}
-		" Plug 'wokalski/autocomplete-flow'
-  		" Plug 'Shougo/neosnippet'
-  		" Plug 'Shougo/neosnippet-snippets'
 		Plug 'prabirshrestha/async.vim'
 		Plug 'prabirshrestha/asyncomplete.vim'
 		Plug 'prabirshrestha/vim-lsp'
@@ -42,7 +39,6 @@ call plug#begin('~/.config/nvim/bundle')
 	Plug 'honza/vim-snippets'
 
 	Plug 'mattn/emmet-vim'
-
 
 	Plug 'tpope/vim-surround'
 	Plug 'tpope/vim-commentary'
@@ -71,16 +67,20 @@ call plug#end()
 "========
 " Config
 "========
-" vim-move
-let g:move_key_modifier = 'C'
-
 " ALE
+let g:ale_sign_error = ''
+let g:lsp_signs_error = {'text': ''}
+let g:ale_sign_warning = ''
+let g:lsp_signs_warning = {'text': ''}
+" let g:lsp_signs_error = {'', 'icon': '/path/to/some/icon'} " icons require GUI
+let g:lsp_signs_hint = {'text': ''} " icons require GUI
+
 let g:ale_linters = {
 \   'c': ['ccls', 'clang'],
 \   'cpp': ['ccls', 'clang'],
 \   'javascript': ['eslint'],
 \   'php': ['php'],
-\   'python': ['pyls', 'flake8'],
+\   'python': ['flake8'],
 \   'sh': ['language_server', 'shellcheck', 'shell'],
 \   'zsh': ['language_server', 'shellcheck', 'shell'],
 \   'go': ['gofmt'],
@@ -96,10 +96,13 @@ let g:ale_fixers = {
 \   'javascript': ['prettier'],
 \   'json': ['prettier'],
 \   'php': ['prettier'],
-\   'python': ['black'],
+\   'python': ['autopep8', 'isort', 'black', 'add_blank_lines_for_python_control_statements'],
 \   'scss': ['prettier'],
 \   'yaml': ['prettier'],
 \}
+
+let g:ale_python_autopep8_use_global = 1
+let g:ale_python_black_use_global = 1
 
 " fzf
 let g:fzf_colors =
@@ -119,7 +122,6 @@ let g:fzf_colors =
 
 let g:fzf_layout = { 'down': '~20%' }
 
-
 " gitgutter
 set updatetime=1000
 
@@ -135,23 +137,19 @@ autocmd FileType html,css EmmetInstall
 
 " deoplete
 let g:deoplete#enable_at_startup = 1
+let deoplete#tag#cache_limit_size = 5000000
+autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
 let g:deoplete#enable_ignore_case = 1
 set completeopt-=preview
 
 call deoplete#custom#source('ultisnips', 'rank', 1000)
-" call deoplete#custom#source('zsh', 'filetypes', ['sh', 'zsh'])
 call deoplete#custom#source('zsh', 'filetypes', ['sh', 'zsh'])
-" call deoplete#custom#source('ale', 'rank', 1000)
-" call deoplete#custom#source('autocomplete-flow', 'rank', 1000)
-" call deoplete#custom#source('autocomplete-flow')
-" call deoplete#custom#option('auto_complete_delay', 100)
 call deoplete#custom#option('smart_case', v:false)
 
 let g:deoplete#sources#go#gocode_binary = "$HOME/go/bin/gocode"
 
 " For python language server
 if (executable('pyls'))
-    " let s:pyls_path = fnamemodify(g:python_host_prog, ':h') . '/'. 'pyls'
     augroup LspPython
         autocmd!
         autocmd User lsp_setup call lsp#register_server({
@@ -175,7 +173,7 @@ if (executable('typescript-language-server'))
 endif
 
 if (executable('ccls'))
-	augroup LspC*
+	augroup LspCpp
 		autocmd!
    		autocmd User lsp_setup call lsp#register_server({
       \ 'name': 'ccls',
@@ -187,6 +185,13 @@ if (executable('ccls'))
 	augroup END
 endif
 
+let g:lsp_diagnostics_enabled = 1 
+let g:lsp_signs_enabled = 1 
+let g:lsp_diagnostics_echo_cursor = 1
+let g:lsp_highlights_enabled = 0
+let g:lsp_textprop_enabled = 0
+let g:lsp_virtual_text_enabled = 0
+let g:lsp_highlight_references_enabled = 1
 
 " autopairs
 let g:AutoPairs={'(':')', '[':']', '{':'}', "'":"'", '"':'"', "`":"`", '```':'```', '"""':'"""', "'''":"'''"} "'<':'>',

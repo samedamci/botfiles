@@ -38,7 +38,7 @@ hi Error                   ctermfg=0        ctermbg=1           cterm=undercurl
                                                                  
 hi SpellBad                ctermfg=0        ctermbg=1           cterm=undercurl
 hi SpellCap                ctermfg=0        ctermbg=2           cterm=undercurl
-hi SpellRare               ctermfg=0        ctermbg=3           cterm=undercurl
+hi SpellRare               ctermfg=0        ctermbg=none           cterm=undercurl
 hi SpellLocal              ctermfg=0        ctermbg=5           cterm=undercurl
                                                                  
 hi DiffAdd                 ctermfg=0        ctermbg=2      
@@ -63,6 +63,17 @@ hi MyStatuslineLinePerc    ctermfg=2        ctermbg=none        cterm=none
 hi CursorLine       				        ctermbg=8  		    cterm=NONE
 hi CursorColumn     				        ctermbg=8           cterm=NONE
 
+" ALE
+hi ALEWarning                               cterm=undercurl
+hi ALEError                                 cterm=undercurl
+hi ALEWarningSign   ctermbg=none   ctermfg=3   cterm=bold
+hi ALEErrorSign     ctermbg=none   ctermfg=1   cterm=bold
+
+" LSP
+hi LspWarningText ctermfg=3 ctermbg=none cterm=bold
+hi LspHintText ctermfg=3 ctermbg=none cterm=none
+hi LspErrorLine ctermfg=red cterm=undercurl
+hi LspErrorText ctermfg=red ctermbg=none
 
 " Cursorline highlight
 augroup CursorLine
@@ -97,10 +108,4 @@ hi GitGutterChange  ctermbg=none   ctermfg=3    cterm=bold
 hi GitGutterAdd     ctermbg=none   ctermfg=2    cterm=bold
 hi GitGutterDelete  ctermbg=none   ctermfg=1    cterm=bold
 hi GitGutterChangeDelete ctermbg=none ctermfg=5 cterm=bold
-
-" ALE
-hi ALEWarning                               cterm=undercurl
-hi ALEError                                 cterm=undercurl
-hi ALEWarningSign   ctermbg=none   ctermfg=3   cterm=bold
-hi ALEErrorSign     ctermbg=none   ctermfg=1   cterm=bold
 

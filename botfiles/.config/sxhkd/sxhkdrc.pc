@@ -19,7 +19,7 @@ super + b
 	qutebrowser
 # st
 super + Return
-	tabbed -r 2 st -w ''
+	st
 # vifm
 super + r
 	st -e vifm
@@ -30,9 +30,9 @@ super + f
 super + d
 	rofi -show drun
 # neomutt
-	XF86Mail
+XF86Mail
 	st -e neomutt
-	super + g
+super + g
 	st -e neomutt
 
 

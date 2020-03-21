@@ -9,13 +9,12 @@
 "   ░░░   ░░  ░░░░░░  ░░░░░░     ░░    ░░ ░░░  ░░  ░░
 
 
+" Load other modules
 source $HOME/.config/nvim/statusline.vim
 source $HOME/.config/nvim/plugins.vim
 source $HOME/.config/nvim/bindings.vim
 
-"=============
 " Basic stuff
-"=============
 syntax on
 filetype plugin indent on
 set scrolloff=5
@@ -49,14 +48,11 @@ augroup resCur
   autocmd BufWinEnter * call ResCur()
 augroup END
 
-"Python paths, needed for virtualenvs
+" Python paths, needed for virtualenvs
 let g:python3_host_prog = '/usr/bin/python3'
 let g:python_host_prog = '/usr/bin/python2'
 
-
-"===================
 " Language-specific
-"===================
 augroup langindentation
 	autocmd Filetype c setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 	autocmd Filetype cpp setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
@@ -69,5 +65,5 @@ augroup langindentation
 	autocmd Filetype yaml setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 augroup END
 
-"==Encoding==
+" Encoding
 scriptencoding utf-8

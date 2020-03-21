@@ -1,12 +1,12 @@
-#    
-#             ██               ██  ██               
-#            ░██              ░██ ░██               
-#      ██████░██       █████  ░██ ░██ ██████  █████ 
+#
+#             ██               ██  ██
+#            ░██              ░██ ░██
+#      ██████░██       █████  ░██ ░██ ██████  █████
 #     ██░░░░ ░██████  ██░░░██ ░██ ░██░░██░░█ ██░░░██
-#    ░░█████ ░██░░░██░███████ ░██ ░██ ░██ ░ ░██  ░░ 
+#    ░░█████ ░██░░░██░███████ ░██ ░██ ░██ ░ ░██  ░░
 #     ░░░░░██░██  ░██░██░░░░  ░██ ░██ ░██   ░██   ██
-#     ██████ ░██  ░██░░██████ ███ ███░███   ░░█████ 
-#    ░░░░░░  ░░   ░░  ░░░░░░ ░░░ ░░░ ░░░     ░░░░░  
+#     ██████ ░██  ░██░░██████ ███ ███░███   ░░█████
+#    ░░░░░░  ░░   ░░  ░░░░░░ ░░░ ░░░ ░░░     ░░░░░
 
 #~~~~~~~~~
 # General
@@ -50,12 +50,13 @@ alias grm='git rm -f'
 alias gi='git init'
 
 # github-cli
-alias gh-rcp='gh repo create --public'
+alias gh-rc='gh repo create --public'
+alias gh-rcp='gh repo create'
 alias gh-rv='gh repo view'
 
 # fzf
 ff()   { find ./* -type f | fzf | xargs -r $EDITOR ;}
-fd() { vifm "$(find ./* -type d | fzf)" ; clear }
+fd() { vifm "$(find ./* -type d | fzf)" ; clear ; }
 fhd() { find . -type d | fzf | xargs -r $EDITOR ; }
 fhf() { find . -type f | fzf | xargs -r $EDITOR ; }
 alias f='ff'
