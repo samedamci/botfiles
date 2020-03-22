@@ -1,6 +1,9 @@
 #!/usr/bin/env sh
 
 greeter() {
+
+	clear
+
 	cat <<EOF
 	 _       _                         
   __| | ___ | |_ _ __ ___   __ _ _ __  
@@ -8,131 +11,169 @@ greeter() {
 | (_| | (_) | |_| | | | | | (_| | | | |
  \__,_|\___/ \__|_| |_| |_|\__,_|_| |_|
 EOF
+
 }
 
 # Logs
 LOG_DIR="$HOME/.log/dotfiles/$(date +"%d-%m-%Y-%H:%M:%S")/"
-mkdir -p $LOG_DIR
+mkdir -p "$LOG_DIR"
+CACHE="$HOME/.cache/dotfiles"
+mkdir -p "$CACHE"
+
+
+install_repo_packages() {
+
+	# Find best mirrors
+	sudo pacman -S --noconfirm --needed reflector
+	sudo reflector --latest 200 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+
+	# Update
+	sudo pacman -Syu --noconfirm
+
+	# Packages
+	FONTS="otf-ipafont noto-fonts-emoji gnu-free-fonts ttf-arphic-uming ttf-indic-otf ttf-joypixels ttf-font-awesome ttf-dejavu"
+	UTILS="neovim qutebrowser telegram-desktop htop mpd ncmpcpp rofi transmission-cli vlc zsh youtube-dl grc curl wget xclip figlet w3m vifm feh
+	alsa-utils tmux networkmanager maim fzf exfat-utils fuse2 udiskie udisks2 imagemagick i3lock-color man pacman-contrib ncdu mpc neomutt bc clipmenu"
+	WM="dunst bspwm sxhkd picom xorg-server xorg-xinit xorg-xsetroot"
+	DEV="python-pip yarn gradle ccls eslint flake8 shellcheck prettier python-black hub git"
+
+	sudo pacman -S --noconfirm --needed "$FONTS $UTILS $WM $DEV"
+
+}
 
 install_yay() {
-	sudo pacman -S --noconfirm --needed git
-	mkdir -p ~/.cache/dotfiles/
-	cd ~/.cache/dotfiles/
+	cd "$CACHE" || exit
 	git clone https://aur.archlinux.org/yay.git
-	cd yay
+	cd yay || exit
 	makepkg -si --noconfirm
 }
 
-install_packages() {
-	yay -S --noconfirm --needed reflector
+install_aur_packages() {
 
-	sudo reflector --latest 200 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+	# Install yay when isn't installed
+	[[ $(which yay) == "yay not found" ]] && install_yay
 
-	yay -S --noconfirm --needed neovim qutebrowser telegram-desktop minecraft-launcher dunst bspwm sxhkd htop mpd ncmpcpp picom ranger rofi transmission-cli vlc zsh youtube-dl grc curl wget xclip figlet w3m xorg-server xorg-xinit ttf-font-awesome ttf-dejavu vifm feh xorg-xsetroot lxappearance python-pip alsa-utils tmux networkmanager maim fzf exfat-utils fuse2 udiskie udisks2 imagemagick i3lock-color man checkupdates+aur pacman-contrib polybar ccls clang eslint flake8 shellcheck clang-format-linter-git prettier python-black github-cli ncdu mpc neomutt bc cli-visualizer clipmenu gradle ktlint rofi-calc yarn hub
+	# Packages
+	UTILS="minecraft-launcher polybar checkupdates+aur cli-visualizer"
+	DEV="clang-format-linter-git github-cli ktlint"
 
-	pip3 install --user -U pynvim msgpack grip virtualenv virtualenvwrapper pipx python-language-server
+	yay -S --noconfirm --needed "$UTILS $DEV" 
 
-	yarn global add typescript typescript-language-server nvm
+}
+
+install_pypi_packages() {
+
+	# Packages
+	PKGS="pynvim msgpack grip virtualenv virtualenvwrapper pipx python-language-server"
+	pip3 install --user -U "$PKGS" 
+
+}
+
+install_npm_packages() {
+
+	# NPM
+	NPM="typescript typescript-language-server nvm"
+	yarn global add "$NPM" 
 
 }
 
 install_st() {
-	cd ~/.cache/dotfiles/
+	cd "$CACHE" || exit
 	rm -rf st
 	git clone https://github.com/samedamci/st
-	cd st
+	cd st || exit
 	sudo make clean install
 }
 
 install_dmenu() {
-	cd ~/.cache/dotfiles/
+	cd "$CACHE"	|| exit
 	rm -rf dmenu
 	git clone https://github.com/samedamci/dmenu
-	cd dmenu
+	cd dmenu || exit
 	sudo make clean install
 }
 
-install_tabbed() {
-	cd ~/.cache/dotfiles
-	rm -rf tabbed
-	git clone https://github.com/samedamci/tabbed
-	cd tabbed
-	sudo make clean install
-}
+configure_pacman() {
+	su root -c "cat >/etc/pacman.conf <<EOF
 
-config_pacman() {
-		su root -c "cat >/etc/pacman.conf <<EOF
+# /etc/pacman.conf
 
-	#
-	# /etc/pacman.conf
-	#
-	# See the pacman.conf(5) manpage for option and repository directives
+# See the pacman.conf(5) manpage for option and repository directives
 
-	#
-	# GENERAL OPTIONS
-	#
-	[options]
-	# The following paths are commented out with their default values listed.
-	# If you wish to use different paths, uncomment and update the paths.
-	#RootDir     = /
-	#DBPath      = /var/lib/pacman/
-	#CacheDir    = /var/cache/pacman/pkg/
-	#LogFile     = /var/log/pacman.log
-	#GPGDir      = /etc/pacman.d/gnupg/
-	#HookDir     = /etc/pacman.d/hooks/
-	HoldPkg     = pacman glibc
-	#XferCommand = /usr/bin/curl -L -C - -f -o %o %u
-	#XferCommand = /usr/bin/wget --passive-ftp -c -O %o %u
-	#CleanMethod = KeepInstalled
-	Architecture = auto
+# GENERAL OPTIONS
+	
+[options]
+# The following paths are commented out with their default values listed.
+# If you wish to use different paths, uncomment and update the paths.
+#RootDir     = /
+#DBPath      = /var/lib/pacman/
+#CacheDir    = /var/cache/pacman/pkg/
+#LogFile     = /var/log/pacman.log
+#GPGDir      = /etc/pacman.d/gnupg/
+#HookDir     = /etc/pacman.d/hooks/
+HoldPkg     = pacman glibc
+#XferCommand = /usr/bin/curl -L -C - -f -o %o %u
+#XferCommand = /usr/bin/wget --passive-ftp -c -O %o %u
+#CleanMethod = KeepInstalled
+Architecture = auto
 
-	# Pacman won't upgrade packages listed in IgnorePkg and members of IgnoreGroup
-	#IgnorePkg   =
-	#IgnoreGroup =
+# Pacman won't upgrade packages listed in IgnorePkg and members of IgnoreGroup
+#IgnorePkg   =
+#IgnoreGroup =
 
-	#NoUpgrade   =
-	#NoExtract   =
+#NoUpgrade   =
+#NoExtract   =
 
-	# Misc options
-	#UseSyslog
-	Color
-	ILoveCandy
-	TotalDownload
-	CheckSpace
-	VerbosePkgLists
+# Misc options
+#UseSyslog
+Color
+ILoveCandy
+TotalDownload
+CheckSpace
+VerbosePkgLists
 
-	# By default, pacman accepts packages signed by keys that its local keyring
-	# trusts (see pacman-key and its man page), as well as unsigned packages.
-	SigLevel    = Required DatabaseOptional
-	LocalFileSigLevel = Optional
-	#RemoteFileSigLevel = Required
+# By default, pacman accepts packages signed by keys that its local keyring
+# trusts (see pacman-key and its man page), as well as unsigned packages.
+SigLevel    = Required DatabaseOptional
+LocalFileSigLevel = Optional
+#RemoteFileSigLevel = Required
 
-	#[testing]
-	#Include = /etc/pacman.d/mirrorlist
+#[testing]
+#Include = /etc/pacman.d/mirrorlist
 
-	[core]
-	Include = /etc/pacman.d/mirrorlist
+[core]
+Include = /etc/pacman.d/mirrorlist
 
-	[extra]
-	Include = /etc/pacman.d/mirrorlist
+[extra]
+Include = /etc/pacman.d/mirrorlist
 
-	#[community-testing]
-	#Include = /etc/pacman.d/mirrorlist
+#[community-testing]
+#Include = /etc/pacman.d/mirrorlist
 
-	[community]
-	Include = /etc/pacman.d/mirrorlist
+[community]
+Include = /etc/pacman.d/mirrorlist
 
-	#[multilib-testing]
-	#Include = /etc/pacman.d/mirrorlist
+#[multilib-testing]
+#Include = /etc/pacman.d/mirrorlist
 
-	#[multilib]
-	#Include = /etc/pacman.d/mirrorlist
+#[multilib]
+#Include = /etc/pacman.d/mirrorlist
 	
 EOF"
 }
 
+configure_udiskie() {
+
+	sudo mkdir /media
+
+	su root -c "echo 'ENV{ID_FS_USAGE}==\"filesystem|other|crypto\", ENV{UDISKS_FILESYSTEM_SHARED}=\"1\"' > /etc/udev/rules.d/99-udisks2.rules && echo 'D /media 0755 root root 0 -' > /etc/tmpfiles.d/media.conf"
+
+}
+
 copy_configs() {
-	cd ~/Dotfiles/botfiles/.config
+
+	# .config dir
+	cd ~/Dotfiles/botfiles/.config || exit
 
 	cp -r * ~/.config/
 
@@ -149,14 +190,18 @@ copy_configs() {
 	rm -rf ~/.config/sxhkd/sxhkdrc.*
 	rm -rf ~/.config/polybar/config.*
 
-	cd ~/Dotfiles/botfiles
+	# Telegram bindings
+	cd ~/Dotfiles/botfiles || exit
 	mkdir -p ~/.local/share/TelegramDesktop/tdata/
 	cp shortcuts-custom.json ~/.local/share/TelegramDesktop/tdata
 
+	# Configs in home dir
+
 	cp .zshrc .bash_profile .bashrc .profile .shellrc .zprofile .Xresources .xinitrc ~/
-	
-	cp -r .scripts ~/scripts
-	cd ~/.scripts/
+
+	# Scripts
+	cp -r .scripts/* ~/scripts
+	cd ~/.scripts/ || exit
 	rm -rf rofi-keepassxc
 	git clone https://github.com/samedamci/rofi-keepassxc
 	rm -rf mpdmenu
@@ -164,47 +209,65 @@ copy_configs() {
 	rm -rf rofi-todo
 	git clone https://github.com/samedamci/rofi-todo
 	chmod +x ~/.scripts/*
-	
-	cd ~/.config/zsh
+
+	# Zsh plugins
+	cd ~/.config/zsh || exit
 	rm -rf plugins
 	mkdir plugins
-	cd plugins
+	cd plugins || exit
 
 	git clone https://github.com/zsh-users/zsh-syntax-highlighting
 	git clone https://github.com/zsh-users/zsh-autosuggestions
 
-	sudo mkdir /media
 }
 
 sudo -v
-clear
 greeter
-printf "\nDo you want to install yay? (Y/n): "; read CHOICE
-if [ "$CHOICE" = "Y" ]; then echo "Installing yay..." && install_yay &>$LOG_DIR/install_yay.log; fi
-clear
+
+printf "\nDo you want to install packages from repo? (y/n): "; read CHOICE
+[[ "$CHOICE" == "y" ]] && echo "Installing repo packages"; install_repo_packages &>$LOG_DIR/install_repo_packages.log
+
 greeter
-printf "\nDo you want to install packages? (Y/n): "; read CHOICE
-if [ "$CHOICE" = "Y" ]; then echo "Installing packages..." && install_packages &>$LOG_DIR/install_packages.log; fi
-clear
+
+printf "\nDo you want to install packages from AUR? (y/n): "; read CHOICE
+[[ "$CHOICE" == "y" ]] && echo "Installing AUR packages"; install_aur_packages &>$LOG_DIR/install_aur_packages.log
+
 greeter
-printf "\nDo you want to compile nad install st? (Y/n): "; read CHOICE
-if [ "$CHOICE" = "Y" ]; then echo "Compiling and installing st..." && install_st &>$LOG_DIR/install_st.log; fi
-printf "\nDo you want to compile nad install dmenu? (Y/n): "; read CHOICE
-if [ "$CHOICE" = "Y" ]; then echo "Compiling and installing dmenu..." && install_dmenu &>$LOG_DIR/install_dmenu.log; fi
-printf "\nDo you want to compile nad install tabbed? (Y/n): "; read CHOICE
-if [ "$CHOICE" = "Y" ]; then echo "Compiling and installing tabbed..." && install_tabbed &>$LOG_DIR/install_tabbed.log; fi
-clear
+
+printf "\nDo you want to install packages from PyPI? (y/n): "; read CHOICE
+[[ "$CHOICE" == "y" ]] && echo "Installing PyPI packages"; install_pypi_packages &>$LOG_DIR/install_pypi_packages.log
+
 greeter
+
+printf "\nDo you want to install packages from NPM? (y/n): "; read CHOICE
+[[ "$CHOICE" == "y" ]] && echo "Installing NPM packages"; install_npm_packages &>$LOG_DIR/install_npm_packages.log
+
+greeter
+
+printf "\n Do you want to build and install st fork? (y/n): "; read CHOICE
+[[ "$CHOICE" == "y" ]] && echo "Installing st..."; install_st &>$LOG_DIR/install_st.log
+
+greeter
+
+printf "\nDo you want to build and install dmenu fork? (y/n): "; read CHOICE
+[[ "$CHOICE" == "y" ]] && echo "Installing dmenu..."; install_dmenu &>/$LOG_DIR/install_dmenu.log
+
+greeter
+
+printf "\nDo you want to configure pacman? (y/n): "; read CHOICE
+[[ "$CHOICE" == "y" ]] && echo "Configuring pacman..."; configure_pacman &>/$LOG_DIR/configure_pacman.log
+
+greeter
+
+printf "\nDo you want to configure udiskie? (y/n): "; read CHOICE
+[[ "$CHOICE" == "y" ]] && echo "Configuring udiskie..."; configure_udiskie &>/$LOG_DIR/configure_udiskie.log
+
 printf "\nDo you want to copy configs? (Y/n): "; read CHOICE
 if [ "$CHOICE" = "Y" ]; then 
-	printf "Moving configs...\n" 
+	printf "Moving configs..." 
 	copy_configs &>$LOG_DIR/copy_configs.log
 	printf "\n"
 	chsh -s /usr/bin/zsh
-	printf "\nConfiguring udiskie.\n"
-	su root -c "echo 'ENV{ID_FS_USAGE}==\"filesystem|other|crypto\", ENV{UDISKS_FILESYSTEM_SHARED}=\"1\"' > /etc/udev/rules.d/99-udisks2.rules && echo 'D /media 0755 root root 0 -' > /etc/tmpfiles.d/media.conf"
-	printf "\nConfiguring pacman.\n"
-	config_pacman
 fi
+
 clear
-greeter
