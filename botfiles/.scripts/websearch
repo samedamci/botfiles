@@ -1,10 +1,10 @@
 #!/usr/bin/env sh
 
 bookmarks="redd.it\narch wiki\ninvidio.us\ngithub\ngitlab\ndotfiles\npython doc\nvulcan"
-PHRASE=$(printf "${bookmarks}" | dmenu -h 24 -p "Web search:")
+PHRASE="$(printf "${bookmarks}" | dmenu -h 24 -p "Web search:")"
 
 case "$PHRASE" in
-	"redd.it") PG="https://old.reddit.com" ;;
+	"redd.it") PG="https://reddit.com" ;;
 	"arch wiki") PG="https://wiki.archlinux.org" ;;
 	"invidio.us") PG="https://invidio.us" ;;
 	"github") PG="https://github.com" ;;

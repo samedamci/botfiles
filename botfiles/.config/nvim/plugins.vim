@@ -120,7 +120,8 @@ let g:fzf_colors =
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
 
-let g:fzf_layout = { 'down': '~20%' }
+let g:fzf_layout = { 'down': '~40%' }
+let g:fzf_preview_window = 'right:60%'
 
 " gitgutter
 set updatetime=1000

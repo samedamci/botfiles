@@ -70,6 +70,7 @@ alias mirrors='sudo reflector --latest 200 --protocol http --protocol https --so
 alias copy='xclip -selection clipboard'
 alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT0'
 alias c256='(x=`tput op` y=`printf %76s`;for i in {0..256};do o=00$i;echo -e ${o:${#o}-3:3} `tput setaf $i;tput setab $i`${y// /=}$x;done)'
+alias ...='cd ~/Dotfiles'
 
 #~~~~~~~~~~~~~~~~~
 # Commands Colors
