@@ -138,8 +138,8 @@ autocmd FileType html,css EmmetInstall
 
 " deoplete
 let g:deoplete#enable_at_startup = 1
-let deoplete#tag#cache_limit_size = 5000000
-autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
+" let deoplete#tag#cache_limit_size = 5000000
+" autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
 let g:deoplete#enable_ignore_case = 1
 set completeopt-=preview
 

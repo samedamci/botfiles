@@ -29,7 +29,9 @@ alias ll='ls -al'
 alias tr='tree -L 2'
 
 # package managers
-alias owo='yay --editmenu --nodiffmenu --save'
+alias owo='pacman'
+alias sowo='sudo pacman'
+alias yay='yay --editmenu --nodiffmenu --save'
 alias uwu="yay -Slq | fzf -m --preview 'yay -Si {1}' | yay -S -"
 
 # youtube-dl

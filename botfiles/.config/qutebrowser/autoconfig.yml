@@ -6,7 +6,5 @@
 
 config_version: 2
 settings:
-  url.default_page:
-    global: file:///home/samedamci/.config/homepage/index.html
-  url.start_pages:
-    global: file:///home/samedamci/.config/homepage/index.html
+  content.notifications:
+    https://www.reddit.com: false

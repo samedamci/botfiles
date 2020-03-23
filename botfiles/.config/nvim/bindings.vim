@@ -92,3 +92,7 @@ map <Leader>l :'.<CR>
 map j gj
 map k gk
 
+" SuperTab
+let g:SuperTabMappingTabLiteral = '<a-tab>'
+let g:SuperTabDefaultCompletionType = 'context'
+let g:SuperTabContextDefaultCompletionType = '<c-n>'

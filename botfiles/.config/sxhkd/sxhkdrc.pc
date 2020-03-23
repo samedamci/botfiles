@@ -70,7 +70,9 @@ super + u
 # rofi-todo
 super + n
 	$SCRD/rofi-todo/rofi-todo.py -f $HOME/Notes/notes.json
-
+# kaomoji-rofi
+super + e
+	$SCRD/kaomoji-rofi/kaomoji.sh
 
 #~~~~~~~~~~~~
 # WM CONTROL
