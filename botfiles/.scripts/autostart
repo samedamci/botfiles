@@ -8,7 +8,11 @@
 # Load .Xresources
 xrdb ~/.Xresources
 # Wallpaper
-feh --bg-fill --randomize /home/samedamci/.config/wallpapers/1920x1080/ &
+if [ "$HOSTNAME" == "pc" ];then
+	feh --bg-fill --randomize /home/samedamci/.config/wallpapers/1920x1080/ &
+elif [ "$HOSTNAME" == "laptop" ];then
+	feh --bg-fill --randomize /home/samedamci/.config/wallpapers/1366x768/ &
+fi
 
 # Polybar
 killall -q polybar
