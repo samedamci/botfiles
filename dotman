@@ -226,45 +226,64 @@ sudo -v
 greeter
 
 printf "\nDo you want to install packages from repo? (y/n): "; read CHOICE
-[[ "$CHOICE" == "y" ]] && echo "Installing repo packages"; install_repo_packages &>$LOG_DIR/install_repo_packages.log
+
+if [ "$CHOICE" = "Y" ] || [ "$CHOICE" = "y" ]; then
+	echo "Installing repo packages"; install_repo_packages &>$LOG_DIR/install_repo_packages.log
+fi
 
 greeter
 
 printf "\nDo you want to install packages from AUR? (y/n): "; read CHOICE
-[[ "$CHOICE" == "y" ]] && echo "Installing AUR packages"; install_aur_packages &>$LOG_DIR/install_aur_packages.log
+if [ "$CHOICE" = "Y" ] || [ "$CHOICE" = "y" ]; then
+	echo "Installing AUR packages"; install_aur_packages &>$LOG_DIR/install_aur_packages.log
+fi
 
 greeter
 
 printf "\nDo you want to install packages from PyPI? (y/n): "; read CHOICE
-[[ "$CHOICE" == "y" ]] && echo "Installing PyPI packages"; install_pypi_packages &>$LOG_DIR/install_pypi_packages.log
+if [ "$CHOICE" = "Y" ] || [ "$CHOICE" = "y" ]; then
+	echo "Installing PyPI packages"; install_pypi_packages &>$LOG_DIR/install_pypi_packages.log
+fi
 
 greeter
 
 printf "\nDo you want to install packages from NPM? (y/n): "; read CHOICE
-[[ "$CHOICE" == "y" ]] && echo "Installing NPM packages"; install_npm_packages &>$LOG_DIR/install_npm_packages.log
+if [ "$CHOICE" = "Y" ] || [ "$CHOICE" = "y" ]; then
+	echo "Installing NPM packages"; install_npm_packages &>$LOG_DIR/install_npm_packages.log
+fi
 
 greeter
 
-printf "\n Do you want to build and install st fork? (y/n): "; read CHOICE
-[[ "$CHOICE" == "y" ]] && echo "Installing st..."; install_st &>$LOG_DIR/install_st.log
+printf "\nDo you want to build and install st fork? (y/n): "; read CHOICE
+if [ "$CHOICE" = "Y" ] || [ "$CHOICE" = "y" ]; then
+	echo "Installing st..."; install_st &>$LOG_DIR/install_st.log
+fi
 
 greeter
 
 printf "\nDo you want to build and install dmenu fork? (y/n): "; read CHOICE
-[[ "$CHOICE" == "y" ]] && echo "Installing dmenu..."; install_dmenu &>/$LOG_DIR/install_dmenu.log
+if [ "$CHOICE" = "Y" ] || [ "$CHOICE" = "y" ]; then
+	echo "Installing dmenu..."; install_dmenu &>/$LOG_DIR/install_dmenu.log
+fi
 
 greeter
 
 printf "\nDo you want to configure pacman? (y/n): "; read CHOICE
-[[ "$CHOICE" == "y" ]] && echo "Configuring pacman..."; configure_pacman &>/$LOG_DIR/configure_pacman.log
+if [ "$CHOICE" = "Y" ] || [ "$CHOICE" = "y" ]; then
+	echo "Configuring pacman..."; configure_pacman 
+fi
 
 greeter
 
 printf "\nDo you want to configure udiskie? (y/n): "; read CHOICE
-[[ "$CHOICE" == "y" ]] && echo "Configuring udiskie..."; configure_udiskie &>/$LOG_DIR/configure_udiskie.log
+if [ "$CHOICE" = "Y" ] || [ "$CHOICE" = "y" ]; then
+	echo "Configuring udiskie..."; configure_udiskie 
+fi
+
+greeter
 
 printf "\nDo you want to copy configs? (Y/n): "; read CHOICE
-if [ "$CHOICE" = "Y" ]; then 
+if [ "$CHOICE" = "Y" ] || [ "$CHOICE" = "y" ]; then 
 	printf "Moving configs..." 
 	copy_configs &>$LOG_DIR/copy_configs.log
 	printf "\n"
