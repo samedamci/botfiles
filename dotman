@@ -196,7 +196,6 @@ copy_configs() {
 	cp shortcuts-custom.json ~/.local/share/TelegramDesktop/tdata
 
 	# Configs in home dir
-
 	cp .zshrc .bash_profile .bashrc .profile .shellrc .zprofile .Xresources .xinitrc ~/
 
 	# Scripts
@@ -208,6 +207,8 @@ copy_configs() {
 	git clone https://github.com/samedamci/mpdmenu
 	rm -rf rofi-todo
 	git clone https://github.com/samedamci/rofi-todo
+	rm -rf kaomoji-rofi
+	git clone https://gitlab.com/ceda_ei/kaomoji-rofi
 	chmod +x ~/.scripts/*
 
 	# Zsh plugins
