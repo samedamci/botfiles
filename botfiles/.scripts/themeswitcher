@@ -2,23 +2,38 @@
 
 xfile="$HOME/.Xresources"
 
-theme="$(printf "cyan\nmagenta" | rofi -dmenu -i -p "Theme" -l 2)"
+theme="$(printf "cyan\nmagenta\ndark\norange\nred" | rofi -dmenu -i -p "Theme" -l 5)"
 
 case "$theme" in
 	cyan)
 		bg="#071616"
 		bunfoc="#353234"
 		bfoc="#144949"
-		dselb="#144949"
 		;;
 	magenta)
 		bg="#211019"
 		bunfoc="#2d060e"
 		bfoc="#4c1139"
-		dselb="#4c1139"
+		;;
+	dark)
+		bg="#0a0200"
+		bunfoc="#262323"
+		bfoc="#353131"
+		;;
+	orange)
+		bg="#351909"
+		bunfoc="#1e0e05"
+		bfoc="#51250c"
+		;;
+	red)
+		bg="#680e10"
+		bunfoc="#380a0b"
+		bfoc="#a31619"
 		;;
 	*) exit;;
 esac
+
+dselb="$bfoc"
 
 sed -i \
 	-e "s/\*\.background:.*/\*\.background: $bg/" \
