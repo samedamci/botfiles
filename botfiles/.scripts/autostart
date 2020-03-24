@@ -16,19 +16,19 @@ fi
 
 # Polybar
 killall -q polybar
-while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
+while pgrep -u $UID -x polybar >/dev/null; do killall -q polybar; done
 polybar polybarexe &
-# Polybar
+# sxhkd
 killall -q sxhkd
-while pgrep -u $UID -x sxhkd >/dev/null; do sleep 1; done
+while pgrep -u $UID -x sxhkd >/dev/null; do killall -q sxhkd; done
 sxhkd &
 # Dunst
 killall -q dunst
-while pgrep -u $UID -x dunst >/dev/null; do sleep 1; done
+while pgrep -u $UID -x dunst >/dev/null; do killall -q dunst; done
 dunst &
 # Picom
 killall -q picom
-while pgrep -u $UID -x picom >/dev/null; do sleep 1; done
+while pgrep -u $UID -x picom >/dev/null; do killall -q picom; done
 picom &
 
 # Set keyboard layout & key swaping

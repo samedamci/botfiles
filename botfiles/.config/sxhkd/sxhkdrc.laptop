@@ -69,6 +69,10 @@ super + n
 # kaomoji-rofi
 super + e
 	$SCRD/kaomoji-rofi/kaomoji.sh
+# theme switcher
+super + v
+	$SCRD/themeswitcher
+
 
 #~~~~~~~~~~~~
 # WM CONTROL

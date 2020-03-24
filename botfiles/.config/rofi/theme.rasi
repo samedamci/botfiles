@@ -1,50 +1,38 @@
  
 * {
-   maincolor:        #144949;
+   maincolor: #144949;
    highlight:        bold #e2a478;
    urgentcolor:      #dfdfdf;
 
-   fg:               #dfdfdf;
-   bg:               #071616;
+   foreground: #dfdfdf;
+   background: #071616;
    blackselect:      #22262e;
-   /* hack */
-   /* maincolor:        #007700; */
-   /* highlight:        bold #00bb00; */
-   /* urgentcolor:      #007700; */
-
-   /* fg:               #007700; */
-   /* bg:               #000000; */
-   /* blackselect:      #001100; */
-   /* cyan:             #004400; */
-   background-color: @bg;
+   background-color: @background;
    show-icons: true;
 }
 
 window {
-   background-color: @bg;
+   background-color: @background;
    border:           1;
    border-color:     @maincolor;
    padding:          0;
-   anchor:           center;
-   location:         center;
-   y-offset:         20;
 }
 
 mainbox {
-   background-color: @bg;
+   background-color: @background;
    spacing:          0px;
    children: [inputbar, message, listview];
 }
 
 message {
    padding: 6px 10px;
-   background-color:@bg;
+   background-color:@background;
 }
 
 textbox {
    text-color:@urgentcolor;
    padding: 10px 10px;
-   background-color:@bg;
+   background-color:@background;
 }
 
 listview {
@@ -54,7 +42,7 @@ listview {
    spacing: 0px;
    padding: 1px 0px 0px 0px;
    margin: 0px 0px 1px 0px;
-   background: @bg;
+   background: #071616;
 }
 
 element {
@@ -63,62 +51,62 @@ element {
 
 element normal.normal {
    padding: 0px 15px;
-   background-color: @bg;
+   background-color: @background;
    text-color: @urgentcolor;
 }
 
 element normal.urgent {
-   background-color: @bg;
+   background-color: @background;
    text-color: @urgentcolor;
 }
 
 element normal.active {
-   background-color: @bg;
+   background-color: @background;
    text-color: @maincolor;
 }
 
 element selected.normal {
     background-color: @blackselect;
-    text-color:       @fg;
+    text-color:       @foreground;
 }
 
 element selected.urgent {
     background-color: @urgentcolor;
-    text-color:       @bg;
+    text-color:       @background;
 }
 
 element selected.active {
     background-color: @maincolor;
-    text-color:       @bg;
+    text-color:       @background;
 }
 
 element alternate.normal {
-    background-color: @bg;
-    text-color:       @fg;
+    background-color: @background;
+    text-color:       @foreground;
 }
 
 element alternate.urgent {
-    background-color: @bg;
+    background-color: @background;
     text-color:       @urgentcolor;
 }
 
 element alternate.active {
-    background-color: @bg;
+    background-color: @background;
     text-color:       @maincolor;
 }
 
 scrollbar {
-   background-color: @bg;
+   background-color: @background;
    handle-color: @cyan;
    handle-width: 15px;
 }
 
 mode-switcher {
-   background-color: @bg;
+   background-color: @background;
 }
 
 button {
-   background-color: @bg;
+   background-color: @background;
    text-color:       @cyan;
 }
 
@@ -127,7 +115,7 @@ button selected {
 }
 
 inputbar {
-   background-color: @bg;
+   background-color: @background;
    spacing: 0px;
 }
 
@@ -139,13 +127,13 @@ prompt {
 
 entry {
    padding:6px 10px;
-   background-color:@bg;
+   background-color:@background;
    text-color:@urgentcolor;
 }
 
 case-indicator {
    padding:6px 10px;
    text-color:@maincolor;
-   background-color:@bg;
+   background-color:@background;
 }
 /* vim:ft=css

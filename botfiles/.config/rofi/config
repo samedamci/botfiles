@@ -2,6 +2,9 @@ rofi.modi: drun
 rofi.font: DejaVu San Mono for Powerline 12
 rofi.show-icons: true
 rofi.m: 0
-rofi.lines:  20
-rofi.width:  30
+rofi.lines:  13
+rofi.width:  20
 rofi.theme: theme
+rofi.location: 1
+rofi.xoffset: 10
+rofi.yoffset: 40
