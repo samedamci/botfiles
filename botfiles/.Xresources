@@ -7,10 +7,10 @@
 ! dmenu
 dmenu.selbackground: #144949
 dmenu.selforeground: #dfdfdf
-dmenu.font: Inconsolata:pixelsize=14:antialias=true:autohint=true:hintstyle=hintmedium
+dmenu.font: Monospace:pixelsize=12:antialias=true:autohint=true:hintstyle=hintmedium
 
 ! st
-st.font: Inconsolata:pixelsize=15:antialias=true:autohint=true:hintstyle=hintmedium
+st.font: Monospace:pixelsize=13:antialias=true:autohint=true:hintstyle=hintmedium
 
 ! black
 *.color0: 	  #000000
@@ -44,3 +44,4 @@ st.font: Inconsolata:pixelsize=15:antialias=true:autohint=true:hintstyle=hintmed
 
 ! white
 *.color7:     #cccccc
+
