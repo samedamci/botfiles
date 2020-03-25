@@ -53,7 +53,7 @@ install_aur_packages() {
 	[[ $(which yay) == "yay not found" ]] && install_yay
 
 	# Packages
-	UTILS="minecraft-launcher polybar checkupdates+aur cli-visualizer"
+	UTILS="minecraft-launcher polybar checkupdates+aur cli-visualizer mimeo"
 	DEV="clang-format-linter-git github-cli ktlint"
 
 	yay -S --noconfirm --needed "$UTILS $DEV" 
