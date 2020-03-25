@@ -41,6 +41,9 @@ autoload -U compinit
 zstyle ':completion:*' menu select
 setopt complete_aliases
 
+zstyle ':completion:*' completer _expand _complete _ignored
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+
 # setopt correct
 zmodload zsh/complist
 compinit
