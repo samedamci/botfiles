@@ -1,5 +1,5 @@
 rofi.modi: drun
-rofi.font: DejaVu San Mono for Powerline 12
+rofi.font: Inconsolata 12
 rofi.show-icons: true
 rofi.m: 0
 rofi.lines:  13

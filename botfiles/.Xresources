@@ -7,7 +7,7 @@
 ! dmenu
 dmenu.selbackground: #144949
 dmenu.selforeground: #dfdfdf
-dmenu.font: Monospace:pixelsize=12:antialias=true:autohint=true:hintstyle=hintmedium
+dmenu.font: Monospace:pixelsize=13:antialias=true:autohint=true:hintstyle=hintmedium
 
 ! st
 st.font: Monospace:pixelsize=13:antialias=true:autohint=true:hintstyle=hintmedium

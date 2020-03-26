@@ -32,7 +32,7 @@ install_repo_packages() {
 
 	# Packages
 	FONTS="otf-ipafont noto-fonts-emoji gnu-free-fonts ttf-arphic-uming ttf-indic-otf ttf-joypixels ttf-font-awesome ttf-dejavu ttf-inconsolata"
-	UTILS="neovim qutebrowser telegram-desktop htop mpd ncmpcpp rofi transmission-cli vlc zsh youtube-dl grc curl wget xclip figlet w3m vifm feh alsa-utils tmux networkmanager maim fzf exfat-utils fuse2 udiskie udisks2 imagemagick i3lock-color man pacman-contrib ncdu mpc neomutt bc clipmenu xdotool"
+	UTILS="neovim qutebrowser telegram-desktop htop mpd ncmpcpp rofi transmission-cli vlc zsh youtube-dl grc curl wget xclip figlet w3m vifm feh alsa-utils tmux networkmanager maim fzf exfat-utils fuse2 udiskie udisks2 imagemagick i3lock-color man pacman-contrib ncdu mpc neomutt bc clipmenu xdotool syncthing"
 	WM="dunst bspwm sxhkd picom xorg-server xorg-xinit xorg-xsetroot papirus-icon-theme"
 	DEV="python-pip yarn gradle ccls eslint flake8 shellcheck prettier python-black hub git"
 
