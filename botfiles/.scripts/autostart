@@ -41,7 +41,7 @@ xsetroot -cursor_name left_ptr & # change the cursor shape from "x" to normal
 [[ -z $(pgrep clipmenud) ]] && clipmenud &
 [[ -z $(pgrep mpd) ]] && mpd &
 [[ -z $(pgrep dunst) ]] && dunst &
-[[ -z $(pgrep syncthing) ]] && syncthing &
+[[ -z $(pgrep syncthing) ]] && syncthing -no-browser &
 telegram-desktop &
 
 # Welcome notify
