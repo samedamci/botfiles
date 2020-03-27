@@ -115,6 +115,7 @@ ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=red'
 ZSH_HIGHLIGHT_STYLES[dollar-double-quoted-argument]='fg=cyan'
 ZSH_HIGHLIGHT_STYLES[back-double-quoted-argument]='fg=cyan'
 ZSH_HIGHLIGHT_STYLES[assign]='none'
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 
 # tetris easter-egg
 autoload -Uz tetriscurses

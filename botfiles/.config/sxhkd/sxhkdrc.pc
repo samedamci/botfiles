@@ -16,7 +16,7 @@
 #~~~~~~
 # qutebrowser
 super + b 
-	qutebrowser
+	firefox
 # st
 super + Return
 	st
