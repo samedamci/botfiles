@@ -7,6 +7,10 @@
 ```
 **B**tw. **I** **u**se **A**rch **L**inux
 
+# Screenshots
+![scr2](./screenshot2.png)
+![scr1](./screenshot1.png)
+
 # Installation
 #### Clone repository
 ```
@@ -42,5 +46,3 @@ ascii generator | figlet
 file manager | vifm
 mail client | neomutt
 
-# Screenshots
-![scr1](./screenshot1.png)
