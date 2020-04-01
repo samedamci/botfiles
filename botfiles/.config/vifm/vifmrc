@@ -40,8 +40,8 @@ mark h ~/
 " Sample mappings
 nnoremap ` :cd ~<cr>
 nnoremap ~ :cd ~<cr>
-nnoremap s :shell<cr>
-nnoremap S :sort<cr>
+nnoremap S :shell<cr>
+nnoremap s :select<cr>
 nnoremap w :view<cr>
 vnoremap w :view<cr>gv
 nnoremap cc cw<c-u>

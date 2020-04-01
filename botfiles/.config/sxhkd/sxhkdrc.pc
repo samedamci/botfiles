@@ -14,7 +14,7 @@
 #~~~~~~
 # APPS
 #~~~~~~
-# qutebrowser
+# firefox
 super + b 
 	firefox
 # st
@@ -51,11 +51,11 @@ super + p
 # clipmenu
 super + c
 	clipmenu
-# mpdmenu
+# rofi-mpd
 super + m
-	$SCRD/mpdmenu/mpdmenu -a 
+	$SCRD/rofi-mpd/rofi-mpd -a 
 XF86Tools
-	$SCRD/mpdmenu/mpdmenu -a
+	$SCRD/rofi-mpd/rofi-mpd -a
 # lock
 super + x
 	$SCRD/lockscreen

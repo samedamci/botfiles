@@ -1,11 +1,11 @@
 ! special
 *.foreground: #dfdfdf
-*.background: #071616
-*.border_unfocused: #353234
-*.border_focused: #144949
+*.background: #0a0200
+*.border_unfocused: #262323
+*.border_focused: #353131
 
 ! dmenu
-dmenu.selbackground: #144949
+dmenu.selbackground: #353131
 dmenu.selforeground: #dfdfdf
 dmenu.font: Monospace:pixelsize=13:antialias=true:autohint=true:hintstyle=hintmedium
 

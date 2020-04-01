@@ -1,11 +1,11 @@
  
 * {
-   maincolor: #144949;
+   maincolor: #353131;
    highlight:        bold #e2a478;
    urgentcolor:      #dfdfdf;
 
    foreground: #dfdfdf;
-   background: #071616;
+   background: #0a0200;
    blackselect:      #22262e;
    background-color: @background;
    show-icons: true;
@@ -42,7 +42,7 @@ listview {
    spacing: 0px;
    padding: 1px 0px 0px 0px;
    margin: 0px 0px 1px 0px;
-   background: #071616;
+   background: #0a0200;
 }
 
 element {

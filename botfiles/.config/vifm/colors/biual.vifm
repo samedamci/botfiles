@@ -37,5 +37,5 @@ hi TabLine 		ctermfg=9	 	    ctermbg=0	 	    cterm=none
 hi TabLineSel 	ctermfg=default     ctermbg=default     cterm=none,reverse
 
 hi /^.*\.(mp3|ogg|oga|flac|m4a)$/ ctermfg=magenta
-hi /^.*\.(jpg|jpeg|png|gif|tiff|webp|bmp|svg|svgz)$/ ctermfg=green
+hi /^.*\.(jpg|jpeg|png|gif|tiff|webp|bmp|svg|svgz)$/ ctermfg=yellow
 hi /^.*\.(zip|gz|bz2|xz|tar|tgz|tbz2|7z|rar|iso|rpm|deb)$/ ctermfg=red

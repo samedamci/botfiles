@@ -48,8 +48,8 @@ map <Leader>ag :ALEGoToDefinitionInSplit<CR>
 map <Leader>aG :ALEGoToDefinition<CR>
 
 " LSP
-nnoremap <silent> <C-]> :LspNextDiagnostic<CR>
-nnoremap <silent> <C-[> :LspPreviousDiagnostic<CR>
+" nnoremap <silent> <C-]> :LspNextDiagnostic<CR>
+" nnoremap <silent> <C-[> :LspPreviousDiagnostic<CR>
 
 " Spell-check (English US and Polish)
 map <F6> :setlocal spell! spelllang=en_us<CR>

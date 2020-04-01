@@ -16,7 +16,7 @@
     padding = 15
     horizontal_padding = 15
     frame_width = 1
- frame_color = "#144949"
+ frame_color = "#353131"
     #alignment = left
     #x = 15
     #y = 15
@@ -83,19 +83,19 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
- background = "#071616"
+ background = "#0a0200"
  foreground = "#dfdfdf"
     timeout = 5
     # Icon for notifications with low urgency, uncomment to enable
     #icon = ~/.local/share/arch.png
 
 [urgency_normal]
- background = "#071616"
+ background = "#0a0200"
  foreground = "#dfdfdf"
     timeout = 5
 
 [urgency_critical]
- background = "#071616"
+ background = "#0a0200"
  foreground = "#dfdfdf"
     timeout = 0
 

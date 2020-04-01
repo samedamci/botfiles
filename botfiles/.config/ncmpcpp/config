@@ -7,7 +7,7 @@
 #~~~~~~~~~
 # GENERAL
 #~~~~~~~~~
-mpd_music_dir = "~/SD/Music"
+mpd_music_dir = "/media/6CEC-36BB/Music"
 lyrics_directory  = "~/.config/ncmpcpp/lyrics"
 ncmpcpp_directory  = "~/.config/ncmpcpp"
 
