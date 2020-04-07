@@ -19,8 +19,10 @@ export TERMINAL="st"
 #~~~~~~
 # PATH
 #~~~~~~
+export GOPATH=$HOME/.local/go
+
 export NPM_PACKAGES="$HOME/.yarn/bin/"
-export PATH="$PATH:$HOME/Dotfiles:$HOME/.local/bin:$NPM_PACKAGES"
+export PATH="$PATH:$HOME/Dotfiles:$HOME/.local/bin:$NPM_PACKAGES:$GOROOT/bin:$GOPATH/bin"
 
 export SCRD=$HOME/.scripts/
 

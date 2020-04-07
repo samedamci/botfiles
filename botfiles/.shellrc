@@ -65,6 +65,8 @@ alias f='ff'
 alias fa='fhf'
 
 # other
+alias s='sudo '
+alias sudo='sudo '
 alias pass='keepassxc-cli clip ~/Passwords/keepass.kdbx'
 alias torrent='transmission-cli'
 alias ascii='figlet'
