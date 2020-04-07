@@ -5,7 +5,7 @@ if [ -z "$WHAT" ]; then exit; fi
 
 case "$WHAT" in
 	Shutdown) systemctl poweroff;;
-	Suspend) systemctl suspend;;
+	Suspend) sh ~/.scripts/lockscreen; systemctl suspend;;
 	Lock) sh ~/.scripts/lockscreen;;
-	*) systemctl reboot
+	Reboot) systemctl reboot
 esac
