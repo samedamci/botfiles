@@ -69,3 +69,8 @@ browser_playlist_prefix = "$2playlist$9 "
 selected_item_prefix = $6
 selected_item_suffix = $9
 modified_item_prefix = $3> $9
+
+def_key "K"
+  move_sort_order_up
+  def_key "J"
+  move_sort_order_down

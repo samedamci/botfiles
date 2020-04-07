@@ -25,7 +25,7 @@ call plug#begin('~/.config/nvim/bundle')
 		Plug 'Shougo/deoplete-clangx'
 		" Plug 'deoplete-plugins/deoplete-jedi'
 		Plug 'deoplete-plugins/deoplete-zsh'
-		Plug 'deoplete-plugins/deoplete-go', { 'do': 'make'}
+		" Plug 'deoplete-plugins/deoplete-go', { 'do': 'make'}
 		Plug 'prabirshrestha/async.vim'
 		Plug 'prabirshrestha/asyncomplete.vim'
 		Plug 'prabirshrestha/vim-lsp'
@@ -147,8 +147,6 @@ call deoplete#custom#source('ultisnips', 'rank', 1000)
 call deoplete#custom#source('zsh', 'filetypes', ['sh', 'zsh'])
 call deoplete#custom#option('smart_case', v:false)
 
-let g:deoplete#sources#go#gocode_binary = "$HOME/go/bin/gocode"
-
 " For python language server
 if (executable('pyls'))
     augroup LspPython
@@ -184,6 +182,26 @@ if (executable('ccls'))
       \ 'whitelist': ['c', 'cpp', 'objc', 'objcpp', 'cc'],
       \ })
 	augroup END
+endif
+
+" for golang language server
+
+if executable('gopls')
+    au User lsp_setup call lsp#register_server({
+        \ 'name': 'gopls',
+        \ 'cmd': {server_info->['gopls']},
+        \ 'whitelist': ['go'],
+        \ })
+    autocmd BufWritePre *.go LspDocumentFormatSync
+endif
+
+if executable('go-langserver')
+    au User lsp_setup call lsp#register_server({
+        \ 'name': 'go-langserver',
+        \ 'cmd': {server_info->['go-langserver', '-gocodecompletion']},
+        \ 'whitelist': ['go'],
+        \ })
+    autocmd BufWritePre *.go LspDocumentFormatSync
 endif
 
 let g:lsp_diagnostics_enabled = 1 
