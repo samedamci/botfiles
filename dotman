@@ -209,7 +209,7 @@ copy_configs() {
 	rm -rf kaomoji-rofi
 	git clone https://gitlab.com/ceda_ei/kaomoji-rofi
 	rm -rf blaze
-	git clone https://gitlab.com/Cherrry9/blaze
+	git clone https://github.com/Cherrry9/blaze
 	chmod +x ~/.scripts/*
 
 	# Zsh plugins
