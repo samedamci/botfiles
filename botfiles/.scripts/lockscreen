@@ -1,5 +1,11 @@
-#!/bin/zsh
+#!/usr/bin/env sh
 
-RESOL=$(xrandr | grep '*' | grep -o '?*[0-9]*x?*[0-9]*')
+mkdir ~/.cache/lock/
+f="$HOME/.cache/lock/lock.jpg"
 
-i3lock -i ~/.config/wallpapers/$RESOL/wall$(( ( RANDOM % $(ls ~/.config/wallpapers/$RESOL | wc -l) +1 ) )).png --composite --insidecolor=55443311 --ringcolor=99443300 --insidevercolor=55443311 --keyhlcolor=99999999 --indicator --veriftext= --wrongtext=! --radius 180 -b --separatorcolor=00000000 --bar-indicator
+maim -u -m 7 -f jpg "$f"
+convert "$f" -blur 0x6 "$f"
+
+i3lock -i "$f" --composite --insidecolor=55443311 --ringcolor=99443300 --insidevercolor=55443311 --keyhlcolor=99999999 --indicator --veriftext= --wrongtext=! --radius 180 -b --separatorcolor=00000000
+
+rm "$f" 
