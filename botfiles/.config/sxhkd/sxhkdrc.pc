@@ -76,6 +76,9 @@ super + e
 # themeswitcher
 super + v
 	$SCRD/themeswitcher
+# blaze
+F11 
+	if [ $(pgrep ffmpeg) ]; then "$SCRD/blaze/blaze" -s; else "$SCRD/blaze/blaze"; fi
 
 #~~~~~~~~~~~~
 # WM CONTROL
