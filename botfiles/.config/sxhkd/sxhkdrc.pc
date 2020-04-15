@@ -14,9 +14,9 @@
 #~~~~~~
 # APPS
 #~~~~~~
-# firefox
+# browser
 super + b 
-	firefox
+	$BROWSER
 # st
 super + Return
 	st
@@ -79,6 +79,13 @@ super + v
 # blaze
 F11 
 	if [ $(pgrep ffmpeg) ]; then "$SCRD/blaze/blaze" -s; else "$SCRD/blaze/blaze"; fi
+
+
+#~~~~~~~~~~~
+# SmartHome
+#~~~~~~~~~~~
+F10
+	curl 192.168.1.11/toggle.php
 
 #~~~~~~~~~~~~
 # WM CONTROL
