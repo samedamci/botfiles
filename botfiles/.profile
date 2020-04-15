@@ -13,7 +13,7 @@
 # Default Apps
 #~~~~~~~~~~~~~~
 export EDITOR="nvim"
-export BROWSER="firefox"
+export BROWSER="brave"
 export TERMINAL="st"
 
 #~~~~~~
