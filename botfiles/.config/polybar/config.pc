@@ -329,7 +329,7 @@ type = custom/script
 exec        = ~/.scripts/update-check
 label       =  %output%
 click-left  = ~/.scripts/updater &
-click-right = checkupdates | dmenu -l 30
+click-right = pacman -Qu | dmenu -l 30
 interval    = 60
 
 ;~~~~~~~~~~~
