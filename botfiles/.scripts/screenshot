@@ -1,32 +1,22 @@
 #!/usr/bin/env sh
 
-# rofi prompts
-TYPE="$(printf "Screen\nArea\n" | rofi -dmenu -l 2 -i -p 'What do you want to screenshot?')"
-if [ -z "$TYPE" ]; then exit; fi
-SAVE="$(printf "No\nYes" | rofi -dmenu -l 2 -i -p 'Do you want to copy to clipboard?')"
-if [ -z "$SAVE" ]; then exit; fi
-TIME="$(printf "0.7\n5\n10\n15" | rofi -dmenu -l 3 -i -p 'How many seconds you want to wait?')"
-if [ -z "$TIME" ]; then exit; fi
+m() { rofi -dmenu -i -l "$@"; }
 
-# Set flag if selected "Area"
-case "$TYPE" in
-	Area) TYPE="-s -u";;
-	*) TYPE=""
-esac
+TYPE="$(printf "Screen\nArea\n" | m 2 -p 'What do you want to screenshot?')"
+[ ! "$TYPE" ] && exit
+SAVE="$(printf "No\nYes" 		| m 2 -p 'Do you want to copy to clipboard?')"
+[ ! "$SAVE" ] && exit
+TIME="$(printf "0.7\n5\n10\n15" | m 3 -p 'How many seconds you want to wait?')"
+[ ! "$TIME" ] && exit
 
-# Prepere for screenshot
-mkdir ~/Pictures/Screenshots
+[ "$TYPE" = "Area" ] && TYPE="-s -u" || TYPE=""
+
+mkdir -p ~/Pictures/Screenshots
 sleep "$TIME"
 SCREEN_PATH=~/Pictures/Screenshots/$(date +%G-%m-%d_%s).png
 
-# Copy to clipboard (and save) or only save to file
-case "$SAVE" in
-	Yes) 
-		maim $TYPE $SCREEN_PATH
-		xclip -selection clipboard -t image/png $SCREEN_PATH;;
-	*)   
-		maim $TYPE $SCREEN_PATH;;
-esac
+maim $TYPE "$SCREEN_PATH" && 
+	notify-send -u low -t 1400 -i "$SCREEN_PATH" "Screenshot created!"
 
-# Send notify
-notify-send -u low -t 1400 -i $SCREEN_PATH "Screenshot created!"
+[ "$SAVE" = "Yes" ] && 
+	xclip -selection clipboard -t image/png "$SCREEN_PATH" || exit
