@@ -20,6 +20,9 @@ source "$HOME/.profile"
 alias v='nvim'
 alias vi='nvim'
 alias vim='nvim'
+alias nano='nvim'
+alias emacs='nvim'
+alias code='nvim'
 alias suvi='sudo -E nvim'
 
 # ls / tree
@@ -78,10 +81,11 @@ alias c256='(x=`tput op` y=`printf %76s`;for i in {0..256};do o=00$i;echo -e ${o
 alias ...='cd ~/Dotfiles'
 alias cd..='cd ..'
 
-# fun
+# 4fun
 alias dog='cat'
 alias nyancat='lolcat'
 alias woman='man'
+alias tak='yes'
 
 #~~~~~~~~~~~~~~~~~
 # Commands Colors
