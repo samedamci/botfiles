@@ -25,6 +25,7 @@ source $HOME/.shellrc
 # error message
 command_not_found_handler() {
     printf "\nahh shit, command not found\n\033[0;31m(╯°□°)╯︵ ┻━┻\n\n"
+	exit 127
 }
 
 # prompt
