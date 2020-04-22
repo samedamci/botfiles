@@ -22,6 +22,11 @@ HISTFILE="${ZDIR}/history"
 source $HOME/.profile
 source $HOME/.shellrc
 
+# error message
+command_not_found_handler() {
+    printf "\nahh shit, command not found\n\033[0;31m(╯°□°)╯︵ ┻━┻\n\n"
+}
+
 # prompt
 setopt prompt_subst
 setopt autocd
