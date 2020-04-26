@@ -36,6 +36,9 @@ set splitbelow
 set noshowmode
 color biual
 
+highlight OverLength ctermbg=none ctermfg=14 cterm=underline 
+match OverLength /\%81v.\+/
+
 " Restore cursor position
 function! ResCur()
   if line("'\"") <= line("$")
