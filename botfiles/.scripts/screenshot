@@ -19,4 +19,5 @@ maim $TYPE "$SCREEN_PATH" &&
 	notify-send -u low -t 1400 -i "$SCREEN_PATH" "Screenshot created!"
 
 [ "$SAVE" = "Yes" ] && 
+	xclip -sel clip /dev/null; sleep 0.5 
 	xclip -selection clipboard -t image/png "$SCREEN_PATH" || exit
