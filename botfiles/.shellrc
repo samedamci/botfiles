@@ -46,9 +46,10 @@ alias yt-thumbnail='youtube-dl --write-thumbnail --skip-download -o "%(title)s.%
 
 # git
 alias ga='git add'
-alias gc='git commit'
+alias gc='git commit -S'
 alias gp='git push'
 alias gpom='git push origin master'
+alias gch='git checkout'
 alias gl='git log'
 alias gpu='git pull'
 alias gs='git status'
