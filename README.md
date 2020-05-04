@@ -11,38 +11,29 @@
 ![scr2](./screenshot2.png)
 ![scr1](./screenshot1.png)
 
-# Installation
-#### Clone repository
-```
-git clone https://github.com/samedamci/biual-dot-conf ~/Dotfiles
-```
-Clone repo in `~/Dotfiles` if you want to use `dotman` and `updot` scripts.
-#### Use dotman
-To install configs, packages and other stuff you should use `./dotman` script. The first time you must use path to this script, but after you can use `dotman` command from any place in your terminal, because it will be added to PATH.
-
-
 ## Hot stuff:
 Category | Item
 :--- | :---
-os | arch linux
+os | parabola
 wm | bspwm
 shortcuts manager | sxhkd
-browser | qutebrowser
+browser | icecat
 shell | zsh
 bar | polybar
 text editor | neovim
 bittorrent client | transmission-cli
-password manager | keepassxc-cli
+password manager | keepassxc
 compositor | picom
 notify daemon | dunst
 music daemon | mpd
 music player | ncmpcpp
 app menu | rofi
-package manager/aur helper | yay
+aur helper | yay
 audio drivers | alsa
 terminal emulator | st
-video player | vlc
+video player | vlc/mpv
 ascii generator | figlet
 file manager | vifm
 mail client | neomutt
 
++ some personal scripts for rofi and dmenu
