@@ -1,3 +1,4 @@
+
 ;                   _         _
 ;     _ __    ___  | | _   _ | |__    __ _  _ __
 ;    | '_ \  / _ \ | || | | || '_ \  / _` || '__|
@@ -13,7 +14,6 @@ bg= ${xrdb:background}
 fg = ${xrdb:foreground}
 border = ${xrdb:border_unfocused}
 border_f = ${xrdb:border_focused}
-
 ;~~~~~
 ; bar
 ;~~~~~
@@ -22,14 +22,14 @@ width = 100%
 height = 24
 fixed-center = true
 
-font-0 = "DejaVu Sans Mono:pixelsize=10:antialias=true;3"
+font-0 = "Inconsolata:pixelsize=10:antialias=true;3"
 font-1 = "Font Awesome 5 Brands:pixelsize=13:antialias=true;3"
 font-2 = "Font Awesome 5 Free:style=Solid:pixelsize=12:antialias=true;3"
 
 background = ${colors.bg}
 foreground = ${colors.fg}
 
-line-size = 0
+line-size = 2
 line-color = ${colors.fg}
 
 border-size = 0
@@ -44,8 +44,8 @@ module-margin-left = 0
 module-margin-right = 0
 
 modules-left = bspwm
-modules-center = 
-modules-right = wireless-network sym2 alsa sym2 fsroot sym5 fshome sym2 coreuse temperature memory sym2 battery sym2 clock sym2 updater sym2 powermenu
+modules-center = mpd 
+modules-right = alsa sym2 fsroot sym5 fshome sym2 clock sym2 updater sym2 powermenu
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -62,19 +62,31 @@ enable-scroll = false
 reverse-scroll = false
 fuzzy-match = true
 
+ws-icon-0 = "1;"
+ws-icon-1 = "2;"
+ws-icon-2 = "3;"
+ws-icon-3 = "4;"
+ws-icon-4 = "5;"
+ws-icon-5 = "6;"
+ws-icon-6 = "7;"
+ws-icon-7 = "8;"
+
 format = <label-state><label-mode>
 label-monitor = %name%
-label-focused = %index%
-label-focused-background = ${colors.border_f}
-label-occupied-background = ${colors.border}
-label-occupied = %index%
+label-focused = %name%
+; label-focused-background = ${colors.border}
+label-focused-overline = ${colors.fg}
+label-occupied = %name%
+; label-occupied-background = ${colors.border}
+label-occupied-foreground = ${colors.fg}
+label-empty-foreground = ${colors.border_f}
 label-occupied-padding = 1
 label-focused-padding = 1
 label-unfocused-padding = 1
 label-visible-padding = 1
-label-urgent = %index%
+label-urgent = %name%
 label-urgent-padding = 1
-label-empty = %index% 
+label-empty = %name%
 label-empty-padding = 1
 
 ;~~~~~
@@ -318,7 +330,7 @@ type = custom/script
 exec        = ~/.scripts/update-check
 label       =  %output%
 click-left  = ~/.scripts/updater &
-click-right = checkupdates | dmenu -l 30
+click-right = pacman -Qu | dmenu -l 30
 interval    = 60
 
 ;~~~~~~~~~~~
