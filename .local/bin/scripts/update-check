@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# killall wificheck.sh &> /dev/null
+
+if ping -w 1 archlinux.org &> /dev/null
+then
+	printf "$(checkupdates | wc -l)"
+else
+ 	echo "  "
+fi
