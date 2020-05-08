@@ -1,8 +1,17 @@
 ! special
 *.foreground: #dfdfdf
-*.background: #0a0200
+*.background: #130314
 *.border_unfocused: #262323
 *.border_focused: #353131
+
+! dwm
+dwm.normfgcolor: #bbbbbb
+dwm.normbgcolor: #1b1b1b
+dwm.normbordercolor: #444444
+
+dwm.selfgcolor: #eeeeee
+dwm.selbgcolor: #5e3059
+dwm.selbordercolor: #05e3059
 
 ! dmenu
 dmenu.selbackground: #353131

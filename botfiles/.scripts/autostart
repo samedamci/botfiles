@@ -15,9 +15,9 @@ elif [ "$HOSTNAME" == "laptop" ];then
 fi
 
 # Polybar
-killall -q polybar
-while pgrep -u $UID -x polybar >/dev/null; do killall -q polybar; done
-polybar polybarexe &
+# killall -q polybar
+# while pgrep -u $UID -x polybar >/dev/null; do killall -q polybar; done
+# polybar polybarexe &
 # sxhkd
 killall -q sxhkd
 while pgrep -u $UID -x sxhkd >/dev/null; do killall -q sxhkd; done
@@ -35,6 +35,7 @@ picom &
 setxkbmap -layout 'pl' -option caps:swapescape &
 # Cursor
 xsetroot -cursor_name left_ptr & # change the cursor shape from "x" to normal
+xsetroot -name " samedamci "
 
 # Not reload
 [[ -z $(pgrep udiskie) ]] && udiskie &
@@ -43,6 +44,8 @@ xsetroot -cursor_name left_ptr & # change the cursor shape from "x" to normal
 [[ -z $(pgrep dunst) ]] && dunst &
 [[ -z $(pgrep syncthing) ]] && syncthing -no-browser &
 telegram-desktop &
+
+~/.scripts/dwmbar &
 
 # Welcome notify
 dunstify "Hello ${USER}!"

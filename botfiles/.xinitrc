@@ -1,2 +1,3 @@
 #!/bin/sh
-exec bspwm
+~/.scripts/autostart &
+exec dwm
