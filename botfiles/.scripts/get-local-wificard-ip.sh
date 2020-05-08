@@ -1,1 +1,0 @@
-ip a show wlp8s0 | grep -Eo '(inet)?*([0-9]*\.){3}[0-9]*' | grep -v '**\.255'
