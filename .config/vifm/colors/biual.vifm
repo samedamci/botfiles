@@ -1,0 +1,41 @@
+"
+"                       ██
+"                      ░██
+"      █████   ██████  ░██  ██████  ██████  ██████
+"     ██░░░██ ██░░░░██ ░██ ██░░░░██░░██░░█ ██░░░░
+"    ░██  ░░ ░██   ░██ ░██░██   ░██ ░██ ░ ░░█████
+"    ░██   ██░██   ░██ ░██░██   ░██ ░██    ░░░░░██
+"    ░░█████ ░░██████  ███░░██████ ░███    ██████
+"     ░░░░░   ░░░░░░  ░░░  ░░░░░░  ░░░    ░░░░░░
+
+
+hi clear
+
+hi Win			ctermfg=white	    ctermbg=none	    cterm=none
+hi Directory		ctermfg=blue	    ctermbg=default	    cterm=bold
+hi Link			ctermfg=cyan	    ctermbg=default	    cterm=none
+hi BrokenLink	ctermfg=red		    ctermbg=default	    cterm=bold
+hi Socket		ctermfg=magenta	    ctermbg=default	    cterm=bold
+hi Device		ctermfg=red		    ctermbg=default	    cterm=bold
+hi Fifo			ctermfg=red		    ctermbg=default	    cterm=bold
+hi Executable	ctermfg=green	    ctermbg=default	    cterm=bold
+hi Selected		ctermfg=black 	    ctermbg=8		    cterm=bold
+hi CurrLine		ctermfg=8		    ctermbg=white	    cterm=bold,reverse
+hi TopLine		ctermfg=none	    ctermbg=none	    cterm=none
+hi OtherLine		ctermfg=7 		    ctermbg=none
+hi TopLineSel 	ctermfg=white	    ctermbg=none 	    cterm=bold
+hi StatusLine	ctermfg=4		    ctermbg=none		    cterm=none
+hi WildMenu		ctermfg=4		    ctermbg=black 	    cterm=reverse
+hi CmdLine		ctermfg=7 		    ctermbg=none 	    cterm=none
+hi ErrorMsg 		ctermfg=red 	    ctermbg=233 	    cterm=none
+hi Border 		ctermfg=black 	    ctermbg=none 	    cterm=none
+hi JobLine 		ctermfg=black 	    ctermbg=white 	    cterm=none,reverse
+hi SuggestBox 	ctermfg=8 		    ctermbg=233 	    cterm=none
+hi CmpMismatch 	ctermfg=white 	    ctermbg=red 	    cterm=bold
+hi AuxWin 		ctermfg=default     ctermbg=default     cterm=none,underline,reverse,standout,italic
+hi TabLine 		ctermfg=9	 	    ctermbg=0	 	    cterm=none
+hi TabLineSel 	ctermfg=default     ctermbg=default     cterm=none,reverse
+
+hi /^.*\.(mp3|ogg|oga|flac|m4a)$/ ctermfg=magenta
+hi /^.*\.(jpg|jpeg|png|gif|tiff|webp|bmp|svg|svgz)$/ ctermfg=yellow
+hi /^.*\.(zip|gz|bz2|xz|tar|tgz|tbz2|7z|rar|iso|rpm|deb)$/ ctermfg=red
