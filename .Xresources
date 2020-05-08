@@ -1,0 +1,56 @@
+! special
+*.foreground: #dfdfdf
+*.background: #130314
+*.border_unfocused: #262323
+*.border_focused: #353131
+
+! dwm
+dwm.normfgcolor: #bbbbbb
+dwm.normbgcolor: #1b1b1b
+dwm.normbordercolor: #444444
+
+dwm.selfgcolor: #eeeeee
+dwm.selbgcolor: #5e3059
+dwm.selbordercolor: #05e3059
+
+! dmenu
+dmenu.selbackground: #353131
+dmenu.selforeground: #dfdfdf
+dmenu.font: Monospace:pixelsize=13:antialias=true:autohint=true:hintstyle=hintmedium
+
+! st
+st.font: Monospace:pixelsize=13:antialias=true:autohint=true:hintstyle=hintmedium
+
+! black
+*.color0: 	  #000000
+
+! gray
+*.color8: 	  #343834
+
+! red
+*.color1:     #cf5252
+*.color9:     #cf5252
+
+! green
+*.color2:     #92ad4a
+*.color10:    #92ad4a
+
+! yellow
+*.color3:     #c9895b
+*.color11:    #c9895b
+
+! blue
+*.color4:     #6f97b8
+*.color12:    #6f97b8
+
+! magenta
+*.color5:     #ab6ba6
+*.color13:    #ab6ba6
+
+! cyan
+*.color6:     #6fa69f
+*.color14:    #6fa69f
+
+! white
+*.color7:     #cccccc
+
