@@ -1,0 +1,5 @@
+#!/bin/sh
+
+ping -q -c 1 1.1.1.1 > /dev/null || exit 1
+
+pacman -Syyuw --noconfirm
