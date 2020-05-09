@@ -1,0 +1,79 @@
+#
+#                     ██      ██          ██
+#                    ░██     ░██         ░██
+#      ██████ ██   ██░██     ░██  ██     ░██
+#     ██░░░░ ░░██ ██ ░██████ ░██ ██   ██████
+#    ░░█████  ░░███  ░██░░░██░████   ██░░░██
+#     ░░░░░██  ██░██ ░██  ░██░██░██ ░██  ░██
+#     ██████  ██ ░░██░██  ░██░██░░██░░██████
+#    ░░░░░░  ░░   ░░ ░░   ░░ ░░  ░░  ░░░░░░ 
+#
+#             
+
+
+#~~~~~~
+# APPS
+#~~~~~~
+# browser
+super + b 
+	iceweasel
+# neomutt
+XF86Mail
+	st -e neomutt
+super + g
+	st -e neomutt
+
+
+#~~~~~~~~~
+# SCRIPTS
+#~~~~~~~~~
+# screenshot
+Print
+	screenshot
+# rofi-mpd
+super + m
+	rofi-mpd -a 
+# lock
+super + x
+	lockscreen
+# powermenu
+super + z
+	powermenu
+End
+	powermenu
+# update
+super + u
+	updater
+# rofi-todo
+super + n
+	$SCRD/rofi-todo/rofi-todo.py -f $HOME/Notes/notes.json
+# blaze
+F11 
+	if [ $(pgrep ffmpeg) ]; then "$SCRD/blaze/blaze" -s; else "$SCRD/blaze/blaze"; fi
+
+
+#~~~~~~~~~~~
+# SmartHome
+#~~~~~~~~~~~
+F10
+	curl 192.168.1.201/toggle.php
+
+
+#~~~~~~~
+# AUDIO
+#~~~~~~~
+# Mute
+XF86AudioMute
+	amixer sset Master toggle
+# Volume control
+XF86Audio{Raise,Lower}Volume
+	amixer sset Master 5%{+,-} && refbar
+# Songs control
+XF86Audio{Next,Prev}
+	mpc {next,prev}
+# Pause/play
+XF86AudioPlay
+	mpc toggle
+# Stop
+XF86AudioStop
+	mpc stop
