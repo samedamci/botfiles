@@ -1,3 +1,3 @@
 #!/bin/sh
-~/.scripts/autostart &
+autostart &
 exec dwm
