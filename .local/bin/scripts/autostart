@@ -14,14 +14,9 @@ elif [ "$HOSTNAME" == "laptop" ];then
 	feh --bg-fill --randomize /home/samedamci/.config/wallpapers/1366x768/ &
 fi
 
-# Polybar
-# killall -q polybar
-# while pgrep -u $UID -x polybar >/dev/null; do killall -q polybar; done
-# polybar polybarexe &
-# sxhkd
-# killall -q sxhkd
-# while pgrep -u $UID -x sxhkd >/dev/null; do killall -q sxhkd; done
-# sxhkd &
+killall -q sxhkd
+while pgrep -u $UID -x sxhkd >/dev/null; do killall -q sxhkd; done
+sxhkd &
 # Dunst
 killall -q dunst
 while pgrep -u $UID -x dunst >/dev/null; do killall -q dunst; done
@@ -35,7 +30,9 @@ picom &
 setxkbmap -layout 'pl' -option caps:swapescape &
 # Cursor
 xsetroot -cursor_name left_ptr & # change the cursor shape from "x" to normal
-xsetroot -name " samedamci "
+
+# dwm bar
+~/.local/bin/scripts/dbar &
 
 # Not reload
 [[ -z $(pgrep udiskie) ]] && udiskie &
