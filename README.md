@@ -9,4 +9,4 @@
 ░░░░░    ░░░░░░     ░░    ░░   ░░ ░░░  ░░░░░░ ░░░░░░  
 ```
 
-Personal dotfiles for Parabola GNU/Linux with `dwm`.
+Personal dotfiles for Parabola GNU/Linux-libre with `dwm`.
