@@ -1,0 +1,6 @@
+#!/bin/sh
+
+status=$(curl -s 192.168.1.201/status.php)
+
+echo ""
+[ "$status" = 1 ] && echo "on" || echo "off"

@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-while true; do 
-	xsetroot -name "  $(awk -F"[][]" '/dB/ { print $2 }' <(amixer sget Master)) |  $(date "+%H:%M:%S %p") |  $(pacman -Qu | wc -l) "
-	sleep 1
-done

@@ -1,0 +1,3 @@
+#!/bin/sh
+
+echo " $(pacman -Qu | wc -l)"

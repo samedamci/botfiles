@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo ""
+if mpc status | grep -q "playing"; then
+	mpc | sed "/^volume:/d;s/\\&/&amp;/g;s/\\[playing\\].*//g"
+elif mpc status | grep -q "paused"; then
+	echo ""
+else
+	echo ""
+fi
+

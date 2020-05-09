@@ -1,0 +1,3 @@
+#!/bin/sh
+
+ip a show enp3s0 | grep -Eo '(inet)?*([0-9]*\.){3}[0-9]*' | grep -v '**\.255'
