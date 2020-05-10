@@ -1,7 +1,8 @@
-http://lukesmith.xyz/rss.xml
-https://notrelated.libsyn.com/rss
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "~Luke Smith (YouTube)"
-https://suckless.org/atom.xml
-https://reddit.com/r/linux/.rss
-https://linux.com/feed
-https://www.archlinux.org/feeds/news/ "tech"
+http://lukesmith.xyz/rss.xml "luke smith"
+https://notrelated.libsyn.com/rss "luke smith"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA  "luke smith" "~Luke Smith (YouTube)"
+https://suckless.org/atom.xml "linux"
+https://reddit.com/r/linux/.rss "linux"
+https://linux.com/feed "linux"
+https://www.archlinux.org/feeds/news/ "linux"
+https://www.parabola.nu/feeds/news/ "linux"
