@@ -1,0 +1,6 @@
+#!/bin/sh
+
+package="$(pacman -Slq | fzf -m --preview 'pacman -Si {1}')"
+[ ! "$package" ] && exit
+
+sudo pacman -S "$package"

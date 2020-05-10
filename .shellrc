@@ -36,7 +36,6 @@ alias tr='tree -L 2'
 alias owo='pacman'
 alias sowo='sudo pacman'
 alias yay='yay --editmenu --nodiffmenu --save'
-alias uwu="yay -Slq | fzf -m --preview 'yay -Si {1}' | yay -S -"
 
 # youtube-dl
 alias ytdl-audio='youtube-dl -i -f bestaudio -o "%(title)s.%(ext)s" -4'

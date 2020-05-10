@@ -1,0 +1,3 @@
+#!/bin/sh
+
+yay -Slq | fzf -m --preview 'yay -Si {1}' | yay -S -
