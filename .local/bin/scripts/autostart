@@ -7,12 +7,9 @@
 
 # Load .Xresources
 xrdb ~/.Xresources
-# Wallpaper
-if [ "$HOSTNAME" == "pc" ];then
-	feh --bg-fill --randomize /home/samedamci/.config/wallpapers/1920x1080/ &
-elif [ "$HOSTNAME" == "laptop" ];then
-	feh --bg-fill --randomize /home/samedamci/.config/wallpapers/1366x768/ &
-fi
+
+# wallpaper
+setwall &
 
 killall -q sxhkd
 while pgrep -u $UID -x sxhkd >/dev/null; do killall -q sxhkd; done
@@ -32,7 +29,7 @@ setxkbmap -layout 'pl' -option caps:swapescape &
 xsetroot -cursor_name left_ptr & # change the cursor shape from "x" to normal
 
 # dwm bar
-~/.local/bin/scripts/dbar &
+dbar &
 
 # Not reload
 [[ -z $(pgrep udiskie) ]] && udiskie &

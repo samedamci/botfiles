@@ -1,0 +1,10 @@
+#!/bin/sh
+
+[ "$1" ] && { feh --bg-fill "$1" && exit 1; }
+
+if [ "$(cat /etc/hostname)" = "pc" ]; then
+	feh --bg-fill --randomize /home/samedamci/.config/wallpapers/1920x1080/ &
+elif [ "$(cat /etc/hostname)" = "laptop" ]; then
+	feh --bg-fill --randomize /home/samedamci/.config/wallpapers/1366x768/ &
+fi
+
