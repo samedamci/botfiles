@@ -5,7 +5,8 @@ sym="|"
 cd "$HOME/.local/bin/scripts/dwmbar/" || exit 1
 
 status() {
-	echo "$(./internet) $sym $(./lamp) $sym $(./music) $sym $(./alsa) $sym $(./packages) $sym $(./date) $sym $(./clock)" 
+	echo "$(./disk) $sym $(./internet) $sym $(./lamp) $sym $(./music) $sym" \
+	"$(./alsa) $sym $(./packages) $sym $(./date) $sym $(./clock)" 
 }
 
 while :; do
