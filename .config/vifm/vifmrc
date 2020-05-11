@@ -171,7 +171,7 @@ fileviewer *.[1-8] man ./%c | col -b
 " Images
 filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
         \ {View in feh}
-        \ feh -F %d --start-at %d/%c 2>/dev/null
+				\ sxiv -b -f
 fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
          \ gimp %f
 
