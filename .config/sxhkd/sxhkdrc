@@ -8,22 +8,16 @@
 #     ██████  ██ ░░██░██  ░██░██░░██░░██████
 #    ░░░░░░  ░░   ░░ ░░   ░░ ░░  ░░  ░░░░░░ 
 #
-#             
-
 
 #~~~~~~
 # APPS
 #~~~~~~
-# browser
 super + b 
 	iceweasel
-# rofi
 super + d
 	rofi -show run
-# st
 super + Return
 	st
-# neomutt
 XF86Mail
 	st -e neomutt
 super + g
@@ -33,27 +27,20 @@ super + g
 #~~~~~~~~~
 # SCRIPTS
 #~~~~~~~~~
-# screenshot
 Print
 	screenshot
-# rofi-mpd
 super + m
 	rofi-mpd -a 
-# lock
 super + x
 	lockscreen
-# powermenu
 super + z
 	powermenu
-End
-	powermenu
-# update
 super + u
 	updater
-# rofi-todo
 super + n
 	rofi-todo -f $HOME/doc/notes/notes.json
-# blaze
+super + e
+	unicode
 F11 
 	[ $(pgrep ffmpeg) ] && blaze -s || blaze
 
