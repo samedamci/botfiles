@@ -1,13 +1,13 @@
 #!/bin/sh
 
-CHECK="$(printf "Yes\nNo\nShow packages" | dmenu -i -p 'Do you want to make packages update?' -h 24)"
+CHECK="$(printf "Yes\nNo\nShow packages" | rofi -dmenu -i -p 'Do you want to make packages update?' -l 3)"
 if [ -z "$CHECK" ]; then exit; fi
 
 case "$CHECK" in
 	Yes) 
 		export PASS=$(printf | dmenu -P -p "Enter password: " -h 24)
 		if [ -z "$PASS" ]; then exit; fi
-		st -e sh -c 'bspc node -d '^10'; echo $PASS | sudo -S -v && clear; sudo pacman -Su --noconfirm';;
+		st -e sh -c 'echo $PASS | sudo -S -v && clear; sudo pacman -Su --noconfirm';;
 	"Show packages")
 		pacman -Qu | dmenu -l 50 ;;
 	*) exit
