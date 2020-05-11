@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Script to backup Minecraft save and compress it via lz4 alghoritm.
+
+tar -cp "$1" | lz4 -9 > "$1_$(date "+%Y-%m-%d_%H-%M").tar.lz4"
