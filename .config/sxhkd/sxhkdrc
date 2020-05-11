@@ -29,6 +29,8 @@ super + g
 #~~~~~~~~~
 Print
 	screenshot
+shift + Print
+	screenshot --force
 super + m
 	rofi-mpd -a 
 super + x
@@ -36,7 +38,7 @@ super + x
 super + z
 	powermenu
 super + u
-	updater
+	update
 super + n
 	rofi-todo -f $HOME/doc/notes/notes.json
 super + e
