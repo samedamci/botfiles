@@ -2,13 +2,14 @@
 
 xclip -h 2>/dev/null || exit
 
-CHOSEN=$(sed '0,/^__DATA__$/d' "$0" | rofi -dmenu -i -l 20 -p 'Font Awesome')
+emoji=$(sed '0,/^__DATA__$/d' "$0" | rofi -dmenu -i -l 20 -p 'Font Awesome')
+[ ! "$emoji" ] && exit
 
-[ "$CHOSEN" != "" ] || exit
+emoji=$(printf "%s$emoji" | sed "s/ .*//")
 
-CHOSEN=$(printf "%s$CHOSEN" | sed "s/ .*//")
-echo "$CHOSEN" | tr -d '\n' | xclip -selection clipboard
-notify-send "'$CHOSEN' copied to clipboard."
+echo "$emoji" | tr -d '\n' | xclip -selection clipboard
+
+notify-send "'$emoji' copied to clipboard."
 
 exit
 

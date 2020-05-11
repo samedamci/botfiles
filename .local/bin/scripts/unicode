@@ -1,16 +1,17 @@
 #!/usr/bin/env sh
+
 # Give dmenu list of all unicode characters to copy.
 # Shows the selected character in dunst if running.
 
 xclip -h 2>/dev/null || exit
 
-CHOSEN=$(sed '0,/^__DATA__$/d' "$0" | rofi -dmenu -i -l 20 -p 'Unicode')
+emoji=$(sed '0,/^__DATA__$/d' "$0" | rofi -dmenu -i -l 20 -p 'Unicode')
 
-[ "$CHOSEN" != "" ] || exit
+[ ! "$emoji" ] && exit
 
-CHOSEN=$(printf "%s$CHOSEN" | sed "s/ .*//")
-echo "$CHOSEN" | tr -d '\n' | xclip -selection clipboard
-notify-send "'$CHOSEN' copied to clipboard."
+emoji=$(printf "%s$emoji" | sed "s/ .*//")
+echo "$emoji" | tr -d '\n' | xclip -selection clipboard
+notify-send "'$emoji' copied to clipboard."
 
 exit
 
