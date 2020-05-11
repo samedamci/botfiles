@@ -62,12 +62,7 @@ alias gh-rcp='gh repo create'
 alias gh-rv='gh repo view'
 
 # fzf
-ff()   { find ./* -type f | fzf | xargs -r $EDITOR ;}
-fd() { vifm "$(find ./* -type d | fzf)" ; clear ; }
-fhd() { find . -type d | fzf | xargs -r $EDITOR ; }
-fhf() { find . -type f | fzf | xargs -r $EDITOR ; }
-alias f='ff'
-alias fa='fhf'
+fdir() { cd "$(find "$HOME" -type d | fzf --layout reverse --height 25)"; }
 
 # other
 alias s='sudo '
@@ -82,6 +77,7 @@ alias c256='(x=`tput op` y=`printf %76s`;for i in {0..256};do o=00$i;echo -e ${o
 alias ...='cd ~/Dotfiles'
 alias cd..='cd ..'
 alias news='newsboat'
+alias scr='cd .local/bin/scripts'
 
 # 4fun
 alias dog='cat'
