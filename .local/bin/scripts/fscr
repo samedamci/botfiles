@@ -1,0 +1,3 @@
+#!/bin/sh
+
+find "$HOME"/.local/bin/scripts/ -type f | fzf --preview "cat {}" --height 25 --layout reverse | xargs -r "$EDITOR"
