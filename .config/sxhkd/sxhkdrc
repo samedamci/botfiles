@@ -41,6 +41,8 @@ super + n
 	rofi-todo -f $HOME/doc/notes/notes.json
 super + e
 	unicode
+super + shift + e
+	fawesome
 F11 
 	[ $(pgrep ffmpeg) ] && blaze -s || blaze
 
