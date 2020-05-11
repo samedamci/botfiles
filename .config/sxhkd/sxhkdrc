@@ -19,7 +19,7 @@ super + b
 	iceweasel
 # rofi
 super + d
-	rofi -show drun
+	rofi -show run
 # st
 super + Return
 	st
@@ -52,7 +52,7 @@ super + u
 	updater
 # rofi-todo
 super + n
-	rofi-todo -f $HOME/Notes/notes.json
+	rofi-todo -f $HOME/doc/notes/notes.json
 # blaze
 F11 
 	[ $(pgrep ffmpeg) ] && blaze -s || blaze

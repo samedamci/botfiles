@@ -44,7 +44,7 @@ alias yt-video='youtube-dl -f bestvideo -o "%(title)s.%(ext)s" -4'
 alias yt-thumbnail='youtube-dl --write-thumbnail --skip-download -o "%(title)s.%(ext)s" -4'
 
 # git
-alias btw='git --git-dir=$HOME/Develop/biual-dot-conf.git/ --work-tree=$HOME'
+alias btw='git --git-dir=$HOME/dev/botfiles/ --work-tree=$HOME'
 alias ga='git add'
 alias gc='git commit -S'
 alias gp='git push'

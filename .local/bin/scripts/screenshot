@@ -2,22 +2,22 @@
 
 m() { rofi -dmenu -i -l "$@"; }
 
-TYPE="$(printf "Screen\nArea\n" | m 2 -p 'What do you want to screenshot?')"
-[ ! "$TYPE" ] && exit
-SAVE="$(printf "No\nYes" 		| m 2 -p 'Do you want to copy to clipboard?')"
-[ ! "$SAVE" ] && exit
-TIME="$(printf "0.7\n5\n10\n15" | m 3 -p 'How many seconds you want to wait?')"
-[ ! "$TIME" ] && exit
+type="$(printf "Screen\nArea\n" | m 2 -p 'What do you want to screenshot?')"
+[ ! "$type" ] && exit
+save="$(printf "No\nYes" 				| m 2 -p 'Do you want to copy to clipboard?')"
+[ ! "$save" ] && exit
+time="$(printf "0.7\n5\n10\n15" | m 3 -p 'How many seconds you want to wait?')"
+[ ! "$time" ] && exit
 
-[ "$TYPE" = "Area" ] && TYPE="-s -u" || TYPE=""
+[ "$type" = "Area" ] && type="-s -u" || type=""
 
-mkdir -p ~/Pictures/Screenshots
-sleep "$TIME"
-SCREEN_PATH=~/Pictures/Screenshots/$(date +%G-%m-%d_%s).png
+mkdir -p ~/pix/Screenshots
+sleep "$time"
+screen_path=~/pix/Screenshots/$(date +%G-%m-%d_%s).png
 
-maim $TYPE "$SCREEN_PATH" && 
-	notify-send -u low -t 1400 -i "$SCREEN_PATH" "Screenshot created!"
+maim $type "$screen_path" && 
+	notify-send -u low -t 1400 -i "$screen_path" "Screenshot created!"
 
-[ "$SAVE" = "Yes" ] && 
+[ "$save" = "Yes" ] && 
 	xclip -sel clip /dev/null; sleep 0.5 
-	xclip -selection clipboard -t image/png "$SCREEN_PATH" || exit
+	xclip -selection clipboard -t image/png "$screen_path" || exit

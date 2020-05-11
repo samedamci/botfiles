@@ -20,7 +20,7 @@ HISTFILE="${ZDIR}/history"
 
 # imports
 source $HOME/.profile
-source $HOME/.shellrc
+source $HOME/.config/shellrc
 
 # error message
 command_not_found_handler() {
