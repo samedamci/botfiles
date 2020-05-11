@@ -1,11 +1,11 @@
 #!/usr/bin/env sh
 
-WHAT="$(printf "Shutdown\nSuspend\nLock\nReboot" | rofi -dmenu -i -p 'What do you want?' -l 4)"
+WHAT="$(printf " Shutdown\n Reboot\n Lock\n Suspend" | rofi -dmenu -i -p 'Powermenu' -l 4 -width 10px)"
 if [ -z "$WHAT" ]; then exit; fi
 
 case "$WHAT" in
-	Shutdown) systemctl poweroff;;
-	Suspend) lockscreen; systemctl suspend;;
-	Lock) lockscreen;;
-	Reboot) systemctl reboot
+	" Shutdown") systemctl poweroff;;
+	" Suspend") lockscreen; systemctl suspend;;
+	" Lock") lockscreen;;
+	" Reboot") systemctl reboot
 esac
