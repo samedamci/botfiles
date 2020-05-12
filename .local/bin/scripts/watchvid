@@ -1,0 +1,5 @@
+#!/bin/sh
+
+url="$(rofi -dmenu -i -p "Video URL" -width 800 -l 0)"
+
+mpv "$url"
