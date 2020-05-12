@@ -1,16 +1,17 @@
 #!/bin/sh
 
 sym="|"
+[ "$(transmission-remote -l | grep %)" ] && delay="10s" || delay="1m"
 
 cd "$HOME/.local/bin/scripts/dwmbar/" || exit 1
 
 status() {
-	echo "$(./disk) $sym $(./internet) $sym $(./lamp) $sym $(./music) $sym" \
+	echo "$(./torrent) $sym $(./disk) $sym $(./internet) $sym $(./lamp) $sym $(./music) $sym" \
 	"$(./alsa) $sym $(./packages) $sym $(./date) $sym $(./clock)" 
 }
 
 while :; do
 	xsetroot -name " $(status | tr '\n' ' ')" 
 
-	sleep 1m
+	sleep "$delay"
 done

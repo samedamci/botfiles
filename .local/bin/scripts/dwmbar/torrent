@@ -1,0 +1,18 @@
+#!/bin/sh
+
+echo ""
+
+data() { transmission-remote -l | grep %; }
+[ ! "$(data)" ] && { echo N; exit 1; }
+
+per="$(data | awk '{ print $2 }')"
+[ "${per%?}" != 100 ] && echo "$per" || echo ""
+
+data | \
+	sed "
+	s/.*Stopped.*//g;
+	s/.*Seeding.*//g;
+	s/.*Idle.*//g;
+	s/.*Uploading.*//g;
+	s/.*%.*//g
+	"
