@@ -1,0 +1,31 @@
+#!/bin/sh
+
+# Simple http python3 server for files or pages.
+# Usage: serv [-h] [-p PORT] [-d DIRECTORY] [-b]
+
+[ "$(hostname)" = "laptop" ] && ip="$(wifi-ip)" || ip="$(eth-ip)"
+
+port="8080"
+dir="."
+
+run_browser() {
+  [ ! "$BROWSER" ] && { echo "\$BROWSER variable is not specified"; exit 1; }
+
+  "$BROWSER" "http://${ip}:${port}"
+}
+
+while getopts 'p:d:hb' c
+do
+  case $c in
+    p) port="$OPTARG" ;;
+    d) dir="$OPTARG" ;;
+    b) sleep 1 & run_browser & ;;
+    h) echo "Usage: serv [-h] [-p PORT] [-d DIRECTORY] [-b]"; exit 1 ;;
+    [?]) echo "Use [-h] for get help."; exit 1
+  esac
+done
+
+isinstalled python3 && {
+  python3 -m http.server --bind "$ip" "$port" --directory "$dir"
+} || { echo "Required python3 is not installed."; exit 1; }
+
