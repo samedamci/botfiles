@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Check if package is installed (pacman based distros) or return error code.
+
+pacman -Qq "$1" 1>/dev/null 2>&1 || exit 1
