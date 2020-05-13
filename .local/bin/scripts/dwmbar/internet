@@ -1,11 +1,11 @@
 #!/bin/sh
 
 if [ "$(cat /etc/hostname)" = "pc" ]; then
-	ip="$(eth-ip)"
-	echo ""
+  ip="$(eth-ip)"
+  echo ""
 elif [ "$(cat /etc/hostname)" = "laptop" ]; then
-	ip="$(wifi-ip)"
-	echo ""
+  ip="$(wifi-ip)"
+  echo ""
 fi
 
 ping -q -c 1 1.1.1.1 >/dev/null || { echo "dis" && exit 1; }

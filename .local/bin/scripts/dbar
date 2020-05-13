@@ -6,12 +6,12 @@ sym="|"
 cd "$HOME/.local/bin/scripts/dwmbar/" || exit 1
 
 status() {
-	echo "$(./torrent) $sym $(./disk) $sym $(./internet) $sym $(./lamp) $sym $(./music) $sym" \
-	"$(./alsa) $sym $(./packages) $sym $(./date) $sym $(./clock)" 
+  echo "$(./torrent) $sym $(./disk) $sym $(./internet) $sym $(./lamp) $sym $(./music) $sym" \
+  "$(./alsa) $sym $(./packages) $sym $(./date) $sym $(./clock)" 
 }
 
 while :; do
-	xsetroot -name " $(status | tr '\n' ' ')" 
+  xsetroot -name " $(status | tr '\n' ' ')" 
 
-	sleep "$delay"
+  sleep "$delay"
 done

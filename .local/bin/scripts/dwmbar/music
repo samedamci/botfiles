@@ -2,10 +2,10 @@
 
 echo ""
 if mpc status | grep -q "playing"; then
-	mpc | sed "/^volume:/d;s/\\&/&amp;/g;s/\\[playing\\].*//g"
+  mpc | sed "/^volume:/d;s/\\&/&amp;/g;s/\\[playing\\].*//g"
 elif mpc status | grep -q "paused"; then
-	echo ""
+  echo ""
 else
-	echo ""
+  echo ""
 fi
 
