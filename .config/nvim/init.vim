@@ -66,6 +66,7 @@ augroup langindentation
 	autocmd Filetype scss setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 	autocmd Filetype php setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 	autocmd Filetype yaml setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+	autocmd Filetype sh setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 augroup END
 
 " Encoding
