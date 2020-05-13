@@ -21,7 +21,7 @@ alias \
   yay='yay --editmenu --nodiffmenu --save'
 
 alias \
-	btw='git --git-dir=$HOME/dev/botfiles/ --work-tree=$HOME' \
+	g='git' \
   ga='git add' \
   gc='git commit -S' \
   gp='git push' \
@@ -31,7 +31,19 @@ alias \
   gpu='git pull' \
   gs='git status' \
   grm='git rm -f' \
-  gi='git init'
+  gi='git init' \
+	btw='git --git-dir=$HOME/dev/botfiles/ --work-tree=$HOME' \
+	b='btw' \
+	ba='btw add' \
+  bc='btw commit -S' \
+  bp='btw push' \
+  bpom='btw push origin master' \
+  bch='btw checkout' \
+  bl='btw log' \
+  bpu='btw pull' \
+  bs='btw status' \
+  brm='btw rm -f' \
+  bi='btw init' 
 
 alias \
 	s='sudo ' \
