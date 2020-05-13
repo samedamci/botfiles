@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# Simple youtube-dl wrapper script for better user syntax.
+
+Y() { youtube-dl -i -4 -o "%(title)s.%(ext)s" "$@"; }
+
+audio() {
+	Y -x --audio-format opus --audio-quality 0 "$@"
+}
+
+video() {
+	Y -f best "$@"
+}
+
+thumbnail() {
+	Y --write-thumbnail --skip-download "$@"
+}
+
+"$1" "$2" && notify-send " Downloaded!"
