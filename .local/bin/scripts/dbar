@@ -1,13 +1,13 @@
 #!/bin/sh
 
 sym="|"
-[ "$(transmission-remote -l | grep %)" ] && delay="10s" || delay="1m"
+# [ "$(transmission-remote -l | grep %)" ] && delay="10s" || delay="1m"
+delay="1m"
 
 cd "$HOME/.local/bin/scripts/dwmbar/" || exit 1
 
 status() {
 cat << EOF
-$(./torrent) $sym
 $(./disk) $sym
 $(./internet) $sym
 $(./lamp) $sym
