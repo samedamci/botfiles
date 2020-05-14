@@ -1,4 +1,5 @@
 #!/bin/sh
 
-pkill -SIGTRAP dbar 
-[ ! "$(pgrep dbar)" ] && dbar &
+[ ! "$(pgrep dbar)" ] && { dbar & exit; }
+
+pkill -P "$(cat "$HOME/.cache/dbar.pid")" sleep
