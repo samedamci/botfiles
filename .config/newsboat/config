@@ -1,5 +1,5 @@
 #show-read-feeds no
-auto-reload yes
+auto-reload no 
 
 external-url-viewer "urlscan -dc -r 'linkhandler {}'"
 
