@@ -1,0 +1,7 @@
+#!/bin/sh
+
+icon="$(cat "/tmp/newsupdate" 2>/dev/null)"
+
+unread="$(cat "$HOME/.cache/news_unread" 2>/dev/null)"
+
+echo " $unread$icon"

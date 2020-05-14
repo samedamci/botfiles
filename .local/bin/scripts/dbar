@@ -16,6 +16,7 @@ $(./internet) $sym
 $(./lamp) $sym
 $(./music) $sym
 $(./alsa) $sym
+$(./news) $sym
 $(./mails) $sym
 $(./packages) $sym
 $(./date) $sym
