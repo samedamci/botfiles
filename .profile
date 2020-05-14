@@ -13,7 +13,7 @@
 # Default Apps
 #~~~~~~~~~~~~~~
 export EDITOR="nvim"
-export BROWSER="iceweasel"
+export BROWSER="firefox"
 export TERMINAL="st"
 
 export XDG_DATA_HOME="$HOME/.local/share"
