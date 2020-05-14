@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Autistic script for convert GitHub links into 
+# links to raw files and download it via wget.
+
+echo "$1" | sed '
+  s/github.com/raw.githubusercontent.com/g; 
+  s/blob//g
+  ' | xargs -r wget
