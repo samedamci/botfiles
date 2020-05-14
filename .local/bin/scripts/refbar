@@ -1,3 +1,4 @@
 #!/bin/sh
 
-pkill -SIGTRAP dbar && dbar 2>/dev/null &
+pkill -SIGTRAP dbar 
+[ ! "$(pgrep dbar)" ] && dbar &
