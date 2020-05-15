@@ -1,18 +1,20 @@
 #!/bin/sh
 
 echo ""
-
 data() { transmission-remote -l | grep %; }
-[ ! "$(data)" ] && { echo N; exit 1; }
+[ ! "$(data)" ] && { echo ""; exit 1; }
 
 per="$(data | awk '{ print $2 }')"
-[ "${per%?}" != 100 ] && echo "$per" || echo ""
 
-data | \
-  sed "
+icon="$(data | sed "
   s/.*Stopped.*//g;
   s/.*Seeding.*//g;
   s/.*Idle.*//g;
   s/.*Uploading.*//g;
   s/.*%.*//g
-  "
+")"
+
+for i in $(seq "$(data | wc -l)"); do
+  echo "$per" | awk -v n="$i" 'NR==n' | sed 's/100%//g'
+  echo "$icon" | awk -v n="$i" 'NR==n'
+done
