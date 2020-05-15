@@ -1,9 +1,6 @@
 #!/bin/sh
 
 sym="|"
-[ "$(transmission-remote -l 2>/dev/null | grep %)" ] && 
-  delay="10s" || delay="1m"
-
 echo "$$" > "$HOME/.cache/dbar.pid"
 
 cd "$HOME/.local/bin/scripts/dwmbar/" || exit 1
@@ -25,6 +22,9 @@ EOF
 }
 
 while :; do
+  [ "$(transmission-remote -l 2>/dev/null | grep %)" ] && 
+    delay="10s" || delay="1m"
+
   xsetroot -name " $(status | tr '\n' ' ')"
 
   sleep "$delay"
