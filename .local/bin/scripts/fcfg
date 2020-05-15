@@ -1,3 +1,3 @@
 #!/bin/sh
 
-find "$HOME"/.config/ -type f | fzf --preview "cat {}" --height 25 --layout reverse | xargs -r "$EDITOR"
+find "$HOME"/.config/ -maxdepth 3 -type f | fzf --preview "cat {}" --height 25 --layout reverse | xargs -r "$EDITOR"
