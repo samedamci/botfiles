@@ -47,6 +47,10 @@ super + shift + e
 	fawesome
 F11 
 	[ $(pgrep ffmpeg) ] && blaze -s || blaze
+F1
+	mounter
+F2
+	umounter
 
 
 #~~~~~~~~~~~

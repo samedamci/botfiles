@@ -1,0 +1,14 @@
+#!/bin/sh
+
+data() { lsblk -r | sed '/.*k $/d; /t \//d; 1d' | awk '{ print $1 " - " $4 }' ;}
+[ ! "$(data)" ] && { rofi -e "Nothing to mount!"; exit 1 ;}
+m() { rofi -dmenu -i "$@" ;}
+
+part="$(data | m -p "Partition" -l "$(data | wc -l)" | awk '{ print $1 }')"
+[ ! "$part" ] && exit 1
+mpoints() { find /mnt /media -type d ;}
+mountpoint="$(mpoints | m -p "Mountpoint" -l "$(mpoints | wc -l)")"
+[ ! "$mountpoint" ] && exit 1
+
+pass="$(m -l 0 -p "Password" -password)"
+echo "$pass" | sudo -S -v && sudo mount /dev/"$part" "$mountpoint"

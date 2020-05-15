@@ -1,0 +1,10 @@
+#!/bin/sh
+
+data() { lsblk -r | awk '/t \// { print $1 " - " $7 }' ;}
+m() { rofi -dmenu -i "$@" ;}
+
+part="$(data | m -p "Partition" -l "$(data | wc -l)" | awk '{ print $1 }')"
+[ ! "$part" ] && exit 1
+
+pass="$(m -l 0 -p "Password" -password)"
+echo "$pass" | sudo -S -v && sudo umount /dev/"$part"
