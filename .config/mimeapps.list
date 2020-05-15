@@ -15,3 +15,5 @@ image/gif=img.desktop;
 application/rss+xml=rss.desktop
 video/x-matroska=video.desktop
 inode/directory=file.desktop
+x-scheme-handler/http=linkhandler.desktop
+x-scheme-handler/https=linkhandler.desktop

@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=Torrent
+Exec=/home/samedamci/.local/bin/scripts/linkhandler %U
