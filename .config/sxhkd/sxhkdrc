@@ -1,38 +1,23 @@
-#
-#                     ██      ██          ██
-#                    ░██     ░██         ░██
-#      ██████ ██   ██░██     ░██  ██     ░██
-#     ██░░░░ ░░██ ██ ░██████ ░██ ██   ██████
-#    ░░█████  ░░███  ░██░░░██░████   ██░░░██
-#     ░░░░░██  ██░██ ░██  ░██░██░██ ░██  ░██
-#     ██████  ██ ░░██░██  ░██░██░░██░░██████
-#    ░░░░░░  ░░   ░░ ░░   ░░ ░░  ░░  ░░░░░░ 
-#
-
-#~~~~~~
-# APPS
-#~~~~~~
-super + b 
-	"$BROWSER"	
+super + Return
+	$TERMINAL
+super + b
+	$BROWSER
+super + shift + b
+	torbrowser-launcher
 super + d
 	rofi -show run
-super + Return
-	st
-XF86Mail
-	st -e neomutt
-super + g
-	st -e neomutt
+super + shift + d
+	rofi -show drun
+super + shift + s
+	tgscreenkey
 
+super + s; {t,m,r,v}
+	{tuirent,mails,rss,fm}
+super + shift + o; {g,k,l,i}
+	{gimp,keepassxc,libreoffice,inkscape}
 
-#~~~~~~~~~
-# SCRIPTS
-#~~~~~~~~~
-Print
-	screenshot
-shift + Print
-	screenshot --force
 super + m
-	rofi-mpd -a 
+	rofi-mpd -a
 super + x
 	lockscreen
 super + z
@@ -45,19 +30,23 @@ super + e
 	unicode
 super + shift + e
 	fawesome
-F11 
-	[ $(pgrep ffmpeg) ] && blaze -s || blaze
+super + w
+	choosewall
+
+Print
+	screenshot
+shift + Print
+	screenshot --force
 F1
 	mounter
-F2
+shift + F1
 	umounter
-
-
-#~~~~~~~~~~~
-# SmartHome
-#~~~~~~~~~~~
 F10
 	curl 192.168.1.201/toggle.php && refbar
+F11
+	[ $(pgrep ffmpeg) ] && blaze -s || blaze
+End
+	lockscreen; systemctl suspend
 
 
 #~~~~~~~

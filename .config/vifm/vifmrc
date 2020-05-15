@@ -1,16 +1,16 @@
-"    
-"              ██   ████            
-"             ░░   ░██░             
-"     ██    ██ ██ ██████ ██████████ 
+"
+"              ██   ████
+"             ░░   ░██░
+"     ██    ██ ██ ██████ ██████████
 "    ░██   ░██░██░░░██░ ░░██░░██░░██
 "    ░░██ ░██ ░██  ░██   ░██ ░██ ░██
 "     ░░████  ░██  ░██   ░██ ░██ ░██
 "      ░░██   ░██  ░██   ███ ░██ ░██
-"       ░░    ░░   ░░   ░░░  ░░  ░░ 
+"       ░░    ░░   ░░   ░░░  ░░  ░░
 
 colorscheme biual
 
-set vicmd=nvim 
+set vicmd=nvim
 set syscalls
 set trash
 set history=100
@@ -41,6 +41,7 @@ mark h ~/
 nnoremap ` :cd ~<cr>
 nnoremap ~ :cd ~<cr>
 nnoremap S :shell<cr>
+nnoremap q :q<cr>
 nnoremap s :select<cr>
 nnoremap w :view<cr>
 vnoremap w :view<cr>gv
