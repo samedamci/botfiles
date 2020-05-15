@@ -69,5 +69,14 @@ augroup langindentation
 	autocmd Filetype sh setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 augroup END
 
+" oh, gods - this is beautiful
+autocmd BufWritePost *Xresources,*Xdefaults !xrdb %
+autocmd BufWritePost *sxhkdrc !pkill -USR1 sxhkd
+autocmd BufWritePost *picom.conf !pkill -USR1 picom 
+
+" Automatically deletes all trailing whitespace and newlines at end of file on save.
+autocmd BufWritePre * %s/\s\+$//e
+autocmd BufWritepre * %s/\n\+\%$//e
+
 " Encoding
 scriptencoding utf-8
