@@ -1,11 +1,13 @@
 #!/bin/sh
 
+# Packages update.
+
 action="$(printf " Update\n Show packages" | \
 	rofi -dmenu -i -p 'Updater' -l 2 -width 200)"
 [ ! "$action" ] && exit
 
 case "$action" in
-	" Update") 
+	" Update")
 		export PASS="$(printf | dmenu -P -p "Enter password: " -h 24)"
 		[ ! "$PASS" ] && exit
 		st -e sh -c "echo $PASS | sudo -S -v && clear; sudo pacman -Su --noconfirm"

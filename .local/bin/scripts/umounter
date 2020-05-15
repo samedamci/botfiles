@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Umount partition menu.
+
 data() { lsblk -r | awk '/t \// { print $1 " - " $7 }' ;}
 m() { rofi -dmenu -i "$@" ;}
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
-# Script to change links to sites into cursed links looks like this URL:
-# 1337.verylegit.link/RkqaouwwADpPNkd653ip-stealer_.pdf.exe
+# Script to change links to sites into cursed links.
+# e.g: 1337.verylegit.link/RkqaouwwADpPNkd653ip-stealer_.pdf.exe
 
 m() { rofi -dmenu -l 0 -width 50 "$@"; }
 
@@ -10,7 +10,7 @@ url="$(m -p "Paste URL")"
 
 cursed_url="$(curl -s verylegit.link/sketchify -d long_url="$url")"
 
-[ "$cursed_url" ] && { 
-	echo "$cursed_url" | xclip -sel clip 
+[ "$cursed_url" ] && {
+	echo "$cursed_url" | xclip -sel clip
 	notify-send "Cursed URL copied to clipboard."
 } || notify-send "Error! URL has not been copied to clipboard correctly!"

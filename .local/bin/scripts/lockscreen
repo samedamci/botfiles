@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+# Screen locker.
+
 mkdir ~/.cache/lock/
 f="$HOME/.cache/lock/lock.jpg"
 
@@ -8,4 +10,4 @@ convert "$f" -blur 0x6 "$f"
 
 i3lock -i "$f" --composite --insidecolor=55443311 --ringcolor=99443300 --insidevercolor=55443311 --keyhlcolor=99999999 --indicator --veriftext= --wrongtext=! --radius 180 -b --separatorcolor=00000000
 
-rm "$f" 
+rm "$f"

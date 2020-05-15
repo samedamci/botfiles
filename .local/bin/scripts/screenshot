@@ -1,12 +1,14 @@
 #!/usr/bin/env sh
 
+# Screenshoter script.
+
 m() { rofi -dmenu -width 200 -i -l "$@"; }
 
 mkdir -p ~/pix/Screenshots
 screen_path=~/pix/Screenshots/$(date +%G-%m-%d_%s).png
 
 screenshot() {
-	maim $type "$screen_path" && 
+	maim $type "$screen_path" &&
 		notify-send -u low -t 1400 -i "$screen_path" "Screenshot created!"
 }
 
@@ -24,6 +26,6 @@ time="$(printf "0.7\n5\n10\n15" 		| m 3 -p 'Delay')"
 sleep "$time"
 screenshot
 
-[ "$save" = " Yes" ] && 
-	xclip -sel clip /dev/null; sleep 0.5 
+[ "$save" = " Yes" ] &&
+	xclip -sel clip /dev/null; sleep 0.5
 	xclip -selection clipboard -t image/png "$screen_path" || exit

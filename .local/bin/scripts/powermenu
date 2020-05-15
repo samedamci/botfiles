@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+# Power menu.
+
 WHAT="$(printf " Shutdown\n Reboot\n Lock\n Suspend" | rofi -dmenu -i -p 'Powermenu' -l 4 -width 10px)"
 if [ -z "$WHAT" ]; then exit; fi
 

@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Toggle screenkey.
+
 [ "$(pgrep screenkey)" ] && { killall screenkey && exit ;}
 
 screenkey -s small --bg-color "$(awk '/.*selbg.*/ { print $2 }' ~/.config/Xresources)"

@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
-#
-# Blaze - record screen and audio
+
+# Script to record screen and audio.
 # Author - Cherrry9
 
 deps() {
@@ -150,7 +150,7 @@ done
 shift $((OPTIND -1))
 
 # exit if blaze is running
-[ -f /tmp/blaze-pid ] && { 
+[ -f /tmp/blaze-pid ] && {
   echo "Blaze is already running, exiting."
   notify-send "Blaze is already running, exiting."
   exit

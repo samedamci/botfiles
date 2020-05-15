@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Stream video in mpv.
+
 url="$(rofi -dmenu -i -p "Video URL" -width 800 -l 0)"
 
 mpv "$url"

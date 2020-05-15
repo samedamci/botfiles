@@ -1,3 +1,5 @@
 #!/bin/sh
 
+# Menu with AUR packages.
+
 yay -Slq | fzf -m --preview 'yay -Si {1}' | yay -S -

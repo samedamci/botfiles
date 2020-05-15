@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Mount partition menu.
+
 data() { lsblk -r | sed '/.*k $/d; /t \//d; 1d' | awk '{ print $1 " - " $4 }' ;}
 [ ! "$(data)" ] && { rofi -e "Nothing to mount!"; exit 1 ;}
 m() { rofi -dmenu -i "$@" ;}

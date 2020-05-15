@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Add RSS to collection.
+
 ! echo "$1" | grep "https*://\S\+\.[A-Za-z]\+\S*" >/dev/null &&
 	notify-send "That doesn't look like a full URL." && exit
 RSSFILE="${XDG_CONFIG_HOME:-$HOME/.config}/newsboat/urls"

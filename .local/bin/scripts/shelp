@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# Menu with all scripts and descriptions.
+
+mess=\
+"   _  _   _    ___     _          __   _
+ _| || |_| |  / / |__ (_)_ __    / /__| |__
+|_  ..  _| | / /| '_ \| | '_ \  / / __| '_ \ \r
+|_      _|_|/ / | |_) | | | | |/ /\__ \ | | |
+  |_||_| (_)_/  |_.__/|_|_| |_/_/ |___/_| |_|
+
+cat << EOF
+
+  \    /\ \r
+   )  ( ')
+  (  /  )
+   \(__)|
+
+EOF
+"
+
+head -n 3 $(find "$HOME"/.local/bin/scripts -maxdepth 1 -type f) |
+  sed 's/==> //g; s/<==//g; s/#!\/.*//g; /^$/d; s/# //g; s/.*\///g' |
+    awk '{printf (NR%2==0) ? "\t" $0 "\n" : $0}' | sort -r |
+      column -t -s $'\t' -o $'\t\t' |
+        fzf --preview "printf \"$mess\"" --preview-window=up:15 |
+          awk '{ print $1 }' | xargs -r "$EDITOR"

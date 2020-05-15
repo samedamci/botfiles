@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Run dwm bar with modules.
+
 sym="|"
 echo "$$" > "$HOME/.cache/dbar.pid"
 
@@ -22,7 +24,7 @@ EOF
 }
 
 while :; do
-  [ "$(transmission-remote -l 2>/dev/null | grep %)" ] && 
+  [ "$(transmission-remote -l 2>/dev/null | grep %)" ] &&
     delay="10s" || delay="1m"
 
   xsetroot -name " $(status | tr '\n' ' ')"

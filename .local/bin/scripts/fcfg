@@ -1,3 +1,5 @@
 #!/bin/sh
 
+# Menu with config files to edit in text editor.
+
 find "$HOME"/.config/ -maxdepth 3 -type f | fzf --preview "cat {}" --height 25 --layout reverse | xargs -r "$EDITOR"

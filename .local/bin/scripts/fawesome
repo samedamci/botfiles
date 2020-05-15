@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Menu with FontAwesome chars.
+
 xclip -h 2>/dev/null || exit
 
 emoji=$(sed '0,/^__DATA__$/d' "$0" | rofi -dmenu -i -l 20 -p 'Font Awesome')
