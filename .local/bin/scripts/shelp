@@ -19,9 +19,15 @@ cat << EOF
 EOF
 "
 
-head -n 3 $(find "$HOME"/.local/bin/scripts -maxdepth 1 -type f) |
-  sed 's/==> //g; s/<==//g; s/#!\/.*//g; /^$/d; s/# //g; s/.*\///g' |
-    awk '{printf (NR%2==0) ? "\t" $0 "\n" : $0}' | sort -r |
-      column -t -s $'\t' -o $'\t\t' |
-        fzf --preview "printf \"$mess\"" --preview-window=up:15 |
-          awk '{ print $1 }' | xargs -r "$EDITOR"
+scr="$(
+  head -n 3 $(find "$HOME"/.local/bin/scripts -maxdepth 1 -type f) |
+    sed 's/==> //g; s/<==//g; s/#!\/.*//g; /^$/d; s/# //g; s/.*\///g' |
+      awk '{printf (NR%2==0) ? "\t" $0 "\n" : $0}' | sort -r |
+        column -t -s $'\t' -o $'\t\t' |
+          fzf --preview "printf \"$mess\"" --preview-window=up:15 |
+            awk '{ print $1 }'
+)"
+
+[ ! "$scr" ] && exit 0
+
+$EDITOR "$HOME/.local/bin/scripts/$scr"
