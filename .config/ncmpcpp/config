@@ -7,7 +7,7 @@
 #~~~~~~~~~
 # GENERAL
 #~~~~~~~~~
-mpd_music_dir = "/media/eHDD/Music"
+mpd_music_dir = "~/mus"
 lyrics_directory  = "~/.config/ncmpcpp/lyrics"
 ncmpcpp_directory  = "~/.config/ncmpcpp"
 

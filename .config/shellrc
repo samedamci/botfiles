@@ -32,6 +32,7 @@ alias \
   gs='git status' \
   grm='git rm -f' \
   gi='git init' \
+  gd='git diff' \
 	btw='git --git-dir=$HOME/dev/botfiles/ --work-tree=$HOME' \
 	b='btw' \
 	ba='btw add' \
@@ -43,7 +44,8 @@ alias \
   bpu='btw pull' \
   bs='btw status' \
   brm='btw rm -f' \
-  bi='btw init' 
+  bi='btw init' \
+  bd='btw diff'
 
 alias \
 	s='sudo ' \
