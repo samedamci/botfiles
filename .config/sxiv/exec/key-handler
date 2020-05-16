@@ -3,6 +3,19 @@
 while read -r file
 do
 	case "$1" in
-		"w") setwall "$file" &;;
+		"w")
+      setwall "$file" & ;;
+    "y")
+		  readlink -f "$file" | xclip -selection clipboard &&
+		  notify-send "\"$file\" copied to clipboard" & ;;
+	  "Y")
+      xclip -selection clipboard -t image/png < $(readlink -f "$file") &&
+			notify-send -i "$(readlink -f "$file")" "copied to clipboard" & ;;
+	  "d")
+		  [ "$(printf "No\\nYes" | \
+        rofi -dmenu -i -l 2 -p "Really delete $file?")" = "Yes" ] &&
+          rm "$file" && notify-send "\"$file\" deleted." ;;
+	  "g")
+      isinstalled gimp && pkill sxiv && gimp "$file" & ;;
 	esac
 done

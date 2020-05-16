@@ -7,7 +7,8 @@ alias \
 	v='nvim' \
   vi='nvim' \
   vim='nvim' \
-  suvi='sudo -E nvim'
+  suvi='sudo -E nvim' \
+  vifm='vifmrun'
 
 alias \
 	l='ls' \

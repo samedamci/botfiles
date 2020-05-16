@@ -8,17 +8,17 @@ mkdir -p ~/pix/Screenshots
 screen_path=~/pix/Screenshots/$(date +%G-%m-%d_%s).png
 
 screenshot() {
-	maim $type "$screen_path" &&
-		notify-send -u low -t 1400 -i "$screen_path" "Screenshot created!"
+  maim $type "$screen_path" &&
+    notify-send -u low -t 1400 -i "$screen_path" "Screenshot created!"
 }
 
 [ "$1" = "--force" ] && { screenshot && exit; }
 
 type="$(printf " Screen\n Area\n" | m 2 -p 'Screenshoter')"
 [ ! "$type" ] && exit
-save="$(printf " No\n Yes" 						| m 2 -p 'Copy?')"
+save="$(printf " No\n Yes"        | m 2 -p 'Copy?')"
 [ ! "$save" ] && exit
-time="$(printf "0.7\n5\n10\n15" 		| m 3 -p 'Delay')"
+time="$(printf "0.7\n5\n10\n15"     | m 3 -p 'Delay')"
 [ ! "$time" ] && exit
 
 [ "$type" = " Area" ] && type="-s -u" || type=""
@@ -27,5 +27,5 @@ sleep "$time"
 screenshot
 
 [ "$save" = " Yes" ] &&
-	xclip -sel clip /dev/null; sleep 0.5
-	xclip -selection clipboard -t image/png "$screen_path" || exit
+  xclip -sel clip /dev/null; sleep 0.5
+  xclip -selection clipboard -t image/png "$screen_path" || exit

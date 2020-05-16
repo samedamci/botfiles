@@ -38,21 +38,20 @@ mark b ~/bin/
 mark h ~/
 
 " Sample mappings
+unmap u
 nnoremap ` :cd ~<cr>
 nnoremap ~ :cd ~<cr>
-nnoremap S :shell<cr>
+nnoremap S :source ~/.config/vifm/vifmrc; source ~/.config/vifm/colors/biual.vifm<cr>
 nnoremap q :q<cr>
 nnoremap s :select<cr>
+nnoremap u :unselect<cr>
 nnoremap w :view<cr>
 vnoremap w :view<cr>gv
 nnoremap cc cw<c-u>
 nnoremap I za<c-u>
-
-nnoremap <C-A-j> <C-w><C-j>
-nnoremap <C-A-k> <C-w><C-k>
-nnoremap <C-A-l> <C-w><C-l>
-nnoremap <C-A-h> <C-w><C-h>
-
+nnoremap x :!sxiv -btf *<Cr>
+unmap Y
+nnoremap Y :!xclip -selection clipboard -t image/png < %c<cr>:echo expand('%"c:p') "is copied to clipboard"<cr>
 
 " ------------------------------------------------------------------------------
 
@@ -170,16 +169,8 @@ filetype *.[1-8] man ./%c
 fileviewer *.[1-8] man ./%c | col -b
 
 " Images
-filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
-        \ {View in feh}
-				\ sxiv -b -f
-fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
-         \ gimp %f
-
-" OpenRaster
-filextype *.ora
-        \ {Edit in MyPaint}
-        \ mypaint %f,
+fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.ico,*.gif,*.xpm vifmimg draw %px %py %pw %ph %c %pc vifmimg clear
+filextype *.bmp,*.jpg,*.jpeg,*.png,*.ico,*.gif,*.xpm sxiv -fb 2>/dev/null &
 
 " Mindmap
 filextype *.vym
@@ -212,8 +203,7 @@ filetype *.asc
        \ !!gpg --verify %c,
 
 " Torrent
-filetype *.torrent ktorrent %f &
-fileviewer *.torrent dumptorrent -v %c
+filetype *.torrent torradd %f &
 
 " FuseZipMount
 filetype *.zip,*.jar,*.war,*.ear,*.oxt,*.apkg
@@ -262,22 +252,17 @@ filetype *.7z
 fileviewer *.7z 7z l %c
 
 " Office files
-filextype *.odt,*.doc,*.docx,*.xls,*.xlsx,*.odp,*.pptx libreoffice %f &
+filextype *.odt,*.doc,*.docx,*.xls,*.xlsx,*.odp,*.pptx, *.ppt libreoffice %f &
 fileviewer *.doc catdoc %c
 fileviewer *.docx docx2txt.pl %f -
 
 " TuDu files
 filetype *.tudu tudu -f %c
 
-" Qt projects
-filextype *.pro qtcreator %f &
-
-" Directories
-filextype */
-        \ {View in thunar}
-        \ Thunar %f &,
 filetype *.wav,*.mp3,*.flac,*.m4a,*.wma,*.ape,*.ac3,*.og[agx],*.spx,*.opus mpv --no-audio-display --input-ipc-server=/tmp/mpvsoc$(date +%%s) %c
+
 " Syntax highlighting in preview
+fileviewer * highlight -O ansi -s dante %c
 "
 " Explicitly set highlight type for some extensions
 "
@@ -286,7 +271,6 @@ filetype *.wav,*.mp3,*.flac,*.m4a,*.wma,*.ape,*.ac3,*.og[agx],*.spx,*.opus mpv -
 " fileviewer Makefile,Makefile.* highlight -O xterm256 -s dante --syntax make %c
 "
 " 16-color terminal
-" fileviewer *.c,*.h highlight -O ansi -s dante %c
 "
 " Or leave it for automatic detection
 "

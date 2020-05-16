@@ -2,4 +2,4 @@
 
 # File manager.
 
-"$TERMINAL" -e vifm
+"$TERMINAL" -e vifmrun

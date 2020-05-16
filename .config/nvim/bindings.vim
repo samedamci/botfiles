@@ -3,6 +3,7 @@
 "==============
 " Leader key
 let mapleader = ' '
+let g:move_key_modifier = 'A'
 
 "~~~~~
 " Git
