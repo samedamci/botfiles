@@ -50,7 +50,7 @@ else
     accounts=$*
 fi
 
-echo " " > /tmp/imapsyncicon_"$USER"
+echo "" > /tmp/imapsyncicon_"$USER"
 refbar &
 
 # Parallelize multiple accounts

@@ -47,6 +47,8 @@ F11
 	[ $(pgrep ffmpeg) ] && blaze -s || blaze
 End
 	lockscreen; systemctl suspend
+Pause
+	syncnow
 
 
 #~~~~~~~
