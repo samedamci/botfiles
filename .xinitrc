@@ -6,9 +6,10 @@ sxhkd &
 dunst &
 picom &
 setxkbmap -layout 'pl' -option caps:swapescape &
-xsetroot -cursor_name left_ptr & 
+xset r rate 300 50 &
+xsetroot -cursor_name left_ptr &
 dbar &
-udiskie & 
+udiskie &
 mpd &
 dunst &
 syncthing -no-browser &
