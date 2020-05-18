@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# Simple w3m wrapper with CLI search engine "support".
+
+# This script allow to search in DDG or use bangs* from the command line and
+# still use full site URLs.
+# *In Z Shell you must escape exclamation point with backslash.
+# e.g.: `w4m \!gh` or `w4m "how to do xyz"`
+
+if echo "$1" | grep -q '[a-z|0-9]\.[a-z|0-9]'; then
+  w3m "$1"
+elif [ ! "$1" ]; then
+  w3m "https://duckduckgo.com/lite"
+else
+  w3m "https://duckduckgo.com/?q=$1"
+fi
