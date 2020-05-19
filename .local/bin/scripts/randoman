@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Open random man page.
+
+man "$(a="$(shuf -i 1-"$(man -k . | wc -l)" -r -n 1)" && man -k . | \
+	awk -v v="$a" 'NR==v {print $1}')"

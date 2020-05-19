@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Open random Arch Wiki page in w3m.
+
+w3m "https://wiki.archlinux.org/index.php/Special:Random"
