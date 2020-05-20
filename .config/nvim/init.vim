@@ -34,9 +34,22 @@ set mouse=a
 set splitright
 set splitbelow
 set noshowmode
+set shortmess+=I
 color biual
 
-highlight OverLength ctermbg=none ctermfg=14 cterm=underline 
+" Ignore files which vim doesn't use
+set wildignore+=.git,.hg,.svn
+set wildignore+=*.aux,*.out,*.toc
+set wildignore+=*.o,*.obj,*.exe,*.dll,*.manifest,*.rbc,*.class
+set wildignore+=*.ai,*.bmp,*.gif,*.ico,*.jpg,*.jpeg,*.png,*.psd,*.webp
+set wildignore+=*.avi,*.divx,*.mp4,*.webm,*.mov,*.m2ts,*.mkv,*.vob,*.mpg,*.mpeg
+set wildignore+=*.mp3,*.oga,*.ogg,*.wav,*.flac,*.opus
+set wildignore+=*.eot,*.otf,*.ttf,*.woff
+set wildignore+=*.doc,*.pdf,*.cbr,*.cbz
+set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz,*.kgb
+set wildignore+=*.swp,.lock,.DS_Store,._*
+
+highlight OverLength cterm=underline
 match OverLength /\%81v.\+/
 
 " Restore cursor position
@@ -69,12 +82,12 @@ augroup langindentation
 	autocmd Filetype sh setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 augroup END
 
-" oh, gods - this is beautiful
+" Automatically reload configs on save
 autocmd BufWritePost *Xresources,*Xdefaults !xrdb %
 autocmd BufWritePost *sxhkdrc !pkill -USR1 sxhkd
-autocmd BufWritePost *picom.conf !pkill -USR1 picom 
+autocmd BufWritePost *picom.conf !pkill -USR1 picom
 
-" Automatically deletes all trailing whitespace and newlines at end of file on save.
+" Automatically deletes all trailing whitespace and newlines at end of file on save
 autocmd BufWritePre * %s/\s\+$//e
 autocmd BufWritepre * %s/\n\+\%$//e
 

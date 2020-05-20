@@ -13,9 +13,6 @@ call plug#begin('~/.config/nvim/bundle')
 	" files management
 	Plug '~/.fzf'
 	Plug 'junegunn/fzf.vim'
-	Plug 'scrooloose/nerdtree'
-	Plug 'jistr/vim-nerdtree-tabs'
-	Plug 'vifm/vifm.vim'
 
 	" linters/deoplete
 	Plug 'dense-analysis/ale'
@@ -23,9 +20,7 @@ call plug#begin('~/.config/nvim/bundle')
 	Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 		Plug 'tbodt/deoplete-tabnine', { 'do': './install.sh' }
 		Plug 'Shougo/deoplete-clangx'
-		" Plug 'deoplete-plugins/deoplete-jedi'
 		Plug 'deoplete-plugins/deoplete-zsh'
-		" Plug 'deoplete-plugins/deoplete-go', { 'do': 'make'}
 		Plug 'prabirshrestha/async.vim'
 		Plug 'prabirshrestha/asyncomplete.vim'
 		Plug 'prabirshrestha/vim-lsp'
@@ -53,13 +48,10 @@ call plug#begin('~/.config/nvim/bundle')
 	Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 
 	" git
-	Plug 'tpope/vim-fugitive'
-	Plug 'junegunn/gv.vim'
 	Plug 'airblade/vim-gitgutter'
 
 	" syntax
 	Plug 'bfrg/vim-cpp-modern'
-	Plug 'udalov/kotlin-vim'
 	Plug 'vim-python/python-syntax'
 	Plug 'jelera/vim-javascript-syntax'
 call plug#end()
@@ -72,7 +64,6 @@ let g:ale_sign_error = ''
 let g:lsp_signs_error = {'text': ''}
 let g:ale_sign_warning = ''
 let g:lsp_signs_warning = {'text': ''}
-" let g:lsp_signs_error = {'', 'icon': '/path/to/some/icon'} " icons require GUI
 let g:lsp_signs_hint = {'text': ''} " icons require GUI
 
 let g:ale_linters = {
@@ -84,7 +75,6 @@ let g:ale_linters = {
 \   'sh': ['language_server', 'shellcheck', 'shell'],
 \   'zsh': ['language_server', 'shellcheck', 'shell'],
 \   'go': ['gofmt'],
-\   'kotlin': ['ktlint'],
 \}
 let g:ale_fixers = {
 \   '*': ['trim_whitespace', 'remove_trailing_lines'],
@@ -120,15 +110,11 @@ let g:fzf_colors =
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
 
-let g:fzf_layout = { 'down': '~40%' }
+let g:fzf_layout = { 'down': '~50%' }
 let g:fzf_preview_window = 'right:60%'
 
 " gitgutter
 set updatetime=1000
-
-" NERDTree
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " emmet-vim
 let g:user_emmet_mode='a'
@@ -169,8 +155,9 @@ if (executable('typescript-language-server'))
       \ 'whitelist': ['javascript', 'javascript.jsx', 'javascriptreact']
       \ })
     augroup END
-endif
+	endif
 
+" for C/C++ language server
 if (executable('ccls'))
 	augroup LspCpp
 		autocmd!
@@ -184,8 +171,7 @@ if (executable('ccls'))
 	augroup END
 endif
 
-" for golang language server
-
+" for Go language server
 if executable('gopls')
     au User lsp_setup call lsp#register_server({
         \ 'name': 'gopls',
@@ -204,8 +190,8 @@ if executable('go-langserver')
     autocmd BufWritePre *.go LspDocumentFormatSync
 endif
 
-let g:lsp_diagnostics_enabled = 1 
-let g:lsp_signs_enabled = 1 
+let g:lsp_diagnostics_enabled = 1
+let g:lsp_signs_enabled = 1
 let g:lsp_diagnostics_echo_cursor = 1
 let g:lsp_highlights_enabled = 0
 let g:lsp_textprop_enabled = 0
@@ -216,7 +202,7 @@ let g:lsp_highlight_references_enabled = 1
 let g:AutoPairs={'(':')', '[':']', '{':'}', "'":"'", '"':'"', "`":"`", '```':'```', '"""':'"""', "'''":"'''"} "'<':'>',
 
 " LaTeX
-let g:livepreview_previewer = 'mupdf'
+let g:livepreview_previewer = 'zathura'
 
 " Enable "Rainbow Parentheses Improved"
 let g:rainbow_active = 1
@@ -230,5 +216,3 @@ augroup END
 
 " python syntax
 let g:python_highlight_all = 1
-
-

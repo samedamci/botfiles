@@ -5,25 +5,25 @@
 function! Mode(mode) " {{{
 	" normal mode
 	if a:mode == 'n'
-		return ' normal '
+		return '   '
 	" insert mode
 	elseif a:mode == 'i'
-		return ' insert '
+		return '   '
 	" replace mode
 	elseif a:mode == 'R'
-		return ' replace '
+		return '   '
 	" visual mode
 	elseif a:mode == 'v'
-		return ' visual '
+		return '   '
 	" visual block mode
 	elseif a:mode == ''
-		return ' v-block '
+		return '   '
 	" command mode
 	elseif a:mode == 'c'
-		return ' command '
+		return '   '
 	" terminal mode
 	elseif a:mode == 't'
-		return ' terminal '
+		return '   '
 	endif
 	" Return empty string so as not to display anything in the statusline
 	return ' '
@@ -34,11 +34,10 @@ endfunction
 function! SetModifiedSymbol(modified) " {{{
 	if a:modified == 1
 		hi MyStatuslineModifiedBody ctermbg=NONE cterm=NONE ctermfg=3
-		return ' (+) '
 	else
-		hi MyStatuslineModifiedBody ctermbg=NONE cterm=bold ctermfg=7
-		return ' '
+		hi MyStatuslineModifiedBody ctermbg=NONE cterm=bold ctermfg=8
 	endif
+	return ' '
 endfunction
 " }}}
 
@@ -52,25 +51,16 @@ function! SetFiletype(filetype) " {{{
 endfunction
 " }}}
 
-set statusline=%#MyStatuslineSeparator#\ \ 
+set statusline=%#MyStatuslineSeparator#\ "
 set statusline+=%{Mode(mode())}
 
-" filename
-set statusline+=%#MyStatuslineSeparator#\ \ 
-set statusline+=%#MyStatuslineFilename#%t
-set statusline+=%#MyStatuslineSeparator#\ \ 
-" Modified status
-set statusline+=%#MyStatuslineModifiedBody#%{SetModifiedSymbol(&modified)}%#Reset#
-
-set statusline+=%=
-set statusline+=%{FugitiveStatusline()}
-set statusline+=%#MyStatuslineSeparator#\ \ 
+set statusline+=%#MyStatuslineSeparator#\ "
 set statusline+=%#MyStatuslineLineCol#
 set statusline+=%l,%c
-set statusline+=%#MyStatuslineSeparator#\ \ 
-" set statusline+=%<%f\ %h%m%r%{FugitiveStatusline()}%=%-14.(%l,%c%V%)\ %P
-set statusline+=%#MyStatuslineSeparator#\ \ 
+
+set statusline+=%=
 set statusline+=\%#MyStatuslineFiletype#%{SetFiletype(&filetype)}
-
-
-
+set statusline+=%#MyStatuslineSeparator#\ \ "
+set statusline+=%#MyStatuslineFilename#%t
+set statusline+=%#MyStatuslineSeparator#\ \ "
+set statusline+=%#MyStatuslineModifiedBody#%{SetModifiedSymbol(&modified)}%#Reset#

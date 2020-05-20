@@ -53,4 +53,3 @@ st.font: Monospace:pixelsize=13:antialias=true:autohint=true:hintstyle=hintmediu
 
 ! white
 *.color7:     #cccccc
-
