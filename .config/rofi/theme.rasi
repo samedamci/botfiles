@@ -1,139 +1,139 @@
- 
 * {
-   maincolor: #282a38;
-   highlight:        bold #e2a478;
-   urgentcolor:      #dfdfdf;
-
-   foreground: #dfdfdf;
-   background: #0e0f14;
-   blackselect:      #22262e;
-   background-color: @background;
-   show-icons: true;
+  maincolor: #282a38;
+  urgentcolor: #dfdfdf;
+  prompt-background: #20232b;
+  scrollbar-handle: #555a63;
+  foreground: #dfdfdf;
+  highlight: bold #6e99bf;
+  background: @maincolor;
+  background-color: @background;
+  blackselect: #363b47;
+  show-icons: false;
 }
 
 window {
-   background-color: @background;
-   border:           0;
-   border-color:     @maincolor;
-   padding:          0;
+  background-color: @background;
+  border: 0;
+  border-color: @maincolor;
+  padding: 0;
 }
 
 mainbox {
-   background-color: @background;
-   spacing:          0px;
-   children: [inputbar, message, listview];
+  background-color: @background;
+  spacing: 0px;
+  children: [inputbar, message, listview];
 }
 
 message {
-   padding: 6px 10px;
-   background-color:@background;
+  padding: 6px 10px;
+  background-color: @background;
 }
 
 textbox {
-   text-color:@urgentcolor;
-   padding: 10px 10px;
-   background-color:@background;
+  text-color: @urgentcolor;
+  padding: 10px 10px;
+  background-color: @background;
 }
 
 listview {
-   columns:     1;
-   fixed-height: true;
-   scrollbar: false;
-   spacing: 0px;
-   padding: 1px 0px 0px 0px;
-   margin: 0px 0px 1px 0px;
-   background: #0a0200;
+  columns: 1;
+  fixed-height: false;
+  scrollbar: true;
+  spacing: 0px;
+  padding: 1px 0px 0px 0px;
+  margin: 0px 0px 1px 0px;
+  background: @background;
 }
 
 element {
-   padding: 2px 15px;
+  padding: 4px 15px;
 }
 
 element normal.normal {
-   padding: 0px 15px;
-   background-color: @background;
-   text-color: @urgentcolor;
+  padding: 0px 15px;
+  background-color: @background;
+  text-color: @urgentcolor;
 }
 
 element normal.urgent {
-   background-color: @background;
-   text-color: @urgentcolor;
+  background-color: @background;
+  text-color: @urgentcolor;
 }
 
 element normal.active {
-   background-color: @background;
-   text-color: @maincolor;
+  background-color: @background;
+  text-color: @maincolor;
 }
 
 element selected.normal {
-    background-color: @blackselect;
-    text-color:       @foreground;
+  background-color: @blackselect;
+  text-color: @foreground;
 }
 
 element selected.urgent {
-    background-color: @urgentcolor;
-    text-color:       @background;
+  background-color: @urgentcolor;
+  text-color: @background;
 }
 
 element selected.active {
-    background-color: @maincolor;
-    text-color:       @background;
+  background-color: @maincolor;
+  text-color: @background;
 }
 
 element alternate.normal {
-    background-color: @background;
-    text-color:       @foreground;
+  background-color: @background;
+  text-color: @foreground;
 }
 
 element alternate.urgent {
-    background-color: @background;
-    text-color:       @urgentcolor;
+  background-color: @background;
+  text-color: @urgentcolor;
 }
 
 element alternate.active {
-    background-color: @background;
-    text-color:       @maincolor;
+  background-color: @background;
+  text-color: @maincolor;
 }
 
 scrollbar {
-   background-color: @background;
-   handle-color: @cyan;
-   handle-width: 15px;
+  background-color: @prompt-background;
+  handle-color: @scrollbar-handle;
+  handle-width: 7px;
 }
 
 mode-switcher {
-   background-color: @background;
+  background-color: @background;
 }
 
 button {
-   background-color: @background;
-   text-color:       @cyan;
+  background-color: @background;
+  text-color: @foreground;
 }
 
 button selected {
-    text-color:       @maincolor;
+  text-color: @maincolor;
 }
 
 inputbar {
-   background-color: @background;
-   spacing: 0px;
+  background-color: @background;
+  spacing: 0px;
 }
 
 prompt {
-   padding: 6px 9px;
-   background-color: @maincolor;
-   text-color:#dfdfdf;
+  padding: 8px 11px;
+  background-color: @prompt-background;
+  text-color: @foreground;
 }
 
 entry {
-   padding:6px 10px;
-   background-color:@background;
-   text-color:@urgentcolor;
+  padding: 8px 10px;
+  background-color: @background;
+  text-color: @urgentcolor;
 }
 
 case-indicator {
-   padding:6px 10px;
-   text-color:@maincolor;
-   background-color:@background;
+  padding: 6px 10px;
+  text-color: @maincolor;
+  background-color: @background;
 }
 /* vim:ft=css
