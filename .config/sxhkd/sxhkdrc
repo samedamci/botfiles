@@ -13,7 +13,7 @@ super + shift + d
 super + shift + s
 	tgscreenkey
 
-super + s; {t,m,r,v}
+super + s; {t,m,n,v}
 	{tuirent,mails,rss,fm}
 super + shift + o; {g,k,l,i}
 	{gimp,keepassxc,libreoffice,inkscape}
