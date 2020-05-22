@@ -1,8 +1,0 @@
-rofi.modi: drun,run
-rofi.font: Inconsolata 11
-rofi.m: 0 /* monitor */
-rofi.width:  450
-rofi.theme: theme
-rofi.location: 2
-rofi.xoffset: 0
-rofi.yoffset: 60

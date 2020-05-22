@@ -1,3 +1,12 @@
+configuration {
+  modi: "drun,run";
+  width: 450;
+  font: "Inconsolata 11";
+  location: 2;
+  yoffset: 60;
+  xoffset: 0;
+}
+
 * {
   maincolor: #282a38;
   urgentcolor: #dfdfdf;
