@@ -1,8 +1,10 @@
 super + Return
 	$TERMINAL
-super + b
-	$BROWSER
 super + shift + b
+	$BROWSER
+super + b
+	search
+super + ctrl + b
 	torbrowser-launcher
 super + d
 	rofi -show run

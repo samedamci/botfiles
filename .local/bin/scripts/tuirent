@@ -2,4 +2,4 @@
 
 # Run torrent client.
 
-"$TERMINAL" -e tremc
+"$TERMINAL" -e stig

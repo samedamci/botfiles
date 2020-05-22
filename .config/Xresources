@@ -40,7 +40,7 @@ st.font: Monospace:pixelsize=13:antialias=true:autohint=true:hintstyle=hintmediu
 *.color11:    #c9895b
 
 ! blue
-*.color4:     #6f97b8
+*.color4:     #385872
 *.color12:    #6f97b8
 
 ! magenta

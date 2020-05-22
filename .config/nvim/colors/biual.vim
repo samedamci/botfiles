@@ -55,7 +55,7 @@ hi PmenuThumb              ctermfg=8      ctermbg=8
 hi PmenuSbar               ctermfg=0      ctermbg=0
 hi StatusLineNC          	 ctermfg=8      ctermbg=NONE        cterm=bold
 hi StatusLine            	 ctermfg=14     ctermbg=NONE        cterm=NONE
-hi MyStatuslineFilename    ctermfg=4      ctermbg=NONE
+hi MyStatuslineFilename    ctermfg=12      ctermbg=NONE
 hi MyStatuslineFiletype    ctermfg=9      ctermbg=none        cterm=italic
 
 hi MyStatuslineLineCol     ctermfg=1      ctermbg=none        cterm=none
@@ -99,7 +99,7 @@ hi Constant ctermfg=3 cterm=none
 hi Identifier ctermfg=180
 hi Statement ctermfg=13 cterm=italic
 hi PreProc ctermfg=13
-hi Type ctermfg=4 cterm=bold
+hi Type ctermfg=12 cterm=bold
 hi Special ctermfg=135
 " hi Error ctermfg=0
 

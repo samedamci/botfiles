@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Search in $BROWSER or use bookmarks from file.
+
+bmfile="$HOME/.config/bookmarks"
+
+m() { rofi -dmenu -width 600 -i -p "Search" -l "$(wc -l "$bmfile")" ;}
+
+chosen="$(
+  sed 's/http.*\/ //g' "$bmfile" | m
+)"
+[ ! "$chosen" ] && exit 0
+
+url="$(grep "$chosen" "$bmfile" | awk '{ print $1 }')"
+[ ! "$url" ] && url="https://duckduckgo.com/?q=$chosen"
+
+"$BROWSER" "$url"
