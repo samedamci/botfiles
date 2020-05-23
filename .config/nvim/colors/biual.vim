@@ -22,7 +22,7 @@ hi Title                 ctermfg=15       ctermbg=NONE        cterm=NONE
 hi LineNr                ctermfg=238                        cterm=none
 hi CursorLineNr          ctermfg=220      ctermbg=8         cterm=bold
 hi ColorColumn           ctermfg=1        ctermbg=0         cterm=undercurl
-hi SignColumn            ctermfg=7
+hi SignColumn            ctermfg=7 				ctermbg=none
 hi VertSplit             ctermfg=0        ctermbg=8
 
 hi Comment               ctermfg=4

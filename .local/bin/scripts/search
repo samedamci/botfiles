@@ -12,6 +12,10 @@ chosen="$(
 [ ! "$chosen" ] && exit 0
 
 url="$(grep -m 1 "$chosen" "$bmfile" | awk '{ print $1 }')"
-[ ! "$url" ] && url="https://duckduckgo.com/?q=$chosen"
+[ ! "$url" ] && {
+  [ "$(echo "$chosen" | grep "[a-z|0-9]\.[a-z|0-9]")" ] &&
+    url="https://$chosen" || url="https://duckduckgo.com/?q=$chosen"
+}
+
 
 "$BROWSER" "$url"
