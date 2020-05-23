@@ -21,7 +21,7 @@ super + shift + o; {g,k,l,i}
 super + m
 	rofi-mpd -a
 super + x
-	lockscreen
+	slock
 super + z
 	powermenu
 super + u
@@ -48,7 +48,7 @@ F10
 F11
 	[ $(pgrep ffmpeg) ] && blaze -s || blaze
 End
-	lockscreen; systemctl suspend
+	slock; systemctl suspend
 Pause
 	syncnow
 

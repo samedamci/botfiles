@@ -5,6 +5,7 @@ configuration {
   location: 2;
   yoffset: 60;
   xoffset: 0;
+  show-icons: false;
 }
 
 * {
@@ -17,7 +18,6 @@ configuration {
   background: @maincolor;
   background-color: @background;
   blackselect: #363b47;
-  show-icons: false;
 }
 
 window {

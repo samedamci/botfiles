@@ -1,25 +1,20 @@
+#define bg #0e0f14
+#define sbg #282a38
+#define fg #dfdfdf
+#define sfg #eeeeee
+
 ! special
-*.foreground: #dfdfdf
-*.background: #0e0f14
-*.border_unfocused: #262323
-*.border_focused: #353131
+*.foreground: fg
+*.normfgcolor: fg
+*.selfgcolor: sfg
+*.selforeground: sfg
 
-! dwm
-dwm.normfgcolor: #bbbbbb
-dwm.normbgcolor: #0a0a0c
-dwm.normbordercolor: #444444
+*.background: bg
+*.normbgcolor: bg
+*.selbgcolor: sbg
+*.selbackground: sbg
 
-dwm.selfgcolor: #eeeeee
-dwm.selbgcolor: #282a38
-dwm.selbordercolor: #1b1b1b
-
-! dmenu
-dmenu.selbackground: #353131
-dmenu.selforeground: #dfdfdf
-dmenu.font: Monospace:pixelsize=13:antialias=true:autohint=true:hintstyle=hintmedium
-
-! st
-st.font: Monospace:pixelsize=13:antialias=true:autohint=true:hintstyle=hintmedium
+*.font: Monospace:pixelsize=13:antialias=true:autohint=true:hintstyle=hintmedium
 
 ! black
 *.color0: 	  #000000
