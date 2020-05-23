@@ -11,7 +11,7 @@ chosen="$(
 )"
 [ ! "$chosen" ] && exit 0
 
-url="$(grep "$chosen" "$bmfile" | awk '{ print $1 }')"
+url="$(grep -m 1 "$chosen" "$bmfile" | awk '{ print $1 }')"
 [ ! "$url" ] && url="https://duckduckgo.com/?q=$chosen"
 
 "$BROWSER" "$url"
