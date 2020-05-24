@@ -1,5 +1,8 @@
 #define bg #0e0f14
 #define sbg #282a38
+#define asbg #20232b /* darker sbg (rofi) */
+#define sel #363b47 /* selected (rofi) */
+#define asel #555a63 /* alt sel (rofi) */
 #define fg #dfdfdf
 #define sfg #eeeeee
 

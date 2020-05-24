@@ -9,15 +9,15 @@ configuration {
 }
 
 * {
-  maincolor: #282a38;
-  urgentcolor: #dfdfdf;
-  prompt-background: #20232b;
-  scrollbar-handle: #555a63;
-  foreground: #dfdfdf;
-  highlight: bold #6e99bf;
+  maincolor: ${SBG};
+  urgentcolor: ${FG};
+  prompt-background: ${ASBG};
+  scrollbar-handle: ${ASEL};
+  foreground: ${FG};
+  highlight: bold ${C12};
   background: @maincolor;
-  background-color: @background;
-  blackselect: #363b47;
+  background-color: @maincolor;
+  blackselect: ${SEL};
 }
 
 window {
