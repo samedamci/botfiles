@@ -1,6 +1,6 @@
 super + Return
 	$TERMINAL
-super + shift + b
+super + alt + b
 	$BROWSER
 super + b
 	search
@@ -48,7 +48,7 @@ F10
 F11
 	[ $(pgrep ffmpeg) ] && blaze -s || blaze
 End
-	slock; systemctl suspend
+	slock & systemctl suspend
 Pause
 	syncnow
 
