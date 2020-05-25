@@ -1,9 +1,9 @@
 #!/bin/sh
 
 [ "$(amixer sget Master | awk 'NR==5 { print $6 }')" = "[off]" ] && {
-  echo " mut" && exit 1 
+  echo " mut" && exit 1
 }
-    
+
 
 level=$(amixer sget Master | awk -F"[][]" '/dB/ { print $2 }')
 revel="${level%?}"
@@ -12,11 +12,11 @@ v1=""
 v2=""
 v3=""
 
-if [ "$revel" -lt 20 ]; then
+if [ "$revel" -lt 35 ]; then
   echo "$v1"
-elif [ "$revel" -lt 50 ]; then
+elif [ "$revel" -lt 60 ]; then
   echo "$v2"
-elif [ "$revel" -lt 75 ]; then
+elif [ "$revel" -lt 100 ]; then
   echo "$v3"
 fi
 
