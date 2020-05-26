@@ -48,6 +48,8 @@ alias \
   bi='btw init' \
   bd='btw diff'
 
+alias lisc='policense -l ISC -s -e git'
+
 alias \
 	s='sudo ' \
 	sudo='sudo '
