@@ -49,8 +49,8 @@ set wildignore+=*.doc,*.pdf,*.cbr,*.cbz
 set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz,*.kgb
 set wildignore+=*.swp,.lock,.DS_Store,._*
 
-highlight OverLength cterm=underline
-match OverLength /\%81v.\+/
+" highlight OverLength cterm=underline
+" match OverLength /\%81v.\+/
 
 " Restore cursor position
 function! ResCur()
@@ -71,6 +71,7 @@ let g:python_host_prog = '/usr/bin/python2'
 " Language-specific
 augroup langindentation
 	autocmd Filetype c setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+	autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
 	autocmd Filetype cpp setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 	autocmd Filetype css setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 	autocmd Filetype javascript setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2

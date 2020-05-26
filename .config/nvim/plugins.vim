@@ -20,6 +20,7 @@ call plug#begin('~/.config/nvim/bundle')
 	Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 		Plug 'tbodt/deoplete-tabnine', { 'do': './install.sh' }
 		Plug 'Shougo/deoplete-clangx'
+		Plug 'deoplete-plugins/deoplete-jedi'
 		Plug 'deoplete-plugins/deoplete-zsh'
 		Plug 'prabirshrestha/async.vim'
 		Plug 'prabirshrestha/asyncomplete.vim'
@@ -30,8 +31,9 @@ call plug#begin('~/.config/nvim/bundle')
 		Plug 'ryanolsonx/vim-lsp-javascript'
 
 	Plug 'ervandew/supertab'
-	Plug 'SirVer/ultisnips'
 	Plug 'honza/vim-snippets'
+	Plug 'Shougo/neosnippet.vim'
+	Plug 'Shougo/neosnippet-snippets'
 
 	Plug 'mattn/emmet-vim'
 
@@ -86,7 +88,7 @@ let g:ale_fixers = {
 \   'javascript': ['prettier'],
 \   'json': ['prettier'],
 \   'php': ['prettier'],
-\   'python': ['autopep8', 'isort', 'black', 'add_blank_lines_for_python_control_statements'],
+\   'python': ['black'],
 \   'scss': ['prettier'],
 \   'yaml': ['prettier'],
 \}
@@ -134,16 +136,16 @@ call deoplete#custom#source('zsh', 'filetypes', ['sh', 'zsh'])
 call deoplete#custom#option('smart_case', v:false)
 
 " For python language server
-if (executable('pyls'))
-    augroup LspPython
-        autocmd!
-        autocmd User lsp_setup call lsp#register_server({
-      \ 'name': 'pyls',
-      \ 'cmd': {server_info->['pyls']},
-      \ 'whitelist': ['python']
-      \ })
-    augroup END
-endif
+" if (executable('pyls'))
+"     augroup LspPython
+"         autocmd!
+"         autocmd User lsp_setup call lsp#register_server({
+"       \ 'name': 'pyls',
+"       \ 'cmd': {server_info->['pyls']},
+"       \ 'whitelist': ['python']
+"       \ })
+"     augroup END
+" endif
 
 " for JS language server
 if (executable('typescript-language-server'))

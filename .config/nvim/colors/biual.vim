@@ -49,8 +49,8 @@ hi DiffText              ctermfg=0        ctermbg=4
 hi Folded                                 ctermbg=8
 hi FoldColumn                             ctermbg=8
 
-hi Pmenu                   ctermfg=4      ctermbg=233
-hi PmenuSel                ctermfg=4      ctermbg=8
+hi Pmenu                   ctermfg=12      ctermbg=234
+hi PmenuSel                ctermfg=12      ctermbg=8
 hi PmenuThumb              ctermfg=8      ctermbg=8
 hi PmenuSbar               ctermfg=0      ctermbg=0
 hi StatusLineNC          	 ctermfg=8      ctermbg=NONE        cterm=bold
