@@ -1,0 +1,21 @@
+#!/bin/zsh
+# edit line in vim
+autoload edit-command-line; zle -N edit-command-line
+bindkey -M vicmd '^e' edit-command-line
+bindkey -M viins '^e' edit-command-line
+
+# scr
+fscr_run() { fscr; zle redisplay; }
+zle -N fscr_run
+bindkey -M vicmd "^n" fscr_run
+bindkey -M viins "^n" fscr_run
+
+# cfg
+fcfg_run() { fcfg; zle redisplay; }
+zle -N fcfg_run
+bindkey -M vicmd "^b" fcfg_run
+bindkey -M viins "^b" fcfg_run
+
+# clear
+bindkey -M viins "^x" clear-screen
+bindkey -M vicmd "^x" clear-screen

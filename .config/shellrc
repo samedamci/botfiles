@@ -59,7 +59,8 @@ alias \
 	scr='cd ~/.local/bin/scripts' \
 	cfg='cd ~/.config/' \
 	crn='cd ~/.local/bin/cron' \
-	cd..='cd ..'
+	cd..='cd ..' \
+  ,='cd ~'
 
 alias copy='xclip -sel clip'
 

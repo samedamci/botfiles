@@ -1,40 +1,27 @@
-#    
-#                    ██     
-#                   ░██     
-#     ██████  ██████░██     
-#    ░░░░██  ██░░░░ ░██████ 
-#       ██  ░░█████ ░██░░░██
-#      ██    ░░░░░██░██  ░██
-#     ██████ ██████ ░██  ░██
-#    ░░░░░░ ░░░░░░  ░░   ░░ 
-
-#~~~~~~~~~
-# General
-#~~~~~~~~~
+#!/bin/zsh
 # zsh directory
 ZDIR="${HOME}/.config/zsh"
 
-# history
 SAVEHIST=9999999
 HISTFILE="${ZDIR}/history"
 
-# imports
 source $HOME/.profile
 source $HOME/.config/shellrc
+source $ZDIR/bindings
 
 # error message
 command_not_found_handler() {
-    printf "\nahh shit, command not found\n\033[0;31m(╯°□°)╯︵ ┻━┻\n\n"
+  printf "\nahh shit, command not found\n\033[0;31m(╯°□°)╯︵ ┻━┻\n\n"
 	exit 127
 }
 
 # prompt
-setopt prompt_subst
-setopt autocd
 PROMPT='%F{green}%m%f in %B%F{#299b9b}%~%f%b $(git_status)
 %f%b% {%B%F{red}%?%f%b}%F{#299b9b}%B>%b%f '
+setopt prompt_subst # allow commands to run after prompt
+setopt autocd
 
-function git_status() {
+git_status() {
 	ref=$(git symbolic-ref --quiet --short HEAD 2> /dev/null || git rev-parse --short HEAD 2> /dev/null)
 	if [ $? -eq 0 ]; then
 		echo -n "on %B%F{magenta}$ref"
@@ -50,18 +37,10 @@ setopt complete_aliases
 zstyle ':completion:*' completer _expand _complete _ignored
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
-# setopt correct
+setopt correct
 zmodload zsh/complist
 compinit
 _comp_options+=(globdots)
-
-#~~~~~~~~~~
-# Bindings
-#~~~~~~~~~~
-## edit line in vim with ctrl-e:
-autoload edit-command-line; zle -N edit-command-line
-bindkey -M vicmd '^e' edit-command-line
-bindkey '^e'          edit-command-line
 
 # vi mode
 bindkey -v
@@ -69,15 +48,15 @@ export KEYTIMEOUT=1
 
 # cursor change
 function zle-keymap-select {
-    if [[ ${KEYMAP} == vicmd ]] ||
-       [[ $1 = 'block' ]]; then
+  if [[ ${KEYMAP} == vicmd ]] ||
+    [[ $1 = 'block' ]]; then
       echo -ne '\e[2 q'
     elif [[ ${KEYMAP} == main ]] ||
-         [[ ${KEYMAP} == viins ]] ||
-         [[ ${KEYMAP} = '' ]] ||
-         [[ $1 = 'beam' ]]; then
+      [[ ${KEYMAP} == viins ]] ||
+      [[ ${KEYMAP} = '' ]] ||
+      [[ $1 = 'beam' ]]; then
 	echo -ne '\e[6 q'
-    fi
+  fi
 }
 
 zle -N zle-keymap-select
@@ -89,12 +68,7 @@ zle-line-init() {
 echo -ne '\e[6 q'
 preexec() { echo -ne '\e[6 q' ;}
 
-# other
-bindkey '^x' clear-screen
-
-#~~~~~~~~~
 # Plugins
-#~~~~~~~~~
 PDIR="${ZDIR}/plugins"
 
 # zsh-autosuggestions
