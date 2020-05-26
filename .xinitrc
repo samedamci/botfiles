@@ -15,4 +15,4 @@ mpd &
 dunst &
 syncthing -no-browser &
 telegram-desktop &
-exec dwm
+exec ~/.local/bin/scripts/startdwm
