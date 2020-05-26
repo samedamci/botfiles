@@ -12,11 +12,13 @@ super + shift + d
 	rofi -show drun
 super + shift + s
 	tgscreenkey
+super + c
+	compos
 
 super + s; {t,m,n,v}
 	{tuirent,mails,rss,fm}
-super + shift + o; {g,k,l,i}
-	{gimp,keepassxc,libreoffice,inkscape}
+super + a; {g,k,l,i,k}
+	{gimp,keepassxc,libreoffice,inkscape,keepassxc}
 
 super + m
 	rofi-mpd -a
