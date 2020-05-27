@@ -17,6 +17,9 @@
 *.selbgcolor: sbg
 *.selbackground: sbg
 
+*.normbordercolor: sel
+*.selbordercolor: asel
+
 *.font: Monospace:pixelsize=13:antialias=true:autohint=true:hintstyle=hintmedium
 
 ! black
