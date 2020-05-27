@@ -86,7 +86,7 @@ augroup END
 " Automatically reload configs on save
 autocmd BufWritePost *Xresources,*Xdefaults !xrdb %
 autocmd BufWritePost *sxhkdrc !pkill -USR1 sxhkd
-autocmd BufWritePost *picom.conf !pkill -USR1 picom
+autocmd BufWritePost *picom.conf !pkill -USR1 picom; picom -b
 
 " Automatically deletes all trailing whitespace and newlines at end of file on save
 autocmd BufWritePre * %s/\s\+$//e
