@@ -5,4 +5,4 @@ mpd.fifo.path=/tmp/mpd.fifo
 colors.scheme=biual
 
 colors.override.terminal=false
-visualizer.spectrum.character=
+visualizer.spectrum.character=o
