@@ -1,8 +1,17 @@
 audio.sources=mpd
-
 mpd.fifo.path=/tmp/mpd.fifo
-
-colors.scheme=biual
+visualizer.fps=30
+audio.stereo.enabled=false
 
 colors.override.terminal=false
-visualizer.spectrum.character=o
+colors.scheme=biual
+
+visualizer.spectrum.character=
+visualizer.spectrum.bar.width=1
+visualizer.spectrum.bar.spacing=0
+visualizer.spectrum.falloff.weight=0.93
+visualizer.spectrum.top.margin=0.0
+visualizer.spectrum.bottom.margin=0.0
+visualizer.spectrum.right.margin=0.0
+visualizer.spectrum.left.margin=0.0
+visualizer.spectrum.falloff.mode=fill
