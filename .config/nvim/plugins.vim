@@ -48,6 +48,7 @@ call plug#begin('~/.config/nvim/bundle')
 	Plug 'reedes/vim-pencil'
 	Plug 'christoomey/vim-tmux-navigator'
 	Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
+	Plug 'chaoren/vim-wordmotion'
 
 	" git
 	Plug 'airblade/vim-gitgutter'
@@ -69,8 +70,8 @@ let g:lsp_signs_warning = {'text': ''}
 let g:lsp_signs_hint = {'text': ''} " icons require GUI
 
 let g:ale_linters = {
-\   'c': ['ccls', 'clang'],
-\   'cpp': ['ccls', 'clang'],
+\   'c': ['ccls'],
+\   'cpp': ['ccls'],
 \   'javascript': ['eslint'],
 \   'php': ['php'],
 \   'python': ['flake8'],
@@ -160,18 +161,18 @@ if (executable('typescript-language-server'))
 	endif
 
 " for C/C++ language server
-if (executable('ccls'))
-	augroup LspCpp
-		autocmd!
-   		autocmd User lsp_setup call lsp#register_server({
-      \ 'name': 'ccls',
-      \ 'cmd': {server_info->['ccls']},
-      \ 'root_uri': {server_info->lsp#utils#path_to_uri(lsp#utils#find_nearest_parent_file_directory(lsp#utils#get_buffer_path(), 'compile_commands.json'))},
-      \ 'initialization_options': {},
-      \ 'whitelist': ['c', 'cpp', 'objc', 'objcpp', 'cc'],
-      \ })
-	augroup END
-endif
+" if (executable('ccls'))
+" 	augroup LspCpp
+" 		autocmd!
+"    		autocmd User lsp_setup call lsp#register_server({
+"       \ 'name': 'ccls',
+"       \ 'cmd': {server_info->['ccls']},
+"       \ 'root_uri': {server_info->lsp#utils#path_to_uri(lsp#utils#find_nearest_parent_file_directory(lsp#utils#get_buffer_path(), 'compile_commands.json'))},
+"       \ 'initialization_options': {},
+"       \ 'whitelist': ['c', 'cpp', 'objc', 'objcpp', 'cc'],
+"       \ })
+" 	augroup END
+" endif
 
 " for Go language server
 if executable('gopls')
