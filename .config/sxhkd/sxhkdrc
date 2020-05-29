@@ -1,15 +1,9 @@
 super + Return
 	$TERMINAL
-super + alt + b
-	$BROWSER
-super + b
-	search
-super + ctrl + b
-	torbrowser-launcher
-super + d
-	rofi -show run
-super + shift + d
-	rofi -show drun
+super + {_,ctrl,alt +} b
+	{search,$BROWSER,torbrowser-launcher}
+super + {_,shift +} d
+	rofi -show {run,drun}
 super + shift + s
 	tgscreenkey
 super + c
@@ -30,46 +24,36 @@ super + u
 	update
 super + n
 	rofi-todo -f $HOME/doc/notes/notes.json
-super + e
-	unicode
-super + shift + e
-	fawesome
+super + {_,shift +} e
+	{unicode,fawesome}
 super + w
 	choosewall
 
-Print
-	screenshot
-shift + Print
-	screenshot --force
-F1
-	mounter
-shift + F1
-	umounter
-F10
-	curl 192.168.1.201/toggle.php && refbar
-F11
-	[ $(pgrep ffmpeg) ] && blaze -s || blaze
+{_,shift +} Print
+	screenshot {_,--force}
+{_,shift +} F1
+	{_,u}mounter
+{_,ctrl +} F10
+	{curl 192.168.1.201/toggle.php && refbar,$BROWSER 192.168.1.201}
+{_,shift +} F11
+	blaze {_,-s}
 End
 	slock & systemctl suspend
 Pause
 	syncnow
 
-
-#~~~~~~~
-# AUDIO
-#~~~~~~~
-# Mute
+# mute
 XF86AudioMute
 	amixer sset Master toggle && refbar
-# Volume control
+# volume control
 XF86Audio{Raise,Lower}Volume
 	amixer sset Master 5%{+,-} && refbar
-# Songs control
+# songs control
 XF86Audio{Next,Prev}
 	mpc {next,prev} && refbar
-# Pause/play
-XF86AudioPlay
+# pause/play
+{XF86AudioPlay,super + slash}
 	mpc toggle && refbar
-# Stop
+# stop
 XF86AudioStop
 	mpc stop && refbar
