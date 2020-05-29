@@ -29,40 +29,19 @@ export FZF_DEFAULT_OPTS='
 --color info:108,prompt:109,spinner:108,pointer:168,marker:168
 '
 
-export BG="$(awk '/define bg/ { print $3 }' ~/.config/Xresources)"
-export SBG="$(awk '/define sbg/ { print $3 }' ~/.config/Xresources)"
-export ASBG="$(awk '/define asbg/ { print $3 }' ~/.config/Xresources)"
-export FG="$(awk '/define fg/ { print $3 }' ~/.config/Xresources)"
-export SFG="$(awk '/define sfg/ { print $3 }' ~/.config/Xresources)"
-export SEL="$(awk '/define sel/ { print $3 }' ~/.config/Xresources)"
-export ASEL="$(awk '/define asel/ { print $3 }' ~/.config/Xresources)"
-
-# Unfortunetly shell is loading to slow when I do that :C
-# input="$HOME/.config/Xresources"
-# for i in $(seq 12); do
-#   export C$i="$(awk '/color$i/ { print $2 }' "$input")"
-# done
-
-# export C1="$(awk '/color1/ { print $2 }' ~/.config/Xresources)"
-# export C2="$(awk '/color2/ { print $2 }' ~/.config/Xresources)"
-# export C3="$(awk '/color3/ { print $2 }' ~/.config/Xresources)"
-# export C4="$(awk '/color4/ { print $2 }' ~/.config/Xresources)"
-# export C5="$(awk '/color5/ { print $2 }' ~/.config/Xresources)"
-# export C6="$(awk '/color6/ { print $2 }' ~/.config/Xresources)"
-# export C7="$(awk '/color7/ { print $2 }' ~/.config/Xresources)"
-# export C8="$(awk '/color8/ { print $2 }' ~/.config/Xresources)"
-# export C9="$(awk '/color9/ { print $2 }' ~/.config/Xresources)"
-# export C10="$(awk '/color10/ { print $2 }' ~/.config/Xresources)"
-# export C11="$(awk '/color11/ { print $2 }' ~/.config/Xresources)"
-export C12="$(awk '/color12/ { print $2 }' ~/.config/Xresources)"
-# export C13="$(awk '/color13/ { print $2 }' ~/.config/Xresources)"
-# export C14="$(awk '/color14/ { print $2 }' ~/.config/Xresources)"
-# export C15="$(awk '/color15/ { print $2 }' ~/.config/Xresources)"
-# export C16="$(awk '/color16/ { print $2 }' ~/.config/Xresources)"
+# Start X automatic on tty1
+[ "$(tty)" = "/dev/tty1" ] && {
+  export BG="$(awk '/define bg/ { print $3 }' ~/.config/Xresources)"
+  export SBG="$(awk '/define sbg/ { print $3 }' ~/.config/Xresources)"
+  export ASBG="$(awk '/define asbg/ { print $3 }' ~/.config/Xresources)"
+  export FG="$(awk '/define fg/ { print $3 }' ~/.config/Xresources)"
+  export SFG="$(awk '/define sfg/ { print $3 }' ~/.config/Xresources)"
+  export SEL="$(awk '/define sel/ { print $3 }' ~/.config/Xresources)"
+  export ASEL="$(awk '/define asel/ { print $3 }' ~/.config/Xresources)"
+  export C12="$(awk '/color12/ { print $2 }' ~/.config/Xresources)"
+  ! pgrep -x Xorg >/dev/null && exec startx
+}
 
 # Other
 export _JAVA_AWT_WM_NONREPARENTING=1
 export GPG_TTY=$(tty)
-
-# Start X automatic on tty1
-[ "$(tty)" = "/dev/tty1" ] && ! pgrep -x Xorg >/dev/null && exec startx
