@@ -19,3 +19,36 @@ bindkey -M viins "^b" fcfg_run
 # clear
 bindkey -M viins "^x" clear-screen
 bindkey -M vicmd "^x" clear-screen
+
+# fgh
+fgh_run() { fgh; zle redisplay; }
+zle -N fgh_run
+bindkey -M vicmd "^g" fgh_run
+bindkey -M viins "^g" fgh_run
+
+# f
+f_run() { f; zle redisplay; }
+zle -N f_run
+bindkey -M vicmd "^f" f_run
+bindkey -M viins "^f" f_run
+
+# pac
+pac_run() { pac; zle redisplay; }
+zle -N pac_run
+bindkey -M vicmd "^p" pac_run
+bindkey -M viins "^p" pac_run
+
+# aur
+aur_run() { aur; zle redisplay; }
+zle -N aur_run
+bindkey -M vicmd "^a" aur_run
+bindkey -M viins "^a" aur_run
+
+# read config
+read_config() {
+	source ~/.config/zsh/{.zshrc,bindings} ~/.profile ~/.config/shellrc
+	zle redisplay
+}
+zle -N read_config
+bindkey -M vicmd "^r" read_config
+bindkey -M viins "^r" read_config
