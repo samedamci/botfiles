@@ -5,5 +5,5 @@ icon="$(cat "/tmp/newsupdate" 2>/dev/null)"
 unread="$(cat "$HOME/.cache/news_unread" 2>/dev/null)"
 
 printf ""
-[ "$unread" ] && "$unread"
+[ "$unread" ] && printf " %s" "$unread"
 echo "$icon"
