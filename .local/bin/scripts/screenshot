@@ -12,7 +12,13 @@ screenshot() {
     notify-send -u low -t 1400 -i "$screen_path" "Screenshot created!"
 }
 
-[ "$1" = "--force" ] && { screenshot && exit; }
+clip() {
+  xclip -sel clip /dev/null; sleep 0.5
+  xclip -selection clipboard -t image/png "$screen_path"
+}
+
+[ "$1" = "--force" ] && { screenshot; exit; }
+[ "$1" = "--force_area" ] && { type="-s -u" && screenshot && clip; exit ;}
 
 type="$(printf " Screen\n Area\n" | m 2 -p 'Screenshoter')"
 [ ! "$type" ] && exit
@@ -26,6 +32,4 @@ time="$(printf "0.7\n5\n10\n15"     | m 3 -p 'Delay')"
 sleep "$time"
 screenshot
 
-[ "$save" = " Yes" ] &&
-  xclip -sel clip /dev/null; sleep 0.5
-  xclip -selection clipboard -t image/png "$screen_path" || exit
+[ "$save" = " Yes" ] && clip || exit

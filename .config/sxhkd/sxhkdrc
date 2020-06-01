@@ -11,12 +11,12 @@ super + c
 
 super + s; {t,m,n,v}
 	{tuirent,mails,rss,fm}
-super + a; {g,k,l,i,k}
-	{gimp,keepassxc,libreoffice,inkscape,keepassxc}
+super + a; {g,k,l,i}
+	{gimp,keepassxc,libreoffice,inkscape}
 
 super + m
 	rofi-mpd -a
-super + x
+{Prior,super + x}
 	slock
 super + z
 	powermenu
@@ -29,8 +29,8 @@ super + {_,shift +} e
 super + w
 	choosewall
 
-{_,shift +} Print
-	screenshot {_,--force}
+{_,shift,ctrl +} Print
+	screenshot {_,--force,--force_area}
 {_,shift +} F1
 	{_,u}mounter
 {_,ctrl +} F10
