@@ -14,8 +14,10 @@ super + s; {t,m,n,v}
 super + a; {g,k,l,i}
 	{gimp,keepassxc,libreoffice,inkscape}
 
-super + m
-	rofi-mpd -a
+super + {_,ctrl +} m
+	rofi-mpd {-a,-s}
+super + apostrophe
+	mpdqueue
 {Prior,super + x}
 	slock
 super + z
@@ -51,6 +53,8 @@ XF86Audio{Raise,Lower}Volume
 # songs control
 XF86Audio{Next,Prev}
 	mpc {next,prev} && refbar
+ctrl + XF86Audio{Next,Prev}
+	mpc seek {+,-}4
 # pause/play
 {XF86AudioPlay,super + slash}
 	mpc toggle && refbar

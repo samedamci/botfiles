@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Show mpd queue in notification.
+
+notify-send -u normal "MPD queue" "Solar - Amy"
