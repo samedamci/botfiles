@@ -2,4 +2,9 @@
 
 # Show mpd queue in notification.
 
-notify-send -u normal "MPD queue" "$(mpc queued)"
+queue="$(mpc playlist)"
+items="$(echo "$queue" | wc -l)"
+[ "$items" -gt 5 ] && and="and $(( "$items" - 5)) other..."
+
+notify-send -u normal "MPD queue" \
+  "$(echo "$queue" | head -n 5)\n$and"
