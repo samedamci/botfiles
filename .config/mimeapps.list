@@ -1,7 +1,4 @@
 [Default Applications]
-
-# Author: Luke Smith
-
 text/x-shellscript=text.desktop;
 x-scheme-handler/magnet=torrent.desktop;
 application/x-bittorrent=torrent.desktop;
@@ -13,6 +10,7 @@ image/png=img.desktop;
 image/jpeg=img.desktop;
 image/gif=img.desktop;
 application/rss+xml=rss.desktop
+application/atom+xml=rss.desktop;
 video/x-matroska=video.desktop
 inode/directory=file.desktop
 x-scheme-handler/http=linkhandler.desktop

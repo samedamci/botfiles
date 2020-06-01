@@ -2,4 +2,4 @@
 
 # Show mpd queue in notification.
 
-notify-send -u normal "MPD queue" "Solar - Amy"
+notify-send -u normal "MPD queue" "$(mpc queued)"
