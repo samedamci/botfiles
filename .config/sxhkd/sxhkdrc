@@ -15,9 +15,11 @@ super + a; {g,k,l,i}
 	{gimp,keepassxc,libreoffice,inkscape}
 
 super + {_,ctrl +} m
-	rofi-mpd {-a,-s}
+	rofi-mpd {-a,-s} && refbar
 super + apostrophe
 	mpdqueue
+XF86Tools
+	mpdrandom
 {Prior,super + x}
 	slock
 super + z

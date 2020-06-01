@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# Add random song to mpd queue.
+
+song="$(mpc listall | shuf -r -n 1)"
+
+mpc add "$song"
+
+notify-send -u normal "MPD added random song" "$(
+  mpc -f "%artist% - %title%" find filename "$song"
+)"
+
+mpc play>/dev/null
