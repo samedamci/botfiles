@@ -63,3 +63,6 @@ ctrl + XF86Audio{Next,Prev}
 # stop
 XF86AudioStop
 	mpc stop && refbar
+
+super + {Left,Up,Down,Right}
+	rotscreen {left,normal,inverted,right}
