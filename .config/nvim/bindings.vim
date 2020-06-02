@@ -10,7 +10,6 @@ let g:move_key_modifier = 'A'
 "~~~~~~~~~~~~~~~~~
 " fzf
 nmap <silent> <Leader>f :Files<CR>
-nmap <silent> <Leader>fg :GFiles<CR>
 
 "~~~~~~~~~
 " Linters

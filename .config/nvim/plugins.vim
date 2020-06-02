@@ -10,7 +10,7 @@ endif
 
 call plug#begin('~/.config/nvim/bundle')
 
-	" files management
+	" fzf
 	Plug '~/.fzf'
 	Plug 'junegunn/fzf.vim'
 
@@ -113,8 +113,18 @@ let g:fzf_colors =
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
 
-let g:fzf_layout = { 'down': '~50%' }
-let g:fzf_preview_window = 'right:60%'
+let g:fzf_layout = {
+\  'up':'~90%',
+\  'window':
+\  {
+\    'width': 0.7,
+\    'height': 0.7,
+\    'yoffset':0.5,
+\    'xoffset': 0.5,
+\    'border': 'sharp'
+\  }
+\}
+let g:fzf_preview_window = 'right:55%'
 
 " gitgutter
 set updatetime=1000
@@ -127,26 +137,12 @@ autocmd FileType html,css EmmetInstall
 
 " deoplete
 let g:deoplete#enable_at_startup = 1
-" let deoplete#tag#cache_limit_size = 5000000
-" autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
 let g:deoplete#enable_ignore_case = 1
 set completeopt-=preview
 
 call deoplete#custom#source('ultisnips', 'rank', 1000)
 call deoplete#custom#source('zsh', 'filetypes', ['sh', 'zsh'])
 call deoplete#custom#option('smart_case', v:false)
-
-" For python language server
-" if (executable('pyls'))
-"     augroup LspPython
-"         autocmd!
-"         autocmd User lsp_setup call lsp#register_server({
-"       \ 'name': 'pyls',
-"       \ 'cmd': {server_info->['pyls']},
-"       \ 'whitelist': ['python']
-"       \ })
-"     augroup END
-" endif
 
 " for JS language server
 if (executable('typescript-language-server'))
@@ -159,20 +155,6 @@ if (executable('typescript-language-server'))
       \ })
     augroup END
 	endif
-
-" for C/C++ language server
-" if (executable('ccls'))
-" 	augroup LspCpp
-" 		autocmd!
-"    		autocmd User lsp_setup call lsp#register_server({
-"       \ 'name': 'ccls',
-"       \ 'cmd': {server_info->['ccls']},
-"       \ 'root_uri': {server_info->lsp#utils#path_to_uri(lsp#utils#find_nearest_parent_file_directory(lsp#utils#get_buffer_path(), 'compile_commands.json'))},
-"       \ 'initialization_options': {},
-"       \ 'whitelist': ['c', 'cpp', 'objc', 'objcpp', 'cc'],
-"       \ })
-" 	augroup END
-" endif
 
 " for Go language server
 if executable('gopls')
