@@ -14,9 +14,9 @@ case "$action" in
 	;;
 
 	" Show packages")
-		packages() { pacman -Qu; }
+		packages() { pacman -Qu | wc -l ;}
 		if [ "$(packages)" -gt 0 ]; then
-			pacman -Qu | dmenu -l 50
+			pacman -Qu | rofi -dmenu -l 50
 		else notify-send "Nothing to update!"
 		fi
 	;;
