@@ -9,5 +9,3 @@ mpc add "$song"
 notify-send -u normal "MPD added random song" "$(
   mpc -f "%artist% - %title%" find filename "$song"
 )"
-
-mpc play>/dev/null

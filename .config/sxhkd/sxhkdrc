@@ -9,8 +9,8 @@ super + shift + s
 super + c
 	compos
 
-super + s; {t,m,n,v}
-	{tuirent,mails,rss,fm}
+super + s; {t,m,n,v,c}
+	{tuirent,mails,rss,fm,ncmp}
 super + a; {g,k,l,i}
 	{gimp,keepassxc,libreoffice,inkscape}
 
@@ -35,7 +35,7 @@ super + w
 
 {_,shift,ctrl +} Print
 	screenshot {_,--force,--force_area}
-{_,shift +} F1
+{_,shift +} Home
 	{_,u}mounter
 {_,ctrl +} F10
 	{curl 192.168.1.201/toggle.php && refbar,$BROWSER 192.168.1.201}
