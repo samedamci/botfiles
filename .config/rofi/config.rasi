@@ -1,7 +1,7 @@
 configuration {
   modi: "drun,run";
   width: 450;
-  font: "Inconsolata 11";
+  font: "JetBrains Mono 9";
   location: 2;
   yoffset: 60;
   xoffset: 0;
