@@ -1,20 +1,9 @@
-"
-"                                       ██
-"                                      ░░
-"    ███████   █████   ██████  ██    ██ ██ ██████████
-"   ░░██░░░██ ██░░░██ ██░░░░██░██   ░██░██░░██░░██░░██
-"    ░██  ░██░███████░██   ░██░░██ ░██ ░██ ░██ ░██ ░██
-"    ░██  ░██░██░░░░ ░██   ░██ ░░████  ░██ ░██ ░██ ░██
-"    ███  ░██░░██████░░██████   ░░██   ░██ ███ ░██ ░██
-"   ░░░   ░░  ░░░░░░  ░░░░░░     ░░    ░░ ░░░  ░░  ░░
-
-
-" Load other modules
+" load other modules
 source $HOME/.config/nvim/statusline.vim
 source $HOME/.config/nvim/plugins.vim
 source $HOME/.config/nvim/bindings.vim
 
-" Basic stuff
+" basic stuff
 syntax on
 filetype plugin indent on
 set scrolloff=5
@@ -35,9 +24,11 @@ set splitright
 set splitbelow
 set noshowmode
 set shortmess+=I
+set autochdir
+scriptencoding utf-8
 color biual
 
-" Ignore files which vim doesn't use
+" ignore files which vim doesn't use
 set wildignore+=.git,.hg,.svn
 set wildignore+=*.aux,*.out,*.toc
 set wildignore+=*.o,*.obj,*.exe,*.dll,*.manifest,*.rbc,*.class
@@ -49,10 +40,7 @@ set wildignore+=*.doc,*.pdf,*.cbr,*.cbz
 set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz,*.kgb
 set wildignore+=*.swp,.lock,.DS_Store,._*
 
-" highlight OverLength cterm=underline
-" match OverLength /\%81v.\+/
-
-" Restore cursor position
+" restore cursor position
 function! ResCur()
   if line("'\"") <= line("$")
     normal! g`"
@@ -64,11 +52,11 @@ augroup resCur
   autocmd BufWinEnter * call ResCur()
 augroup END
 
-" Python paths, needed for virtualenvs
+" python paths, needed for virtualenvs
 let g:python3_host_prog = '/usr/bin/python3'
 let g:python_host_prog = '/usr/bin/python2'
 
-" Language-specific
+" language-specific
 augroup langindentation
 	autocmd Filetype c setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 	autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
@@ -83,14 +71,11 @@ augroup langindentation
 	autocmd Filetype sh setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 augroup END
 
-" Automatically reload configs on save
+" automatically reload configs on save
 autocmd BufWritePost *Xresources,*Xdefaults !xrdb %
 autocmd BufWritePost *sxhkdrc !pkill -USR1 sxhkd
 autocmd BufWritePost *picom.conf !pkill -USR1 picom; picom -b
 
-" Automatically deletes all trailing whitespace and newlines at end of file on save
+" automatically deletes all trailing whitespace and newlines at end of file on save
 autocmd BufWritePre * %s/\s\+$//e
 autocmd BufWritepre * %s/\n\+\%$//e
-
-" Encoding
-scriptencoding utf-8
