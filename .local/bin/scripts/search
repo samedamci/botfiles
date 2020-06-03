@@ -4,7 +4,10 @@
 
 bmfile="$HOME/.config/bookmarks"
 
-m() { rofi -dmenu -width 600 -i -p "Search" -l "$(wc -l "$bmfile")" ;}
+m() {
+  rofi -dmenu -width 600 -i -p "Search" -l "$(wc -l "$bmfile")" \
+    -matching fuzzy
+}
 
 chosen="$(
   sed 's/http.*\/ //g' "$bmfile" | m
