@@ -17,7 +17,7 @@ command_not_found_handler() {
 
 # prompt
 PROMPT='%F{green}%m%f in %B%F{#299b9b}%~%f%b $(git_status)
-%f%b% {%B%F{red}%?%f%b}%F{#299b9b}%B>%b%f '
+%f%F{#777ca5}(%B%F{red}%?%f%b%F{#777ca5})>%b%f '
 setopt prompt_subst # allow commands to run after prompt
 setopt autocd
 
