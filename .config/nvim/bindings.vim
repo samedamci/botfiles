@@ -2,7 +2,7 @@
 " Key Bindings
 "==============
 " Leader key
-let mapleader = ' '
+let mapleader = "\<Space>"
 let g:move_key_modifier = 'A'
 
 "~~~~~~~~~~~~~~~~~

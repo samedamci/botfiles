@@ -2,7 +2,7 @@
 
 # Set desktop background.
 
-[ "$1" ] && { xwallpaper --maximize "$1" && exit 1; }
+[ "$1" ] && { xwallpaper --zoom "$1" && exit 1; }
 
 if [ "$(cat /etc/hostname)" = "pc" ]; then
 	res="1920x1080"

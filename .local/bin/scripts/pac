@@ -2,7 +2,4 @@
 
 # Menu with official repository packages.
 
-package="$(pacman -Slq | fzf -m --preview 'pacman -Si {1}')"
-[ ! "$package" ] && exit
-
-sudo pacman -S "$package"
+pacman -Slq | fzf -m --preview 'yay -Si {1}' --height 45% | yay -S -

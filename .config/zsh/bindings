@@ -33,13 +33,19 @@ bindkey -M vicmd "^f" f_run
 bindkey -M viins "^f" f_run
 
 # pac
-pac_run() { pac; zle redisplay; }
+pac_run() {
+	pac
+  zle redisplay
+}
 zle -N pac_run
 bindkey -M vicmd "^p" pac_run
 bindkey -M viins "^p" pac_run
 
 # aur
-aur_run() { aur; zle redisplay; }
+aur_run() {
+	aur
+	zle redisplay
+}
 zle -N aur_run
 bindkey -M vicmd "^a" aur_run
 bindkey -M viins "^a" aur_run
