@@ -1,7 +1,7 @@
 super + Return
 	$TERMINAL
 super + {_,ctrl,alt +} b
-	{search,$BROWSER,torbrowser-launcher}
+	{search,$BROWSER,tor-browser}
 super + {_,shift +} d
 	rofi -show {run,drun}
 super + shift + s
@@ -11,8 +11,8 @@ super + c
 
 super + s; {t,m,n,v,c}
 	{tuirent,mails,rss,fm,ncmp}
-super + a; {g,k,l,i}
-	{gimp,keepassxc,libreoffice,inkscape}
+super + a; {g,k,l,i,m}
+	{gimp,keepassxc,libreoffice,inkscape,minecraft-launcher}
 
 super + {_,ctrl +} m
 	rofi-mpd {-a,-s} && refbar
@@ -64,5 +64,5 @@ ctrl + XF86Audio{Next,Prev}
 XF86AudioStop
 	mpc stop && refbar
 
-super + {Left,Up,Down,Right}
+ctrl + alt + {Left,Up,Down,Right}
 	rotscreen {left,normal,inverted,right}

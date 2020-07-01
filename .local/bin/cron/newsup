@@ -8,8 +8,7 @@ ps ax | grep -q newsboat$ && \
 
 echo " " > /tmp/newsupdate
 refbar &
-/usr/bin/newsboat -x reload
-rm -f /tmp/newsupdate
+/usr/bin/newsboat -x reload && rm -f /tmp/newsupdate
 refbar &
 
 newsboat -x print-unread | awk '{ print $1 }' > "$HOME/.cache/news_unread"

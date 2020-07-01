@@ -129,15 +129,15 @@ call deoplete#custom#option('smart_case', v:false)
 
 " for JS language server
 if (executable('typescript-language-server'))
-    augroup LspJavaScript
-        autocmd!
-        autocmd User lsp_setup call lsp#register_server({
-      \ 'name': 'js-ls',
-      \ 'cmd': {server_info->[&shell, &shellcmdflag, 'typescript-language-server --stdio']},
-      \ 'whitelist': ['javascript', 'javascript.jsx', 'javascriptreact']
-      \ })
-    augroup END
-	endif
+  augroup LspJavaScript
+      autocmd!
+      autocmd User lsp_setup call lsp#register_server({
+    \ 'name': 'js-ls',
+    \ 'cmd': {server_info->[&shell, &shellcmdflag, 'typescript-language-server --stdio']},
+    \ 'whitelist': ['javascript', 'javascript.jsx', 'javascriptreact']
+    \ })
+  augroup END
+endif
 
 " for Go language server
 if executable('gopls')

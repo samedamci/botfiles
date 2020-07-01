@@ -39,6 +39,7 @@ export FZF_DEFAULT_OPTS='
   export SEL="$(awk '/define sel/ { print $3 }' ~/.config/Xresources)"
   export ASEL="$(awk '/define asel/ { print $3 }' ~/.config/Xresources)"
   export C12="$(awk '/color12/ { print $2 }' ~/.config/Xresources)"
+  eval "$(ssh-agent)"
   ! pgrep -x Xorg >/dev/null && exec startx
 }
 

@@ -15,3 +15,7 @@ video/x-matroska=video.desktop
 inode/directory=file.desktop
 x-scheme-handler/http=linkhandler.desktop
 x-scheme-handler/https=linkhandler.desktop
+x-scheme-handler/discord-610508934456934412=discord-610508934456934412.desktop
+
+[Added Associations]
+application/rss+xml=text.desktop;nvim.desktop;rss.desktop;

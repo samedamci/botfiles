@@ -17,7 +17,7 @@ chosen="$(
 url="$(grep -m 1 "$chosen" "$bmfile" | awk '{ print $1 }')"
 [ ! "$url" ] && {
   [ "$(echo "$chosen" | grep "[a-z|0-9]\.[a-z|0-9]")" ] &&
-    url="$chosen" || url="https://duckduckgo.com/?q=$chosen"
+    url="$chosen" || url="http://searx.samedamci.me/?=&q=$chosen"
 }
 
 "$BROWSER" "$url"
