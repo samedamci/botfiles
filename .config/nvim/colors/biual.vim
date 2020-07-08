@@ -60,8 +60,8 @@ hi MyStatuslineFiletype    ctermfg=9      ctermbg=none        cterm=italic
 
 hi MyStatuslineLineCol     ctermfg=1      ctermbg=none        cterm=none
 hi MyStatuslineLinePerc    ctermfg=2      ctermbg=none        cterm=none
-hi CursorLine                       ctermbg=8          cterm=NONE
-hi CursorColumn                     ctermbg=8           cterm=NONE
+" hi CursorLine    ctermfg=none           ctermbg=none          cterm=none
+" hi CursorColumn                     ctermbg=8           cterm=NONE
 
 " ALE
 hi ALEWarning                               cterm=undercurl
@@ -75,12 +75,12 @@ hi LspHintText ctermfg=3 ctermbg=none cterm=none
 hi LspErrorLine ctermfg=red cterm=undercurl
 hi LspErrorText ctermfg=red ctermbg=none
 
-" Cursorline highlight
-augroup CursorLine
-  au!
-  au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
-  au WinLeave * setlocal nocursorline
-augroup END
+" " Cursorline highlight
+" augroup CursorLine
+"   au!
+"   au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
+"   au WinLeave * setlocal nocursorline
+" augroup END
 
 " Files
 hi Win      ctermfg=white      ctermbg=none      cterm=none

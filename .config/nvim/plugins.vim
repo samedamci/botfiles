@@ -29,15 +29,15 @@ call plug#begin('~/.config/nvim/bundle')
 		Plug 'ryanolsonx/vim-lsp-javascript'
 
 	Plug 'ervandew/supertab'
-	Plug 'honza/vim-snippets'
 	Plug 'Shougo/neosnippet.vim'
-	Plug 'Shougo/neosnippet-snippets'
+	Plug 'samedamci/snippets'
 
 	Plug 'mattn/emmet-vim'
 
 	Plug 'tpope/vim-surround'
 	Plug 'tpope/vim-commentary'
 	Plug 'jiangmiao/auto-pairs'
+	Plug 'alvan/vim-closetag'
 
 	Plug 'sheerun/vim-polyglot'
 	Plug 'luochen1990/rainbow'
@@ -119,7 +119,7 @@ let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
 
 " deoplete
-let g:deoplete#enable_at_startup = 1
+let g:deoplete#enable_at_startup = 0
 let g:deoplete#enable_ignore_case = 1
 set completeopt-=preview
 
@@ -168,6 +168,16 @@ let g:lsp_highlight_references_enabled = 1
 
 " autopairs
 let g:AutoPairs={'(':')', '[':']', '{':'}', "'":"'", '"':'"', "`":"`", '```':'```', '"""':'"""', "'''":"'''"} "'<':'>',
+" let b:AutoPairs={}
+
+" vim-closetag
+let g:closetag_filenames = '*.html,*.xhtml,*.phtml'
+let g:closetag_xhtml_filenames = '*.xhtml,*.jsx'
+let g:closetag_filetypes = 'html,xhtml,phtml'
+let g:closetag_xhtml_filetypes = 'xhtml,jsx'
+let g:closetag_emptyTags_caseSensitive = 1
+let g:closetag_shortcut = '>'
+let g:closetag_close_shortcut = '<leader>>'
 
 " LaTeX
 let g:livepreview_previewer = 'zathura'

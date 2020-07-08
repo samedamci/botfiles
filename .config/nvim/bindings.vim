@@ -5,20 +5,24 @@
 let mapleader = "\<Space>"
 let g:move_key_modifier = 'A'
 
+" Enable/disable autopairs
+nmap <Leader>ap :CloseTagToggleBuffer<CR>:call AutoPairsToggle()<CR>:echo "Auto closing tags toggled."<CR>
+
+" Enable/disable deoplete
+map <Leader>d :call deoplete#toggle()<CR>:echo "Deoplete toggled."<CR>
+
 "~~~~~~~~~~~~~~~~~
 " File Management
 "~~~~~~~~~~~~~~~~~
 " fzf
 nmap <silent> <Leader>f :Files<CR>
+nmap <silent> <Leader>F :Files ~<CR>
 
 "~~~~~~~~~
 " Linters
 "~~~~~~~~~
 " Deletes all trailing whitespaces
 noremap <leader>c :%s/\s\+$//e<cr>
-
-" Enable/disable deoplete
-map <Leader>d :call deoplete#toggle()<CR>
 
 " ALE
 map fw :FixWhitespace<CR>
@@ -47,6 +51,12 @@ noremap <C-A-t> :split term://zsh<cr>:resize 10<cr>
 
 " Exit from terminal mode
 tnoremap <C-e> <C-\><C-n>
+
+" Split management
+nnoremap <C-j> <C-w><C-j>
+nnoremap <C-k> <C-w><C-k>
+nnoremap <C-l> <C-w><C-l>
+nnoremap <C-h> <C-w><C-h>
 
 "~~~~~~~
 " Other
