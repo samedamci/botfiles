@@ -79,3 +79,6 @@ autocmd BufWritePost *picom.conf !pkill -USR1 picom; picom -b
 " automatically deletes all trailing whitespace and newlines at end of file on save
 autocmd BufWritePre * %s/\s\+$//e
 autocmd BufWritepre * %s/\n\+\%$//e
+
+" chuj
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o

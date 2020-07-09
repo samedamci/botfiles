@@ -36,7 +36,6 @@ call plug#begin('~/.config/nvim/bundle')
 
 	Plug 'tpope/vim-surround'
 	Plug 'tpope/vim-commentary'
-	Plug 'jiangmiao/auto-pairs'
 	Plug 'alvan/vim-closetag'
 
 	Plug 'sheerun/vim-polyglot'
@@ -165,10 +164,6 @@ let g:lsp_highlights_enabled = 0
 let g:lsp_textprop_enabled = 0
 let g:lsp_virtual_text_enabled = 0
 let g:lsp_highlight_references_enabled = 1
-
-" autopairs
-let g:AutoPairs={'(':')', '[':']', '{':'}', "'":"'", '"':'"', "`":"`", '```':'```', '"""':'"""', "'''":"'''"} "'<':'>',
-" let b:AutoPairs={}
 
 " vim-closetag
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml'
