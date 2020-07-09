@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Make and deploy Python packages easier.
+
+case "$1" in
+  "build") python3 setup.py sdist bdist_wheel ;;
+  "deploy") python3 -m twine upload dist/* ;;
+esac
