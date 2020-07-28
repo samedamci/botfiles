@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Generate QR code from text. Useful for crypto wallet addresses.
+
+m() { rofi -dmenu -p "QR" -i ;}
+
+input="$(m)"
+
+qrencode "$input" -o /tmp/qr -s 7 && sxiv -b /tmp/qr
+
+rm /tmp/qr

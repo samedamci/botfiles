@@ -2,4 +2,4 @@
 
 # Run RSS Feeder.
 
-st -e "newsboat"
+/bin/sh -c "LANG=en_US.UTF-8 st -e \"newsboat\""
