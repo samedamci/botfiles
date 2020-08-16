@@ -9,13 +9,11 @@ application/pdf=pdf.desktop;
 image/png=img.desktop;
 image/jpeg=img.desktop;
 image/gif=img.desktop;
-application/rss+xml=rss.desktop
-application/atom+xml=rss.desktop;
+application/rss+xml=text.desktop
+application/atom+xml=text.desktop;
 video/x-matroska=video.desktop
 inode/directory=file.desktop
 x-scheme-handler/http=linkhandler.desktop
 x-scheme-handler/https=linkhandler.desktop
-x-scheme-handler/discord-610508934456934412=discord-610508934456934412.desktop
-
-[Added Associations]
-application/rss+xml=text.desktop;nvim.desktop;rss.desktop;
+application/pgp-keys=import_gpg.desktop;
+x-scheme-handler/lbry=lbry.desktop
