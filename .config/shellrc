@@ -26,7 +26,7 @@ alias \
   ga='git add' \
   gc='git commit -S' \
   gp='git push' \
-  gpom='git push origin master' \
+  gpom='git push origin master --tags' \
   gch='git checkout' \
   gl='git log' \
   gpu='git pull' \
@@ -62,7 +62,9 @@ alias \
 	cd..='cd ..' \
   ,='cd ~'
 
-alias copy='xclip -sel clip'
+alias \
+  copy='xclip -sel clip' \
+  rssu='vi ~/.config/newsboat/urls'
 
 # Commands Colors
 alias ls='ls --color=auto' \

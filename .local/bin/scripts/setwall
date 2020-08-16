@@ -10,4 +10,4 @@ elif [ "$(cat /etc/hostname)" = "laptop" ]; then
 	res="1366x768"
 fi
 
-xwallpaper --maximize /home/samedamci/.config/wallpapers/"$res"/wall1.png &
+xwallpaper --maximize /home/samedamci/.config/wallpapers/"$res"/wall15.png &

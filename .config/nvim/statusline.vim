@@ -1,37 +1,27 @@
-"============
-" Statusline
-"============
-
-function! Mode(mode) " {{{
-	" normal mode
-	if a:mode == 'n'
+" Mode icon
+function! Mode(mode)
+	if a:mode == 'n' 			" Normal
 		return '   '
-	" insert mode
-	elseif a:mode == 'i'
+	elseif a:mode == 'i' 	" Insert
 		return '   '
-	" replace mode
-	elseif a:mode == 'R'
+	elseif a:mode == 'R' 	" Replace
 		return '   '
-	" visual mode
-	elseif a:mode == 'v'
+	elseif a:mode == 'v' 	" Visual
 		return '   '
-	" visual block mode
-	elseif a:mode == ''
+	elseif a:mode == '' " Visual Block
 		return '   '
-	" command mode
-	elseif a:mode == 'c'
+	elseif a:mode == 'c'  " Command
 		return '   '
-	" terminal mode
-	elseif a:mode == 't'
+	elseif a:mode == 't'  " Terminal
 		return '   '
 	endif
-	" Return empty string so as not to display anything in the statusline
+
 	return ' '
 endfunction
-" }}}
 
-" modification mark
-function! SetModifiedSymbol(modified) " {{{
+
+" Modification mark
+function! SetModifiedSymbol(modified)
 	if a:modified == 1
 		hi MyStatuslineModifiedBody ctermbg=NONE cterm=NONE ctermfg=3
 	else
@@ -39,18 +29,19 @@ function! SetModifiedSymbol(modified) " {{{
 	endif
 	return ' '
 endfunction
-" }}}
 
-" filetype
-function! SetFiletype(filetype) " {{{
+
+" Filetype
+function! SetFiletype(filetype)
 	if a:filetype == ''
-		return '-'
+		return 'unknown'
 	else
 		return a:filetype
 	endif
 endfunction
-" }}}
 
+
+" Set elements and decorators
 set statusline=%#MyStatuslineSeparator#\ "
 set statusline+=%{Mode(mode())}
 

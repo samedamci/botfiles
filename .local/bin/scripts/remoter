@@ -3,5 +3,5 @@
 # Initialize git repo and add remotes.
 
 git init
-git remote add origin "ssh://git@git.samedamci.me:8953/samedamci/${PWD##*/}.git"
+git remote add origin "ssh://git@git.samedamci.com:8953/samedamci/${PWD##*/}.git"
 git remote set-url --add origin "git@github.com:samedamci/${PWD##*/}.git"

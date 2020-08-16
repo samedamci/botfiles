@@ -5,7 +5,7 @@
 bmfile="$HOME/.config/bookmarks"
 
 m() {
-  rofi -dmenu -width 600 -i -p "Search" -l "$(wc -l "$bmfile")" \
+  rofi -dmenu -width 600 -i -p "" -l "$(wc -l "$bmfile")" \
     -matching fuzzy
 }
 
@@ -17,7 +17,7 @@ chosen="$(
 url="$(grep -m 1 "$chosen" "$bmfile" | awk '{ print $1 }')"
 [ ! "$url" ] && {
   [ "$(echo "$chosen" | grep "[a-z|0-9]\.[a-z|0-9]")" ] &&
-    url="$chosen" || url="http://searx.samedamci.me/?=&q=$chosen"
+    url="$chosen" || url="http://searx.samedamci.com/?=&q=$chosen"
 }
 
 "$BROWSER" "$url"

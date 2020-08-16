@@ -6,17 +6,17 @@ let mapleader = "\<Space>"
 let g:move_key_modifier = 'A'
 
 " Enable/disable autopairs
-nmap <Leader>ap :CloseTagToggleBuffer<CR>:call AutoPairsToggle()<CR>:echo "Auto closing tags toggled."<CR>
+nmap <Leader>ap :CloseTagToggleBuffer<CR>:echo "Auto closing HTML tags toggled."<CR>
 
 " Enable/disable deoplete
-map <Leader>d :call deoplete#toggle()<CR>:echo "Deoplete toggled."<CR>
+nmap <Leader>d :call deoplete#toggle()<CR>:echo "Deoplete toggled."<CR>
 
 "~~~~~~~~~~~~~~~~~
 " File Management
 "~~~~~~~~~~~~~~~~~
 " fzf
-nmap <silent> <Leader>f :Files<CR>
-nmap <silent> <Leader>F :Files ~<CR>
+nnoremap <silent> <Leader>f :Files<CR>
+nnoremap <silent> <Leader>F :Files ~<CR>
 
 "~~~~~~~~~
 " Linters

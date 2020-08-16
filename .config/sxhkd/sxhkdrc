@@ -1,7 +1,7 @@
 super + Return
-	$TERMINAL
+	$($TERMINAL)
 super + {_,ctrl,alt +} b
-	{search,$BROWSER,tor-browser}
+	{search,firefox,tor-browser}
 super + {_,shift +} d
 	rofi -show {run,drun}
 super + shift + s
@@ -9,8 +9,8 @@ super + shift + s
 super + c
 	compos
 
-super + s; {t,m,n,v,c}
-	{tuirent,mails,rss,fm,ncmp}
+super + s; {t,m,n,v,c,p}
+	{tuirent,mails,rss,fm,ncmp,pods}
 super + a; {g,k,l,i,m}
 	{gimp,keepassxc,libreoffice,inkscape,minecraft-launcher}
 
@@ -42,7 +42,7 @@ super + w
 {_,shift +} F11
 	blaze {_,-s}
 End
-	slock & systemctl suspend
+	sh -c "slock & systemctl suspend"
 Pause
 	syncnow
 

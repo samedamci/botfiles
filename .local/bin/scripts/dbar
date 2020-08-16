@@ -9,13 +9,13 @@ cd "$HOME/.local/bin/scripts/dwmbar/" || exit 1
 
 status() {
 cat << EOF
+$(./minexmr) $sym
+$(./crypto) $sym
 $(./torrent) $sym
 $(./disk) $sym
 $(./internet) $sym
-$(./lamp) $sym
 $(./music) $sym
 $(./alsa) $sym
-$(./news) $sym
 $(./mails) $sym
 $(./packages) $sym
 $(./date) $sym

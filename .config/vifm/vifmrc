@@ -198,9 +198,9 @@ filetype *.sha512
        \ sha512sum -c %f %S,
 
 " GPG signature
-filetype *.asc
-       \ {Check signature}
-       \ !!gpg --verify %c,
+" filetype *.asc
+"        \ {Check signature}
+"        \ !!gpg --verify %c,
 
 " Torrent
 filetype *.torrent torradd %f &
@@ -286,7 +286,7 @@ fileviewer * highlight -O ansi -s dante %c
 " uncommenting one of lines below will result in ignoring 'vi[x]cmd' option
 " for unknown file types.
 " For *nix:
-" filetype * xdg-open
+filetype * xdg-open
 " For OS X:
 " filetype * open
 " For Windows:
