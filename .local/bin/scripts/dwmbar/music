@@ -1,11 +1,23 @@
 #!/bin/sh
 
-echo ""
-if mpc status | grep -q "playing"; then
-  mpc | sed "/^volume:/d;s/\\&/&amp;/g;s/\\[playing\\].*//g"
-elif mpc status | grep -q "paused"; then
+if playerctl metadata --format={{playerName}} | grep -q "spotifyd"; then
+  echo ""
+else
+  echo ""
+fi
+
+# if mpc status | grep -q "playing"; then
+#   mpc | sed "/^volume:/d;s/\\&/&amp;/g;s/\\[playing\\].*//g"
+# elif mpc status | grep -q "paused"; then
+#   echo ""
+# else
+#   echo ""
+# fi
+
+if playerctl --player=spotifyd status | grep -q "Playing"; then
+  playerctl metadata --format "{{ artist }} - {{ title }}"
+elif playerctl --player=spotifyd status | grep -q "Paused"; then
   echo ""
 else
   echo ""
 fi
-

@@ -1,7 +1,7 @@
 super + Return
 	$($TERMINAL)
 super + {_,ctrl,alt +} b
-	{search,firefox,tor-browser}
+	{search,chromium,tor-browser}
 super + {_,shift +} d
 	rofi -show {run,drun}
 super + shift + s
@@ -54,15 +54,15 @@ XF86Audio{Raise,Lower}Volume
 	amixer sset Master 5%{+,-} && refbar
 # songs control
 XF86Audio{Next,Prev}
-	mpc {next,prev} && refbar
+	playerctl {next,previous} && refbar
 ctrl + XF86Audio{Next,Prev}
 	mpc seek {+,-}4
 # pause/play
 {XF86AudioPlay,super + slash}
-	mpc toggle && refbar
+	playerctl play-pause && refbar
 # stop
 XF86AudioStop
-	mpc stop && refbar
+	playerctl stop && refbar
 
 ctrl + alt + {Left,Up,Down,Right}
 	rotscreen {left,normal,inverted,right}
