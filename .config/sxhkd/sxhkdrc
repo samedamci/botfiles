@@ -35,6 +35,8 @@ super + w
 
 {_,shift,ctrl +} Print
 	screenshot {_,--force,--force_area}
+{_,ctrl +} button10
+	screenshot {--force_area,--force}
 {_,shift +} Home
 	{_,u}mounter
 {_,ctrl +} F10
@@ -48,21 +50,26 @@ Pause
 
 # mute
 XF86AudioMute
-	amixer sset Master toggle && refbar
+	amixer sset Master toggle && pkill -RTMIN+1 dwmblocks
 # volume control
 XF86Audio{Raise,Lower}Volume
-	amixer sset Master 5%{+,-} && refbar
+	amixer sset Master 5%{+,-} && pkill -RTMIN+1 dwmblocks
 # songs control
 XF86Audio{Next,Prev}
-	playerctl {next,previous} && refbar
+	playerctl {next,previous} && pkill -RTMIN+2 dwmblocks
 ctrl + XF86Audio{Next,Prev}
 	mpc seek {+,-}4
 # pause/play
 {XF86AudioPlay,super + slash}
-	playerctl play-pause && refbar
+	playerctl play-pause && pkill -RTMIN+2 dwmblocks
 # stop
 XF86AudioStop
-	playerctl stop && refbar
+	playerctl stop && pkill -RTMIN+2 dwmblocks
 
 ctrl + alt + {Left,Up,Down,Right}
 	rotscreen {left,normal,inverted,right}
+
+button6
+	xte "keydown Super_L" "keydown comma" "keyup Super_L" "keyup comma"
+button7
+	xte "keydown Super_L" "keydown period" "keyup Super_L" "keyup period"
