@@ -1,0 +1,34 @@
+#!/bin/sh
+
+# Daily backup.
+
+REMOTE="rsync://192.168.1.200"
+DATE="$(date +"%Y-%m-%d")"
+
+minecraft() {
+  cd /home/samedamci/.minecraft/saves/ || exit 1
+  name="Survival_$DATE.tar.zst"
+  tar c --zstd -f "$name" Survival
+  rsync -a --remove-source-files --quiet "$name" "$REMOTE/BACKUPS/Minecraft/"
+}
+
+passwords() {
+  cd /home/samedamci/.local/pass/ || exit 1
+  name="keepass_$DATE.kdbx"
+  rsync -a --quiet "keepass.kdbx" "$REMOTE/BACKUPS/Passwords/$name"
+}
+
+screenshots() {
+  path="/home/samedamci/pix/Screenshots/"
+  rsync -a --quiet $path/* --ignore-existing "$REMOTE/DATA/pix/Screenshots/"
+}
+
+# start
+notify-send "Daily Backup" "Creating backup..."
+
+minecraft
+passwords
+screenshots
+
+# stop
+notify-send "Daily Backup" "Done!"
