@@ -50,10 +50,10 @@ Pause
 
 # mute
 XF86AudioMute
-	amixer sset Master toggle && pkill -RTMIN+1 dwmblocks
+	pamixer -t && pkill -RTMIN+1 dwmblocks
 # volume control
 XF86Audio{Raise,Lower}Volume
-	amixer sset Master 5%{+,-} && pkill -RTMIN+1 dwmblocks
+	pamixer -{i,d}3 && pkill -RTMIN+1 dwmblocks
 # songs control
 XF86Audio{Next,Prev}
 	playerctl {next,previous} && pkill -RTMIN+2 dwmblocks

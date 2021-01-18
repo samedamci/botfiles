@@ -1,23 +1,23 @@
 #!/bin/sh
 
-[ "$(amixer sget Master | awk 'NR==5 { print $6 }')" = "[off]" ] && {
+# Actually PulseAudio
+
+[ "$(pamixer --get-mute)" = "true" ] && {
   echo " mut" && exit 1
 }
 
-
-level=$(amixer sget Master | awk -F"[][]" '/dB/ { print $2 }')
-revel="${level%?}"
+level="$(pamixer --get-volume)"
 
 v1=""
 v2=""
 v3=""
 
-if [ "$revel" -lt 35 ]; then
+if [ "$level" -lt 35 ]; then
   printf "$v1 "
-elif [ "$revel" -lt 60 ]; then
+elif [ "$level" -lt 60 ]; then
   printf "$v2 "
-elif [ "$revel" -lt 100 ]; then
+elif [ "$level" -lt 100 ]; then
   printf "$v3 "
 fi
 
-echo "$level"
+echo "$level%"
