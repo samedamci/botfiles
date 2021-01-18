@@ -66,10 +66,10 @@ ctrl + XF86Audio{Next,Prev}
 XF86AudioStop
 	playerctl stop && pkill -RTMIN+2 dwmblocks
 
-ctrl + alt + {Left,Up,Down,Right}
+ctrl + alt + {Left,Up,Down,period}
 	rotscreen {left,normal,inverted,right}
 
 button6
-	xte "keydown Super_L" "keydown comma" "keyup Super_L" "keyup comma"
+	if [ `ps x | grep $(xdotool getactivewindow getwindowpid) | awk 'NR==1 \{print $5\}'` = "/usr/lib/chromium/chromium" ]; then if [ `xdotool getmouselocation | awk '\{print $2\}' | sed 's/y://g'` -gt 18 ]; then xte "keydown Control_L" "keydown Shift_L" "keydown Tab" "keyup Control_L" "keyup Shift_L" "keyup Tab"; else xte "keydown Super_L" "keydown comma" "keyup Super_L" "keyup comma"; fi; else xte "keydown Super_L" "keydown comma" "keyup Super_L" "keyup comma"; fi
 button7
-	xte "keydown Super_L" "keydown period" "keyup Super_L" "keyup period"
+	if [ `ps x | grep $(xdotool getactivewindow getwindowpid) | awk 'NR==1 \{print $5\}'` = "/usr/lib/chromium/chromium" ]; then if [ `xdotool getmouselocation | awk '\{print $2\}' | sed 's/y://g'` -gt 18 ]; then xte "keydown Control_L" "keydown Tab" "keyup Control_L" "keyup Tab"; else xte "keydown Super_L" "keydown period" "keyup Super_L" "keyup period"; fi; else xte "keydown Super_L" "keydown period" "keyup Super_L" "keyup period"; fi
