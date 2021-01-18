@@ -13,11 +13,11 @@ v2=""
 v3=""
 
 if [ "$revel" -lt 35 ]; then
-  echo "$v1"
+  printf "$v1 "
 elif [ "$revel" -lt 60 ]; then
-  echo "$v2"
+  printf "$v2 "
 elif [ "$revel" -lt 100 ]; then
-  echo "$v3"
+  printf "$v3 "
 fi
 
 echo "$level"

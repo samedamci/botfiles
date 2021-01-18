@@ -1,0 +1,62 @@
+#!/usr/bin/env python3
+
+import requests
+import json
+
+API = "https://beta.minexmr.com/api"
+
+
+class ctx(object):
+    addr = "47XzeAyPKPBevVHZucf8vYZjZqtf7322hRP3VrwQf3cnP9HvLf9Qh12H9sZxcA7BnHBmnmJVvH13rjH5Ggadysji162m4do"
+
+
+def get_balance():
+    resp = requests.get(f"{API}/main/user/stats?address={ctx.addr}")
+    bal = int(json.loads(resp.text)["balance"]) * 0.000000000001
+    return round(bal, 6)
+
+
+def get_PLN():
+    price = json.loads(
+        requests.get(
+            "https://api.coingecko.com/api/v3/simple/price?ids=monero&vs_currencies=pln"
+        ).text
+    )["monero"]["pln"]
+
+    return round(price * get_balance(), 2)
+
+
+def get_workers():
+    resp = requests.get(f"{API}/main/user/workers?address={ctx.addr}")
+    data = json.loads(resp.text)
+    workers = []
+    for i in data:
+        if i["hashrate"] > 0:
+            workers.append([i["name"], i["hashrate"]])
+    return workers
+
+
+def get_hashrate(worker: str = False) -> int:
+    workers = get_workers()
+    if worker:
+        for i in workers:
+            if i[0] == worker:
+                return int(i[1])
+        return None
+    else:
+        sum_ = 0
+        for i in workers:
+            sum_ += int(i[1])
+        return sum_  # h/s
+
+
+def main():
+    bal = get_balance()
+    pln = get_PLN()
+    hashrate = get_hashrate()
+    workers = len(get_workers())
+    print(f"{bal} XMR ({pln} PLN), HR: {hashrate} h/s,  {workers}")
+
+
+if __name__ == "__main__":
+    main()

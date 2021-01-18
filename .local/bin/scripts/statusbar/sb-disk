@@ -7,5 +7,4 @@ used() {
 root="$(used /)"
 home="$(used /home)"
 
-echo ""
 echo "/ $root,  $home"

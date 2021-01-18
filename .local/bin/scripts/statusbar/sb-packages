@@ -1,4 +1,4 @@
 #!/bin/sh
 
 icon="$(cat /tmp/packagesupdate 2>/dev/null)"
-echo " $(pacman -Qu | wc -l)$icon"
+echo "$(pacman -Qu | wc -l)$icon"
