@@ -14,12 +14,6 @@ super + s; {t,m,n,v,c,p}
 super + a; {g,k,l,i,m}
 	{gimp,keepassxc,libreoffice,inkscape,minecraft-launcher}
 
-super + {_,ctrl +} m
-	rofi-mpd {-a,-s} && refbar
-super + apostrophe
-	mpdqueue
-XF86Tools
-	mpdrandom
 {Prior,super + x}
 	slock
 super + z
@@ -37,10 +31,6 @@ super + w
 	screenshot {_,--force,--force_area}
 {_,ctrl +} button10
 	screenshot {--force_area,--force}
-{_,shift +} Home
-	{_,u}mounter
-{_,ctrl +} F10
-	{curl 192.168.1.201/toggle.php && refbar,$BROWSER 192.168.1.201}
 {_,shift +} F11
 	blaze {_,-s}
 End
@@ -57,8 +47,6 @@ XF86Audio{Raise,Lower}Volume
 # songs control
 XF86Audio{Next,Prev}
 	playerctl {next,previous} && pkill -RTMIN+2 dwmblocks
-ctrl + XF86Audio{Next,Prev}
-	mpc seek {+,-}4
 # pause/play
 {XF86AudioPlay,super + slash}
 	playerctl play-pause && pkill -RTMIN+2 dwmblocks
