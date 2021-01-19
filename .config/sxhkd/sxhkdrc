@@ -70,6 +70,7 @@ ctrl + alt + {Left,Up,Down,period}
 	rotscreen {left,normal,inverted,right}
 
 button6
-	if [ `ps x | grep $(xdotool getactivewindow getwindowpid) | awk 'NR==1 \{print $5\}'` = "/usr/lib/chromium/chromium" ]; then if [ `xdotool getmouselocation | awk '\{print $2\}' | sed 's/y://g'` -gt 18 ]; then xte "keydown Control_L" "keydown Shift_L" "keydown Tab" "keyup Control_L" "keyup Shift_L" "keyup Tab"; else xte "keydown Super_L" "keydown comma" "keyup Super_L" "keyup comma"; fi; else xte "keydown Super_L" "keydown comma" "keyup Super_L" "keyup comma"; fi
+	if [ `xdotool getmouselocation | awk '\{print $2\}' | sed 's/y://g'` -lt 18 ]; then xte "keydown Super_L" "keydown comma" "keyup Super_L" "keyup comma"; elif [ `ps x | grep $(xdotool getactivewindow getwindowpid) | awk 'NR==1 \{print $5\}'` = "/usr/lib/chromium/chromium" ]; then xte "keydown Control_L" "keydown Shift_L" "keydown Tab" "keyup Control_L" "keyup Shift_L" "keyup Tab"; fi
+
 button7
-	if [ `ps x | grep $(xdotool getactivewindow getwindowpid) | awk 'NR==1 \{print $5\}'` = "/usr/lib/chromium/chromium" ]; then if [ `xdotool getmouselocation | awk '\{print $2\}' | sed 's/y://g'` -gt 18 ]; then xte "keydown Control_L" "keydown Tab" "keyup Control_L" "keyup Tab"; else xte "keydown Super_L" "keydown period" "keyup Super_L" "keyup period"; fi; else xte "keydown Super_L" "keydown period" "keyup Super_L" "keyup period"; fi
+	if [ `xdotool getmouselocation | awk '\{print $2\}' | sed 's/y://g'` -lt 18 ]; then xte "keydown Super_L" "keydown period" "keyup Super_L" "keyup period"; elif [ `ps x | grep $(xdotool getactivewindow getwindowpid) | awk 'NR==1 \{print $5\}'` = "/usr/lib/chromium/chromium" ]; then xte "keydown Control_L" "keydown Tab" "keyup Control_L" "keyup Tab"; fi
