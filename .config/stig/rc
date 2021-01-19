@@ -1,0 +1,2 @@
+# Host that runs Transmission daemon
+set connect.host 192.168.1.200

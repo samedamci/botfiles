@@ -2,7 +2,4 @@
 
 # Add torrent to downloading queue.
 
-pidof transmission-daemon >/dev/null || \
-	(transmission-daemon && notify-send "Starting transmission daemon...")
-
-transmission-remote -a "$@" && notify-send " Torrent added."
+transmission-remote 192.168.1.200 -a "$@" && notify-send " Torrent added."
