@@ -12,7 +12,7 @@ telegram-desktop &
 
 xrdb ~/.config/Xresources
 setwall &
-dwmblocks &
+while :; do dwmblocks >/dev/null 2>&1; done &
 
 setxkbmap -layout 'pl' -option caps:swapescape &
 xset r rate 300 50
