@@ -4,7 +4,13 @@ used() {
   df -h "$1" | awk 'NR==2 { print $3 "/" $2 " GB" }' | sed 's/G\//\//g;s/G / /g'
 }
 
+server_used() {
+  ssh homeserver df -h | grep '/dev/mapper/md0-crypt' | \
+    awk '{print $3 "/" $2 " GB" }' | sed 's/G\//\//g;s/G / /g'
+}
+
 root="$(used /)"
 home="$(used /home)"
+server="$(server_used)"
 
-echo "/ $root,  $home"
+echo "/ $root,  $home,  $server"

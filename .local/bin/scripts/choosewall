@@ -8,4 +8,4 @@ elif [ "$(cat /etc/hostname)" = "laptop" ]; then
   res="1366x768"
 fi
 
-find ~/.config/wallpapers/"$res"/* | shuf | sxiv - -tb
+find ~/.config/wallpapers/"$res"/* | sxiv - -tb
