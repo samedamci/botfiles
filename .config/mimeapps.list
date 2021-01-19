@@ -9,11 +9,15 @@ application/pdf=pdf.desktop;
 image/png=img.desktop;
 image/jpeg=img.desktop;
 image/gif=img.desktop;
-application/rss+xml=text.desktop
+application/rss+xml=text.desktop;
 application/atom+xml=text.desktop;
-video/x-matroska=video.desktop
-inode/directory=file.desktop
-x-scheme-handler/http=linkhandler.desktop
-x-scheme-handler/https=linkhandler.desktop
+video/x-matroska=video.desktop;
+inode/directory=file.desktop;
+x-scheme-handler/http=linkhandler.desktop;
+x-scheme-handler/https=linkhandler.desktop;
 application/pgp-keys=import_gpg.desktop;
-x-scheme-handler/lbry=lbry.desktop
+x-scheme-handler/lbry=lbry.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-SQE0W0.desktop
+
+[Added Associations]
+x-scheme-handler/tg=userapp-Telegram Desktop-SQE0W0.desktop;
