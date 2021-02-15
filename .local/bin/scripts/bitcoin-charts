@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# Get Bitcoin price charts and display as image in sxiv.
+
+DAYS="$(printf "last year\ntwo months\nlast month\nlast week\ntoday" | rofi -dmenu -p " Bitcoin Charts" -width 250)"
+[ ! "$DAYS" ] && exit 1
+
+case "$DAYS" in
+  "last year") DAYS="365" ;;
+  "two months") DAYS="60" ;;
+  "last month") DAYS="30" ;;
+  "last week") DAYS="7" ;;
+  "today") DAYS="1" ;;
+esac
+
+width="940"
+height="700"
+source_="bitstampUSD"
+URL="https://bitcoincharts.com/charts/chart.png?width=${width}&height=${height}&m=${source_}&r=${DAYS}&t=S&m1=10&m2=25"
+
+CURRENT_PRICE="$(curl -s rate.sx/1btc | sed 's/\(.*\).\{5\}$/\1/')"
+
+curl -k -s "$URL" -o /tmp/bitcoinchart
+convert -pointsize 14 -font helvetica-bold -fill black -gravity North -draw "text 0,12 \"\$${CURRENT_PRICE}\"" \
+  -fill white -draw "rectangle 900,0 702,30" /tmp/bitcoinchart /tmp/bitcoinchart
+sxiv -b /tmp/bitcoinchart
+rm /tmp/bitcoinchart

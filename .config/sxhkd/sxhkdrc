@@ -9,8 +9,8 @@ super + shift + s
 super + c
 	compos
 
-super + s; {t,m,n,v,c,p}
-	{tuirent,mails,rss,fm,ncmp,pods}
+super + s; {t,m,n,v,c,p,w,b}
+	{tuirent,mails,rss,fm,ncmp,pods,weather-storm,bitcoin-charts}
 super + a; {g,k,l,i,m}
 	{gimp,keepassxc,libreoffice,inkscape,minecraft-launcher}
 
