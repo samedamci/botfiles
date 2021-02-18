@@ -8,7 +8,7 @@ if playerctl --player=spotify status | grep -q "Playing"; then
 elif [ "$(mpc status | awk 'NR==2 {print $1}')" = "[playing]" ]; then
   if mpc status -f "%file%" | grep -q "open.fm"; then
     channel_id="$(mpc status -f "%name%" | awk 'NR==1 {print $1}')"
-    name="$(grep \""$channel_id"\" /home/samedamci/.config/openfm_channels.json | sed 's/: .*//g; s/  //; s/"//g' | tr -d '\n')"
+    name="$(grep \""$channel_id"\" "$HOME/.config/radio/openfm_channels.json" | sed 's/: .*//g; s/  //; s/"//g' | tr -d '\n')"
     printf "%s" "Open FM: $name"
     title="$(mpc status -f "%title%" | awk 'NR==1' | sed 's/ w .*//g; s/& .* -/-/g; s/feat. .* -/-/g; s/REKLAMA - open.fm - REKLAMA//g')"
     [ ! "$title" = "" ] && printf "%s" ": $title"

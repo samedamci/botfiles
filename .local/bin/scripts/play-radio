@@ -2,7 +2,7 @@
 
 # Select internet radio station and play it in mpd.
 
-OPEN_FM_CHANNELS_LIST="$HOME/.config/openfm_channels.json"
+OPEN_FM_CHANNELS_LIST="$HOME/.config/radio/openfm_channels.json"
 
 STATIONS="$(sed 's/: .*//g; s/  /Open FM: /; s/"//g; s/}//g; s/{//g; /^$/d' "$OPEN_FM_CHANNELS_LIST")
 newonce.radio
@@ -13,17 +13,36 @@ Radio ZET"
 station=$(echo "$STATIONS" | rofi -dmenu -i -l 20 -p ' Radio Station')
 [ ! "$station" ] && exit
 
+channel=""
+
 case "$station" in
-    "newonce.radio") radio="http://streamer.radio.co/s93b51ccc1/listen" ;;
-    "RMF FM") radio="http://195.150.20.4:8000/rmf_fm" ;;
-    "RMF Maxxx") radio="http://195.150.20.4:8000/rmf_maxxx" ;;
-    "Radio ZET") radio="https://zt02.cdn.eurozet.pl/zet-old.mp3" ;;
+    "newonce.radio")
+        radio="http://streamer.radio.co/s93b51ccc1/listen"
+        icon="newonce.radio-logo.png"
+        ;;
+    "RMF FM")
+        radio="http://195.150.20.4:8000/rmf_fm"
+        icon="rmf-fm-logo.png"
+        ;;
+    "RMF Maxxx")
+        radio="http://195.150.20.4:8000/rmf_maxxx"
+        icon="rmf-maxxx-logo.png"
+        ;;
+    "Radio ZET")
+        radio="https://zt02.cdn.eurozet.pl/zet-old.mp3"
+        icon="radio-zet-logo.png"
+        ;;
     *)
         id="$(grep "\"$(echo "$station" | sed 's/Open FM: //g')\"" "$OPEN_FM_CHANNELS_LIST" | sed 's/.*: //g; s/"//g; s/,//g')"
         radio="http://stream.open.fm/$id"
+        icon="open-fm-logo.png"
+        channel="$(echo "$station" | sed 's/Open FM: //g')"
+        station="Open FM"
         ;;
 esac
 
 mpc clear
 mpc add "$radio"
 mpc play
+
+notify-send --icon "$HOME/.config/radio/$icon" "$station" "$channel"
