@@ -19,7 +19,7 @@ case "$station" in
     "RMF Maxxx") radio="http://195.150.20.4:8000/rmf_maxxx" ;;
     "Radio ZET") radio="https://zt02.cdn.eurozet.pl/zet-old.mp3" ;;
     *)
-        id="$(grep "$(echo "$station" | sed 's/Open FM: //g')" "$OPEN_FM_CHANNELS_LIST" | sed 's/.*: //g; s/"//g; s/,//g')"
+        id="$(grep "\"$(echo "$station" | sed 's/Open FM: //g')\"" "$OPEN_FM_CHANNELS_LIST" | sed 's/.*: //g; s/"//g; s/,//g')"
         radio="http://stream.open.fm/$id"
         ;;
 esac
