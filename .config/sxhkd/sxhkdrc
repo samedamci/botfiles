@@ -41,6 +41,9 @@ Pause
 # mute
 XF86AudioMute
 	pamixer -t && pkill -RTMIN+1 dwmblocks
+# select radio
+XF86Tools
+	play-radio
 # volume control
 XF86Audio{Raise,Lower}Volume
 	pamixer -{i,d}3 && pkill -RTMIN+1 dwmblocks
@@ -49,10 +52,10 @@ XF86Audio{Next,Prev}
 	playerctl {next,previous} && pkill -RTMIN+2 dwmblocks
 # pause/play
 {XF86AudioPlay,super + slash}
-	playerctl play-pause && pkill -RTMIN+2 dwmblocks
+	mpc status | grep -q "playing\|paused" && mpc toggle || playerctl play-pause && pkill -RTMIN+2 dwmblocks
 # stop
 XF86AudioStop
-	playerctl stop && pkill -RTMIN+2 dwmblocks
+	mpc stop && playerctl stop && pkill -RTMIN+2 dwmblocks
 
 ctrl + alt + {Left,Up,Down,period}
 	rotscreen {left,normal,inverted,right}

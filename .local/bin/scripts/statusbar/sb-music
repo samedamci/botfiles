@@ -1,15 +1,22 @@
 #!/bin/sh
 
-# if mpc status | grep -q "playing"; then
-#   mpc | sed "/^volume:/d;s/\\&/&amp;/g;s/\\[playing\\].*//g"
-# elif mpc status | grep -q "paused"; then
-#   echo ""
-# else
-#   echo ""
-# fi
+# asdf
 
 if playerctl --player=spotify status | grep -q "Playing"; then
-  playerctl metadata --format "{{ artist }} - {{ title }}"
+  printf "%s" "Spotify: "
+  playerctl metadata --player=spotify --format "{{ artist }} - {{ title }}"
+elif [ "$(mpc status | awk 'NR==2 {print $1}')" = "[playing]" ]; then
+  if mpc status -f "%file%" | grep -q "open.fm"; then
+    channel_id="$(mpc status -f "%name%" | awk 'NR==1 {print $1}')"
+    name="$(grep \""$channel_id"\" /home/samedamci/.config/openfm_channels.json | sed 's/: .*//g; s/  //; s/"//g' | tr -d '\n')"
+    printf "%s" "Open FM: $name"
+    title="$(mpc status -f "%title%" | awk 'NR==1' | sed 's/ w .*//g; s/& .* -/-/g; s/feat. .* -/-/g; s/REKLAMA - open.fm - REKLAMA//g')"
+    [ ! "$title" = "" ] && printf "%s" ": $title"
+  elif mpc status -f "%file%" | grep -q "http://streamer.radio.co/s93b51ccc1/listen\|rmf_maxxx\|rmf_fm"; then
+    mpc status -f "%name%: %title%" | awk 'NR==1' | sed 's/ w .*//g; s/& .* -/-/g; s/feat. .* -/-/g; s/ft .* -/-/g; s/; .* -/ -/g; s/ (feat. .*//g; s/feat. .*//g; s/STOP_AD_BREAK//g'
+  elif mpc status -f "%file%" | grep -q "zet-old.mp3"; then
+    mpc status -f "%name%" | awk 'NR==1'
+  fi
 elif playerctl --player=spotify status | grep -q "Paused"; then
   echo ""
 else

@@ -1,0 +1,29 @@
+#!/bin/sh
+
+# Select internet radio station and play it in mpd.
+
+OPEN_FM_CHANNELS_LIST="$HOME/.config/openfm_channels.json"
+
+STATIONS="$(sed 's/: .*//g; s/  /Open FM: /; s/"//g; s/}//g; s/{//g; /^$/d' "$OPEN_FM_CHANNELS_LIST")
+newonce.radio
+RMF FM
+RMF Maxxx
+Radio ZET"
+
+station=$(echo "$STATIONS" | rofi -dmenu -i -l 20 -p ' Radio Station')
+[ ! "$station" ] && exit
+
+case "$station" in
+    "newonce.radio") radio="http://streamer.radio.co/s93b51ccc1/listen" ;;
+    "RMF FM") radio="http://195.150.20.4:8000/rmf_fm" ;;
+    "RMF Maxxx") radio="http://195.150.20.4:8000/rmf_maxxx" ;;
+    "Radio ZET") radio="https://zt02.cdn.eurozet.pl/zet-old.mp3" ;;
+    *)
+        id="$(grep "$(echo "$station" | sed 's/Open FM: //g')" "$OPEN_FM_CHANNELS_LIST" | sed 's/.*: //g; s/"//g; s/,//g')"
+        radio="http://stream.open.fm/$id"
+        ;;
+esac
+
+mpc clear
+mpc add "$radio"
+mpc play
