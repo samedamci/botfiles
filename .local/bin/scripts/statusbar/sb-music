@@ -16,6 +16,9 @@ elif [ "$(mpc status | awk 'NR==2 {print $1}')" = "[playing]" ]; then
     mpc status -f "%name%: %title%" | awk 'NR==1' | sed 's/ w .*//g; s/& .* -/-/g; s/feat. .* -/-/g; s/ft .* -/-/g; s/; .* -/ -/g; s/ (feat. .*//g; s/feat. .*//g; s/STOP_AD_BREAK//g'
   elif mpc status -f "%file%" | grep -q "zet-old.mp3"; then
     mpc status -f "%name%" | awk 'NR==1'
+  elif mpc status -f "%file%" | grep -q "wow.ogg"; then
+    title="$(mpc status -f "%title%" | awk 'NR==1')"
+    printf "%s" "WOW!Radio: $title"
   fi
 elif playerctl --player=spotify status | grep -q "Paused"; then
   echo ""

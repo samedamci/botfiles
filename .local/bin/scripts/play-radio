@@ -8,7 +8,8 @@ STATIONS="$(sed 's/: .*//g; s/  /Open FM: /; s/"//g; s/}//g; s/{//g; /^$/d' "$OP
 newonce.radio
 RMF FM
 RMF Maxxx
-Radio ZET"
+Radio ZET
+WOW!Radio"
 
 station=$(echo "$STATIONS" | rofi -dmenu -i -l 20 -p ' Radio Station')
 [ ! "$station" ] && exit
@@ -31,6 +32,10 @@ case "$station" in
     "Radio ZET")
         radio="https://zt02.cdn.eurozet.pl/zet-old.mp3"
         icon="radio-zet-logo.png"
+        ;;
+    "WOW!Radio")
+        radio="https://radio.wownero.com/wow.ogg"
+        icon="wow-radio.png"
         ;;
     *)
         id="$(grep "\"$(echo "$station" | sed 's/Open FM: //g')\"" "$OPEN_FM_CHANNELS_LIST" | sed 's/.*: //g; s/"//g; s/,//g')"
