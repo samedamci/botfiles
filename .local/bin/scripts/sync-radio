@@ -1,0 +1,9 @@
+#!/bin/sh
+
+stream="$(mpc status -f "%file%" | awk 'NR==1')"
+
+mpc stop >/dev/null
+mpc clear >/dev/null
+
+mpc add "$stream" >/dev/null
+mpc play >/dev/null

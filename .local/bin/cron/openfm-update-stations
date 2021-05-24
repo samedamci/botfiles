@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+
+import requests
+import json
+
+response = json.loads(
+    requests.get("https://open.fm/radio/api/v2/ofm/stations_slug.json").text
+)
+
+dict_ = {}
+for channel in response["channels"]:
+    id_ = channel["instance_id"]
+    name = channel["name"]
+    dict_[name] = id_
+
+with open("/home/samedamci/.config/radio/openfm_channels.json", "w") as f:
+    f.write(json.dumps(dict_, indent=2, ensure_ascii=False))
