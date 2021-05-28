@@ -5,48 +5,48 @@ source "$HOME/.profile"
 # Aliases
 alias \
 	v='nvim' \
-  vi='nvim' \
-  vim='nvim' \
-  suvi='sudo -E nvim' \
-  vifm='vifmrun'
+	vi='nvim' \
+	vim='nvim' \
+	suvi='sudo -E nvim' \
+	vifm='vifmrun'
 
 alias \
 	l='ls' \
-  ll='ls -l' \
+	ll='ls -l' \
 	la='ls -a' \
 	lal='ls -al'
 
 alias \
 	owo='pacman' \
-  sowo='sudo pacman' \
-  yay='yay --editmenu --nodiffmenu --save'
+	sowo='sudo pacman' \
+	yay='yay --editmenu --nodiffmenu --save'
 
 alias \
 	g='git' \
-  ga='git add' \
-  gc='git commit -S' \
-  gp='git push' \
-  gpom='git push origin master --tags' \
-  gch='git checkout' \
-  gl='git log' \
-  gpu='git pull' \
-  gs='git status' \
-  grm='git rm -f' \
-  gi='git init' \
-  gd='git diff' \
+	ga='git add' \
+	gc='git commit -S' \
+	gp='git push' \
+	gpom='git push origin master --tags' \
+	gch='git checkout' \
+	gl='git log' \
+	gpu='git pull' \
+	gs='git status' \
+	grm='git rm -f' \
+	gi='git init' \
+	gd='git diff' \
 	btw='git --git-dir=$HOME/dev/botfiles/ --work-tree=$HOME' \
 	b='btw' \
 	ba='btw add' \
-  bc='btw commit -S' \
-  bp='btw push' \
-  bpom='btw push origin master' \
-  bch='btw checkout' \
-  bl='btw log' \
-  bpu='btw pull' \
-  bs='btw status' \
-  brm='btw rm -f' \
-  bi='btw init' \
-  bd='btw diff'
+	bc='btw commit -S' \
+	bp='btw push' \
+	bpom='btw push origin master' \
+	bch='btw checkout' \
+	bl='btw log' \
+	bpu='btw pull' \
+	bs='btw status' \
+	brm='btw rm -f' \
+	bi='btw init' \
+	bd='btw diff'
 
 alias lisc='policense -l ISC -s -e git'
 
@@ -60,12 +60,14 @@ alias \
 	cfg='cd ~/.config/' \
 	crn='cd ~/.local/bin/cron' \
 	cd..='cd ..' \
-  ,='cd ~'
+	,='cd ~'
 
 alias \
   copy='xclip -sel clip' \
   rssu='vi ~/.config/newsboat/urls' \
   df='df -x tmpfs -x devtmpfs'
+	copy='xclip -sel clip' \
+	rssu='vi ~/.config/newsboat/urls'
 
 # Commands Colors
 alias ls='ls --color=auto' \
