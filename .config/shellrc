@@ -64,7 +64,8 @@ alias \
 
 alias \
   copy='xclip -sel clip' \
-  rssu='vi ~/.config/newsboat/urls'
+  rssu='vi ~/.config/newsboat/urls' \
+  df='df -x tmpfs -x devtmpfs'
 
 # Commands Colors
 alias ls='ls --color=auto' \
