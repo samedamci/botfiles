@@ -2,33 +2,33 @@
 
 # Daily backup.
 
-REMOTE="rsync://192.168.1.200"
 DATE="$(date +"%Y-%m-%d")"
 
 minecraft() {
   cd /home/samedamci/.minecraft/saves/ || exit 1
-  name="Survival_$DATE.tar.zst"
-  tar c --zstd -f "$name" Survival
-  rsync -a --remove-source-files --quiet "$name" "$REMOTE/BACKUPS/Minecraft/"
+  checksum="$(find Survival -type f -exec sha1sum {} + | LC_ALL=C sort | sha1sum | cut -d " " -f1)"
+  if [ "$checksum" != "$(cat ./.Survival.sha1)" ]; then
+    echo "$checksum" > ./.Survival.sha1
+    name="Survival_$DATE.tar.zst"
+    tar c --zstd -f "$name" Survival
+    rclone copy "$name" onedrive:/backup/Minecraft/
+    rm "$name"
+  fi
 }
 
 passwords() {
   cd /home/samedamci/.local/pass/ || exit 1
   name="keepass_$DATE.kdbx"
-  rsync -a --quiet "keepass.kdbx" "$REMOTE/BACKUPS/Passwords/$name"
+  cp "keepass.kdbx" "$name"
+  rclone copy "$name" onedrive:/backup/Passwords/
+  rm "$name"
 }
 
 screenshots() {
   path="/home/samedamci/pix/Screenshots/"
-  rsync -a --quiet $path/* --ignore-existing "$REMOTE/DATA/pix/Screenshots/"
+  rclone copy "$path" onedrive:/pix/Screenshots/
 }
-
-# start
-notify-send "Daily Backup" "Creating backup..."
 
 minecraft
 passwords
 screenshots
-
-# stop
-notify-send "Daily Backup" "Done!"
