@@ -1,6 +1,0 @@
-#!/bin/sh
-
-# Sync mails and news now!
-
-~/.local/bin/cron/mailsync &
-~/.local/bin/cron/newsup &

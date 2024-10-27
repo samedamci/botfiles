@@ -1,7 +1,0 @@
-#!/bin/sh
-
-# Toggle screenkey.
-
-[ "$(pgrep screenkey)" ] && { killall screenkey && exit ;}
-
-screenkey -s small --bg-color "${SBG}"

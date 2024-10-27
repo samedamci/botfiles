@@ -1,5 +1,0 @@
-#!/bin/sh
-
-# Menu with official repository packages.
-
-pacman -Slq | fzf -m --preview 'yay -Si {1}' --height 45% | yay -S -

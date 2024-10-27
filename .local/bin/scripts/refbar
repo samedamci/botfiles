@@ -1,9 +1,0 @@
-#!/bin/sh
-
-# Refresh dwm bar.
-
-[ "$1" = "-r" ] && pkill dbar && { dbar & exit; }
-
-[ ! "$(pgrep dbar)" ] && { dbar & exit; }
-
-pkill -P "$(cat "$HOME/.cache/dbar.pid")" sleep

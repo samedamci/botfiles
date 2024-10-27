@@ -1,5 +1,0 @@
-#!/bin/sh
-
-# Run RSS Feeder.
-
-/bin/sh -c "LANG=en_US.UTF-8 st -e \"newsboat\""

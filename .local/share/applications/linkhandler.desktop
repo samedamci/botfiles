@@ -1,4 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Link Handler
-Exec=/home/samedamci/.local/bin/scripts/linkhandler %u

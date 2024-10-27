@@ -1,5 +1,0 @@
-#!/bin/sh
-
-# Menu with scripts to edit in editor.
-
-find "$HOME"/.local/bin/scripts/ -type f | fzf --preview "bat {}" --height 25 --layout reverse | xargs -r "$EDITOR"

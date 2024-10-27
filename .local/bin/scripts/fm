@@ -1,5 +1,0 @@
-#!/bin/sh
-
-# File manager.
-
-"$TERMINAL" -e vifmrun

@@ -1,5 +1,0 @@
-#!/bin/sh
-
-# Script to run after torrent downloading ends.
-
-notify-send " Transmission" "$TR_TORRENT_NAME downloaded successfully!"

@@ -1,5 +1,0 @@
-#!/bin/sh
-
-# Add torrent to downloading queue.
-
-transmission-remote 192.168.1.200 -a "$@" && notify-send " Torrent added."

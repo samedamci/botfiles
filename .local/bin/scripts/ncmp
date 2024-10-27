@@ -1,5 +1,0 @@
-#!/bin/sh
-
-# Run ncmpcpp.
-
-$TERMINAL -e ncmpcpp

@@ -1,5 +1,0 @@
-#!/bin/sh
-
-# Run torrent client.
-
-"$TERMINAL" -e stig

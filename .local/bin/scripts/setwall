@@ -1,7 +1,0 @@
-#!/bin/sh
-
-# Set desktop background.
-
-[ "$1" ] && { xwallpaper --zoom "$1" && exit 1; }
-
-xwallpaper --maximize /home/samedamci/.config/wallpapers/1920x1080/wall30.png &

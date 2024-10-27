@@ -1,5 +1,0 @@
-#!/bin/sh
-
-# Menu with AUR packages.
-
-yay -Slq | fzf -m --preview 'yay -Si {1}' --height 45% | yay -S -

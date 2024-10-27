@@ -1,5 +1,0 @@
-#!/bin/sh
-
-# Run email client.
-
-st -e "neomutt"
