@@ -1,0 +1,113 @@
+{
+    "layer": "top",
+    "position": "top",
+    "margin": "10 12 0",
+    "spacing": 10,
+
+    "group/hardware": {
+      "orientation": "horizontal",
+      "modules": [
+        "cpu",
+        "memory",
+        "temperature"
+      ]
+    },
+
+    "modules-left": [
+      "clock",
+      "hyprland/workspaces"
+    ],
+
+    "modules-right": [
+      "tray",
+      "pulseaudio",
+      "network",
+      "group/hardware",
+      "backlight",
+      "battery"
+    ],
+
+    "hyprland/workspaces": {
+      "active-only": false,
+      "all-outputs": true,
+      "format-icons": {
+        "1": " ",
+        "2": " ",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "urgent": " ",
+        "focused": " ",
+        "default": " "
+      },
+      "format": "{icon}",
+      "on-scroll-up": "hyprctl dispatch workspace e+1",
+      "on-scroll-down": "hyprctl dispatch workspace e-1"
+    },
+    "tray": {
+      "spacing": 10
+    },
+    "clock": {
+      "format": "{:%H:%M   %d-%m  }",
+      "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+      "format-alt": "{:%Y-%m-%d}"
+    },
+    "cpu": {
+      "format": "{usage}%  ",
+      "tooltip": false
+    },
+    "memory": {
+      "format": "{}%  "
+    },
+    "temperature": {
+      "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+      "critical-threshold": 80,
+      "format": "{temperatureC}°C {icon}",
+      "format-icons": ["", "", ""]
+    },
+    "backlight": {
+      "format": "{percent}% {icon}",
+      "format-icons": ["", "", "", "", "", "", "", "", ""]
+    },
+    "battery": {
+      "states": {
+        "good": 80,
+        "warning": 30,
+        "critical": 15
+      },
+      "format": "{capacity}% {icon}",
+      "format-full": "{capacity}% {icon}",
+      "format-charging": "{capacity}%  ",
+      "format-plugged": "{capacity}%  ",
+      "format-alt": "{time} {icon}",
+      "format-icons": [" ", " ", " ", " ", " "]
+    },
+    "network": {
+      "format-wifi": "{ifname}  ",
+      "format-ethernet": "{ifname} 󰛳 ",
+      "tooltip-format": "{ifname} via {gwaddr}  ",
+      "format-linked": "{ifname} (No IP)  ",
+      "format-disconnected": "Disconnected ⚠ ",
+      "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
+    "pulseaudio": {
+      "scroll-step": 1,
+      "format": "{volume}% {icon} {format_source}",
+      "format-bluetooth": "{volume}% {icon} {format_source}",
+      "format-bluetooth-muted": " {icon} {format_source}",
+      "format-muted": " {format_source}",
+      "format-source": "{volume}% ",
+      "format-source-muted": " ",
+      "format-icons": {
+        "headphone": " ",
+        "hands-free": " ",
+        "headset": " ",
+        "phone": " ",
+        "portable": " ",
+        "car": " ",
+        "default": [" ", " ", " "]
+      },
+      "on-click": "pwvucontrol"
+    },
+  }
+}

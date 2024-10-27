@@ -1,0 +1,15 @@
+font = "JetBrainsMono Nerd Font"
+
+padding-left = 35%
+padding-top = 35%
+width = 100%
+height = 100%
+border-width = 0
+outline-width = 0
+result-spacing = 25
+num-results = 5
+hide-cursor = true
+
+background-color = #191724CF
+text-color =#6e6a86
+selection-color = #eb6f92

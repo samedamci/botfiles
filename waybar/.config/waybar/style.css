@@ -1,0 +1,106 @@
+@import "rose-pine.css";
+
+* {
+  all: initial;
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 12px;
+}
+
+window#waybar {
+  background: transparent;
+}
+
+tooltip {
+  background: @base;
+  border-radius: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: @overlay;
+}
+
+#workspaces button {
+  border-radius: 20px;
+  padding: 0 10px;
+}
+
+#workspaces button.active {
+  background: @highlightMed;
+}
+
+#workspaces button.urgent {
+  background: @pine;
+  border-radius: 20px;
+}
+
+#workspaces button:hover {
+  background: @highlightLow;
+}
+
+#clock,
+#workspaces,
+#window,
+#pulseaudio,
+#network,
+#tray,
+#backlight,
+#battery,
+#hardware {
+  border: 2px solid @muted;
+  border-radius: 20px;
+  background-color: rgba(25, 23, 36, 0.81);
+  padding: 6px 15px;
+}
+
+#cpu, #memory {
+  padding-right: 5px;
+  margin-right: 5px;
+  border-right: 1px solid @overlay;
+}
+
+#memory {
+  color: @foam;
+}
+
+#temperature {
+  color: @rose;
+}
+
+#temperature.critical {
+  color: @love;
+}
+
+#backlight {
+  color: @text;
+}
+
+#custom-power_profile {
+  color: @foam;
+}
+
+#window {
+  color: @foam;
+}
+
+#clock {
+  color: @gold;
+}
+
+#network {
+  color: @love;
+}
+
+#bluetooth {
+  color: @gold;
+}
+
+#pulseaudio {
+  color: @iris;
+}
+
+#battery {
+  color: @foam;
+}
+
+#custom-spotify {
+  min-width: 140px;
+}

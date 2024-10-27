@@ -1,0 +1,140 @@
+* {
+  base:#191724;
+  bg:#191724cf;
+  surface: #1f1d2e; overlay: #26233a;
+  muted: #6e6a86;
+  subtle: #908caa;
+  text: #e0def4;
+  love: #eb6f92;
+  gold: #f6c177;
+  rose: #ebbcba;
+  pine: #31748f;
+  foam: #9ccfd8;
+  iris: #c4a7e7;
+  highlightLow: #21202e;
+  highlightMed: #403d52;
+  highlightHigh: #524f67;
+}
+
+window {
+  width: 500;
+  y-offset: -34;
+  location: north;
+  padding: 0;
+  background-color: @bg;
+  border: 2;
+  border-color: @muted;
+  border-radius: 20;
+  children: [
+    mode-switcher, 
+    mainbox
+  ];
+}
+
+mode-switcher {
+  layout: vertical;
+  padding: 5 0;
+  border: 0 0 2;
+  border-color: @muted;
+  border-radius: 20;
+}
+
+button {
+  background-color: transparent;
+  text-color: @highlightMed;
+}
+
+button selected.normal {
+  background-color: transparent;
+  text-color: @rose;
+}
+
+#mainbox {
+	padding: 0 0 10;
+  background-color: transparent;
+}
+
+listview {
+  lines: 6;
+  columns: 1;
+  padding: 0;
+  margin: 0;
+  border: none;
+  scrollbar: false;
+}
+
+element {
+  padding: 6 15;
+  margin: 0 10;
+}
+
+element.normal.normal, element.alternate.normal {
+  background-color: transparent;
+  /*text-color: @highlightMed;*/
+  text-color: @text;
+}
+
+element {
+  border: 2;
+  border-color: transparent;
+  border-radius: 20;
+}
+
+element.selected.normal {
+  border-color: @rose;
+  background-color: transparent;
+  text-color: @rose;
+}
+
+element.normal.active, element.alternate.active {
+  border-color: @pine;
+  background-color: transparent;
+  text-color: @pine;
+}
+
+element.selected.active {
+  border-color: @rose;
+  background-color: transparent;
+  text-color: @pine;
+}
+
+inputbar {
+  padding: 10 25;
+  background-color: transparent;
+  children: [
+    prompt,
+    textbox-prompt-colon,
+    entry,
+    num-filtered-rows,
+    textbox-num-sep,
+    num-rows
+  ];
+}
+
+prompt {
+  text-color: @pine;
+  font-weight: bold;
+}
+
+textbox-prompt-colon {                                                
+  text-color: @foam;                                              
+  expand: false;                                                    
+  str: ":";
+}                 
+
+entry {
+  text-color: @text; 
+  placeholder: "";
+}
+
+num-rows {
+  text-color: @iris;
+}
+
+textbox-num-sep {
+  text-color: @foam;
+}
+
+num-filtered-rows {
+  text-color: @gold;
+}

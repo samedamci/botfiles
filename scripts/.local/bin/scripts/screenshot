@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+# Screenshot.
+
+path="$HOME/Pictures/screenshots/screenshot_$(date "+%H-%M-%S_%d-%m-%Y").png"
+wayshot -f "$path" && notify-send "Screenshot created" "$path"

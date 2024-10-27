@@ -1,0 +1,19 @@
+font=JetBrainsMono Nerd Font 9
+
+margin=12
+padding=10,0
+width=400
+border-radius=20
+
+background-color=#191724cf
+text-color=#e0def4
+progress-color=over #31748f
+
+[urgency=low]
+border-color=#6e6a86
+
+[urgency=normal]
+border-color=#31748f
+
+[urgency=high]
+border-color=#eb6f92

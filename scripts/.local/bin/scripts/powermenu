@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+
+# Power menu.
+
+WHAT="$(printf "lock\nsuspend\nlogout\nshutdown\nreboot" | rofi -dmenu -l 5 -p 'power')"
+if [ -z "$WHAT" ]; then exit; fi
+
+case "$WHAT" in
+	"lock") hyprlock;;
+	"suspend") hyprlock & systemctl suspend;;
+	"logout") hyprctl dispatch exit;;
+	"shutdown") systemctl poweroff;;
+	"reboot") systemctl reboot
+esac

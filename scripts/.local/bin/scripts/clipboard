@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+# Clipboard manager.
+
+cliphist list | rofi -dmenu -p "clipboard" | cliphist decode | wl-copy

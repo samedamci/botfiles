@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+# Interactive paru.
+
+paru -Slq | fzf -m --preview 'paru -Si {1}' --height 45% --reverse | paru -S -

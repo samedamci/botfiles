@@ -1,0 +1,40 @@
+@import "theme.rasi"
+
+configuration {
+  font: "JetBrainsMono Nerd Font 11";
+	modes: "window,drun,run,ssh";
+	fixed-num-lines: true;
+	show-icons: false;
+	drun-match-fields: "name,generic,exec,categories,keywords";
+	drun-show-actions: false;
+	sort: true;
+	sorting-method: "fzf";
+	case-sensitive: false;
+	cycle: true;
+	hover-select: true;
+	parse-hosts: true;
+	parse-known-hosts: false;
+	display-run: "cmd";
+	display-ssh: "ssh";
+	display-drun: "app";
+	
+  kb-remove-to-eol: "";
+	kb-element-next: "";
+	kb-element-prev: "";
+
+	kb-accept-entry: "Return,KP_Enter";
+	kb-mode-next: "Tab";
+	kb-mode-previous: "ISO_Left_Tab";
+	kb-row-up: "Up,Control+k";
+	kb-row-down: "Down,Control+j";
+  
+  timeout {
+    action: "kb-cancel";
+    delay: 0;
+  }
+
+  filebrowser {
+    directories-first: true;
+    sorting-method: "name";
+  }
+}
