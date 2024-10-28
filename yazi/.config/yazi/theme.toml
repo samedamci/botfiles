@@ -35,15 +35,6 @@ syntect_theme = "~/.config/yazi/rose-pine.tmTheme"
 # : Status {{{
 
 [status]
-separator_open = ""
-separator_close = ""
-separator_style = { fg = "#2A273F", bg = "#2A273F" }
-
-# Mode
-mode_normal = { fg = "#191724", bg = "#ebbcba", bold = true }
-mode_select = { fg = "#e0def4", bg = "#9ccfd8", bold = true }
-mode_unset = { fg = "#e0def4", bg = "#b4637a", bold = true }
-
 # Progress
 progress_label = { fg = "#e0def4", bold = true }
 progress_normal = { fg = "#191724", bg = "#2A273F" }

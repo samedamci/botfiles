@@ -1,0 +1,5 @@
+[plugin]
+deps = [{ use = "imsi32/yatline", rev = "7b56434" }]
+
+[flavor]
+deps = []
