@@ -34,6 +34,7 @@ command_not_found_handler() {
 #: Aliases {{{
 
 alias vim='nvim'
+alias ssh='kitten ssh'
 alias sudo='sudo '
 alias -g hrep='kitty +kitten hyperlinked_grep'
 alias dotfiles='nvim +"cd $HOME/.dotfiles" +"NvimTreeFocus"'
@@ -42,8 +43,9 @@ alias dotfiles='nvim +"cd $HOME/.dotfiles" +"NvimTreeFocus"'
 
 #: Variables {{{
 
-export PATH="$PATH:.:$HOME/.local/bin/scripts/"
+export PATH="$PATH:.:$HOME/.local/bin/scripts/:$HOME/.local/bin/"
 export EDITOR='nvim'
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 #: }}}
 
