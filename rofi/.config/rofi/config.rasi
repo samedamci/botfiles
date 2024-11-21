@@ -17,6 +17,8 @@ configuration {
 	display-run: "cmd";
 	display-ssh: "ssh";
 	display-drun: "app";
+
+  ssh-client: "kitten ssh";
 	
   kb-remove-to-eol: "";
 	kb-element-next: "";
