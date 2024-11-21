@@ -1,5 +1,6 @@
 bat
 brightnessctl
+btfs-progs
 btop
 cava
 cliphist
@@ -22,6 +23,8 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulseaudio
 pwvucontrol
+qt5-wayland
+qt6-wayland
 rofi-wayland
 rose-pine-cursor
 rose-pine-gtk-theme
@@ -33,6 +36,10 @@ waybar
 wayshot
 wireplumber
 wl-clipboard
+xdg-desktop-portal
+xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
+xdg-user-dirs
 yazi
+yubikey-manager
 zsh
