@@ -1,6 +1,6 @@
 bat
 brightnessctl
-btfs-progs
+btrfs-progs
 btop
 cava
 cliphist
@@ -21,7 +21,7 @@ noto-fonts-cjk
 pipewire
 pipewire-alsa
 pipewire-jack
-pipewire-pulseaudio
+pipewire-pulse
 pwvucontrol
 qt5-wayland
 qt6-wayland
