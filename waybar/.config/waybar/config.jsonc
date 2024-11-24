@@ -20,6 +20,7 @@
 
     "modules-right": [
       "tray",
+      "mpris",
       "pulseaudio",
       "network",
       "group/hardware",
@@ -109,5 +110,9 @@
       },
       "on-click": "pwvucontrol"
     },
+    "mpris": {
+      "format": "{title} - {artist} ",
+      "format-paused": "{title} - {artist} "
+    }
   }
 }

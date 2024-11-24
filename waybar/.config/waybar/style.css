@@ -39,6 +39,7 @@ tooltip {
 #clock,
 #workspaces,
 #window,
+#mpris,
 #pulseaudio,
 #network,
 #tray,
@@ -91,6 +92,10 @@ tooltip {
 
 #bluetooth {
   color: @gold;
+}
+
+#mpris {
+  color: @foam;
 }
 
 #pulseaudio {
