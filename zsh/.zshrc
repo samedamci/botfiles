@@ -33,6 +33,7 @@ command_not_found_handler() {
 
 #: Aliases {{{
 
+alias vi='nvim'
 alias vim='nvim'
 alias ssh='kitten ssh'
 alias sudo='sudo '
