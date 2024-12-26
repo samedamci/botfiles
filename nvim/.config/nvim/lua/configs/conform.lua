@@ -5,6 +5,7 @@ return {
     css = { "prettier" },
     html = { "prettier" },
     jsonc = { "prettier" },
+    go = { "golines" },
   },
 
   -- format_on_save = {
