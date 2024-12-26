@@ -1,11 +1,11 @@
 [user]
-	name = Wiktor Zykubek
-	email = dev@wzykubek.xyz
-	signingkey = 0xE2F941AEA250AFFC
+  name = Wiktor Zykubek
+  email = dev@wzykubek.xyz
+  signingkey = 0xE2F941AEA250AFFC
 [format]
-	pretty = oneline
+  pretty = oneline
 [log]
-	abbrevCommit = true
+  abbrevCommit = true
 [diff]
   tool = kitty
   guitool = kitty.gui
@@ -17,4 +17,4 @@
 [difftool "kitty.gui"]
   cmd = kitten diff $LOCAL $REMOTE
 [commit]
-	gpgsign = true
+  gpgsign = true
