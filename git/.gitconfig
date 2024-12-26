@@ -1,9 +1,7 @@
 [user]
-	name = wzykubek
-	email = wz-git@mailbox.org
-	signingkey = ~/.ssh/id_ed25519_sk_rk
-[gpg]
-  format = ssh
+	name = Wiktor Zykubek
+	email = dev@wzykubek.xyz
+	signingkey = 0xE2F941AEA250AFFC
 [format]
 	pretty = oneline
 [log]
@@ -18,3 +16,5 @@
   cmd = kitten diff $LOCAL $REMOTE
 [difftool "kitty.gui"]
   cmd = kitten diff $LOCAL $REMOTE
+[commit]
+	gpgsign = true

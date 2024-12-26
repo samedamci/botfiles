@@ -46,7 +46,9 @@ alias dotfiles='nvim +"cd $HOME/.dotfiles" +"NvimTreeFocus"'
 
 export PATH="$PATH:.:$HOME/.local/bin/scripts/:$HOME/.local/bin/"
 export EDITOR='nvim'
-export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+export GPG_TTY="$(tty)"
+export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+gpgconf --launch gpg-agent # I need to find better place for this line
 
 #: }}}
 
