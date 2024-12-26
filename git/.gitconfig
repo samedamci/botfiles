@@ -1,7 +1,7 @@
 [user]
 	name = wzykubek
 	email = wz-git@mailbox.org
-	signingkey = ~/.ssh/id_yubico1_sk
+	signingkey = ~/.ssh/id_ed25519_sk_rk
 [gpg]
   format = ssh
 [format]
