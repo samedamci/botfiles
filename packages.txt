@@ -1,7 +1,7 @@
 bat
 brightnessctl
-btrfs-progs
 btop
+btrfs-progs
 cava
 cliphist
 curl
@@ -13,11 +13,15 @@ hyprlock
 hyprpaper
 imagemagick
 jq
-kitty-git
+kdeconnect
+kitty
+less
 mako
 mdcat
 neovim
 noto-fonts-cjk
+openssh
+pam-u2f
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -42,4 +46,5 @@ xdg-desktop-portal-hyprland
 xdg-user-dirs
 yazi
 yubikey-manager
+zen-browser-bin
 zsh
